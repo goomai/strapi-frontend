@@ -1,44 +1,51 @@
 import React from "react";
-import Articles from "../components/articles";
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import { fetchAPI } from "../lib/api";
+import { Navbar } from "components/blocks/navbar";
+import { Services14 } from "components/blocks/services";
+import { Hero2 } from "components/blocks/hero";
+import { FAQ1, FAQ5 } from "components/blocks/faq";
+import { Testimonial4 } from "components/blocks/testimonial";
+import { Footer15 } from "components/blocks/footer";
+import styles from "../styles/Editor.module.css";
 
-const Home = ({ articles, categories, homepage }) => {
+import Playground from "components/blocks/playground/Playground";
+function index() {
   return (
-    <Layout categories={categories}>
-      <Seo seo={homepage.attributes.seo} />
-      <div className="uk-section">
-        <div className="uk-container uk-container-large">
-          <h1>{homepage.attributes.hero.title}</h1>
-          <Articles articles={articles} />
+    <div style={{ position: "relative" }}>
+      <Navbar
+        search
+        stickyBox
+        navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
+      />
+      <Playground styles={styles} />
+
+      <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
+        <div className="container-md ">
+          <Services14 />
         </div>
       </div>
-    </Layout>
+      <div className="bg_primary pt-10 pb-10 pt-md-14 pb-md-14">
+        <div className="container-md ">
+          <Hero2 />
+        </div>
+      </div>
+      <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
+        <div className="container-md ">
+          <FAQ5 />
+        </div>
+      </div>
+      <div className="bg_primary pt-10 pb-10 pt-md-14 pb-md-14">
+        <div className="container-md ">
+          <Testimonial4 />
+        </div>
+      </div>
+      <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
+        <div className="container-md ">
+          <FAQ1 />
+        </div>
+      </div>
+      <Footer15 />
+    </div>
   );
-};
-
-export async function getStaticProps() {
-  // Run API calls in parallel
-  const [articlesRes, categoriesRes, homepageRes] = await Promise.all([
-    fetchAPI("/articles", { populate: ["image", "category"] }),
-    fetchAPI("/categories", { populate: "*" }),
-    fetchAPI("/homepage", {
-      populate: {
-        hero: "*",
-        seo: { populate: "*" },
-      },
-    }),
-  ]);
-
-  return {
-    props: {
-      articles: articlesRes.data,
-      categories: categoriesRes.data,
-      homepage: homepageRes.data,
-    },
-    revalidate: 1,
-  };
 }
 
-export default Home;
+export default index;

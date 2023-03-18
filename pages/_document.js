@@ -26,6 +26,18 @@ class MyDocument extends Document {
             async
             src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.js"
           />
+          <script
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+            type="text/javascript"
+          ></script>
+          <script
+            src="http://www.skulpt.org/js/skulpt.min.js"
+            type="text/javascript"
+          ></script>
+          <script
+            src="http://www.skulpt.org/js/skulpt-stdlib.js"
+            type="text/javascript"
+          ></script>
         </Head>
         <body>
           <Main />
