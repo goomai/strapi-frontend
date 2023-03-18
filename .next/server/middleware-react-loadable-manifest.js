@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"..\\hooks\\useIsotope.ts -> isotope-layout":{id:3391,files:["static/chunks/391.c6eeca109a092ca1.js"]},"_app.js -> plugins/scrollcue":{id:7550,files:["static/chunks/550.d586bb583d885449.js"]}};
