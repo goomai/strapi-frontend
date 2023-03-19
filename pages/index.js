@@ -16,6 +16,7 @@ function index() {
         stickyBox
         navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
       />
+
       <Playground styles={styles} />
 
       <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">

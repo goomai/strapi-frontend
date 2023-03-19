@@ -42,7 +42,14 @@ Author:		ui-lib
 
 * {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+}
+.editor-styles {
+  font-family: Hack, "Fira Code", Consolas, Menlo, Monaco, "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
+    "Courier New", Courier, monospace;
+  position: inherit;
+  height: 100%;
 }
 h1,
 h2,

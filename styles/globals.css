@@ -149,6 +149,7 @@ a:focus {
 .footer_menu_item:hover {
   color: var(--text-white);
 }
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -35,7 +35,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2805:
+/***/ 4559:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -256,8 +256,251 @@ const FAQ2 = ({ titleColor ="primary"  })=>{
 };
 /* harmony default export */ const faq_FAQ2 = ((/* unused pure expression or super */ null && (FAQ2)));
 
-// EXTERNAL MODULE: ./data/demo-8.ts + 1 modules
-var demo_8 = __webpack_require__(2356);
+// EXTERNAL MODULE: ./icons/lineal/Target.tsx
+var Target = __webpack_require__(9228);
+;// CONCATENATED MODULE: ./icons/lineal/AwardTwo.tsx
+
+const AwardTwo = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        viewBox: "0 0 409.6 404.7",
+        xmlns: "http://www.w3.org/2000/svg",
+        className: `svg-inject icon-svg ${className || "icon-svg-lg text-primary mb-3"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M90.8 404.7c-6.5 0-12.4-4-14.7-10.1L57.7 347 10 328.7c-8.1-3.1-12.2-12.2-9-20.4.8-2 2-3.9 3.5-5.5l93.6-93.6 97.3 97.3-93.6 93.6c-2.9 2.9-6.9 4.6-11 4.6zm-60.7-93.8l39.5 15.2c4.1 1.6 7.4 4.9 9 9l15.2 39.5 68.1-68.1-63.7-63.7-68.1 68.1zm288.7 93.8c-4.2 0-8.2-1.7-11.1-4.6l-20.8-20.8 16.8-16.8 12.1 12.1 15.2-39.5c1.6-4.1 4.9-7.4 9-9l39.4-15.2-76.4-76.5 16.8-16.8 85.2 85.2c6.1 6.1 6.1 16.1 0 22.3-1.6 1.6-3.4 2.8-5.5 3.6L351.9 347l-18.3 47.6c-1.9 5-6.2 8.7-11.4 9.8-1.1.2-2.2.3-3.4.3z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M347.3 224.1c5.1-15.7 31-28.9 31-46.3s-25.9-30.6-31-46.3c-5.3-16.3 7.8-42.2-2.1-55.7s-38.6-9.2-52.4-19.2-18-38.6-34.4-43.9C242.7 7.6 222.2 28 204.8 28s-37.9-20.4-53.6-15.3c-16.3 5.3-20.8 34-34.4 43.9s-42.4 5.5-52.4 19.2 3.2 39.4-2.1 55.7c-5.1 15.7-31.1 28.8-31.1 46.3s25.9 30.6 31 46.3c5.3 16.3-7.8 42.1 2.1 55.7S103 289 116.7 299s18.1 38.6 34.4 43.9c15.7 5.1 36.2-15.3 53.6-15.3s37.9 20.4 53.6 15.3c16.3-5.3 20.8-34 34.4-43.9s42.4-5.5 52.4-19.2-3.1-39.3 2.2-55.7zm-142.5 48.7c-52.5 0-95-42.5-95-95s42.5-95 95-95 95 42.5 95 95-42.5 95-95 95z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M253 355.7c-10.1 0-19.6-4.6-28.8-9.1-7-3.4-14.3-7-19.4-7s-12.4 3.6-19.4 7c-9.2 4.5-18.7 9.1-28.8 9.1-3.1 0-6.2-.5-9.1-1.4-13.7-4.5-20.7-17.6-26.8-29.2-3.5-6.7-7.2-13.6-10.9-16.3s-11.6-4.2-19.2-5.5c-12.8-2.2-27.4-4.8-35.8-16.3s-6.3-26-4.5-38.8c1.1-7.6 2.2-15.6.7-20.2-1.4-4.2-6.7-9.8-11.9-15.1-9.2-9.5-19.7-20.2-19.7-34.9s10.5-25.4 19.7-34.9c5.2-5.3 10.6-10.8 12-15.1 1.5-4.7.4-12.6-.7-20.2C48.6 95 46.5 80.4 54.8 69s23-14.1 35.8-16.3c7.5-1.3 15.3-2.7 19.2-5.5s7.4-9.6 10.9-16.3c6.1-11.6 13.1-24.8 26.8-29.2 2.9-1 6-1.4 9.1-1.4 10.1 0 19.6 4.6 28.8 9.1 7 3.4 14.3 7 19.4 7s12.4-3.6 19.4-7C233.4 4.6 243 0 253 0c3.1 0 6.2.5 9.1 1.4 13.7 4.5 20.7 17.6 26.8 29.2 3.5 6.7 7.2 13.6 10.9 16.3s11.6 4.2 19.2 5.5c12.9 2.2 27.4 4.8 35.8 16.3s6.3 26 4.5 38.8c-1.1 7.6-2.2 15.6-.7 20.2 1.4 4.2 6.7 9.8 11.9 15.1 9.2 9.5 19.7 20.2 19.7 34.9s-10.5 25.4-19.7 34.9c-5.2 5.3-10.6 10.9-11.9 15.1-1.5 4.7-.4 12.6.7 20.2 1.8 12.9 3.9 27.4-4.5 38.8s-23 14.1-35.8 16.3c-7.5 1.3-15.3 2.7-19.2 5.5s-7.4 9.6-10.9 16.3c-6.1 11.6-13.1 24.8-26.8 29.2-2.9 1.2-6 1.7-9.1 1.7zm-48.2-39.9c10.6 0 20.4 4.8 29.8 9.4 6.8 3.3 13.8 6.7 18.4 6.7.6 0 1.2-.1 1.7-.2 4.5-1.5 9.1-10.1 13.1-17.8 4.8-9.1 9.8-18.5 18-24.5s18.9-7.9 29.1-9.7c8.4-1.5 18-3.1 20.7-6.9s1.3-13.2.1-21.6c-1.4-10.3-2.9-21 .3-30.8 3.1-9.5 10.4-17 17.5-24.3 6.1-6.2 13-13.3 13-18.3s-6.9-12.1-13-18.3c-7.1-7.3-14.4-14.8-17.5-24.3-3.2-9.9-1.7-20.5-.3-30.8 1.2-8.4 2.5-17.9-.1-21.6s-12.3-5.4-20.7-6.9c-10.2-1.8-20.8-3.6-29.1-9.7s-13.2-15.4-18-24.5c-4-7.6-8.6-16.3-13.1-17.8-.6-.2-1.2-.3-1.8-.2-4.6 0-11.6 3.4-18.4 6.7-9.5 4.6-19.3 9.4-29.8 9.4s-20.4-4.8-29.8-9.4c-6.8-3.3-13.8-6.7-18.4-6.7-.6 0-1.2.1-1.8.2-4.5 1.5-9.1 10.1-13.1 17.8-4.8 9.1-9.8 18.5-18 24.5s-18.9 7.9-29.1 9.7c-8.4 1.5-18 3.2-20.7 6.9s-1.3 13.2-.1 21.6c1.4 10.3 2.9 21-.3 30.8-3.1 9.5-10.4 17-17.5 24.3-6 6.2-12.9 13.3-12.9 18.3s6.9 12.1 13 18.3c7.1 7.3 14.4 14.8 17.5 24.3 3.2 9.9 1.7 20.5.3 30.8-1.2 8.4-2.5 17.9.1 21.6s12.3 5.4 20.7 6.9c10.2 1.8 20.8 3.6 29.1 9.7s13.2 15.4 18 24.5c4 7.6 8.6 16.3 13.1 17.7.6.2 1.2.3 1.8.2 4.6 0 11.6-3.4 18.4-6.7 9.5-4.6 19.3-9.3 29.8-9.3z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M204.8 284.7c-59 0-106.9-47.9-106.9-106.9 0-59 47.9-106.9 106.9-106.9 59 0 106.9 47.8 106.9 106.8v.1c-.1 59-47.9 106.9-106.9 106.9zm0-190c-45.9 0-83.2 37.2-83.2 83.1 0 45.9 37.2 83.2 83.1 83.2 45.9 0 83.2-37.2 83.2-83.1 0-25.8-12-50.1-32.4-65.9-14.4-11.2-32.3-17.3-50.7-17.3z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_AwardTwo = (AwardTwo);
+
+;// CONCATENATED MODULE: ./icons/lineal/BarChart.tsx
+
+const BarChart = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        viewBox: "0 0 512 431.2",
+        xmlns: "http://www.w3.org/2000/svg",
+        className: `svg-inject icon-svg ${className || "icon-svg-md text-orange mb-3"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M125.8 121.3h86.6v296.4h-86.6zM299 13.5h86.6v404.2H299z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M498.5 404.2h-11.8V161.7c0-7.5-6-13.5-13.5-13.5s-13.5 6-13.5 13.5v242.5h-59.6V94.3h73.1c7.4 0 13.5-6 13.5-13.5s-6-13.5-13.5-13.5h-74.1V13.5c0-7.4-6-13.5-13.5-13.5H299c-7.4 0-13.5 6-13.5 13.5v134.8h-59.7v-27c0-7.4-6-13.5-13.5-13.5h-73.6V33.7c0-7.4-6-13.5-13.5-13.5H38.7c-7.4 0-13.5 6-13.5 13.5v294.4c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5V47.2h59.7v357.1H13.5c-7.4.2-13.3 6.4-13.1 13.8.2 7.2 6 12.9 13.1 13.1h485.1c7.4-.2 13.3-6.4 13.1-13.8-.3-7.2-6-13-13.2-13.2zM139.3 134.7H199v269.5h-59.7V134.7zm86.6 40.5h59.7v229h-59.7v-229zm86.6 229V27h59.7v377.2h-59.7z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_BarChart = (BarChart);
+
+// EXTERNAL MODULE: ./icons/lineal/Megaphone.tsx
+var Megaphone = __webpack_require__(7818);
+// EXTERNAL MODULE: ./icons/lineal/SettingsThree.tsx
+var SettingsThree = __webpack_require__(7573);
+;// CONCATENATED MODULE: ./data/demo-8.ts
+
+
+
+
+
+const clients = [
+    {
+        id: 1,
+        image: "/img/brands/c1.png"
+    },
+    {
+        id: 2,
+        image: "/img/brands/c2.png"
+    },
+    {
+        id: 3,
+        image: "/img/brands/c3.png"
+    },
+    {
+        id: 4,
+        image: "/img/brands/c4.png"
+    },
+    {
+        id: 5,
+        image: "/img/brands/c5.png"
+    },
+    {
+        id: 6,
+        image: "/img/brands/c6.png"
+    },
+    {
+        id: 7,
+        image: "/img/brands/c7.png"
+    },
+    {
+        id: 8,
+        image: "/img/brands/c8.png"
+    }
+];
+const whatWeAre = [
+    {
+        id: 1,
+        Icon: Target/* default */.Z,
+        title: "Our Mission",
+        description: "Dapibus eu leo quam ornare curabitur blandit tempus."
+    },
+    {
+        id: 2,
+        Icon: lineal_AwardTwo,
+        title: "Our Values",
+        description: "Aenean lacinia bibendum nulla sed consectetur."
+    }
+];
+const services = [
+    {
+        id: 1,
+        Icon: Megaphone/* default */.Z,
+        title: "Marketing",
+        description: "Nulla vitae elit libero pharetra augue dapibus."
+    },
+    {
+        id: 2,
+        Icon: Target/* default */.Z,
+        title: "Strategy",
+        description: "Vivamus sagittis lacus augue laoreet vel."
+    },
+    {
+        id: 3,
+        Icon: SettingsThree/* default */.Z,
+        title: "Development",
+        description: "Cras mattis consectetur purus sit amet."
+    },
+    {
+        id: 4,
+        Icon: lineal_BarChart,
+        title: "Data Analysis",
+        description: "Aenean lacinia bibendum nulla sed consectetur."
+    }
+];
+const teams = [
+    {
+        id: 1,
+        name: "Coriss Ambady",
+        designation: "Financial Analyst",
+        image: {
+            "1x": "/img/avatars/t1.jpg",
+            "2x": "/img/avatars/t1@2x.jpg 2x"
+        }
+    },
+    {
+        id: 2,
+        name: "Cory Zamora",
+        designation: "Marketing Specialist",
+        image: {
+            "1x": "/img/avatars/t2.jpg",
+            "2x": "/img/avatars/t2@2x.jpg 2x"
+        }
+    },
+    {
+        id: 3,
+        name: "Nikolas Brooten",
+        designation: "Sales Manager",
+        image: {
+            "1x": "/img/avatars/t3.jpg",
+            "2x": "/img/avatars/t3@2x.jpg 2x"
+        }
+    },
+    {
+        id: 4,
+        name: "Jackie Sanders",
+        designation: "Investment Planner",
+        image: {
+            "1x": "/img/avatars/t4.jpg",
+            "2x": "/img/avatars/t4@2x.jpg 2x"
+        }
+    }
+];
+const progressList = [
+    {
+        id: 1,
+        percent: 100,
+        title: "Marketing"
+    },
+    {
+        id: 2,
+        percent: 80,
+        title: "Strategy"
+    },
+    {
+        id: 3,
+        percent: 85,
+        title: "Development"
+    }
+];
+const pricingList = [
+    {
+        monthlyPrice: 19,
+        yearlyPrice: 199,
+        planName: "Premium",
+        features: [
+            "5 Projects",
+            "100K API Access",
+            "200MB Storage",
+            "Weekly Reports",
+            "7/24 Support"
+        ]
+    },
+    {
+        monthlyPrice: 49,
+        yearlyPrice: 499,
+        planName: "Corporate",
+        features: [
+            "20 Projects",
+            "300K API Access",
+            "500MB Storage",
+            "Weekly Reports",
+            "7/24 Support"
+        ]
+    }
+];
+const demo_8_accordions = [
+    {
+        no: "One",
+        expand: false,
+        heading: "How do I get my subscription receipt?",
+        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+    },
+    {
+        no: "Two",
+        expand: false,
+        heading: "Are there any discounts for people in need?",
+        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+    },
+    {
+        no: "Three",
+        expand: false,
+        heading: "Do you offer a free trial edit?",
+        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+    },
+    {
+        no: "Four",
+        expand: false,
+        heading: "How do I reset my Account password?",
+        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+    }
+];
+
+
 ;// CONCATENATED MODULE: ./components/blocks/faq/FAQ3.tsx
 
 
@@ -537,8 +780,537 @@ const FAQ6 = ()=>{
 };
 /* harmony default export */ const faq_FAQ6 = ((/* unused pure expression or super */ null && (FAQ6)));
 
-// EXTERNAL MODULE: ./data/demo-27.ts + 9 modules
-var demo_27 = __webpack_require__(1781);
+// EXTERNAL MODULE: ./icons/lineal/Shield.tsx
+var Shield = __webpack_require__(8192);
+;// CONCATENATED MODULE: ./icons/lineal/Design.tsx
+
+const Design = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        viewBox: "0 0 409.6 332.7",
+        xmlns: "http://www.w3.org/2000/svg",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-yellow me-4"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M350.9 54.2H58.7c-6.2.2-11.4-4.7-11.5-10.9S51.8 31.9 58 31.7h292.9c6.2-.2 11.4 4.7 11.5 10.9s-4.7 11.4-10.9 11.5c-.2.1-.4.1-.6.1zM239.8 328.9a11.182 11.182 0 01-10.6-14.8c2.8-8.3 16.2-47.4 25.6-63.6-9.5-10.1-37-40.3-49.9-66.1-12.1 23.4-39.5 54.4-50.1 66 10.1 16.5 22.7 54.9 25.4 63.6.4 1.2.6 2.4.6 3.7 0 6.2-5 11.2-11.2 11.2-4.9 0-9.3-3.2-10.7-7.9v-.1c-6.6-20.7-18.4-52.9-24.3-60.3-4.8-6.1-3.4-14.5-.8-19.8.5-.9 1.1-1.8 1.8-2.6 20.6-22.3 50.7-59.4 52.7-72.4.6-3.7 3.3-10.1 14.8-10.7 12.5-.7 16.6 4.8 17.8 9.4 5.7 21.5 40 60.3 52.7 73.4.8.8 1.5 1.8 2 2.8 2.6 5.1 4 13.3-.5 19.5-5.7 7.7-18.2 41.6-24.8 61.1-1.3 4.6-5.6 7.7-10.5 7.6z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M204.8 254.9c-6.2 0-11.2-5-11.2-11.2V167c.3-6.2 5.6-10.9 11.8-10.6 5.7.3 10.3 4.9 10.6 10.6v76.7c0 6.2-5 11.2-11.2 11.2z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M366.6 244.6c-6.2 0-11.2-5-11.2-11.2v-28.6c0-83.1-67.6-150.6-150.6-150.6S54.2 121.7 54.2 204.8v28.6c-.2 6.2-5.4 11.1-11.5 10.9-5.9-.2-10.7-4.9-10.9-10.9v-28.6c-.1-95.5 77.2-172.9 172.7-173 46 0 90.1 18.2 122.6 50.8 32.6 32.3 50.9 76.3 50.9 122.2v28.6c-.1 6.2-5.2 11.2-11.4 11.2z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M220 74.7h-30.4c-9.1 0-16.5-7.4-16.5-16.5V27.7c0-9.1 7.4-16.5 16.5-16.5H220c9.1 0 16.5 7.4 16.5 16.5v30.5c0 9.1-7.4 16.5-16.5 16.5z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M220 85.9h-30.4c-15.3 0-27.7-12.4-27.7-27.7V27.7c0-15.3 12.4-27.7 27.7-27.7H220c15.3 0 27.7 12.4 27.7 27.7v30.5c0 15.3-12.4 27.7-27.7 27.7zm-30.4-63.5c-2.9 0-5.3 2.4-5.3 5.3v30.5c0 2.9 2.4 5.3 5.3 5.3H220c2.9 0 5.3-2.4 5.3-5.3V27.7c0-2.9-2.4-5.3-5.3-5.3h-30.4z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M381.9 275.4h-30.5c-9.1 0-16.5-7.4-16.5-16.5v-30.5c0-9.1 7.4-16.5 16.5-16.5h30.5c9.1 0 16.5 7.4 16.5 16.5v30.5c0 9.1-7.4 16.5-16.5 16.5z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M381.9 286.6h-30.5c-15.3 0-27.7-12.4-27.7-27.7v-30.5c0-15.3 12.4-27.7 27.7-27.7h30.5c15.3 0 27.7 12.4 27.7 27.7v30.5c0 15.3-12.4 27.7-27.7 27.7zm-30.5-63.4c-2.9 0-5.3 2.4-5.3 5.3V259c0 2.9 2.4 5.3 5.3 5.3h30.5c2.9 0 5.3-2.4 5.3-5.3v-30.5c0-2.9-2.4-5.3-5.3-5.3h-30.5z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M58.2 275.4H27.7c-9.1 0-16.5-7.4-16.5-16.5v-30.5c0-9.1 7.4-16.5 16.5-16.5h30.5c9.1 0 16.5 7.4 16.5 16.5V259c0 9.1-7.4 16.5-16.5 16.4z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M58.2 286.6H27.7C12.4 286.6 0 274.2 0 258.9v-30.5c0-15.3 12.4-27.7 27.7-27.7h30.5c15.3 0 27.7 12.4 27.7 27.7v30.5c0 15.3-12.4 27.7-27.7 27.7zm-30.5-63.4c-2.9 0-5.3 2.4-5.3 5.3V259c0 2.9 2.4 5.3 5.3 5.3h30.5c2.9 0 5.3-2.4 5.3-5.3v-30.5c0-2.9-2.4-5.3-5.3-5.3H27.7zm234.1 109.5h-114c-6.2 0-11.2-5-11.2-11.2 0-6.2 5-11.2 11.2-11.2h114c6.2 0 11.2 5 11.2 11.2 0 6.2-5 11.2-11.2 11.2z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_Design = (Design);
+
+;// CONCATENATED MODULE: ./icons/lineal/Wallet.tsx
+
+const Wallet = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 383.36 409.6",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-yellow me-5 mt-1"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M11.5,220.22A11.5,11.5,0,0,1,0,208.72V155.06A77.14,77.14,0,0,1,77.06,78H316.67a11.5,11.5,0,0,1,0,23H77.06A54.12,54.12,0,0,0,23,155.06v53.66a11.5,11.5,0,0,1-11.5,11.5Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M260.2,138.87a82.37,82.37,0,1,0-138,0Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M260.2,150.37h-138a11.49,11.49,0,0,1-9.63-5.21A94.23,94.23,0,0,1,124.84,27.49a93.88,93.88,0,0,1,132.75,0,94.23,94.23,0,0,1,12.24,117.67,11.49,11.49,0,0,1-9.63,5.21Zm-131.44-23H253.67a71.18,71.18,0,0,0-12.35-83.61,70.85,70.85,0,0,0-100.21,0,71.18,71.18,0,0,0-12.35,83.61Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M189.6,128.68c-11.73-.3-20.55-6.6-20.55-12,0-2.71,2.43-6.78,5.43-6.78,3.69,0,6.59,6.3,15.12,7.27V97.85c-8.82-3.3-18.8-7.08-18.8-19.49s9.11-17.64,18.8-18.9V56.75c0-1.26,1.46-2.43,3.3-2.43,1.65,0,3.3,1.17,3.3,2.43v2.52c6.3.19,16.57,2,16.57,7.66,0,2.22-1.55,6.68-5.14,6.68-2.71,0-4.94-3.1-11.43-3.58V87.09c8.62,3.2,18.32,7.56,18.32,20.74,0,11.93-7.47,18.81-18.32,20.55v3c0,1.26-1.65,2.42-3.3,2.42-1.84,0-3.3-1.16-3.3-2.42ZM190.38,85V70.32c-4.84.77-7.76,3.1-7.76,6.79,0,4.26,3.3,6.1,7.76,7.85Zm5,15.22V117c4.27-.87,7.27-3.39,7.27-8,0-4.75-3.1-7.07-7.27-8.91Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M319.3,409.6H77.06A77.15,77.15,0,0,1,0,332.54V204.79a77.16,77.16,0,0,1,77.06-77.06H319.31a40.36,40.36,0,0,1,40.31,40.33V234.9a11.5,11.5,0,1,1-23,0V168.06a17.34,17.34,0,0,0-17.31-17.32H77.06a54.12,54.12,0,0,0-54.06,54V332.54A54.12,54.12,0,0,0,77.06,386.6H319.31a17.34,17.34,0,0,0,17.31-17.32V358.36a11.5,11.5,0,0,1,23,0v10.92A40.36,40.36,0,0,1,319.3,409.6Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M371.86,309.66H280.24a43.82,43.82,0,0,1,0-87.63h91.62Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M371.86,321.16H280.24a55.32,55.32,0,1,1,0-110.64h91.62A11.52,11.52,0,0,1,383.36,222v87.63a11.51,11.51,0,0,1-11.5,11.5Zm-91.62-87.63a32.32,32.32,0,0,0,0,64.63h80.11V233.53Z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_Wallet = (Wallet);
+
+// EXTERNAL MODULE: ./icons/lineal/ChatTwo.tsx
+var ChatTwo = __webpack_require__(9896);
+;// CONCATENATED MODULE: ./icons/lineal/Loyalty.tsx
+
+const Loyalty = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 512 457.97",
+        className: `svg-inject icon-svg ${className || "icon-svg-md text-yellow me-5"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M286.5,180.78c-18.21,0-26.38,10.21-29.59,16.2a1.08,1.08,0,0,1-1.9,0c-3.21-6-11.33-16.2-29.54-16.2-20.74,0-39,14.16-39,40a54.24,54.24,0,0,0,8,29.43c12.06,20.38,51.78,46.81,59.94,52a2.74,2.74,0,0,0,3,0c8.16-5.18,47.9-31.48,60.05-52a54.22,54.22,0,0,0,8-29.43C325.51,194.94,307.24,180.78,286.5,180.78Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M256,316.82h0a16.91,16.91,0,0,1-9.09-2.65c-8.3-5.3-50.43-32.93-64.51-56.74a68.28,68.28,0,0,1-10-36.64c0-31.38,22.34-54.16,53.13-54.16,13.91,0,23.74,4.56,30.5,9.92,6.76-5.36,16.61-9.92,30.53-9.92,30.81,0,53.16,22.78,53.16,54.16a68.25,68.25,0,0,1-10,36.64c-14.19,24-56.34,51.49-64.65,56.76A16.86,16.86,0,0,1,256,316.82ZM225.47,194.94c-11.45,0-24.83,6.77-24.83,25.85A40.3,40.3,0,0,0,206.72,243c7.43,12.57,31.56,31.35,49.25,43.27,17.69-11.87,41.84-30.61,49.33-43.27a40.38,40.38,0,0,0,6.06-22.22c0-19.08-13.39-25.86-24.86-25.86-8.25,0-14,2.94-17.12,8.74a15.24,15.24,0,0,1-26.86,0C239.43,197.87,233.7,194.94,225.47,194.94Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M130.67,458c-8.1,0-19.71-3.73-44.41-31.37C74.07,413,64.07,399.53,63.65,399a14.32,14.32,0,0,1-1-1.56A58.57,58.57,0,0,1,55.29,369V301.34a14.15,14.15,0,0,1,14.15-14.15H155.9a50,50,0,0,1,35.31,14.46l44.27,43.56a36.25,36.25,0,1,1-51.18,51.34L141,353.28l-9.66-.06a14.16,14.16,0,0,1,.08-28.31h.07c5.35,0,9.26.06,11.84.09,5.33.07,9.54.13,13.67,4.25l47.28,47.29a7.94,7.94,0,0,0,11.23-11.24l-44.18-43.48a21.93,21.93,0,0,0-15.46-6.33H83.59V369A30.14,30.14,0,0,0,87,382.9c16.91,22.62,37.33,44.05,44.52,46.77l115,0c7.14,0,15.91-4,24.27-8,6.87-3.33,59.31-38.81,94.36-62.95.24-.16.48-.32.73-.46a9.49,9.49,0,0,0,3.22-13,9.47,9.47,0,0,0-12.79-3.34l-64.07,42.48a14.15,14.15,0,1,1-15.64-23.58L341,318.09l.52-.33a37.77,37.77,0,0,1,39.39,64.46c-15.12,10.41-86.6,59.5-97.77,64.9S259.62,458,246.49,458l-115.82,0Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("rect", {
+                className: "lineal-fill",
+                x: "14.15",
+                y: "288.21",
+                width: "73.13",
+                height: "141.2"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M87.28,443.56H14.15A14.16,14.16,0,0,1,0,429.41V288.21a14.15,14.15,0,0,1,14.15-14.15H87.28a14.14,14.14,0,0,1,14.15,14.15v141.2A14.15,14.15,0,0,1,87.28,443.56Zm-59-28.31H73.13V302.36H28.3Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M442.56,170.79H356.11a50.09,50.09,0,0,1-35.32-14.46l-44.27-43.56a36.25,36.25,0,1,1,51.19-51.35L371,104.69l9.66.07a14.15,14.15,0,0,1-.07,28.3h-.08c-5.34,0-9.25-.06-11.84-.09-5.33-.07-9.54-.12-13.66-4.25L307.69,81.44a7.94,7.94,0,0,0-11.23,11.23l44.18,43.48a21.93,21.93,0,0,0,15.46,6.33h72.3V88.94A30.13,30.13,0,0,0,425,75.07C408.11,52.45,387.69,31,380.5,28.3l-115,0c-7.14,0-15.91,4-24.28,8-6.86,3.33-59.3,38.82-94.35,63-.24.16-.48.32-.73.47a9.47,9.47,0,0,0,9.56,16.34L219.79,73.6a14.15,14.15,0,0,1,15.64,23.59l-64.38,42.7-.52.32a37.77,37.77,0,0,1-39.39-64.46c15.11-10.4,86.6-59.49,97.77-64.9C240.23,5.37,252.38,0,265.51,0L381.32,0h0c8.1,0,19.72,3.73,44.41,31.37C437.94,45,447.93,58.44,448.35,59a14.32,14.32,0,0,1,1,1.56,58.57,58.57,0,0,1,7.35,28.37v67.69A14.16,14.16,0,0,1,442.56,170.79Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("rect", {
+                className: "lineal-fill",
+                x: "424.72",
+                y: "28.56",
+                width: "73.13",
+                height: "141.2"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M497.85,183.92H424.72a14.15,14.15,0,0,1-14.15-14.16V28.56a14.15,14.15,0,0,1,14.15-14.15h73.13A14.16,14.16,0,0,1,512,28.56v141.2A14.16,14.16,0,0,1,497.85,183.92Zm-59-28.31H483.7V42.72H438.87Z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_Loyalty = (Loyalty);
+
+;// CONCATENATED MODULE: ./icons/lineal/Padlock.tsx
+
+const Padlock = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 324.02 512",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-pink me-5 mt-1"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M14.31,241.68V439.17a58.52,58.52,0,0,0,58.52,58.52H251.19a58.52,58.52,0,0,0,58.52-58.52V241.68ZM162,407.85a47.7,47.7,0,1,1,47.7-47.7A47.7,47.7,0,0,1,162,407.85Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M251.19,512H72.83A72.91,72.91,0,0,1,0,439.17V241.68a14.31,14.31,0,0,1,14.31-14.3h295.4A14.31,14.31,0,0,1,324,241.68V439.17A72.91,72.91,0,0,1,251.19,512ZM28.62,256V439.17a44.26,44.26,0,0,0,44.21,44.21H251.19a44.26,44.26,0,0,0,44.21-44.21V256ZM162,422.16a62,62,0,1,1,62-62A62.08,62.08,0,0,1,162,422.16Zm0-95.4a33.39,33.39,0,1,0,33.39,33.39A33.44,33.44,0,0,0,162,326.76Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M68.56,234.54H20.38a14.31,14.31,0,0,1,0-28.62H68.56a14.31,14.31,0,0,1,0,28.62Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M303.64,234.54H255.46a14.31,14.31,0,0,1,0-28.62h48.18a14.31,14.31,0,0,1,0,28.62Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M45.14,256a14.3,14.3,0,0,1-14.31-14.31V124a124.16,124.16,0,0,1,124-124h14.32a124.17,124.17,0,0,1,124,124V225.16a14.31,14.31,0,1,1-28.62,0V124a95.51,95.51,0,0,0-95.4-95.4H154.85A95.51,95.51,0,0,0,59.44,124V241.68A14.3,14.3,0,0,1,45.14,256Z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_Padlock = (Padlock);
+
+;// CONCATENATED MODULE: ./icons/lineal/CheckList.tsx
+
+const CheckList = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 418.2 512",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-blue me-5 mt-1"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M14.8 97.6h85.4V14.8z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M100.2 112.4H14.8C6.6 112.4 0 105.8 0 97.7c0-4 1.6-7.9 4.5-10.7L89.9 4.2c5.8-5.7 15.2-5.6 20.9.3 2.7 2.8 4.2 6.5 4.2 10.3v82.8c0 8.2-6.6 14.8-14.8 14.8zm-49-29.6h34.2V49.7L51.2 82.8zM403.4 320c-8.2 0-14.8-6.6-14.8-14.8v-269c0-3.6-3.2-6.6-7.2-6.6H168.7c-8.2 0-14.8-6.6-14.8-14.8 0-8.2 6.6-14.8 14.8-14.8h212.6c20.3 0 36.8 16.2 36.8 36.1v269c.1 8.3-6.5 14.9-14.7 14.9z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M381.4 512H36.8C16.5 512 0 495.8 0 475.9V97.6c0-4 1.6-7.8 4.5-10.6L89.9 4.2c5.9-5.7 15.2-5.5 20.9.3 5.7 5.9 5.5 15.2-.3 20.9l-80.9 78.5v372c0 3.6 3.2 6.6 7.2 6.6h344.6c4 0 7.2-3 7.2-6.6v-92.7c.2-8.2 7-14.6 15.2-14.4 7.9.2 14.2 6.5 14.4 14.4v92.7c0 19.9-16.5 36.1-36.8 36.1z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M403.4 112.4H168.7c-8.2-.2-14.6-7-14.4-15.2.2-7.9 6.5-14.2 14.4-14.4h219.9v-43c0-5.7-4.6-10.3-10.3-10.3H168.7c-8.2 0-14.8-6.6-14.8-14.8C154 6.6 160.6 0 168.7 0h209.6c22 0 39.8 17.9 39.9 39.8v57.8c0 8.2-6.6 14.8-14.8 14.8z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M73 189.6h124.1v65H73z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M197.1 269.4H73c-8.2 0-14.8-6.6-14.8-14.8v-65c0-8.2 6.6-14.8 14.7-14.8H197c8.2 0 14.8 6.6 14.8 14.8v65c.1 8.1-6.5 14.8-14.7 14.8.1 0 0 0 0 0zM87.8 239.8h94.6v-35.5H87.8v35.5zm201 25.3c-3.9 0-7.7-1.6-10.5-4.3l-23.6-23.6c-5.7-5.9-5.6-15.2.3-20.9 5.7-5.6 14.9-5.6 20.6 0l13.2 13.2 46-46c5.9-5.7 15.2-5.6 20.9.3 5.6 5.7 5.6 14.9 0 20.6l-56.4 56.4c-2.8 2.7-6.6 4.3-10.5 4.3z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M73 346.1h124.1v65H73z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M197.1 426H73c-8.2 0-14.8-6.6-14.8-14.8v-65c0-8.2 6.5-14.8 14.7-14.9h124.2c8.2 0 14.8 6.6 14.8 14.8v65c0 8.2-6.5 14.9-14.8 14.9.1 0 .1 0 0 0zM87.8 396.4h94.6v-35.5H87.8v35.5zm201 25.3c-3.9 0-7.7-1.6-10.5-4.3l-23.6-23.6c-5.7-5.9-5.6-15.2.3-20.9 5.7-5.6 14.9-5.6 20.6 0l13.2 13.2 46-46c5.9-5.7 15.2-5.6 20.9.3 5.6 5.7 5.6 14.9 0 20.6l-56.4 56.4c-2.8 2.7-6.6 4.3-10.5 4.3z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_CheckList = (CheckList);
+
+;// CONCATENATED MODULE: ./icons/lineal/Insurance.tsx
+
+const Insurance = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 441.41 512",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-pink me-5 mt-1"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M254.93,457a46.24,46.24,0,0,1-24.13-40.62V285.62A70,70,0,0,0,307.94,270a100.73,100.73,0,0,0-81.62-41.61H115.72A100.88,100.88,0,0,0,14.84,329.31V497.16H327.2v-.81Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M426.57,270.78a14.85,14.85,0,0,0-14.85,14.84V416.34a31.41,31.41,0,0,1-16.38,27.59l-66.66,36.32L262,443.93a31.4,31.4,0,0,1-16.39-27.59V305.05a85.35,85.35,0,0,0,12.31.89c1.26,0,2.51,0,3.76-.1l1,0c1.13-.06,2.25-.14,3.37-.25l1.59-.18,1.65-.2a83.72,83.72,0,0,0,41.13-17.47l1.09-.86,1.28-1.07c.85-.72,1.69-1.47,2.52-2.23l.41-.38c.95-.88,1.88-1.79,2.78-2.71l0,0h0a85,85,0,0,0,10.13-12.56,85.74,85.74,0,0,0,28,26.55,14.84,14.84,0,0,0,15-25.63A55.78,55.78,0,0,1,349,243.37a14.85,14.85,0,0,0-13.58-8.85H321.94a14.85,14.85,0,0,0-13.58,8.85c-.45,1-.94,2-1.44,3a116.46,116.46,0,0,0-45.39-27.21,87.22,87.22,0,0,0,27.23-63.34V87.5a14.85,14.85,0,0,0-29.69,0v68.29A57.86,57.86,0,0,1,202,213.58H140A57.86,57.86,0,0,1,83,155.79V87.5a57.87,57.87,0,0,1,57.81-57.81h60.48a14.85,14.85,0,0,0,0-29.69H140.78a87.6,87.6,0,0,0-87.5,87.5v68.29a87.23,87.23,0,0,0,27.19,63.3A115.93,115.93,0,0,0,0,329.31V497.16A14.85,14.85,0,0,0,14.84,512H327.2c.27,0,.55,0,.82,0s.44,0,.66,0a14.76,14.76,0,0,0,7.1-1.81L409.54,470a61.06,61.06,0,0,0,31.87-53.65V285.63A14.85,14.85,0,0,0,426.57,270.78Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M29.69,482.31v-153a86.13,86.13,0,0,1,86-86H140l.74,0h15.4V387.46a14.84,14.84,0,1,0,29.68,0V243.29h15.4l.74,0h24.32a86.35,86.35,0,0,1,60.4,24.82,55,55,0,0,1-20.58,7.54l-.15,0c-1.15.17-2.31.29-3.47.38l-.56.06c-1.24.09-2.49.13-3.74.14H258a54.76,54.76,0,0,1-21.38-4.3A14.84,14.84,0,0,0,216,285.62V416.34A61.12,61.12,0,0,0,247.82,470l22.6,12.31Z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M327.19,405.92a14.81,14.81,0,0,1-7.22-1.87l-24.85-13.86a14.84,14.84,0,0,1,14.45-25.93L325.24,373l34.06-30.14A14.84,14.84,0,1,1,379,365.09L337,402.2A14.82,14.82,0,0,1,327.19,405.92Z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_Insurance = (Insurance);
+
+// EXTERNAL MODULE: ./icons/lineal/Telephone.tsx
+var Telephone = __webpack_require__(1606);
+// EXTERNAL MODULE: ./icons/lineal/Analytics.tsx
+var Analytics = __webpack_require__(5754);
+;// CONCATENATED MODULE: ./icons/lineal/LightBulb.tsx
+
+const LightBulb = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        viewBox: "0 0 321.7 409.6",
+        xmlns: "http://www.w3.org/2000/svg",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-blue me-4"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M160.9 221.3c-19.1 0-37.4-7.3-51.3-20.4l51.3 127.2 51.3-127.2c-13.9 13.1-32.3 20.4-51.3 20.4z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M160.9 339.9c-4.8 0-9.1-2.9-10.9-7.4L98.6 205.3c-2.5-6 .3-12.9 6.3-15.4 4.3-1.8 9.3-.9 12.7 2.4 24.3 22.9 62.2 22.9 86.5 0 4.7-4.5 12.1-4.3 16.6.3 3.2 3.4 4.2 8.3 2.4 12.7l-51.4 127.2c-1.7 4.5-6 7.4-10.8 7.4zm-27.5-111.3l27.5 68.1 27.5-68.1c-17.9 5.9-37.2 5.9-55 0z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M86.7 316.1c-5.9 0-10.9-4.4-11.7-10.2-2.2-16.6-9.8-23.9-22.3-36.1l-2.9-2.8C28.8 246.5 0 218.4 0 151.6c0-42.9 17.1-81.9 48-110C77.7 14.8 117.7 0 160.9 0s83.2 14.8 112.8 41.6c6.7 6.1 12.8 12.7 18.3 19.9 3.1 4.1 6 8.3 8.6 12.6 1.3 2.2 2.6 4.4 3.8 6.6 2.4 4.5 4.6 9.1 6.5 13.8 1.4 3.5 2.7 7.2 3.9 10.8 4.7 14.9 7 30.5 7 46.2 0 27.9-4.9 51.2-15 71.2-.6 1.2-1.2 2.4-1.8 3.5-1.8 3.3-3.8 6.5-5.9 9.6-.7 1-1.4 2-2 3-2.6 3.6-5.3 7.1-8.5 10.7-5.6 6.5-11.5 12.2-16.6 17.2-4.7 4.5-12.1 4.4-16.6-.2-4.5-4.7-4.4-12.1.2-16.6 5-4.9 10.2-9.9 15.2-15.7 2.6-3 4.9-6 7.1-9 .6-.8 1.1-1.6 1.7-2.4 1.7-2.5 3.3-5.2 4.7-7.8.5-.9 1-1.9 1.5-2.8 8.4-16.6 12.5-36.4 12.5-60.6 0-13.2-2-26.4-5.9-39.1-1-3.1-2.1-6.1-3.3-9.1-1.6-3.9-3.4-7.8-5.4-11.6-1-1.9-2.1-3.8-3.2-5.6-6.2-10.2-13.8-19.4-22.6-27.3-25.3-22.9-59.8-35.5-97-35.5S89.1 36.1 63.8 59c-26 23.5-40.3 56.4-40.3 92.5 0 56.9 22.7 79.1 42.8 98.6l2.8 2.7c13.4 13 26.1 25.2 29.3 49.9.9 6.4-3.7 12.4-10.1 13.2-.6.2-1.1.2-1.6.2z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M141.9 397.8h38c3.8 0 7.4-1.5 10.1-4.2l13-13c2-2 3.4-4.6 3.9-7.4l12.4-63.7h-117l12.4 63.7c.6 2.8 2 5.4 4 7.4l13 13c2.7 2.7 6.3 4.2 10.2 4.2z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M179.8 409.6h-37.9c-6.9 0-13.6-2.7-18.5-7.7l-13-13c-3.7-3.7-6.2-8.4-7.2-13.5l-12.4-63.7c-1.2-6.4 2.9-12.5 9.3-13.8.7-.1 1.5-.2 2.2-.2h117c6.5 0 11.8 5.3 11.8 11.8 0 .8-.1 1.5-.2 2.2l-12.4 63.7c-1 5.1-3.5 9.8-7.2 13.5l-13 13c-4.8 4.9-11.5 7.7-18.5 7.7zm-63.2-88.4l9.7 49.7c.1.5.4 1 .7 1.4l13 13c.5.5 1.2.8 1.9.8h38c.7 0 1.4-.3 1.9-.8l13-13c.4-.4.6-.9.7-1.4l9.6-49.7h-88.5z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M241.5 321H80.2c-6.5-.2-11.6-5.6-11.4-12.1.2-6.2 5.2-11.2 11.4-11.4h161.4c6.5-.2 11.9 4.9 12.1 11.4.2 6.5-4.9 11.9-11.4 12.1h-.8zm-14.8 44.3H95c-6.5-.2-11.6-5.6-11.4-12.1.2-6.2 5.2-11.2 11.4-11.4h131.7c6.5.2 11.6 5.6 11.4 12.1-.2 6.2-5.2 11.2-11.4 11.4z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_LightBulb = (LightBulb);
+
+;// CONCATENATED MODULE: ./icons/lineal/PieChartTwo.tsx
+
+const PieChartTwo = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        viewBox: "0 0 408.1 409.6",
+        xmlns: "http://www.w3.org/2000/svg",
+        className: `svg-inject icon-svg ${className || "icon-svg-sm text-green me-4"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M396.3 192.3h-33.4c-6.4 0-11.6-5.2-11.6-11.6 0-6.4 5.2-11.6 11.6-11.6h19.7C363.2 71.1 268.1 7.3 170.1 26.6c-4.2.8-8.4 1.8-12.6 2.9L235.1 169h72c6.4 0 11.6 5.2 11.6 11.6 0 6.4-5.2 11.6-11.6 11.6h-78.9c-4.2 0-8.1-2.3-10.1-6l-87.9-158c-3.1-5.6-1.1-12.6 4.5-15.7.7-.4 1.5-.7 2.3-1l8.1-2.5c107.8-33.1 222 27.4 255.1 135.2 2.7 8.7 4.8 17.6 6.3 26.6l1.3 8c1.1 6.3-3.2 12.3-9.5 13.3-.7.2-1.3.2-2 .2zM204.6 409.6c-20.4-.1-40.6-3.2-60.1-9.2l-8.1-2.5c-6.1-1.9-9.6-8.4-7.7-14.5.2-.8.6-1.5 1-2.2l88.4-158.3c2.1-3.7 5.9-5.9 10.1-5.9h33.2c6.4.2 11.4 5.5 11.2 11.9-.2 6.1-5.1 11.1-11.2 11.2H235l-78 139.8c96.8 26.3 196.6-30.9 222.9-127.8 1.1-4 2-8 2.8-12h-65.4c-6.4.2-11.7-4.8-11.9-11.2-.2-6.4 4.8-11.7 11.2-11.9h79.8c6.4 0 11.6 5.2 11.6 11.6 0 .6-.1 1.3-.2 1.9l-1.3 7.9C390 337 304.7 409.4 204.6 409.6z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M93 361.8C6 300.1-14.5 179.6 47.1 92.6c12.7-17.9 28.4-33.5 46.3-46.2l6.2-4.4 90 161.7-90.4 162.5-6.2-4.4z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M99.2 377.8c-2.4 0-4.7-.7-6.7-2.1l-6.2-4.4C-5.9 305.9-27.7 178.2 37.7 86c13.5-19 30-35.5 49.1-48.9l6.2-4.4c5.2-3.7 12.4-2.4 16.1 2.8.2.3.5.7.7 1.1l90 161.7c1.9 3.5 1.9 7.8 0 11.3L109.4 372c-1.6 2.9-4.3 4.9-7.6 5.7-.8 0-1.7.1-2.6.1zM95.8 59C15.6 119.1-.7 232.9 59.4 313.1c10.2 13.7 22.4 25.8 36 36.1l81-145.4L95.8 59z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_PieChartTwo = (PieChartTwo);
+
+;// CONCATENATED MODULE: ./icons/lineal/CloudComputingTwo.tsx
+
+const CloudComputingTwo = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 409.6 319.1",
+        className: `svg-inject icon-svg ${className || "icon-svg-md text-orange me-5"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M333.9 278.3H276c-6-.2-10.8-5.2-10.6-11.2.2-5.8 4.8-10.4 10.6-10.6h57.9c29.8 0 53.9-24.1 53.9-53.9 0-25.9-18.5-48.1-43.9-52.9-5.9-1.1-9.8-6.8-8.7-12.7 0-.2.1-.5.2-.7 12.6-48.9-16.8-98.7-65.7-111.4-38.3-9.9-78.7 6-100 39.4-2.9 4.6-8.8 6.3-13.7 4.1-30.1-13.6-65.6-.2-79.2 29.9-3.5 7.8-5.3 16.2-5.3 24.7 0 4.6.6 9.3 1.6 13.8 1.4 5.9-2.3 11.7-8.1 13.1-.1 0-.2 0-.2.1-29.3 6-47.9 34.6-41.8 63.7 5.3 24.9 27.2 42.8 52.7 42.8h58.2c6 .2 10.8 5.2 10.6 11.2-.2 5.8-4.8 10.4-10.6 10.6H75.7C33.9 278.3 0 244.4 0 202.6c0-31.9 20-60.4 50-71.2-.3-2.8-.4-5.7-.5-8.5 0-45.1 36.6-81.7 81.8-81.7 8.5 0 16.9 1.3 25 3.9 37.6-50 108.6-60 158.5-22.4C348.4 48 365.2 89.6 358.6 131c39.5 13.6 60.5 56.7 46.9 96.2-10.6 30.6-39.3 51.1-71.6 51.1z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-fill",
+                d: "M250.6 224.3l-39.3-53.6c-2.7-3.6-7.8-4.4-11.4-1.8-.7.5-1.3 1.1-1.8 1.8L159 224.3c-2.7 3.6-1.9 8.7 1.7 11.4 1.4 1 3.1 1.6 4.9 1.6h10.7v52.2c0 10.3 8.3 18.6 18.6 18.6h19.8c10.3 0 18.6-8.3 18.6-18.6v-52.3H244c4.5 0 8.2-3.6 8.2-8.1.1-1.7-.5-3.4-1.6-4.8z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "lineal-stroke",
+                d: "M214.7 319.1h-19.8c-16.3 0-29.5-13.2-29.5-29.5v-41.3c-10.5-.1-19-8.8-18.9-19.3 0-4 1.3-7.8 3.7-11l39.3-53.6c6.2-8.5 18-10.4 26.5-4.2 1.6 1.2 3 2.6 4.2 4.2l39.3 53.6c6.2 8.5 4.4 20.4-4.1 26.6-3.2 2.3-7.1 3.6-11 3.7v41.3c-.1 16.2-13.4 29.4-29.7 29.5zM171 226.4h5.3c6 0 10.9 4.9 10.9 10.9v52.2c0 4.3 3.5 7.7 7.7 7.7h19.8c4.3 0 7.7-3.5 7.7-7.7v-52.2c0-6 4.9-10.9 10.9-10.9h5.3l-33.9-46.2-33.7 46.2z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const lineal_CloudComputingTwo = (CloudComputingTwo);
+
+// EXTERNAL MODULE: ./utils/color.ts
+var color = __webpack_require__(9957);
+;// CONCATENATED MODULE: ./data/demo-27.ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const serviceList = [
+    {
+        id: 1,
+        Icon: Telephone/* default */.Z,
+        color: color/* default.blue */.Z.blue,
+        title: "24/7 Support",
+        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    },
+    {
+        id: 2,
+        Icon: Shield/* default */.Z,
+        color: color/* default.yellow */.Z.yellow,
+        title: "Secure Payments",
+        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    },
+    {
+        id: 3,
+        color: color/* default.orange */.Z.orange,
+        Icon: lineal_CloudComputingTwo,
+        title: "Daily Updates",
+        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    },
+    {
+        id: 4,
+        Icon: Analytics/* default */.Z,
+        color: color/* default.pink */.Z.pink,
+        title: "Market Research",
+        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    },
+    {
+        id: 5,
+        Icon: ChatTwo/* default */.Z,
+        color: color/* default.green */.Z.green,
+        title: "Social Engagement",
+        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    },
+    {
+        id: 6,
+        Icon: Megaphone/* default */.Z,
+        color: color/* default.purple */.Z.purple,
+        title: "Content Marketing",
+        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    }
+];
+const processList = [
+    {
+        id: 1,
+        Icon: lineal_LightBulb,
+        title: "Collect Ideas",
+        description: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
+    },
+    {
+        id: 2,
+        Icon: lineal_PieChartTwo,
+        title: "Data Analysis",
+        description: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
+    },
+    {
+        id: 3,
+        Icon: lineal_Design,
+        title: "Magic Touch",
+        description: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
+    }
+];
+const abouts = [
+    {
+        id: 1,
+        Icon: Target/* default */.Z,
+        color: color/* default.blue */.Z.blue,
+        title: "Our Vision",
+        description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus
+        tellus.`
+    },
+    {
+        id: 2,
+        Icon: lineal_AwardTwo,
+        color: color/* default.green */.Z.green,
+        title: "Our Mission",
+        description: `Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere  consectetur.`
+    },
+    {
+        id: 3,
+        Icon: lineal_Loyalty,
+        color: color/* default.yellow */.Z.yellow,
+        title: "Our Values",
+        description: `Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.`
+    }
+];
+const demo_27_pricingList = [
+    {
+        price: 9,
+        plan: "Basic",
+        features: [
+            "2 Projects",
+            "100K API Access",
+            "100MB Storage",
+            "Weekly Reports",
+            "7/24 Support"
+        ]
+    },
+    {
+        price: 19,
+        plan: "Premium",
+        features: [
+            "5 Projects",
+            "200K API Access",
+            "300MB Storage",
+            "Weekly Reports",
+            "7/24 Support"
+        ]
+    },
+    {
+        price: 29,
+        plan: "Corporate",
+        features: [
+            "20 Projects",
+            "300K API Access",
+            "500MB Storage",
+            "Weekly Reports",
+            "7/24 Support"
+        ]
+    },
+    {
+        price: 49,
+        plan: "Community",
+        features: [
+            "90 Projects",
+            "900K API Access",
+            "900MB Storage",
+            "Weekly Reports",
+            "7/24 Support"
+        ]
+    }
+];
+const faqList = [
+    {
+        id: 1,
+        Icon: lineal_CheckList,
+        title: "Can I cancel my subscription?",
+        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
+    },
+    {
+        id: 2,
+        Icon: lineal_Wallet,
+        title: "Which payment methods do you accept?",
+        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
+    },
+    {
+        id: 3,
+        Icon: lineal_Insurance,
+        title: "How can I manage my Account?",
+        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
+    },
+    {
+        id: 4,
+        Icon: lineal_Padlock,
+        title: "Is my credit card information secure?",
+        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
+    }
+];
+/* harmony default export */ const demo_27 = ({
+    serviceList,
+    processList,
+    abouts,
+    pricingList: demo_27_pricingList,
+    faqList
+});
+
 ;// CONCATENATED MODULE: ./components/blocks/faq/FAQ7.tsx
 
 // -------- data -------- //
@@ -7418,17 +8190,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 8913:
+/***/ 1214:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "wp": () => (/* reexport */ navbar_Navbar)
+  "w": () => (/* reexport */ navbar_Navbar)
 });
-
-// UNUSED EXPORTS: Navbar2, Navbar3, Navbar4
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
@@ -8478,22 +9248,18 @@ const Navbar = (props)=>{
     });
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
         children: [
-            stickyBox && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                style: {
-                    paddingTop: sticky ? navbarRef.current?.clientHeight : 0
-                }
-            }),
             /*#__PURE__*/ jsx_runtime_.jsx("nav", {
                 ref: navbarRef,
                 className: sticky ? fixedClassName : navClassName,
-                children: fancy ? /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "container",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center ",
-                        children: headerContent
-                    })
-                }) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                style: {
+                    position: "sticky",
+                    top: "0px"
+                },
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "container flex-lg-row flex-nowrap align-items-center ",
+                    style: {
+                        height: "80px"
+                    },
                     children: headerContent
                 })
             }),
@@ -8518,1963 +9284,38 @@ Navbar.defaultProps = {
 };
 /* harmony default export */ const navbar_Navbar = (Navbar);
 
-;// CONCATENATED MODULE: ./components/reuseable/links/DropdownToggleLink.tsx
-
-// ==========================================================
-const DropdownToggleLink = (props)=>{
-    const { title , ...others } = props;
-    return /*#__PURE__*/ jsx_runtime_.jsx("a", {
-        href: "#",
-        "data-bs-toggle": "dropdown",
-        className: "dropdown-item dropdown-toggle",
-        ...others,
-        children: title
-    });
-};
-/* harmony default export */ const links_DropdownToggleLink = (DropdownToggleLink);
-
-;// CONCATENATED MODULE: ./components/blocks/navbar/partials/Language.tsx
-
-
-// language list
-const supportLanguage = [
-    "En",
-    "Bn",
-    "Es",
-    "De"
-];
-const Language = ()=>{
-    const [language, setLanguage] = (0,external_react_.useState)(supportLanguage[0]);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-        className: "nav-item dropdown language-select text-uppercase",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                role: "button",
-                "aria-haspopup": "true",
-                "aria-expanded": "false",
-                "data-bs-toggle": "dropdown",
-                className: "nav-link dropdown-item dropdown-toggle",
-                children: language
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                className: "dropdown-menu",
-                children: supportLanguage.map((lang)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                        className: "nav-item",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                            className: "dropdown-item",
-                            onClick: ()=>setLanguage(lang),
-                            children: lang
-                        })
-                    }, lang))
-            })
-        ]
-    });
-};
-/* harmony default export */ const partials_Language = (Language);
-
-;// CONCATENATED MODULE: ./data/navigation.ts
-// demos links
-const demos = [
-    {
-        id: 1,
-        url: "/demo-1",
-        title: "Demo I",
-        thumnail: "mi1"
-    },
-    {
-        id: 2,
-        url: "/demo-2",
-        title: "Demo II",
-        thumnail: "mi2"
-    },
-    {
-        id: 3,
-        url: "/demo-3",
-        title: "Demo III",
-        thumnail: "mi3"
-    },
-    {
-        id: 4,
-        url: "/demo-4",
-        title: "Demo VI",
-        thumnail: "mi4"
-    },
-    {
-        id: 5,
-        url: "/demo-5",
-        title: "Demo V",
-        thumnail: "mi5"
-    },
-    {
-        id: 6,
-        url: "/demo-6",
-        title: "Demo VI",
-        thumnail: "mi6"
-    },
-    {
-        id: 7,
-        url: "/demo-7",
-        title: "Demo VII",
-        thumnail: "mi7"
-    },
-    {
-        id: 8,
-        url: "/demo-8",
-        title: "Demo VIII",
-        thumnail: "mi8"
-    },
-    {
-        id: 9,
-        url: "/demo-9",
-        title: "Demo IX",
-        thumnail: "mi9"
-    },
-    {
-        id: 10,
-        url: "/demo-10",
-        title: "Demo X",
-        thumnail: "mi10"
-    },
-    {
-        id: 11,
-        url: "/demo-11",
-        title: "Demo XI",
-        thumnail: "mi11"
-    },
-    {
-        id: 12,
-        url: "/demo-12",
-        title: "Demo XII",
-        thumnail: "mi12"
-    },
-    {
-        id: 13,
-        url: "/demo-13",
-        title: "Demo XIII",
-        thumnail: "mi13"
-    },
-    {
-        id: 14,
-        url: "/demo-14",
-        title: "Demo XIV",
-        thumnail: "mi14"
-    },
-    {
-        id: 15,
-        url: "/demo-15",
-        title: "Demo XV",
-        thumnail: "mi15"
-    },
-    {
-        id: 16,
-        url: "/demo-16",
-        title: "Demo XVI",
-        thumnail: "mi16"
-    },
-    {
-        id: 17,
-        url: "/demo-17",
-        title: "Demo XVII",
-        thumnail: "mi17"
-    },
-    {
-        id: 18,
-        url: "/demo-18",
-        title: "Demo XVIII",
-        thumnail: "mi18"
-    },
-    {
-        id: 19,
-        url: "/demo-19",
-        title: "Demo XIX",
-        thumnail: "mi19"
-    },
-    {
-        id: 20,
-        url: "/demo-20",
-        title: "Demo XX",
-        thumnail: "mi20"
-    },
-    {
-        id: 21,
-        url: "/demo-21",
-        title: "Demo XXI",
-        thumnail: "mi21"
-    },
-    {
-        id: 22,
-        url: "/demo-22",
-        title: "Demo XXI",
-        thumnail: "mi22"
-    },
-    {
-        id: 23,
-        url: "/demo-23",
-        title: "Demo XXI",
-        thumnail: "mi23"
-    },
-    {
-        id: 24,
-        url: "/demo-24",
-        title: "Demo XXI",
-        thumnail: "mi24"
-    },
-    {
-        id: 25,
-        url: "/demo-25",
-        title: "Demo XXI",
-        thumnail: "mi25"
-    },
-    {
-        id: 26,
-        url: "/demo-26",
-        title: "Demo XXI",
-        thumnail: "mi26"
-    },
-    {
-        id: 27,
-        url: "/demo-27",
-        title: "Demo XXI",
-        thumnail: "mi27"
-    }
-];
-// pages navigations
-const pages = [
-    {
-        id: 21,
-        title: "Services",
-        children: [
-            {
-                id: 211,
-                title: "Services I",
-                url: "/services-1"
-            },
-            {
-                id: 212,
-                title: "Services II",
-                url: "/services-2"
-            }
-        ]
-    },
-    {
-        id: 22,
-        title: "About",
-        children: [
-            {
-                id: 221,
-                title: "About I",
-                url: "/about-1"
-            },
-            {
-                id: 222,
-                title: "About II",
-                url: "/about-2"
-            }
-        ]
-    },
-    {
-        id: 23,
-        title: "Shop",
-        children: [
-            {
-                id: 231,
-                title: "Shop I",
-                url: "/shop-1"
-            },
-            {
-                id: 232,
-                title: "Shop II",
-                url: "/shop-2"
-            },
-            {
-                id: 233,
-                title: "Product Page",
-                url: "/products/1"
-            },
-            {
-                id: 234,
-                title: "Shopping Cart",
-                url: "/cart"
-            },
-            {
-                id: 235,
-                title: "Checkout",
-                url: "/checkout"
-            }
-        ]
-    },
-    {
-        id: 24,
-        title: "Contact",
-        children: [
-            {
-                id: 241,
-                title: "Contact I",
-                url: "/contact-1"
-            },
-            {
-                id: 242,
-                title: "Contact II",
-                url: "/contact-2"
-            },
-            {
-                id: 243,
-                title: "Contact III",
-                url: "/contact-3"
-            }
-        ]
-    },
-    {
-        id: 25,
-        title: "Career",
-        children: [
-            {
-                id: 251,
-                title: "Job Listing I",
-                url: "/career-1"
-            },
-            {
-                id: 252,
-                title: "Job Listing II",
-                url: "/career-2"
-            },
-            {
-                id: 253,
-                title: "Job Description",
-                url: "/jobs/1"
-            }
-        ]
-    },
-    {
-        id: 26,
-        title: "Utility",
-        children: [
-            {
-                id: 261,
-                title: "404 Not Found",
-                url: "/asdasdasdasd"
-            },
-            {
-                id: 262,
-                title: "Login I",
-                url: "/login-1"
-            },
-            {
-                id: 263,
-                title: "Login II",
-                url: "/login-2"
-            },
-            {
-                id: 264,
-                title: "Register I",
-                url: "/register-1"
-            },
-            {
-                id: 265,
-                title: "Register II",
-                url: "/register-2"
-            },
-            {
-                id: 266,
-                title: "Terms & Condition",
-                url: "/terms"
-            }
-        ]
-    }
-];
-// projects pages link
-const projectsNavigation = [
-    {
-        title: "PROJECT PAGES",
-        children: [
-            {
-                id: 1,
-                title: "Project I",
-                url: "/projects-1"
-            },
-            {
-                id: 2,
-                title: "Project II",
-                url: "/projects-2"
-            },
-            {
-                id: 3,
-                title: "Project III",
-                url: "/projects-3"
-            },
-            {
-                id: 4,
-                title: "Project VI",
-                url: "/projects-4"
-            }
-        ]
-    },
-    {
-        title: "SINGLE PROJECTS",
-        children: [
-            {
-                id: 1,
-                title: "Single Project I",
-                url: "/single-project-1"
-            },
-            {
-                id: 2,
-                title: "Single Project II",
-                url: "/single-project-2"
-            },
-            {
-                id: 3,
-                title: "Single Project III",
-                url: "/single-project-3"
-            },
-            {
-                id: 4,
-                title: "Single Project VI",
-                url: "/single-project-4"
-            }
-        ]
-    }
-];
-// blog pages links
-const blogsNavigation = [
-    {
-        id: 1,
-        url: "/blog-1",
-        title: "Blog without Sidebar"
-    },
-    {
-        id: 2,
-        url: "/blog-2",
-        title: "Blog with Sidebar"
-    },
-    {
-        id: 3,
-        url: "/blog-3",
-        title: "Blog with Left Sidebar"
-    },
-    {
-        id: 4,
-        url: null,
-        title: "Blog Posts",
-        children: [
-            {
-                id: 41,
-                url: "/blog-details-1",
-                title: "Post without Sidebar"
-            },
-            {
-                id: 42,
-                url: "/blog-details-2",
-                title: "Post with Sidebar"
-            },
-            {
-                id: 43,
-                url: "/blog-details-3",
-                title: "Post with Left Sidebar"
-            }
-        ]
-    }
-];
-// documentation pages links
-const documentionNavigation = {
-    usage: [
-        {
-            id: 1,
-            title: "Get Started",
-            url: "/docs"
-        },
-        // { id: 2, title: 'Forms', url: '#' },
-        {
-            id: 3,
-            title: "FAQ",
-            url: "/docs/faq"
-        },
-        {
-            id: 4,
-            title: "Changelog",
-            url: "/docs/changelog"
-        },
-        {
-            id: 5,
-            title: "Credits",
-            url: "/docs/credits"
-        }
-    ],
-    styleguide: [
-        {
-            id: 0,
-            title: "Theme",
-            url: "/docs/styleguide/theme"
-        },
-        {
-            id: 1,
-            title: "Colors",
-            url: "/docs/styleguide/colors"
-        },
-        {
-            id: 2,
-            title: "Fonts",
-            url: "/docs/styleguide/fonts"
-        },
-        {
-            id: 3,
-            title: "SVG Icons",
-            url: "/docs/styleguide/svg-icons"
-        },
-        {
-            id: 4,
-            title: "Font Icons",
-            url: "/docs/styleguide/font-icons"
-        },
-        {
-            id: 5,
-            title: "Illustrations",
-            url: "/docs/styleguide/illustrations"
-        },
-        {
-            id: 6,
-            title: "Backgrounds",
-            url: "/docs/styleguide/backgrounds"
-        },
-        {
-            id: 7,
-            title: "Misc",
-            url: "/docs/styleguide/misc"
-        }
-    ],
-    elements: [
-        {
-            id: 1,
-            title: "Accordion",
-            url: "/docs/elements/accordions"
-        },
-        {
-            id: 2,
-            title: "Alerts",
-            url: "/docs/elements/alerts"
-        },
-        {
-            id: 3,
-            title: "Animations",
-            url: "/docs/elements/animations"
-        },
-        {
-            id: 4,
-            title: "Avatars",
-            url: "/docs/elements/avatars"
-        },
-        {
-            id: 5,
-            title: "Background",
-            url: "/docs/elements/background"
-        },
-        {
-            id: 6,
-            title: "Badges",
-            url: "/docs/elements/badges"
-        },
-        {
-            id: 7,
-            title: "Buttons",
-            url: "/docs/elements/buttons"
-        },
-        {
-            id: 8,
-            title: "Card",
-            url: "/docs/elements/card"
-        },
-        {
-            id: 9,
-            title: "Carousel",
-            url: "/docs/elements/carousel"
-        },
-        {
-            id: 10,
-            title: "Dividers",
-            url: "/docs/elements/dividers"
-        },
-        {
-            id: 11,
-            title: "Form Elements",
-            url: "/docs/elements/form-elements"
-        },
-        {
-            id: 12,
-            title: "Image Hover",
-            url: "/docs/elements/image-hover"
-        },
-        {
-            id: 13,
-            title: "Image Mask",
-            url: "/docs/elements/image-mask"
-        },
-        {
-            id: 14,
-            title: "Lightbox",
-            url: "/docs/elements/lightbox"
-        },
-        {
-            id: 15,
-            title: "Media Player",
-            url: "/docs/elements/media-player"
-        },
-        {
-            id: 16,
-            title: "Modal",
-            url: "/docs/elements/modal"
-        },
-        {
-            id: 17,
-            title: "Pagination",
-            url: "/docs/elements/pagination"
-        },
-        {
-            id: 18,
-            title: "Progressbar",
-            url: "/docs/elements/progressbar"
-        },
-        {
-            id: 19,
-            title: "Shadows",
-            url: "/docs/elements/shadows"
-        },
-        {
-            id: 20,
-            title: "Shapes",
-            url: "/docs/elements/shapes"
-        },
-        {
-            id: 21,
-            title: "Tables",
-            url: "/docs/elements/tables"
-        },
-        {
-            id: 22,
-            title: "Tabs",
-            url: "/docs/elements/tabs"
-        },
-        {
-            id: 23,
-            title: "Text Animations",
-            url: "/docs/elements/text-animation"
-        },
-        {
-            id: 24,
-            title: "Text Highlight",
-            url: "/docs/elements/text-highlight"
-        },
-        {
-            id: 25,
-            title: "Tiles",
-            url: "/docs/elements/tiles"
-        },
-        // { id: 26, title: 'Tooltips & Popovers', url: '/docs/elements/tooltips-popovers' },
-        {
-            id: 27,
-            title: "Typography",
-            url: "/docs/elements/typography"
-        }
-    ]
-};
-// blocks pages links
-const blocksNavigation = [
-    {
-        id: 1,
-        url: "/docs/blocks/about",
-        title: "About",
-        thumnail: "/img/demos/block1.svg"
-    },
-    {
-        id: 2,
-        url: "/docs/blocks/blog",
-        title: "Blog",
-        thumnail: "/img/demos/block2.svg"
-    },
-    {
-        id: 3,
-        url: "/docs/blocks/call-to-action",
-        title: "Call to Action",
-        thumnail: "/img/demos/block3.svg"
-    },
-    {
-        id: 4,
-        url: "/docs/blocks/clients",
-        title: "Clients",
-        thumnail: "/img/demos/block4.svg"
-    },
-    {
-        id: 5,
-        url: "/docs/blocks/contact",
-        title: "Contact",
-        thumnail: "/img/demos/block5.svg"
-    },
-    {
-        id: 6,
-        url: "/docs/blocks/facts",
-        title: "Facts",
-        thumnail: "/img/demos/block6.svg"
-    },
-    {
-        id: 7,
-        url: "/docs/blocks/faq",
-        title: "FAQ",
-        thumnail: "/img/demos/block7.svg"
-    },
-    {
-        id: 8,
-        url: "/docs/blocks/features",
-        title: "Features",
-        thumnail: "/img/demos/block8.svg"
-    },
-    {
-        id: 9,
-        url: "/docs/blocks/footer",
-        title: "Footer",
-        thumnail: "/img/demos/block9.svg"
-    },
-    {
-        id: 10,
-        url: "/docs/blocks/hero",
-        title: "Hero",
-        thumnail: "/img/demos/block10.svg"
-    },
-    {
-        id: 11,
-        url: "/docs/blocks/navbar",
-        title: "Navbar",
-        thumnail: "/img/demos/block11.svg"
-    },
-    {
-        id: 12,
-        url: "/docs/blocks/portfolio",
-        title: "Portfolio",
-        thumnail: "/img/demos/block12.svg"
-    },
-    {
-        id: 13,
-        url: "/docs/blocks/pricing",
-        title: "Pricing",
-        thumnail: "/img/demos/block13.svg"
-    },
-    {
-        id: 14,
-        url: "/docs/blocks/process",
-        title: "Process",
-        thumnail: "/img/demos/block14.svg"
-    },
-    {
-        id: 15,
-        url: "/docs/blocks/team",
-        title: "Team",
-        thumnail: "/img/demos/block15.svg"
-    },
-    {
-        id: 16,
-        url: "/docs/blocks/testimonials",
-        title: "Testimonials",
-        thumnail: "/img/demos/block16.svg"
-    }
-];
-
-
-;// CONCATENATED MODULE: ./components/blocks/navbar/Navbar2.tsx
-
-
-
-// -------- custom hook -------- //
-
-// -------- custom component -------- //
-
-
-
-
-// -------- partial header component -------- //
-
-
-// -------- data -------- //
-
-// ===================================================================
-const Navbar2 = ({ navClassName  })=>{
-    const sticky = hooks_useSticky(350);
-    const navbarRef = (0,external_react_.useRef)(null);
-    // dynamically added navbar classname
-    const fixedClassName = `navbar navbar-expand-lg extended navbar-light navbar-bg-light caret-none navbar-clone fixed navbar-stick`;
-    // render inner nav item links
-    const renderLinks = (links)=>{
-        return links.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                href: item.url,
-                title: item.title,
-                linkClassName: "dropdown-item"
-            }, item.id));
-    };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                style: {
-                    paddingTop: sticky ? navbarRef.current?.clientHeight : 0
-                }
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                ref: navbarRef,
-                className: sticky ? fixedClassName : navClassName,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "container flex-lg-column",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "topbar d-flex flex-row w-100 justify-content-between align-items-center",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-brand",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                        href: "/",
-                                        title: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                            alt: "logo",
-                                            src: "/img/logo-dark.png",
-                                            srcSet: "/img/logo-dark@2x.png 2x"
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-other ms-auto",
-                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                        className: "navbar-nav flex-row align-items-center",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                className: "nav-item",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    className: "nav-link",
-                                                    "data-bs-toggle": "offcanvas",
-                                                    "data-bs-target": "#offcanvas-info",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "uil uil-info-circle"
-                                                    })
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(partials_Language, {}),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                className: "nav-item d-lg-none",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    "data-bs-toggle": "offcanvas",
-                                                    "data-bs-target": "#offcanvas-nav",
-                                                    className: "hamburger offcanvas-nav-btn",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {})
-                                                })
-                                            })
-                                        ]
-                                    })
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "navbar-collapse-wrapper bg-white d-flex flex-row align-items-center",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    id: "offcanvas-nav",
-                                    "data-bs-scroll": "true",
-                                    className: "navbar-collapse offcanvas offcanvas-nav offcanvas-start",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "offcanvas-header d-lg-none",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                                    className: "text-white fs-30 mb-0",
-                                                    children: "Sandbox"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    type: "button",
-                                                    "aria-label": "Close",
-                                                    "data-bs-dismiss": "offcanvas",
-                                                    className: "btn-close btn-close-white"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "offcanvas-body d-flex flex-column h-100",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                    className: "navbar-nav",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                            className: "nav-item dropdown dropdown-mega",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                    title: "Demos",
-                                                                    className: "nav-link dropdown-toggle"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                    className: "dropdown-menu mega-menu mega-menu-dark mega-menu-img",
-                                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                        className: "mega-menu-content mega-menu-scroll",
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                className: "row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled",
-                                                                                children: demos.map(({ id , title , url , thumnail  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                                        className: "col",
-                                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                                            legacyBehavior: true,
-                                                                                            href: url,
-                                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                                className: "dropdown-item",
-                                                                                                children: [
-                                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                                                        alt: title,
-                                                                                                        src: `/img/demos/${thumnail}.jpg`,
-                                                                                                        srcSet: `/img/demos/${thumnail}@2x.jpg 2x`,
-                                                                                                        className: "rounded lift d-none d-lg-block"
-                                                                                                    }),
-                                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                                        className: "d-lg-none",
-                                                                                                        children: title
-                                                                                                    })
-                                                                                                ]
-                                                                                            })
-                                                                                        })
-                                                                                    }, id))
-                                                                            }),
-                                                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                                                className: "d-none d-lg-flex",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                                                        className: "uil uil-direction"
-                                                                                    }),
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                                                        children: "Scroll to view more"
-                                                                                    })
-                                                                                ]
-                                                                            })
-                                                                        ]
-                                                                    })
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                            className: "nav-item dropdown",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                    title: "Pages",
-                                                                    className: "nav-link dropdown-toggle"
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                                    className: "dropdown-menu",
-                                                                    children: [
-                                                                        pages.map(({ id , title , children  })=>{
-                                                                            return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                                className: "dropdown dropdown-submenu dropend",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                                        title: title
-                                                                                    }),
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                        className: "dropdown-menu",
-                                                                                        children: renderLinks(children)
-                                                                                    })
-                                                                                ]
-                                                                            }, id);
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                                                            href: "/pricing",
-                                                                            title: "Pricing",
-                                                                            linkClassName: "dropdown-item"
-                                                                        })
-                                                                    ]
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                            className: "nav-item dropdown",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                    title: "Projects",
-                                                                    className: "nav-link dropdown-toggle"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "dropdown-menu dropdown-lg",
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "dropdown-lg-content",
-                                                                        children: projectsNavigation.map(({ title , children  }, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                                        className: "dropdown-header",
-                                                                                        children: title
-                                                                                    }),
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                        className: "list-unstyled",
-                                                                                        children: renderLinks(children)
-                                                                                    })
-                                                                                ]
-                                                                            }, title + i))
-                                                                    })
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                            className: "nav-item dropdown",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                    title: "Blog",
-                                                                    className: "nav-link dropdown-toggle"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                    className: "dropdown-menu",
-                                                                    children: blogsNavigation.map(({ id , url , title , children  })=>{
-                                                                        if (!url && children) {
-                                                                            return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                                className: "dropdown dropdown-submenu dropend",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                                        title: "Blog Posts"
-                                                                                    }),
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                        className: "dropdown-menu",
-                                                                                        children: renderLinks(children)
-                                                                                    })
-                                                                                ]
-                                                                            }, id);
-                                                                        }
-                                                                        return /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                                                            href: url,
-                                                                            title: title,
-                                                                            linkClassName: "dropdown-item"
-                                                                        }, id);
-                                                                    })
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                            className: "nav-item dropdown dropdown-mega",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                    title: "Blocks",
-                                                                    className: "nav-link dropdown-toggle"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                    className: "dropdown-menu mega-menu mega-menu-dark mega-menu-img",
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "mega-menu-content",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                            className: "row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled",
-                                                                            children: blocksNavigation.map(({ id , thumnail , title , url  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                                    className: "col",
-                                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                                        legacyBehavior: true,
-                                                                                        href: url,
-                                                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                            className: "dropdown-item",
-                                                                                            children: [
-                                                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                                                    className: "rounded img-svg d-none d-lg-block p-4 mb-lg-2",
-                                                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                                                        className: "rounded-0",
-                                                                                                        src: thumnail,
-                                                                                                        alt: ""
-                                                                                                    })
-                                                                                                }),
-                                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                                    children: title
-                                                                                                })
-                                                                                            ]
-                                                                                        })
-                                                                                    })
-                                                                                }, id))
-                                                                        })
-                                                                    })
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                            className: "nav-item dropdown dropdown-mega",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                    title: "Documentation",
-                                                                    className: "nav-link dropdown-toggle"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                    className: "dropdown-menu mega-menu",
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "mega-menu-content",
-                                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                                            className: "row gx-0 gx-lg-3",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                                                    className: "col-lg-4",
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                                            className: "dropdown-header",
-                                                                                            children: "Usage"
-                                                                                        }),
-                                                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                            className: "list-unstyled cc-2 pb-lg-1",
-                                                                                            children: renderLinks(documentionNavigation.usage)
-                                                                                        }),
-                                                                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                                            className: "dropdown-header mt-lg-6",
-                                                                                            children: "Styleguide"
-                                                                                        }),
-                                                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                            className: "list-unstyled cc-2",
-                                                                                            children: renderLinks(documentionNavigation.styleguide)
-                                                                                        })
-                                                                                    ]
-                                                                                }),
-                                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                                                    className: "col-lg-8",
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                                            className: "dropdown-header",
-                                                                                            children: "Elements"
-                                                                                        }),
-                                                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                            className: "list-unstyled cc-3",
-                                                                                            children: renderLinks(documentionNavigation.elements)
-                                                                                        })
-                                                                                    ]
-                                                                                })
-                                                                            ]
-                                                                        })
-                                                                    })
-                                                                })
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: "offcanvas-footer d-lg-none",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                                title: "info@email.com",
-                                                                className: "link-inverse",
-                                                                href: "mailto:first.last@email.com"
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                                href: "tel:0123456789",
-                                                                title: "00 (123) 456 78 90"
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx(SocialLinks/* default */.Z, {})
-                                                        ]
-                                                    })
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-other ms-auto w-100 d-none d-lg-block",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(SocialLinks/* default */.Z, {
-                                        className: "nav social social-muted justify-content-end text-end"
-                                    })
-                                })
-                            ]
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(partials_Info, {})
-        ]
-    });
-};
-// set deafult Props
-Navbar2.defaultProps = {
-    navClassName: "navbar navbar-expand-lg extended navbar-light navbar-bg-light caret-none"
-};
-/* harmony default export */ const navbar_Navbar2 = ((/* unused pure expression or super */ null && (Navbar2)));
-
-;// CONCATENATED MODULE: ./components/blocks/navbar/Navbar3.tsx
-
-
-
-// -------- custom hook -------- //
-
-// -------- custom component -------- //
-
-
-
-
-// -------- data -------- //
-
-// ===================================================================
-const Navbar3 = ({ navClassName , logoAlt , stickyBox  })=>{
-    const sticky = hooks_useSticky(350);
-    const navbarRef = (0,external_react_.useRef)(null);
-    // dynamically added navbar classname
-    const fixedClassName = `navbar navbar-expand-lg center-logo transparent position-absolute navbar-light navbar-clone fixed`;
-    // render inner nav item links
-    const renderLinks = (links)=>{
-        return links.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                href: item.url,
-                title: item.title,
-                linkClassName: "dropdown-item"
-            }, item.id));
-    };
-    const logos = /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                className: "logo-dark",
-                src: `/img/${logoAlt}.png`,
-                srcSet: `/img/${logoAlt}@2x.png 2x`,
-                alt: logoAlt
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                className: "logo-light",
-                src: "/img/logo-light.png",
-                srcSet: "/img/logo-light@2x.png 2x",
-                alt: "logo-light"
-            })
-        ]
-    });
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            stickyBox && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                style: {
-                    paddingTop: sticky ? navbarRef.current?.clientHeight : 0
-                }
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                ref: navbarRef,
-                className: sticky ? fixedClassName : navClassName,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "container justify-content-between align-items-center",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "d-flex flex-row w-100 justify-content-between align-items-center d-lg-none",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-brand",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                        href: "/",
-                                        title: logos
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-other ms-auto",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                        className: "navbar-nav flex-row align-items-center",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                            className: "nav-item d-lg-none",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                "data-bs-toggle": "offcanvas",
-                                                "data-bs-target": "#offcanvas-nav",
-                                                className: "hamburger offcanvas-nav-btn",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {})
-                                            })
-                                        })
-                                    })
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "navbar-collapse-wrapper d-flex flex-row align-items-center w-100",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                id: "offcanvas-nav",
-                                "data-bs-scroll": "true",
-                                className: "navbar-collapse offcanvas offcanvas-nav offcanvas-start",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                href: "/",
-                                                className: "transition-none d-none d-lg-flex",
-                                                title: logos
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                                className: "text-white fs-30 mb-0 d-lg-none",
-                                                children: "Sandbox"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                type: "button",
-                                                "aria-label": "Close",
-                                                "data-bs-dismiss": "offcanvas",
-                                                className: "btn-close btn-close-white d-lg-none"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "w-100 order-1 order-lg-0 d-lg-flex offcanvas-body",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "navbar-nav ms-lg-auto",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                    className: "nav-item dropdown dropdown-mega",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                            title: "Demos",
-                                                            className: "nav-link dropdown-toggle"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                            className: "dropdown-menu mega-menu mega-menu-dark mega-menu-img",
-                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                className: "mega-menu-content mega-menu-scroll",
-                                                                children: [
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                        className: "row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled",
-                                                                        children: demos.map(({ id , title , url , thumnail  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                                className: "col",
-                                                                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                                    legacyBehavior: true,
-                                                                                    href: url,
-                                                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                        className: "dropdown-item",
-                                                                                        children: [
-                                                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                                                alt: title,
-                                                                                                src: `/img/demos/${thumnail}.jpg`,
-                                                                                                srcSet: `/img/demos/${thumnail}@2x.jpg 2x`,
-                                                                                                className: "rounded lift d-none d-lg-block"
-                                                                                            }),
-                                                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                                className: "d-lg-none",
-                                                                                                children: title
-                                                                                            })
-                                                                                        ]
-                                                                                    })
-                                                                                })
-                                                                            }, id))
-                                                                    }),
-                                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                                        className: "d-none d-lg-flex",
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                                                className: "uil uil-direction"
-                                                                            }),
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                                                children: "Scroll to view more"
-                                                                            })
-                                                                        ]
-                                                                    })
-                                                                ]
-                                                            })
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                    className: "nav-item dropdown",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                            title: "Pages",
-                                                            className: "nav-link dropdown-toggle"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                            className: "dropdown-menu",
-                                                            children: [
-                                                                pages.map(({ id , title , children  })=>{
-                                                                    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                        className: "dropdown dropdown-submenu dropend",
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                                title: title
-                                                                            }),
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                className: "dropdown-menu",
-                                                                                children: renderLinks(children)
-                                                                            })
-                                                                        ]
-                                                                    }, id);
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                                                    href: "/pricing",
-                                                                    title: "Pricing",
-                                                                    linkClassName: "dropdown-item"
-                                                                })
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                    className: "nav-item dropdown",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                            title: "Projects",
-                                                            className: "nav-link dropdown-toggle"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                            className: "dropdown-menu dropdown-lg",
-                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                className: "dropdown-lg-content",
-                                                                children: projectsNavigation.map(({ title , children  }, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                                className: "dropdown-header",
-                                                                                children: title
-                                                                            }),
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                className: "list-unstyled",
-                                                                                children: renderLinks(children)
-                                                                            })
-                                                                        ]
-                                                                    }, title + i))
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "w-100 order-3 order-lg-2 d-lg-flex offcanvas-body",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "navbar-nav me-lg-auto",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                    className: "nav-item dropdown",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                            title: "Blog",
-                                                            className: "nav-link dropdown-toggle"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                            className: "dropdown-menu",
-                                                            children: blogsNavigation.map(({ id , url , title , children  })=>{
-                                                                if (!url && children) {
-                                                                    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                        className: "dropdown dropdown-submenu dropend",
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                                title: "Blog Posts"
-                                                                            }),
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                className: "dropdown-menu",
-                                                                                children: renderLinks(children)
-                                                                            })
-                                                                        ]
-                                                                    }, id);
-                                                                }
-                                                                return /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                                                    href: url,
-                                                                    title: title,
-                                                                    linkClassName: "dropdown-item"
-                                                                }, id);
-                                                            })
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                    className: "nav-item dropdown",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                            title: "Blocks",
-                                                            className: "nav-link dropdown-toggle"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                            className: "dropdown-menu",
-                                                            children: blogsNavigation.map(({ id , url , title , children  })=>{
-                                                                if (!url && children) {
-                                                                    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                        className: "dropdown dropdown-submenu dropend",
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                                title: "Blog Posts"
-                                                                            }),
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                className: "dropdown-menu",
-                                                                                children: renderLinks(children)
-                                                                            })
-                                                                        ]
-                                                                    }, id);
-                                                                }
-                                                                return /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                                                    href: url,
-                                                                    title: title,
-                                                                    linkClassName: "dropdown-item"
-                                                                }, id);
-                                                            })
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                    className: "nav-item dropdown",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                            title: "Documentation",
-                                                            className: "nav-link dropdown-toggle"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                            className: "dropdown-menu",
-                                                            children: blogsNavigation.map(({ id , url , title , children  })=>{
-                                                                if (!url && children) {
-                                                                    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                                        className: "dropdown dropdown-submenu dropend",
-                                                                        children: [
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                                                                title: "Blog Posts"
-                                                                            }),
-                                                                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                                                                className: "dropdown-menu",
-                                                                                children: renderLinks(children)
-                                                                            })
-                                                                        ]
-                                                                    }, id);
-                                                                }
-                                                                return /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                                                    href: url,
-                                                                    title: title,
-                                                                    linkClassName: "dropdown-item"
-                                                                }, id);
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "offcanvas-body d-lg-none order-4 mt-auto",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "offcanvas-footer",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                        title: "info@email.com",
-                                                        className: "link-inverse",
-                                                        href: "mailto:first.last@email.com"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                        href: "tel:0123456789",
-                                                        title: "00 (123) 456 78 90"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(SocialLinks/* default */.Z, {})
-                                                ]
-                                            })
-                                        })
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-};
-// set deafult Props
-Navbar3.defaultProps = {
-    stickyBox: true,
-    navClassName: "navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark"
-};
-/* harmony default export */ const navbar_Navbar3 = ((/* unused pure expression or super */ null && (Navbar3)));
-
-;// CONCATENATED MODULE: ./components/blocks/navbar/partials/Navigations.tsx
-
-
-// -------- custom component -------- //
-
-
-// -------- data -------- //
-
-const Navigations = ()=>{
-    // render inner nav item links
-    const renderLinks = (links)=>{
-        return links.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                href: item.url,
-                title: item.title,
-                linkClassName: "dropdown-item"
-            }, item.id));
-    };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-        className: "navbar-nav",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                className: "nav-item dropdown dropdown-mega",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                        title: "Demos",
-                        className: "nav-link dropdown-toggle"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                        className: "dropdown-menu mega-menu mega-menu-dark mega-menu-img",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                            className: "mega-menu-content mega-menu-scroll",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                    className: "row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled",
-                                    children: demos.map(({ id , title , url , thumnail  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                            className: "col",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                legacyBehavior: true,
-                                                href: url,
-                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                    className: "dropdown-item",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                            alt: title,
-                                                            src: `/img/demos/${thumnail}.jpg`,
-                                                            srcSet: `/img/demos/${thumnail}@2x.jpg 2x`,
-                                                            className: "rounded lift d-none d-lg-block"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                            className: "d-lg-none",
-                                                            children: title
-                                                        })
-                                                    ]
-                                                })
-                                            })
-                                        }, id))
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                    className: "d-none d-lg-flex",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                            className: "uil uil-direction"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                            children: "Scroll to view more"
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                className: "nav-item dropdown",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                        title: "Pages",
-                        className: "nav-link dropdown-toggle"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                        className: "dropdown-menu",
-                        children: [
-                            pages.map(({ id , title , children  })=>{
-                                return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                    className: "dropdown dropdown-submenu dropend",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                            title: title
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                            className: "dropdown-menu",
-                                            children: renderLinks(children)
-                                        })
-                                    ]
-                                }, id);
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                href: "/pricing",
-                                title: "Pricing",
-                                linkClassName: "dropdown-item"
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                className: "nav-item dropdown",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                        title: "Projects",
-                        className: "nav-link dropdown-toggle"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "dropdown-menu dropdown-lg",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "dropdown-lg-content",
-                            children: projectsNavigation.map(({ title , children  }, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                            className: "dropdown-header",
-                                            children: title
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                            className: "list-unstyled",
-                                            children: renderLinks(children)
-                                        })
-                                    ]
-                                }, title + i))
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                className: "nav-item dropdown",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                        title: "Blog",
-                        className: "nav-link dropdown-toggle"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                        className: "dropdown-menu",
-                        children: blogsNavigation.map(({ id , url , title , children  })=>{
-                            if (!url && children) {
-                                return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                    className: "dropdown dropdown-submenu dropend",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(links_DropdownToggleLink, {
-                                            title: "Blog Posts"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                            className: "dropdown-menu",
-                                            children: renderLinks(children)
-                                        })
-                                    ]
-                                }, id);
-                            }
-                            return /*#__PURE__*/ jsx_runtime_.jsx(links_ListItemLink, {
-                                href: url,
-                                title: title,
-                                linkClassName: "dropdown-item"
-                            }, id);
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const partials_Navigations = (Navigations);
-
-;// CONCATENATED MODULE: external "react-scroll"
-const external_react_scroll_namespaceObject = require("react-scroll");
-;// CONCATENATED MODULE: ./components/blocks/navbar/partials/OnePageDemoLinks.tsx
-
-
-// -------- data -------- //
-const linkList = [
-    {
-        id: 1,
-        title: "Home",
-        to: "home"
-    },
-    {
-        id: 2,
-        title: "Services",
-        to: "services"
-    },
-    {
-        id: 3,
-        title: "Portfolio",
-        to: "portfolio"
-    },
-    {
-        id: 4,
-        title: "Testimonials",
-        to: "testimonials"
-    },
-    {
-        id: 5,
-        title: "About",
-        to: "about"
-    },
-    {
-        id: 6,
-        title: "Pricing",
-        to: "pricing"
-    }
-];
-const OnePageDemoLinks = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-        className: "navbar-nav",
-        children: linkList.map(({ id , title , to  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                className: "nav-item",
-                children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
-                    smooth: true,
-                    spy: true,
-                    activeClass: "active",
-                    to: to,
-                    className: "nav-link scroll",
-                    offset: -75,
-                    children: title
-                })
-            }, id))
-    });
-};
-/* harmony default export */ const partials_OnePageDemoLinks = (OnePageDemoLinks);
-
-;// CONCATENATED MODULE: ./components/blocks/navbar/Navbar4.tsx
-
-
-// -------- custom hook -------- //
-
-// -------- custom component -------- //
-
-
-// -------- partial header component -------- //
-
-
-
-
-// ===================================================================
-const Navbar4 = ({ navClassName , onePageDemo  })=>{
-    const sticky = hooks_useSticky(350);
-    const navbarRef = (0,external_react_.useRef)(null);
-    // dynamically added navbar classname
-    const fixedClassName = `navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light navbar-clone fixed`;
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                style: {
-                    paddingTop: sticky ? navbarRef.current?.clientHeight : 0
-                }
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                ref: navbarRef,
-                className: sticky ? fixedClassName : navClassName,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "container flex-lg-column",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "topbar d-flex flex-row justify-content-lg-center align-items-center",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "navbar-brand",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                    href: "/",
-                                    title: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        alt: "logo",
-                                        src: "/img/logo-dark.png",
-                                        srcSet: "/img/logo-dark@2x.png 2x"
-                                    })
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "navbar-collapse-wrapper bg-white d-flex flex-row align-items-center justify-content-between",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-other w-100 d-none d-lg-block",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(SocialLinks/* default */.Z, {
-                                        className: "nav social social-muted"
-                                    })
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "navbar-collapse offcanvas offcanvas-nav offcanvas-start",
-                                    "data-bs-scroll": "true",
-                                    id: "offcanvas-nav",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "offcanvas-header d-lg-none",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                                    className: "text-white fs-30 mb-0",
-                                                    children: "Sandbox"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    type: "button",
-                                                    "aria-label": "Close",
-                                                    "data-bs-dismiss": "offcanvas",
-                                                    className: "btn-close btn-close-white"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "offcanvas-body d-flex flex-column h-100",
-                                            children: [
-                                                onePageDemo ? /*#__PURE__*/ jsx_runtime_.jsx(partials_OnePageDemoLinks, {}) : /*#__PURE__*/ jsx_runtime_.jsx(partials_Navigations, {}),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: "offcanvas-footer d-lg-none",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                                title: "info@email.com",
-                                                                className: "link-inverse",
-                                                                href: "mailto:first.last@email.com"
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx(NextLink/* default */.Z, {
-                                                                href: "tel:0123456789",
-                                                                title: "00 (123) 456 78 90"
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx(SocialLinks/* default */.Z, {})
-                                                        ]
-                                                    })
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "navbar-other w-100 d-flex",
-                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                        className: "navbar-nav flex-row align-items-center ms-auto",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                className: "nav-item",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    className: "nav-link",
-                                                    "data-bs-toggle": "offcanvas",
-                                                    "data-bs-target": "#offcanvas-info",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "uil uil-info-circle"
-                                                    })
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                className: "nav-item",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    className: "nav-link",
-                                                    "data-bs-toggle": "offcanvas",
-                                                    "data-bs-target": "#offcanvas-search",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "uil uil-search"
-                                                    })
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                className: "nav-item d-lg-none",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    "data-bs-toggle": "offcanvas",
-                                                    "data-bs-target": "#offcanvas-nav",
-                                                    className: "hamburger offcanvas-nav-btn",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {})
-                                                })
-                                            })
-                                        ]
-                                    })
-                                })
-                            ]
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(partials_Info, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(partials_Search, {})
-        ]
-    });
-};
-// set deafult Props
-Navbar4.defaultProps = {
-    navClassName: "navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light"
-};
-/* harmony default export */ const navbar_Navbar4 = ((/* unused pure expression or super */ null && (Navbar4)));
-
 ;// CONCATENATED MODULE: ./components/blocks/navbar/index.ts
-
-
-
 
 
 
 
 /***/ }),
 
-/***/ 3927:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 9952:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4041);
+/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_md__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _monaco_editor_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2587);
+/* harmony import */ var _monaco_editor_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_monaco_editor_react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var skulpt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8851);
+/* harmony import */ var skulpt__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(skulpt__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_hot_toast__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6201);
+/* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1154);
+/* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_hot_toast__WEBPACK_IMPORTED_MODULE_5__]);
+react_hot_toast__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ playground_Playground)
-});
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: external "react-icons/md"
-const md_namespaceObject = require("react-icons/md");
-;// CONCATENATED MODULE: external "@monaco-editor/react"
-const react_namespaceObject = require("@monaco-editor/react");
-var react_default = /*#__PURE__*/__webpack_require__.n(react_namespaceObject);
-;// CONCATENATED MODULE: external "skulpt"
-const external_skulpt_namespaceObject = require("skulpt");
-var external_skulpt_default = /*#__PURE__*/__webpack_require__.n(external_skulpt_namespaceObject);
-;// CONCATENATED MODULE: ./components/blocks/playground/Playground.js
 
 
 
@@ -10484,13 +9325,45 @@ var external_skulpt_default = /*#__PURE__*/__webpack_require__.n(external_skulpt
 
 
 // import { jsPython } from "jspython-interpreter";
-function Playground({ styles  }) {
-    const [runLoading, setRunLoading] = (0,external_react_.useState)(false);
-    const codeRef = (0,external_react_.useRef)();
-    const outputRef = (0,external_react_.useRef)();
+function Playground() {
+    const [runLoading, setRunLoading] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const codeRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();
+    const outputRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();
     function handleEditorDidMount(editor, monaco) {
         codeRef.current = editor;
     }
+    const handleEditorCopy = ()=>{
+        const prog = codeRef.current.getValue();
+        if (prog.length > 1) {
+            navigator.clipboard.writeText(prog);
+            react_hot_toast__WEBPACK_IMPORTED_MODULE_5__.toast.success("Copied to clipboard", {
+                duration: 1500
+            });
+        } else {
+            react_hot_toast__WEBPACK_IMPORTED_MODULE_5__.toast.error("No content to copy", {
+                duration: 1300
+            });
+        }
+    };
+    const handleEditorDelete = ()=>{
+        codeRef.current.setValue("");
+    };
+    const handleOutputCopy = ()=>{
+        const prog = outputRef.current.innerHTML;
+        if (prog.length > 1) {
+            navigator.clipboard.writeText(prog);
+            react_hot_toast__WEBPACK_IMPORTED_MODULE_5__.toast.success("Copied to clipboard", {
+                duration: 1500
+            });
+        } else {
+            react_hot_toast__WEBPACK_IMPORTED_MODULE_5__.toast.error("No content to copy", {
+                duration: 1300
+            });
+        }
+    };
+    const handleOutputDelete = ()=>{
+        outputRef.current.innerHTML = "output cleared";
+    };
     const setEditorTheme = async (monaco)=>{
         monaco.editor.defineTheme("onedark", {
             base: "vs-dark",
@@ -10513,11 +9386,11 @@ function Playground({ styles  }) {
     };
     function outf(text) {
         var mypre = outputRef.current;
-        mypre.innerHTML = mypre.innerHTML + text;
+        mypre.innerHTML += text.replace(/\n/g, "<br/>");
     }
     function builtinRead(x) {
-        if ((external_skulpt_default()).builtinFiles === undefined || (external_skulpt_default()).builtinFiles.files[x] === undefined) throw "File not found: '" + x + "'";
-        return (external_skulpt_default()).builtinFiles.files[x];
+        if ((skulpt__WEBPACK_IMPORTED_MODULE_4___default().builtinFiles) === undefined || (skulpt__WEBPACK_IMPORTED_MODULE_4___default().builtinFiles.files)[x] === undefined) throw "File not found: '" + x + "'";
+        return (skulpt__WEBPACK_IMPORTED_MODULE_4___default().builtinFiles.files)[x];
     }
     // Here's everything you need to run a python program in skulpt
     // grab the code from your textarea
@@ -10530,15 +9403,15 @@ function Playground({ styles  }) {
         console.log(prog);
         var mypre = outputRef.current;
         mypre.innerHTML = "";
-        (external_skulpt_default()).canvas = "skulpt-canvas";
-        (external_skulpt_default()).pre = "skulpt-output";
-        external_skulpt_default().configure({
+        (skulpt__WEBPACK_IMPORTED_MODULE_4___default().canvas) = "skulpt-canvas";
+        (skulpt__WEBPACK_IMPORTED_MODULE_4___default().pre) = "skulpt-output";
+        skulpt__WEBPACK_IMPORTED_MODULE_4___default().configure({
             output: outf,
             read: builtinRead
         });
-        ((external_skulpt_default()).TurtleGraphics || ((external_skulpt_default()).TurtleGraphics = {})).target = "mycanvas";
-        var myPromise = external_skulpt_default().misceval.asyncToPromise(function() {
-            return external_skulpt_default().importMainWithBody("<stdin>", false, prog, true);
+        ((skulpt__WEBPACK_IMPORTED_MODULE_4___default().TurtleGraphics) || ((skulpt__WEBPACK_IMPORTED_MODULE_4___default().TurtleGraphics) = {})).target = "mycanvas";
+        var myPromise = skulpt__WEBPACK_IMPORTED_MODULE_4___default().misceval.asyncToPromise(function() {
+            return skulpt__WEBPACK_IMPORTED_MODULE_4___default().importMainWithBody("<stdin>", false, prog, true);
         });
         myPromise.then(function(mod) {
             console.log("success");
@@ -10558,74 +9431,56 @@ function Playground({ styles  }) {
     //     //   outf(res);
     //     // });
     //   };
-    (0,external_react_.useEffect)(()=>{
-        setRunLoading(true);
-        (external_skulpt_default()).canvas = "skulpt-canvas";
-        (external_skulpt_default()).pre = "skulpt-output";
-        external_skulpt_default().configure({
-            output: (text)=>outputRef.current.innerHTML = "> " + text
-        });
-        const myPromise = external_skulpt_default().misceval.asyncToPromise(()=>external_skulpt_default().importMainWithBody("<stdin>", false, "print('hello there welcome to Goom.AI')"));
-        myPromise.then((mod)=>{
-            console.log("success", mod);
-            setRunLoading(false);
-        }, (err)=>{
-            console.log("error", err);
-            outf(/*#__PURE__*/ jsx_runtime_.jsx("span", {
-                className: "text-danger",
-                children: "err"
-            }));
-            setRunLoading(false);
-        });
-    }, []);
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: (skulpt__WEBPACK_IMPORTED_MODULE_4___default()) ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: `bg_primary mb-10 mt-5`,
-            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: styles.container,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: `${styles.editor_container}`,
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                className: (_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().container),
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().editor_container)}`,
                     children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: `${styles.code_ground}`,
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().code_ground)}`,
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: `${styles.editor_options} px-md-5 px-2 pt-3 mx-0`,
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().editor_options)} px-md-5 px-2 pt-3 mx-0`,
                                     children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: `text-light pe-none ${styles.code_title}`,
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                            className: `text-light pe-none ${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().code_title)}`,
                                             children: "Input"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                             className: `d-flex`,
                                             children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdOutlineContentCopy, {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineContentCopy, {
                                                     role: "button",
-                                                    className: "text-light m-1 m-md-0 my-0"
+                                                    className: "text-light m-1 m-md-0 my-0",
+                                                    onClick: handleEditorCopy
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdOutlineDeleteOutline, {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineDeleteOutline, {
                                                     role: "button",
-                                                    className: "text-light m-1 m-md-0 my-0 fs-20 "
+                                                    className: "text-light m-1 m-md-0 my-0 fs-20 ",
+                                                    onClick: handleEditorDelete
                                                 })
                                             ]
                                         }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                             className: `text-light`,
                                             role: "button",
                                             children: "Examples"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             className: "d-flex",
                                             children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: ` ${styles.run_btn}`,
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                    className: ` ${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().run_btn)}`,
                                                     role: "button",
                                                     disabled: runLoading,
                                                     onClick: runit,
                                                     children: runLoading ? "..." : "Run"
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: ` ${styles.run_btn_2}`,
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                    className: ` ${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().run_btn_2)}`,
                                                     role: "button",
                                                     children: "Run Visualizer"
                                                 })
@@ -10633,81 +9488,92 @@ function Playground({ styles  }) {
                                         })
                                     ]
                                 }),
-                                /*#__PURE__*/ jsx_runtime_.jsx((react_default()), {
-                                    beforeMount: setEditorTheme,
-                                    width: "100%",
-                                    height: "calc(100% - 70px)",
-                                    theme: "onedark",
-                                    defaultLanguage: "python",
-                                    defaultValue: "# here there. welcome to Goom.AI",
-                                    options: {
-                                        scrollBeyondLastLine: false,
-                                        scrollBeyondLastColumn: false,
-                                        scrollbar: {
-                                            alwaysConsumeMouseWheel: false
-                                        }
-                                    },
-                                    onMount: handleEditorDidMount
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "editor-styles",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_monaco_editor_react__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                        beforeMount: setEditorTheme,
+                                        width: "100%",
+                                        height: "calc(100% - 70px)",
+                                        theme: "onedark",
+                                        defaultLanguage: "python",
+                                        defaultValue: "# here there. welcome to Goom.AI",
+                                        options: {
+                                            fontFamily: "Hack, 'Fira Code', Consolas, Menlo, Monaco, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Courier New', Courier, monospace",
+                                            scrollBeyondLastLine: false,
+                                            scrollBeyondLastColumn: false,
+                                            scrollbar: {
+                                                alwaysConsumeMouseWheel: false
+                                            }
+                                        },
+                                        onMount: handleEditorDidMount
+                                    })
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: `${styles.output_container}`,
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().output_container)}`,
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: `${styles.editor_options} px-5 pt-3 mx-0`,
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().editor_options)} px-5 pt-3 mx-0`,
                                     children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                             className: `text-light pe-none`,
-                                            children: "Visualised Output"
+                                            children: "Output"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                             className: `d-flex justify-content-end`,
                                             children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdShare, {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdShare, {
                                                     role: "button",
                                                     className: "text-light mx-2 my-0"
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdOutlineContentCopy, {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineContentCopy, {
                                                     role: "button",
-                                                    className: "text-light mx-2 my-0"
+                                                    className: "text-light mx-2 my-0",
+                                                    onClick: handleOutputCopy
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdOutlineDeleteOutline, {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineDeleteOutline, {
                                                     role: "button",
-                                                    className: "text-light mx-2 my-0 fs-20"
+                                                    className: "text-light mx-2 my-0 fs-20",
+                                                    onClick: handleOutputDelete
                                                 })
                                             ]
                                         })
                                     ]
                                 }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     ref: outputRef,
-                                    className: `${styles.output} px-5 fs-14`
+                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().output)} px-5 fs-14`,
+                                    style: {
+                                        fontFamily: "Consolas,monaco,monospace",
+                                        fontSize: ".875rem"
+                                    },
+                                    children: "here there. welcome to Goom.AI"
                                 })
                             ]
                         })
                     ]
                 })
             })
-        })
+        }) : null
     });
 }
-/* harmony default export */ const playground_Playground = (Playground);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Playground);
 
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ 5404:
+/***/ 3803:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Y3": () => (/* reexport */ services_Services14)
+  "Y": () => (/* reexport */ services_Services14)
 });
-
-// UNUSED EXPORTS: Services1, Services10, Services11, Services12, Services13, Services15, Services16, Services17, Services18, Services19, Services2, Services20, Services21, Services22, Services23, Services24, Services25, Services26, Services27, Services28, Services29, Services3, Services4, Services5, Services6, Services7, Services8, Services9
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
@@ -10717,7 +9583,7 @@ var links_NextLink = __webpack_require__(9066);
 
 
 // ===============================================================
-const ServiceCard1_ServiceCard1 = (props)=>{
+const ServiceCard1 = (props)=>{
     const { title , description , Icon , linkUrl , linkType , cardClassName ="" , iconClassName  } = props;
     return /*#__PURE__*/ _jsx("div", {
         className: "col-md-6 col-xl-3",
@@ -10746,21 +9612,21 @@ const ServiceCard1_ServiceCard1 = (props)=>{
         })
     });
 };
-/* harmony default export */ const service_cards_ServiceCard1 = ((/* unused pure expression or super */ null && (ServiceCard1_ServiceCard1)));
+/* harmony default export */ const service_cards_ServiceCard1 = ((/* unused pure expression or super */ null && (ServiceCard1)));
 
 // EXTERNAL MODULE: ./components/reuseable/IconBox.tsx
-var reuseable_IconBox = __webpack_require__(8369);
+var IconBox = __webpack_require__(8369);
 ;// CONCATENATED MODULE: ./components/reuseable/service-cards/ServiceCard2.tsx
 
 
 
 // ================================================
-const ServiceCard2_ServiceCard2 = (props)=>{
+const ServiceCard2 = (props)=>{
     const { title , linkUrl , description , icon , iconBoxClassNames , titleColor , hiddenBtn  } = props;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "col-md-6 col-lg-3",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(reuseable_IconBox/* default */.Z, {
+            /*#__PURE__*/ jsx_runtime_.jsx(IconBox/* default */.Z, {
                 icon: icon,
                 className: iconBoxClassNames
             }),
@@ -10781,15 +9647,15 @@ const ServiceCard2_ServiceCard2 = (props)=>{
     });
 };
 // set deafult Props
-ServiceCard2_ServiceCard2.defaultProps = {
+ServiceCard2.defaultProps = {
     iconBoxClassNames: "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
 };
-/* harmony default export */ const service_cards_ServiceCard2 = ((/* unused pure expression or super */ null && (ServiceCard2_ServiceCard2)));
+/* harmony default export */ const service_cards_ServiceCard2 = ((/* unused pure expression or super */ null && (ServiceCard2)));
 
 ;// CONCATENATED MODULE: ./components/reuseable/service-cards/ServiceCard3.tsx
 
 // ================================================
-const ServiceCard3_ServiceCard3 = (props)=>{
+const ServiceCard3 = (props)=>{
     const { title , description , Icon , className ="d-flex flex-row"  } = props;
     return /*#__PURE__*/ _jsxs("div", {
         className: className,
@@ -10812,12 +9678,12 @@ const ServiceCard3_ServiceCard3 = (props)=>{
         ]
     });
 };
-/* harmony default export */ const service_cards_ServiceCard3 = ((/* unused pure expression or super */ null && (ServiceCard3_ServiceCard3)));
+/* harmony default export */ const service_cards_ServiceCard3 = ((/* unused pure expression or super */ null && (ServiceCard3)));
 
 ;// CONCATENATED MODULE: ./components/reuseable/service-cards/ServiceCard4.tsx
 
 // ==================================================================================
-const ServiceCard4_ServiceCard4 = (props)=>{
+const ServiceCard4 = (props)=>{
     const { title , Icon , cardColor , columnClass , description  } = props;
     return /*#__PURE__*/ _jsx("div", {
         className: columnClass,
@@ -10839,13 +9705,13 @@ const ServiceCard4_ServiceCard4 = (props)=>{
         })
     });
 };
-/* harmony default export */ const service_cards_ServiceCard4 = ((/* unused pure expression or super */ null && (ServiceCard4_ServiceCard4)));
+/* harmony default export */ const service_cards_ServiceCard4 = ((/* unused pure expression or super */ null && (ServiceCard4)));
 
 ;// CONCATENATED MODULE: ./components/reuseable/service-cards/ServiceCard5.tsx
 
 
 // ==================================================================================
-const ServiceCard5_ServiceCard5 = (props)=>{
+const ServiceCard5 = (props)=>{
     const { icon , title , description , url , className ="card shadow-lg mb-md-6 mt-lg-6"  } = props;
     return /*#__PURE__*/ _jsx("div", {
         className: className,
@@ -10874,7 +9740,7 @@ const ServiceCard5_ServiceCard5 = (props)=>{
         })
     });
 };
-/* harmony default export */ const service_cards_ServiceCard5 = ((/* unused pure expression or super */ null && (ServiceCard5_ServiceCard5)));
+/* harmony default export */ const service_cards_ServiceCard5 = ((/* unused pure expression or super */ null && (ServiceCard5)));
 
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
@@ -11049,7 +9915,7 @@ const Earth = ({ className  })=>{
 /* harmony default export */ const lineal_Earth = (Earth);
 
 // EXTERNAL MODULE: ./icons/lineal/Shield.tsx
-var lineal_Shield = __webpack_require__(8192);
+var Shield = __webpack_require__(8192);
 // EXTERNAL MODULE: ./icons/lineal/Target.tsx
 var Target = __webpack_require__(9228);
 ;// CONCATENATED MODULE: ./icons/lineal/Search.tsx
@@ -11389,7 +10255,7 @@ const ClockThree = ({ className  })=>{
 
 ;// CONCATENATED MODULE: ./icons/solid-mono/DeliveryBox.tsx
 
-const DeliveryBox_DeliveryBox = ({ className  })=>{
+const DeliveryBox = ({ className  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         viewBox: "0 0 256 256",
@@ -11406,7 +10272,7 @@ const DeliveryBox_DeliveryBox = ({ className  })=>{
         ]
     });
 };
-/* harmony default export */ const solid_mono_DeliveryBox = (DeliveryBox_DeliveryBox);
+/* harmony default export */ const solid_mono_DeliveryBox = (DeliveryBox);
 
 ;// CONCATENATED MODULE: ./icons/solid-duo/CloudNetwork.tsx
 
@@ -11559,7 +10425,7 @@ var gpt = __webpack_require__(5808);
 
 
 // used in the services-1 block
-const service_serviceList1 = [
+const serviceList1 = [
     {
         id: 1,
         link: "#",
@@ -11598,7 +10464,7 @@ const service_serviceList1 = [
     }
 ];
 // used in the services-3, services-8, services-13 block
-const service_serviceList2 = [
+const serviceList2 = [
     {
         id: 1,
         linkUrl: "#",
@@ -11622,7 +10488,7 @@ const service_serviceList2 = [
     }
 ];
 // used in the services-4 block
-const service_serviceList3 = [
+const serviceList3 = [
     {
         id: 1,
         linkUrl: "#",
@@ -11653,7 +10519,7 @@ const service_serviceList3 = [
     }
 ];
 // used in the services-5 block
-const service_serviceList4 = [
+const serviceList4 = [
     {
         id: 1,
         Icon: Telephone/* default */.Z,
@@ -11662,7 +10528,7 @@ const service_serviceList4 = [
     },
     {
         id: 2,
-        Icon: lineal_Shield/* default */.Z,
+        Icon: Shield/* default */.Z,
         title: "Secure Payments",
         description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
     },
@@ -11692,7 +10558,7 @@ const service_serviceList4 = [
     }
 ];
 // used in the services-6 block
-const service_serviceList5 = (/* unused pure expression or super */ null && ([
+const serviceList5 = (/* unused pure expression or super */ null && ([
     [
         "Aenean quam ornare curabitur blandit consectetur.",
         "Nullam quis risus eget urna mollis ornare aenean leo."
@@ -11703,7 +10569,7 @@ const service_serviceList5 = (/* unused pure expression or super */ null && ([
     ]
 ]));
 // used in the services-7 block
-const service_serviceList6 = [
+const serviceList6 = [
     {
         id: 1,
         Icon: Target/* default */.Z,
@@ -11748,7 +10614,7 @@ const service_serviceList6 = [
     }
 ];
 // used in the services-9 block
-const service_serviceList7 = [
+const serviceList7 = [
     {
         id: 1,
         Icon: Telephone/* default */.Z,
@@ -11760,7 +10626,7 @@ const service_serviceList7 = [
     },
     {
         id: 2,
-        Icon: lineal_Shield/* default */.Z,
+        Icon: Shield/* default */.Z,
         color: color/* default.red */.Z.red,
         title: "Secure Payments",
         cardColor: "bg-pale-red",
@@ -11787,7 +10653,7 @@ const service_serviceList7 = [
     }
 ];
 // used in the services-18 block
-const service_serviceList8 = [
+const serviceList8 = [
     {
         id: 1,
         Icon: Browser/* default */.Z,
@@ -11814,7 +10680,7 @@ const service_serviceList8 = [
     }
 ];
 // used in the services-19 block
-const service_serviceList9 = [
+const serviceList9 = [
     {
         id: 1,
         linkUrl: "#",
@@ -11841,7 +10707,7 @@ const service_serviceList9 = [
     }
 ];
 // used in the services-20 block
-const service_serviceList10 = [
+const serviceList10 = [
     {
         id: 1,
         linkUrl: "#",
@@ -11886,7 +10752,7 @@ const service_serviceList10 = [
     }
 ];
 // used in the services-21 block
-const service_serviceList11 = [
+const serviceList11 = [
     {
         id: 1,
         link: "#",
@@ -11925,7 +10791,7 @@ const service_serviceList11 = [
     }
 ];
 // used in the services-24 block
-const service_serviceList12 = [
+const serviceList12 = [
     {
         id: 1,
         title: "Web Design",
@@ -11956,7 +10822,7 @@ const service_serviceList12 = [
     }
 ];
 // used in the services-25 block
-const service_serviceList13 = [
+const serviceList13 = [
     {
         id: 1,
         linkUrl: "#",
@@ -11983,7 +10849,7 @@ const service_serviceList13 = [
     }
 ];
 // used in the services-26 block
-const service_serviceList14 = [
+const serviceList14 = [
     {
         id: 1,
         url: "#",
@@ -12012,1202 +10878,6 @@ const service_serviceList14 = [
         }
     }
 ];
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services1.tsx
-
-
-// -------- data -------- //
-
-const Services1 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container pt-14 pt-md-16",
-            children: [
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row text-center",
-                    children: /*#__PURE__*/ _jsxs("div", {
-                        className: "col-md-10 offset-md-1 col-lg-8 offset-lg-2",
-                        children: [
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "fs-16 text-uppercase text-muted mb-3",
-                                children: "What We Do?"
-                            }),
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-4 mb-10 px-xl-10",
-                                children: "The service we offer is specifically designed to meet your needs."
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "position-relative",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "shape rounded-circle bg-soft-blue rellax w-16 h-16",
-                            style: {
-                                zIndex: 0,
-                                right: "-2.2rem",
-                                bottom: "-0.5rem"
-                            }
-                        }),
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "shape bg-dot primary rellax w-16 h-17",
-                            style: {
-                                zIndex: 0,
-                                top: "-0.5rem",
-                                left: "-2.2rem"
-                            }
-                        }),
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "row gx-md-5 gy-5 text-center",
-                            children: serviceList1.map((item)=>/*#__PURE__*/ _jsx(ServiceCard1, {
-                                    Icon: item.icon,
-                                    title: item.title,
-                                    linkUrl: item.link,
-                                    linkType: item.linkType,
-                                    description: item.description
-                                }, item.id))
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services1 = ((/* unused pure expression or super */ null && (Services1)));
-
-;// CONCATENATED MODULE: ./components/reuseable/ListColumn.tsx
-
-// ===========================================================
-const ListColumn_ListColumn = ({ list , rowClass ="" , bulletColor ="primary"  })=>{
-    return /*#__PURE__*/ _jsx("div", {
-        className: "row gy-3 " + rowClass,
-        children: list.map((item, i)=>/*#__PURE__*/ _jsx("div", {
-                className: "col-xl-6",
-                children: /*#__PURE__*/ _jsx("ul", {
-                    className: `icon-list bullet-bg bullet-soft-${bulletColor} mb-0`,
-                    children: item.map((li, i)=>{
-                        const liProps = i !== 0 ? {
-                            className: "mt-3"
-                        } : {};
-                        return /*#__PURE__*/ _jsxs("li", {
-                            ...liProps,
-                            children: [
-                                /*#__PURE__*/ _jsx("i", {
-                                    className: "uil uil-check"
-                                }),
-                                " ",
-                                li
-                            ]
-                        }, li);
-                    })
-                })
-            }, i))
-    });
-};
-/* harmony default export */ const reuseable_ListColumn = ((/* unused pure expression or super */ null && (ListColumn_ListColumn)));
-
-// EXTERNAL MODULE: ./icons/solid-mono/Bulb.tsx
-var solid_mono_Bulb = __webpack_require__(4119);
-// EXTERNAL MODULE: ./icons/solid-mono/Puzzle.tsx
-var Puzzle = __webpack_require__(1315);
-// EXTERNAL MODULE: ./icons/solid-mono/Headphone.tsx
-var Headphone = __webpack_require__(4940);
-;// CONCATENATED MODULE: ./data/about.ts
-// -------- icons -------- //
-
-
-
-
-// =========================================================================
-// used in the about-2, about-8, about-11, about-13, about-15, about-17 block
-const about_aboutList1 = (/* unused pure expression or super */ null && ([
-    [
-        "Aenean quam ornare. Curabitur blandit.",
-        "Nullam quis risus eget urna mollis ornare."
-    ],
-    [
-        "Etiam porta euismod malesuada mollis.",
-        "Vivamus sagittis lacus vel augue rutrum."
-    ]
-]));
-// used in the about-6, about-19 block
-const aboutList2 = (/* unused pure expression or super */ null && ([
-    [
-        "Aenean eu leo quam ornare curabitur blandit tempus.",
-        "Nullam quis risus eget urna mollis ornare donec elit."
-    ],
-    [
-        "Etiam porta sem malesuada magna mollis euismod.",
-        "Fermentum massa vivamus faucibus amet euismod."
-    ]
-]));
-// used in the about-11, about-19 block
-const aboutList3 = [
-    {
-        id: 1,
-        title: "Our Vision",
-        description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.`
-    },
-    {
-        id: 2,
-        title: "Our Mission",
-        description: `Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.`
-    },
-    {
-        id: 3,
-        title: "Our Values",
-        description: `Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.`
-    }
-];
-// used in the about-20, about-21 block
-const aboutList4 = [
-    {
-        id: 1,
-        Icon: Lamp/* default */.Z,
-        color: "fuchsia",
-        title: "Creativity",
-        description: "Curabitur blandit lacus porttitor ridiculus mus."
-    },
-    {
-        id: 2,
-        Icon: solid_mono_Bulb/* default */.Z,
-        color: "violet",
-        title: "Innovative Thinking",
-        description: "Curabitur blandit lacus porttitor ridiculus mus."
-    },
-    {
-        id: 3,
-        Icon: Puzzle/* default */.Z,
-        color: "orange",
-        title: "Rapid Solutions",
-        description: "Curabitur blandit lacus porttitor ridiculus mus."
-    },
-    {
-        id: 4,
-        Icon: Headphone/* default */.Z,
-        color: "green",
-        title: "Top-Notch Support",
-        description: "Curabitur blandit lacus porttitor ridiculus mus."
-    }
-];
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services2.tsx
-
-
-// -------- data -------- //
-
-const Services2 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light",
-        children: /*#__PURE__*/ _jsx("div", {
-            className: "container",
-            children: /*#__PURE__*/ _jsxs("div", {
-                className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                children: [
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "col-lg-7 order-lg-2",
-                        children: /*#__PURE__*/ _jsx("figure", {
-                            children: /*#__PURE__*/ _jsx("img", {
-                                className: "w-auto",
-                                alt: "our solutions",
-                                src: "/img/illustrations/i8.png",
-                                srcSet: "/img/illustrations/i8@2x.png 2x"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ _jsxs("div", {
-                        className: "col-lg-5",
-                        children: [
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "fs-16 text-uppercase text-muted mb-3",
-                                children: "Our Solutions"
-                            }),
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-4 mb-5",
-                                children: "We make your spending stress-free for you to have the perfect control."
-                            }),
-                            /*#__PURE__*/ _jsx("p", {
-                                className: "mb-6",
-                                children: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus."
-                            }),
-                            /*#__PURE__*/ _jsx(ListColumn, {
-                                list: aboutList1
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-};
-/* harmony default export */ const services_Services2 = ((/* unused pure expression or super */ null && (Services2)));
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: ./components/blocks/services/Services3.tsx
-
-
-
-// -------- data -------- //
-
-const Services3 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-15 text-uppercase text-muted mb-3 ",
-                            children: "What We Do?"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-5 mb-10",
-                            children: "The service we offer is specifically designed to meet your needs."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row gx-md-8 gy-8 text-center mb-14 mb-md-17",
-                children: serviceList2.map((item)=>/*#__PURE__*/ _jsx(ServiceCard2, {
-                        ...item
-                    }, item.id))
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services3 = ((/* unused pure expression or super */ null && (Services3)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services4.tsx
-
-
-
-
-// -------- data -------- //
-
-const Services4 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-lg-8 col-xl-7 col-xxl-6",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-16 text-uppercase text-line text-primary mb-3",
-                            children: "What We Do?"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-9",
-                            children: "The service we offer is specifically designed to meet your needs."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row gx-md-8 gy-8 mb-14 mb-md-18",
-                children: serviceList3.map((item)=>/*#__PURE__*/ _createElement(ServiceCard2, {
-                        ...item,
-                        key: item.id,
-                        iconBoxClassNames: "icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"
-                    }))
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services4 = ((/* unused pure expression or super */ null && (Services4)));
-
-// EXTERNAL MODULE: external "react-countup"
-var external_react_countup_ = __webpack_require__(609);
-// EXTERNAL MODULE: ./components/elements/tiles/index.tsx + 11 modules
-var tiles = __webpack_require__(7211);
-;// CONCATENATED MODULE: ./components/blocks/services/Services5.tsx
-
-
-
-
-
-
-// -------- data -------- //
-
-
-const Services5 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsxs("div", {
-                className: "row gx-lg-8 gx-xl-12 gy-12 align-items-center mb-10 mb-md-13",
-                children: [
-                    /*#__PURE__*/ _jsxs("div", {
-                        className: "col-lg-6 position-relative",
-                        children: [
-                            /*#__PURE__*/ _jsxs("div", {
-                                className: "btn btn-circle btn-primary pe-none position-absolute counter-wrapper flex-column d-none d-md-flex",
-                                style: {
-                                    zIndex: 1,
-                                    top: "50%",
-                                    width: 170,
-                                    height: 170,
-                                    left: "50%",
-                                    transform: "translate(-50%, -50%)"
-                                },
-                                children: [
-                                    /*#__PURE__*/ _jsx("h3", {
-                                        className: "text-white mb-1 mt-n2",
-                                        children: /*#__PURE__*/ _jsx("span", {
-                                            className: "counter counter-lg",
-                                            children: /*#__PURE__*/ _jsx(CountUp, {
-                                                end: 20,
-                                                suffix: "+"
-                                            })
-                                        })
-                                    }),
-                                    /*#__PURE__*/ _jsx("p", {
-                                        children: "Year Experience"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ _jsx(Tiles1, {})
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxs("div", {
-                        className: "col-lg-6",
-                        children: [
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-4 mb-5",
-                                children: "We bring solutions to make life easier for our customers."
-                            }),
-                            /*#__PURE__*/ _jsx("p", {
-                                className: "mb-7",
-                                children: "Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula."
-                            }),
-                            /*#__PURE__*/ _jsx(ListColumn, {
-                                list: aboutList1
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row gx-lg-8 gx-xl-12 gy-8",
-                children: serviceList4.map(({ Icon , ...item })=>/*#__PURE__*/ _jsx("div", {
-                        className: "col-md-6 col-lg-4",
-                        children: /*#__PURE__*/ _jsx(ServiceCard3, {
-                            ...item,
-                            Icon: /*#__PURE__*/ _jsx(Icon, {})
-                        })
-                    }, item.id))
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services5 = ((/* unused pure expression or super */ null && (Services5)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services6.tsx
-
-
-// -------- data -------- //
-
-// ============================================================
-const Services6 = (props)=>{
-    const { colOne , title , description , colTwoClassNames ="" , rowClassNames ="" , bulletColor ="primary"  } = props;
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center " + rowClassNames,
-        children: [
-            colOne,
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-lg-6 " + colTwoClassNames,
-                children: [
-                    /*#__PURE__*/ _jsx("h3", {
-                        className: "display-4 mb-5",
-                        children: title
-                    }),
-                    /*#__PURE__*/ _jsx("p", {
-                        className: "mb-5",
-                        children: description
-                    }),
-                    /*#__PURE__*/ _jsx(ListColumn, {
-                        list: serviceList5,
-                        bulletColor: bulletColor
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services6 = ((/* unused pure expression or super */ null && (Services6)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services7.tsx
-
-
-
-// -------- data -------- //
-
-const Services7 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row text-center mt-xl-12",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-md-10 offset-md-1 col-lg-8 offset-lg-2",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-15 text-uppercase text-muted mb-3",
-                            children: "App Features"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-9 px-xxl-11",
-                            children: "Sandbox is the only app you need to track your goals for better health."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row gx-lg-8 gx-xl-12 gy-8 mb-14 mb-md-17",
-                children: serviceList6.map(({ Icon , color , ...item })=>/*#__PURE__*/ _jsx("div", {
-                        className: "col-md-6 col-lg-4",
-                        children: /*#__PURE__*/ _jsx(ServiceCard3, {
-                            ...item,
-                            Icon: /*#__PURE__*/ _jsx(Icon, {
-                                className: `icon-svg-sm text-${color} me-4`
-                            })
-                        })
-                    }, item.id))
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services7 = ((/* unused pure expression or super */ null && (Services7)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services8.tsx
-
-
-
-
-// -------- data -------- //
-
-const Services8 = ()=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "row gx-lg-8 gy-8 mt-5 mt-md-12 mt-lg-0 mb-15 align-items-center",
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "col-lg-6 order-lg-2",
-                children: /*#__PURE__*/ _jsx(Tiles4, {})
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-lg-6",
-                children: [
-                    /*#__PURE__*/ _jsx("h2", {
-                        className: "display-4 mb-3",
-                        children: "What We Do?"
-                    }),
-                    /*#__PURE__*/ _jsxs("p", {
-                        className: "lead fs-lg mb-8 pe-xxl-2",
-                        children: [
-                            "The full service we are offering is ",
-                            /*#__PURE__*/ _jsx("span", {
-                                className: "underline",
-                                children: "specifically"
-                            }),
-                            " designed to meet your business needs and projects."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "row gx-xl-10 gy-6",
-                        children: serviceList2.map(({ title , id , icon  })=>/*#__PURE__*/ _jsx("div", {
-                                className: "col-md-6 col-lg-12 col-xl-6",
-                                children: /*#__PURE__*/ _jsx(ServiceCard3, {
-                                    title: title,
-                                    description: "Nulla vitae elit libero pharetra augue dapibus.",
-                                    Icon: /*#__PURE__*/ _jsx(IconBox, {
-                                        icon: icon,
-                                        className: "icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"
-                                    })
-                                })
-                            }, id))
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services8 = ((/* unused pure expression or super */ null && (Services8)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services9.tsx
-
-// -------- custom component -------- //
-
-
-// -------- data -------- //
-
-const Services9 = ()=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "row gx-lg-8 gx-xl-12 gy-10 mb-lg-22 mb-xl-24 align-items-center",
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "col-lg-7 order-lg-2",
-                children: /*#__PURE__*/ _jsx("div", {
-                    className: "row gx-md-5 gy-5",
-                    children: serviceList7.map(({ id , Icon , color , ...item })=>/*#__PURE__*/ _jsx(ServiceCard4, {
-                            Icon: /*#__PURE__*/ _jsx(Icon, {
-                                className: `icon-svg-md text-${color} mb-3`
-                            }),
-                            ...item
-                        }, id))
-                })
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-lg-5",
-                children: [
-                    /*#__PURE__*/ _jsx("h2", {
-                        className: "fs-15 text-uppercase text-muted mb-3",
-                        children: "What We Do?"
-                    }),
-                    /*#__PURE__*/ _jsx("h3", {
-                        className: "display-4 mb-5",
-                        children: "The service we offer is specifically designed to meet your needs."
-                    }),
-                    /*#__PURE__*/ _jsx("p", {
-                        children: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
-                    }),
-                    /*#__PURE__*/ _jsx(NextLink, {
-                        title: "More Details",
-                        href: "#",
-                        className: "btn btn-navy rounded-pill mt-3"
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services9 = ((/* unused pure expression or super */ null && (Services9)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services10.tsx
-
-
-
-const Services10 = ()=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "row gx-lg-0 gy-10 mb-15 mb-md-18 align-items-center",
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "col-lg-6",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "row g-6 text-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-md-6",
-                            children: /*#__PURE__*/ _jsxs("div", {
-                                className: "row",
-                                children: [
-                                    /*#__PURE__*/ _jsx("div", {
-                                        className: "col-lg-12",
-                                        children: /*#__PURE__*/ _jsx("figure", {
-                                            className: "rounded mb-6",
-                                            children: /*#__PURE__*/ _jsx("img", {
-                                                src: "/img/photos/se1.jpg",
-                                                srcSet: "/img/photos/se1@2x.jpg 2x",
-                                                alt: ""
-                                            })
-                                        })
-                                    }),
-                                    /*#__PURE__*/ _jsx("div", {
-                                        className: "col-lg-12",
-                                        children: /*#__PURE__*/ _jsx(ServiceCard5, {
-                                            url: "#",
-                                            icon: "uil-monitor",
-                                            title: "Web Design",
-                                            description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
-                                        })
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-md-6",
-                            children: /*#__PURE__*/ _jsxs("div", {
-                                className: "row",
-                                children: [
-                                    /*#__PURE__*/ _jsx("div", {
-                                        className: "col-lg-12 order-md-2",
-                                        children: /*#__PURE__*/ _jsx("figure", {
-                                            className: "rounded mb-6 mb-md-0",
-                                            children: /*#__PURE__*/ _jsx("img", {
-                                                src: "/img/photos/se2.jpg",
-                                                srcSet: "/img/photos/se2@2x.jpg 2x",
-                                                alt: ""
-                                            })
-                                        })
-                                    }),
-                                    /*#__PURE__*/ _jsx("div", {
-                                        className: "col-lg-12",
-                                        children: /*#__PURE__*/ _jsx(ServiceCard5, {
-                                            url: "#",
-                                            title: "Mobile Design",
-                                            icon: "uil-mobile-android",
-                                            className: "card shadow-lg mb-md-6 mt-lg-6",
-                                            description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
-                                        })
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-lg-5 offset-lg-1",
-                children: [
-                    /*#__PURE__*/ _jsx("h2", {
-                        className: "display-4 mb-3",
-                        children: "What We Do?"
-                    }),
-                    /*#__PURE__*/ _jsx("p", {
-                        className: "lead fs-lg lh-sm",
-                        children: "The full service we are offering is specifically designed to meet your business needs."
-                    }),
-                    /*#__PURE__*/ _jsx("p", {
-                        children: "Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, est non commodo luctus, nisi erat ligula."
-                    }),
-                    /*#__PURE__*/ _jsx(NextLink, {
-                        title: "More Details",
-                        href: "#",
-                        className: "btn btn-primary rounded-pill mt-3"
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services10 = ((/* unused pure expression or super */ null && (Services10)));
-
-// EXTERNAL MODULE: ./data/demo-8.ts + 1 modules
-var demo_8 = __webpack_require__(2356);
-;// CONCATENATED MODULE: ./components/blocks/services/Services11.tsx
-
-
-// -------- data -------- //
-
-const Services11 = ()=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-20 align-items-center",
-        children: [
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-md-8 col-lg-6 order-lg-2 position-relative",
-                children: [
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "shape bg-soft-primary rounded-circle rellax w-20 h-20",
-                        style: {
-                            top: "-2rem",
-                            right: "-1.9rem"
-                        }
-                    }),
-                    /*#__PURE__*/ _jsx("figure", {
-                        className: "rounded",
-                        children: /*#__PURE__*/ _jsx("img", {
-                            src: "/img/photos/about11.jpg",
-                            srcSet: "/img/photos/about11@2x.jpg 2x",
-                            alt: ""
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-lg-6",
-                children: [
-                    /*#__PURE__*/ _jsx("h2", {
-                        className: "display-4 mb-3",
-                        children: "What We Do?"
-                    }),
-                    /*#__PURE__*/ _jsxs("p", {
-                        className: "lead fs-lg mb-8 pe-xxl-2",
-                        children: [
-                            "The full service we are offering is ",
-                            /*#__PURE__*/ _jsx("span", {
-                                className: "underline",
-                                children: "specifically"
-                            }),
-                            " designed to meet your business needs and projects."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "row gx-xl-10 gy-6",
-                        children: services.map(({ id , title , description , Icon  })=>/*#__PURE__*/ _jsx("div", {
-                                className: "col-md-6 col-lg-12 col-xl-6",
-                                children: /*#__PURE__*/ _jsx(ServiceCard3, {
-                                    title: title,
-                                    description: description,
-                                    Icon: /*#__PURE__*/ _jsx(Icon, {
-                                        className: "icon-svg-sm text-primary me-5"
-                                    })
-                                })
-                            }, id))
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services11 = ((/* unused pure expression or super */ null && (Services11)));
-
-;// CONCATENATED MODULE: ./icons/lineal/Rocket.tsx
-
-const Rocket_Rocket = ({ className  })=>{
-    return /*#__PURE__*/ _jsxs("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 294.2 409.6",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-aqua mb-3"}`,
-        children: [
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M31.2 342.9c-2.4 1.7-5.8 1.1-7.5-1.3-.6-.9-1-2-1-3.1v-77.1l68.9-77.2V150L5 247.1c-3.2 3.6-5 8.2-5 13v78.4c0 15.5 12.6 28.1 28.1 28.1 5.8 0 11.5-1.8 16.2-5.1l9.6-6.8-13.1-18.6-9.6 6.8zm258.1-95.8L200.7 148v34.2l70.8 79.3v77.1c0 3-2.4 5.4-5.4 5.4-1.1 0-2.2-.3-3.1-1l-9.6-6.7-13.1 18.6 9.6 6.7c12.7 8.9 30.3 5.9 39.2-6.9 3.3-4.7 5.1-10.4 5.1-16.1v-78.4c0-4.8-1.8-9.5-4.9-13.1zM147.1 409.6l-6.1-3.9c-2-1.3-49.3-32-49.3-72.5 0-40 23.3-72.6 53.1-74.2.8 0 1.6-.1 2.3-.1 4.1 0 8.1.6 12.1 1.7 9.1 2.7 17.6 8.4 24.6 16.6 11.9 14 18.7 34.4 18.7 55.9 0 40.5-47.2 71.2-49.3 72.5l-6.1 4zm0-127.9h-1c-17.5.9-31.7 24-31.7 51.5 0 19.6 19.9 39.1 32.6 48.9 12.7-9.8 32.6-29.3 32.6-48.9 0-16.2-4.9-31.2-13.3-41.1-4.1-4.8-8.8-8.1-13.6-9.5-1.8-.6-3.7-.9-5.6-.9z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-fill",
-                d: "M147.1 11.4c-13.1 0-96.4 71.4-96.4 143.4 0 24.5 29.3 178.4 29.3 178.4h134.1s29.3-153.9 29.3-178.4c.1-72.4-83.9-143.4-96.3-143.4zm49.8 159.2c-1 4.9-2.7 9.6-5.1 14-.8 1.4-1.6 2.8-2.5 4.2-3.7 5.4-8.3 10.1-13.7 13.7-1.3.9-2.7 1.8-4.2 2.5-24.7 13.4-55.6 4.2-68.9-20.5s-4.2-55.6 20.5-68.9c7.4-4 15.8-6.2 24.3-6.1 3.4 0 6.9.3 10.2 1 4.9 1 9.6 2.7 14 5.1 7.2 3.9 13.4 9.5 17.9 16.3 5.7 8.4 8.7 18.3 8.7 28.4-.1 3.5-.4 6.9-1.2 10.3z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M147.1 222.6c-34.4 0-62.2-28-62.2-62.3 0-34.4 28-62.2 62.3-62.2 10.3 0 20.4 2.6 29.5 7.5 2.6 1.4 5.2 3.1 7.6 4.9 24.8 18.5 32.2 52.4 17.5 79.6-1 1.8-2 3.5-3.1 5.1-4.5 6.6-10.2 12.3-16.8 16.8-1.6 1.1-3.4 2.2-5.1 3.1-9.1 4.9-19.3 7.5-29.7 7.5zm0-101.7c-21.8-.3-39.7 17-40.1 38.8s17 39.7 38.8 40.1h1.3c2.7 0 5.4-.3 8-.8 3.8-.8 7.4-2.1 10.8-4 1.1-.6 2.2-1.3 3.2-2 4.2-2.8 7.8-6.5 10.7-10.7.7-1.1 1.4-2.1 2-3.3 1.9-3.4 3.2-7 4-10.8.5-2.6.8-5.3.8-8 0-12.5-5.9-24.2-15.9-31.6-1.5-1.1-3.1-2.2-4.8-3.1-3.4-1.9-7-3.2-10.8-4-2.6-.5-5.3-.8-8-.8v.2z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M89.5 321.8h115.2c9-47.9 27.4-149.1 27.4-167 0-63-69.5-123.9-85-131.5-6.7 3.3-26.8 18.4-46.8 43.2-24.6 30.4-38.2 61.8-38.2 88.4 0 17.9 18.4 119.1 27.4 166.9zm134.1 22.8H70.7l-1.8-9.3c-3-15.9-29.5-155.7-29.5-180.6 0-42.2 25-80.9 45.9-106C101.1 29.9 131.8 0 147.1 0c15 0 45.7 29.8 61.5 48.6 21.1 25.1 46.2 63.8 46.2 106.2 0 24.9-26.5 164.7-29.5 180.6l-1.7 9.2z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Rocket = ((/* unused pure expression or super */ null && (Rocket_Rocket)));
-
-;// CONCATENATED MODULE: ./icons/lineal/Savings.tsx
-
-const Savings_Savings = ({ className  })=>{
-    return /*#__PURE__*/ _jsxs("svg", {
-        viewBox: "0 0 512 465.5",
-        xmlns: "http://www.w3.org/2000/svg",
-        className: `svg-inject icon-svg ${className || "icon-svg-md text-green mb-3"}`,
-        children: [
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M156.8 465.5c-9.9 0-24.2-4.8-56.2-40.6-16.2-18.2-29.5-36-30.1-36.8-.4-.5-.7-1-1-1.6-6.1-11-9.3-23.3-9.3-35.8v-90.9c0-7.9 6.4-14.4 14.3-14.4h116c16.5 0 32.4 6.5 44.2 18.1l59.4 58.5c17.2 17.2 17.3 45.1.1 62.3s-45.1 17.3-62.3.1L172.7 325c-5.9 0-15.5-.1-23.1-.1l-10.8-.1c-7.9 0-14.3-6.5-14.3-14.4s6.5-14.3 14.4-14.3h.1l10.8.1c6.8 0 14.1.1 19.6.1h6.9c4.2 0 8.5.1 12.7 4.3l63.5 63.5c6 6 15.7 6 21.7 0s6-15.7 0-21.7L214.6 284c-6.4-6.3-15-9.9-24-9.8H88.9v76.5c0 7.4 1.8 14.6 5.2 21.1 2.6 3.5 13.6 17.9 26.5 32.4 25.5 28.8 35.2 32.2 36.5 32.6h155.1c10.6 0 22.9-5.5 34.6-11.2 9.9-4.8 83.3-54.6 127.3-84.9l.7-.5c8.2-5.1 10.7-15.8 5.6-23.9-4.9-7.9-15.2-10.5-23.3-6L350 381.4c-6.6 4.4-15.5 2.6-19.9-4-4.4-6.6-2.6-15.5 4-19.9l107.5-71.3c.2-.1.3-.2.5-.3 21.8-13.1 50.1-6 63.2 15.8 12.9 21.6 6.2 49.6-15.2 62.8-13.3 9.2-115.8 79.6-130.8 86.9-14.7 7.1-30.5 14.1-47.1 14.1H156.8z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-fill",
-                d: "M14.4 242.2h84.2v189.6H14.4z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M98.5 446.1H14.4c-7.9 0-14.4-6.4-14.4-14.4V242.2c0-7.9 6.4-14.4 14.3-14.4h84.1c7.9 0 14.3 6.4 14.3 14.4v189.6c.1 7.9-6.3 14.3-14.2 14.3zm-69.8-28.7h55.4V256.5H28.7v160.9zM273 214.2c-59.2 0-107.1-48-107.1-107.1C165.9 47.9 213.9 0 273.1 0c59.1 0 107.1 48 107.1 107.1-.1 59.1-48.1 107.1-107.2 107.1zm0-185.5c-43.3 0-78.4 35.1-78.4 78.4s35.1 78.4 78.4 78.4c43.3 0 78.4-35.1 78.4-78.4-.1-43.3-35.1-78.3-78.4-78.4z"
-            }),
-            /*#__PURE__*/ _jsx("circle", {
-                className: "lineal-fill",
-                cx: "348.9",
-                cy: "178.6",
-                r: "92.8"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M348.9 285.7c-59.1 0-107.1-47.9-107.1-107.1 0-59.1 47.9-107.1 107.1-107.1S456 119.4 456 178.6c-.1 59.1-48 107-107.1 107.1zm0-185.5c-43.3 0-78.4 35.1-78.4 78.4S305.7 257 349 257s78.4-35.1 78.4-78.4c-.1-43.3-35.2-78.4-78.5-78.4z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "lineal-stroke",
-                d: "M345.4 224.9c-15.5-.5-28.2-8.5-28.2-16.8 0-4.4 3.9-10.9 8.8-10.9 5.4 0 9.8 7.6 19.4 9.3v-20.9c-11.9-4.5-25.9-10.1-25.9-26.6s12.1-24.3 25.9-26.2v-3.6c0-1.8 2.1-3.5 4.9-3.5 2.5 0 4.9 1.7 4.9 3.5v3.2c8 .3 23.1 2.3 23.1 11.2 0 3.5-2.3 10.6-8 10.6-4.3 0-6.7-4.1-15.1-4.8v18.9c11.8 4.4 25.5 10.5 25.5 27.9 0 16-10.4 25.7-25.5 28.2v3.8c0 1.8-2.5 3.5-4.9 3.5-2.9 0-4.9-1.7-4.9-3.5v-3.3zm1.3-59.7v-15.4c-5.8 1.2-8.3 4.1-8.3 7.2 0 3.8 3.4 6.1 8.3 8.2zm7.2 23.9v17.3c4.4-1 7.9-3.5 7.9-8.1 0-4.3-3.2-7-7.9-9.2z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Savings = ((/* unused pure expression or super */ null && (Savings_Savings)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services12.tsx
-
-
-// -------- icons -------- //
-
-
-
-// -------- custom component -------- //
-
-const Services12 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-15 text-uppercase text-muted mb-3",
-                            children: "Why Choose Sandbox?"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-10 px-xl-10 px-xxl-15",
-                            children: "Here are a few reasons why our customers choose Sandbox."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsxs("ul", {
-                role: "tablist",
-                className: "nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column",
-                children: [
-                    /*#__PURE__*/ _jsx("li", {
-                        className: "nav-item",
-                        role: "presentation",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            role: "tab",
-                            href: "#tab2-1",
-                            "data-bs-toggle": "tab",
-                            "aria-selected": "true",
-                            className: "nav-link d-flex flex-row active",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(Rocket, {
-                                        className: "icon-svg-md text-yellow me-4"
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h4", {
-                                            className: "mb-1",
-                                            children: "Easy Usage"
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            children: "Duis mollis commodo luctus cursus commodo tortor mauris."
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("li", {
-                        className: "nav-item",
-                        role: "presentation",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            role: "tab",
-                            tabIndex: -1,
-                            href: "#tab2-2",
-                            "data-bs-toggle": "tab",
-                            "aria-selected": "false",
-                            className: "nav-link d-flex flex-row",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(Savings, {
-                                        className: "icon-svg-md text-green me-4"
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h4", {
-                                            className: "mb-1",
-                                            children: "Fast Transactions"
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            children: "Vivamus sagittis lacus augue fusce dapibus tellus nibh."
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("li", {
-                        className: "nav-item",
-                        role: "presentation",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            role: "tab",
-                            tabIndex: -1,
-                            href: "#tab2-3",
-                            "data-bs-toggle": "tab",
-                            "aria-selected": "false",
-                            className: "nav-link d-flex flex-row",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(Shield, {
-                                        className: "icon-svg-md text-red me-4"
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h4", {
-                                            className: "mb-1",
-                                            children: "Secure Payments"
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            children: "Vestibulum ligula porta felis maecenas faucibus mollis."
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "tab-content mt-6 mt-lg-8 mb-md-9",
-                children: [
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "tab-pane fade active show",
-                        id: "tab2-1",
-                        role: "tabpanel",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "col-lg-6",
-                                    children: /*#__PURE__*/ _jsxs("div", {
-                                        className: "row gx-md-5 gy-5 align-items-center",
-                                        children: [
-                                            /*#__PURE__*/ _jsx("div", {
-                                                className: "col-6",
-                                                children: /*#__PURE__*/ _jsx("img", {
-                                                    alt: "",
-                                                    src: "/img/photos/sa13.jpg",
-                                                    srcSet: "/img/photos/sa13@2x.jpg 2x",
-                                                    className: "img-fluid rounded shadow-lg d-flex ms-auto"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ _jsxs("div", {
-                                                className: "col-6",
-                                                children: [
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa14.jpg",
-                                                        srcSet: "/img/photos/sa14@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg mb-5"
-                                                    }),
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa15.jpg",
-                                                        srcSet: "/img/photos/sa15@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg d-flex col-10"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsx(List, {
-                                    title: "Easy Usage",
-                                    color: "yellow"
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "tab-pane fade",
-                        id: "tab2-2",
-                        role: "tabpanel",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "col-lg-6 order-lg-2",
-                                    children: /*#__PURE__*/ _jsxs("div", {
-                                        className: "row gx-md-5 gy-5",
-                                        children: [
-                                            /*#__PURE__*/ _jsxs("div", {
-                                                className: "col-5",
-                                                children: [
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa9.jpg",
-                                                        srcSet: "/img/photos/sa9@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg my-5 d-flex ms-auto"
-                                                    }),
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa10.jpg",
-                                                        srcSet: "/img/photos/sa10@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg d-flex col-10 ms-auto"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ _jsxs("div", {
-                                                className: "col-7",
-                                                children: [
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa11.jpg",
-                                                        srcSet: "/img/photos/sa11@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg mb-5"
-                                                    }),
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa12.jpg",
-                                                        srcSet: "/img/photos/sa12@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg d-flex col-11"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsx(List, {
-                                    title: "Fast Transactions",
-                                    color: "green"
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "tab-pane fade",
-                        id: "tab2-3",
-                        role: "tabpanel",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "col-lg-6",
-                                    children: /*#__PURE__*/ _jsxs("div", {
-                                        className: "row gx-md-5 gy-5",
-                                        children: [
-                                            /*#__PURE__*/ _jsxs("div", {
-                                                className: "col-6",
-                                                children: [
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa5.jpg",
-                                                        srcSet: "/img/photos/sa5@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg mb-5"
-                                                    }),
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa6.jpg",
-                                                        srcSet: "/img/photos/sa6@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg d-flex col-10 ms-auto"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ _jsxs("div", {
-                                                className: "col-6",
-                                                children: [
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa7.jpg",
-                                                        srcSet: "/img/photos/sa7@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg my-5"
-                                                    }),
-                                                    /*#__PURE__*/ _jsx("img", {
-                                                        alt: "",
-                                                        src: "/img/photos/sa8.jpg",
-                                                        srcSet: "/img/photos/sa8@2x.jpg 2x",
-                                                        className: "img-fluid rounded shadow-lg d-flex col-10"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsx(List, {
-                                    title: "Secure Payments",
-                                    color: "red"
-                                })
-                            ]
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-};
-const List = ({ color , title  })=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "col-lg-6",
-        children: [
-            /*#__PURE__*/ _jsx("h2", {
-                className: "mb-3",
-                children: title
-            }),
-            /*#__PURE__*/ _jsx("p", {
-                children: "Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna."
-            }),
-            /*#__PURE__*/ _jsxs("ul", {
-                className: `icon-list bullet-bg bullet-soft-${color}`,
-                children: [
-                    /*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            " Aenean eu leo quam. Pellentesque ornare."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            " Nullam quis risus eget urna mollis ornare."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            " Donec id elit non mi porta gravida at eget."
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsx(NextLink, {
-                title: "Learn More",
-                href: "#",
-                className: `btn btn-${color} mt-2`
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services12 = ((/* unused pure expression or super */ null && (Services12)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services13.tsx
-
-
-
-
-// -------- data -------- //
-
-const Services13 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-dark",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container py-14 py-md-16",
-            children: [
-                /*#__PURE__*/ _jsx("figure", {
-                    className: "rounded mt-md-n21 mt-lg-n23 mb-14",
-                    style: slideInDownAnimate("900ms"),
-                    children: /*#__PURE__*/ _jsx("img", {
-                        src: "/img/photos/about15.jpg",
-                        srcSet: "/img/photos/about15@2x.jpg 2x",
-                        alt: ""
-                    })
-                }),
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row",
-                    children: /*#__PURE__*/ _jsx("div", {
-                        className: "col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center",
-                        children: /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 text-white mb-10",
-                            children: "The service we offer is specifically designed to meet your needs."
-                        })
-                    })
-                }),
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row gx-md-8 gy-8 text-center text-white",
-                    children: serviceList2.map((item)=>/*#__PURE__*/ _createElement(ServiceCard2, {
-                            ...item,
-                            key: item.id,
-                            titleColor: "text-white",
-                            hiddenBtn: true
-                        }))
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services13 = ((/* unused pure expression or super */ null && (Services13)));
 
 ;// CONCATENATED MODULE: ./components/blocks/services/Services14.tsx
 
@@ -13248,7 +10918,7 @@ const Services14 = ()=>{
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "row gx-md-8 gx-xl-12 gy-8 text-center",
-                        children: service_serviceList9.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(service_cards_ServiceCard6, {
+                        children: serviceList9.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(service_cards_ServiceCard6, {
                                 ...item
                             }, item.id))
                     })
@@ -13259,1420 +10929,7 @@ const Services14 = ()=>{
 };
 /* harmony default export */ const services_Services14 = (Services14);
 
-// EXTERNAL MODULE: ./data/demo-11.ts
-var demo_11 = __webpack_require__(7664);
-;// CONCATENATED MODULE: ./components/blocks/services/Services15.tsx
-
-
-// -------- data -------- //
-
-const Services15 = ()=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-15",
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "col-lg-7 order-lg-2",
-                children: /*#__PURE__*/ _jsx("figure", {
-                    children: /*#__PURE__*/ _jsx("img", {
-                        className: "w-auto",
-                        src: "/img/illustrations/i17.png",
-                        srcSet: "/img/illustrations/i17@2x.png 2x",
-                        alt: ""
-                    })
-                })
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "col-lg-5",
-                children: [
-                    /*#__PURE__*/ _jsx("h2", {
-                        className: "fs-15 text-uppercase text-primary mb-3",
-                        children: "Our Solutions"
-                    }),
-                    /*#__PURE__*/ _jsx("h3", {
-                        className: "display-4 mb-5",
-                        children: "We make your spending stress-free for you to have the perfect control."
-                    }),
-                    /*#__PURE__*/ _jsx("p", {
-                        className: "mb-6",
-                        children: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus."
-                    }),
-                    /*#__PURE__*/ _jsx(ListColumn, {
-                        list: list
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services15 = ((/* unused pure expression or super */ null && (Services15)));
-
-// EXTERNAL MODULE: ./data/demo-12.ts + 4 modules
-var demo_12 = __webpack_require__(4917);
-;// CONCATENATED MODULE: ./components/blocks/services/Services16.tsx
-
-
-
-// -------- data -------- //
-
-const Services16 = ()=>{
-    return /*#__PURE__*/ _jsx("div", {
-        className: "row gx-md-5 gy-5 mt-n18 mt-md-n21 mb-14 mb-md-17",
-        children: services.map(({ id , Icon , ...item })=>/*#__PURE__*/ _createElement(ServiceCard1, {
-                ...item,
-                key: id,
-                linkUrl: "#",
-                Icon: Icon
-            }))
-    });
-};
-/* harmony default export */ const services_Services16 = ((/* unused pure expression or super */ null && (Services16)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services17.tsx
-
-
-
-// -------- data -------- //
-
-const Services17 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container pt-14 pt-md-23 pb-14 pb-md-17",
-            children: [
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row mb-8 text-center",
-                    children: /*#__PURE__*/ _jsxs("div", {
-                        className: "col-lg-8 col-xl-7 mx-auto",
-                        children: [
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "fs-16 text-uppercase text-primary mb-3",
-                                children: "What We Do"
-                            }),
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-4",
-                                children: "We make your spending stress-free for you to have the perfect control."
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center",
-                    children: [
-                        /*#__PURE__*/ _jsxs("div", {
-                            className: "col-lg-6 position-relative",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "shape bg-dot primary rellax w-17 h-18",
-                                    style: {
-                                        bottom: "-2rem",
-                                        left: "-0.7rem"
-                                    }
-                                }),
-                                /*#__PURE__*/ _jsx("figure", {
-                                    className: "rounded mb-0",
-                                    children: /*#__PURE__*/ _jsx("img", {
-                                        src: "/img/photos/se3.jpg",
-                                        srcSet: "/img/photos/se3@2x.jpg 2x",
-                                        alt: ""
-                                    })
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ _jsxs("div", {
-                            className: "col-lg-6",
-                            children: [
-                                /*#__PURE__*/ _jsx("h3", {
-                                    className: "display-6 mb-4",
-                                    children: "Package Design"
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "mb-5",
-                                    children: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius."
-                                }),
-                                /*#__PURE__*/ _jsx(ListColumn, {
-                                    list: aboutList1,
-                                    bulletColor: "leaf"
-                                }),
-                                /*#__PURE__*/ _jsx(NextLink, {
-                                    title: "More Details",
-                                    href: "#",
-                                    className: "btn btn-soft-leaf rounded-pill mt-6 mb-0"
-                                })
-                            ]
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                    children: [
-                        /*#__PURE__*/ _jsxs("div", {
-                            className: "col-lg-6 order-lg-2 position-relative",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "shape rounded-circle bg-soft-primary rellax w-18 h-18",
-                                    style: {
-                                        bottom: "-2.5rem",
-                                        right: "-1.5rem"
-                                    }
-                                }),
-                                /*#__PURE__*/ _jsx("figure", {
-                                    className: "rounded mb-0",
-                                    children: /*#__PURE__*/ _jsx("img", {
-                                        src: "/img/photos/se4.jpg",
-                                        srcSet: "/img/photos/se4@2x.jpg 2x",
-                                        alt: ""
-                                    })
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ _jsxs("div", {
-                            className: "col-lg-6",
-                            children: [
-                                /*#__PURE__*/ _jsx("h3", {
-                                    className: "display-6 mb-4",
-                                    children: "Corporate Design"
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "mb-5",
-                                    children: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius."
-                                }),
-                                /*#__PURE__*/ _jsx(ListColumn, {
-                                    list: aboutList1,
-                                    bulletColor: "leaf"
-                                }),
-                                /*#__PURE__*/ _jsx(NextLink, {
-                                    title: "More Details",
-                                    href: "#",
-                                    className: "btn btn-soft-leaf rounded-pill mt-6 mb-0"
-                                })
-                            ]
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services17 = ((/* unused pure expression or super */ null && (Services17)));
-
-;// CONCATENATED MODULE: ./hooks/useProgressbar.ts
-
-const useProgressbar_useProgressbar = ()=>{
-    useEffect(()=>{
-        __webpack_require__(2758);
-        const ProgressBar = __webpack_require__(9814);
-        const pline = document.querySelectorAll(".progressbar.line");
-        const pcircle = document.querySelectorAll(".progressbar.semi-circle");
-        pline.forEach((e)=>{
-            const line = new ProgressBar.Line(e, {
-                strokeWidth: 6,
-                trailWidth: 6,
-                duration: 3000,
-                easing: "easeInOut",
-                text: {
-                    style: {
-                        color: "inherit",
-                        position: "absolute",
-                        right: "0",
-                        top: "-30px",
-                        padding: 0,
-                        margin: 0,
-                        transform: null
-                    },
-                    autoStyleContainer: false
-                },
-                step: (_, line)=>{
-                    line.setText(Math.round(line.value() * 100) + " %");
-                }
-            });
-            const value = Number(e.getAttribute("data-value")) / 100;
-            const waypoint = new window.Waypoint({
-                element: e,
-                offset: "bottom-in-view",
-                handler: ()=>line.animate(value)
-            });
-            return ()=>{
-                line.destroy();
-                waypoint.destroy();
-            };
-        });
-        pcircle.forEach((e)=>{
-            const circle = new ProgressBar.SemiCircle(e, {
-                strokeWidth: 6,
-                trailWidth: 6,
-                duration: 2000,
-                easing: "easeInOut",
-                step: (_, circle)=>{
-                    circle.setText(Math.round(circle.value() * 100));
-                }
-            });
-            const value = Number(e.getAttribute("data-value")) / 100;
-            const waypoint = new window.Waypoint({
-                element: e,
-                offset: "bottom-in-view",
-                handler: ()=>circle.animate(value)
-            });
-            return ()=>{
-                circle.destroy();
-                waypoint.destroy();
-            };
-        });
-    }, []);
-    return;
-};
-/* harmony default export */ const hooks_useProgressbar = ((/* unused pure expression or super */ null && (useProgressbar_useProgressbar)));
-
-;// CONCATENATED MODULE: ./data/skill.ts
-
-const skill_skill1 = [
-    {
-        id: 1,
-        percent: 100,
-        title: "Web Design",
-        color: color/* default.violet */.Z.violet
-    },
-    {
-        id: 2,
-        percent: 80,
-        title: "Mobile Design",
-        color: color/* default.blue */.Z.blue
-    },
-    {
-        id: 3,
-        percent: 85,
-        title: "Development",
-        color: color/* default.leaf */.Z.leaf
-    },
-    {
-        id: 4,
-        percent: 90,
-        title: "SEO",
-        color: color/* default.pink */.Z.pink
-    }
-];
-// used in the about-24 block
-const skill2 = [
-    {
-        id: 1,
-        title: "Photoshop",
-        value: 100
-    },
-    {
-        id: 2,
-        title: "Final Cut",
-        value: 80
-    },
-    {
-        id: 3,
-        title: "Motion Video",
-        value: 85
-    },
-    {
-        id: 4,
-        title: "Manupilation",
-        value: 75
-    }
-];
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services18.tsx
-
-// -------- hook -------- //
-
-// -------- data -------- //
-
-
-const Services18 = ()=>{
-    // used for the animated line
-    useProgressbar();
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light wrapper-border",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container py-14 py-md-18",
-            children: [
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-8 gx-xl-12 gy-6 mb-10",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-lg-6 order-lg-2",
-                            children: /*#__PURE__*/ _jsx("ul", {
-                                className: "progress-list",
-                                children: skill1.map(({ id , title , percent , color  })=>/*#__PURE__*/ _jsxs("li", {
-                                        children: [
-                                            /*#__PURE__*/ _jsx("p", {
-                                                children: title
-                                            }),
-                                            /*#__PURE__*/ _jsx("div", {
-                                                className: `progressbar line soft-${color}`,
-                                                "data-value": percent
-                                            })
-                                        ]
-                                    }, id))
-                            })
-                        }),
-                        /*#__PURE__*/ _jsxs("div", {
-                            className: "col-lg-6",
-                            children: [
-                                /*#__PURE__*/ _jsx("h2", {
-                                    className: "display-4 mb-3",
-                                    children: "What I Do?"
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "lead fs-20 mb-5",
-                                    children: "Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl."
-                                })
-                            ]
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row gx-lg-8 gx-xl-12 gy-6 text-center",
-                    children: serviceList8.map(({ id , Icon , title , description  })=>/*#__PURE__*/ _jsxs("div", {
-                            className: "col-md-6 col-lg-3",
-                            children: [
-                                /*#__PURE__*/ _jsx(Icon, {
-                                    className: "icon-svg-md text-violet mb-3"
-                                }),
-                                /*#__PURE__*/ _jsx("h4", {
-                                    children: title
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "mb-2",
-                                    children: description
-                                })
-                            ]
-                        }, id))
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services18 = ((/* unused pure expression or super */ null && (Services18)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services19.tsx
-
-
-
-
-// -------- data -------- //
-
-const Services19 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row text-center",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-lg-9 col-xl-8 col-xxl-7 mx-auto",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-15 text-uppercase text-muted mb-3",
-                            children: "What We Do?"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-9",
-                            children: "The service we offer is specifically designed to meet your needs."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "container-sm",
-                children: /*#__PURE__*/ _jsx("div", {
-                    className: "row gx-md-8 gx-xl-12 gy-8 mb-14 mb-md-16 text-center",
-                    children: serviceList9.map(({ id , description , icon , linkUrl , title , color  })=>/*#__PURE__*/ _jsxs("div", {
-                            className: "col-md-4",
-                            children: [
-                                /*#__PURE__*/ _jsx(IconBox, {
-                                    className: `icon btn btn-block btn-lg btn-soft-${color} pe-none mb-5`,
-                                    icon: icon
-                                }),
-                                /*#__PURE__*/ _jsx("h4", {
-                                    children: title
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "mb-3",
-                                    children: description
-                                }),
-                                /*#__PURE__*/ _jsx(NextLink, {
-                                    title: "Learn More",
-                                    href: linkUrl,
-                                    className: `more hover link-${color}`
-                                })
-                            ]
-                        }, id))
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services19 = ((/* unused pure expression or super */ null && (Services19)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services20.tsx
-
-
-// -------- data -------- //
-
-const Services20 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row text-center",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-md-10 offset-md-1 col-lg-8 offset-lg-2",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-16 text-uppercase text-gradient gradient-1 mb-3",
-                            children: "Our Features"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-9 px-xl-11",
-                            children: "The service we offer is specifically designed to meet your needs."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row gy-8 mb-17",
-                children: serviceList10.map(({ id , title , description , Icon  })=>/*#__PURE__*/ _jsx("div", {
-                        className: "col-md-6 col-lg-4",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "d-flex flex-row",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(Icon, {
-                                        className: "icon-svg-sm solid-duo text-grape-fuchsia me-4"
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h3", {
-                                            className: "fs-22 mb-1",
-                                            children: title
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            className: "mb-0",
-                                            children: description
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    }, id))
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services20 = ((/* unused pure expression or super */ null && (Services20)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services21.tsx
-
-
-
-// -------- data -------- //
-
-const Services21 = ()=>{
-    return /*#__PURE__*/ _jsx("div", {
-        className: "row gx-md-5 gy-5 mt-n19 mb-14 mb-md-17",
-        children: serviceList11.map(({ id , Icon , ...item })=>/*#__PURE__*/ _createElement(ServiceCard1, {
-                ...item,
-                key: id,
-                linkUrl: "#",
-                Icon: Icon
-            }))
-    });
-};
-/* harmony default export */ const services_Services21 = ((/* unused pure expression or super */ null && (Services21)));
-
-;// CONCATENATED MODULE: ./icons/solid-mono/Compare.tsx
-
-const Compare_Compare = ({ className  })=>{
-    return /*#__PURE__*/ _jsxs("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 256 256",
-        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-sm text-violet me-4"}`,
-        children: [
-            /*#__PURE__*/ _jsx("path", {
-                className: "fill-primary",
-                d: "M123.22 148.5A8 8 0 00116 144H19.36a8 8 0 00-8 8c0 57.34 46.94 104 104.66 104a104.67 104.67 0 0045.45-10.29 8 8 0 003.76-10.71z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "fill-secondary",
-                d: "M152 19a8 8 0 00-8 8v95.39a7.93 7.93 0 00.8 3.49l41.73 85.95a8 8 0 0010.65 3.73c36.29-17.48 58.82-53.19 58.82-93.19C256 65.36 209.34 19 152 19z"
-            }),
-            /*#__PURE__*/ _jsx("path", {
-                className: "fill-primary",
-                d: "M112 104V8a8 8 0 00-8-8A104.13 104.13 0 000 104a8 8 0 008 8h96a8 8 0 008-8z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const solid_mono_Compare = ((/* unused pure expression or super */ null && (Compare_Compare)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services22.tsx
-
-
-// -------- icons -------- //
-
-
-
-// -------- custom component -------- //
-
-const Services22 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-16 text-uppercase text-muted mb-3",
-                            children: "Why Choose Sandbox?"
-                        }),
-                        /*#__PURE__*/ _jsxs("h3", {
-                            className: "display-3 mb-10 px-xl-10 px-xxl-15",
-                            children: [
-                                "Here are a few ",
-                                /*#__PURE__*/ _jsx("span", {
-                                    className: "underline-3 style-2 yellow",
-                                    children: "reasons"
-                                }),
-                                " why our customers choose Sandbox."
-                            ]
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsxs("ul", {
-                role: "tablist",
-                className: "nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column",
-                children: [
-                    /*#__PURE__*/ _jsx("li", {
-                        className: "nav-item",
-                        role: "presentation",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            role: "tab",
-                            href: "#tab2-1",
-                            "data-bs-toggle": "tab",
-                            "aria-selected": "true",
-                            className: "nav-link d-flex flex-row active",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(Bulb, {})
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h4", {
-                                            className: "mb-1",
-                                            children: "Collect Ideas"
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            children: "Duis mollis commodo luctus cursus commodo tortor mauris."
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("li", {
-                        className: "nav-item",
-                        role: "presentation",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            role: "tab",
-                            tabIndex: -1,
-                            href: "#tab2-2",
-                            "data-bs-toggle": "tab",
-                            "aria-selected": "false",
-                            className: "nav-link d-flex flex-row",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(Compare, {})
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h4", {
-                                            className: "mb-1",
-                                            children: "Data Analysis"
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            children: "Vivamus sagittis lacus augue fusce dapibus tellus nibh."
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("li", {
-                        className: "nav-item",
-                        role: "presentation",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            role: "tab",
-                            tabIndex: -1,
-                            href: "#tab2-3",
-                            "data-bs-toggle": "tab",
-                            "aria-selected": "false",
-                            className: "nav-link d-flex flex-row",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    children: /*#__PURE__*/ _jsx(DeliveryBox, {
-                                        className: "icon-svg-sm solid-mono text-green me-4"
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsxs("div", {
-                                    children: [
-                                        /*#__PURE__*/ _jsx("h4", {
-                                            className: "mb-1",
-                                            children: "Finalize Product"
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            children: "Vestibulum ligula porta felis maecenas faucibus mollis."
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "tab-content mt-6 mt-lg-8",
-                children: [
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "tab-pane fade active show",
-                        id: "tab2-1",
-                        role: "tabpanel",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "col-lg-6",
-                                    children: /*#__PURE__*/ _jsx("figure", {
-                                        className: "rounded shadow-lg",
-                                        children: /*#__PURE__*/ _jsx("img", {
-                                            src: "/img/photos/se5.jpg",
-                                            srcSet: "/img/photos/se5@2x.jpg 2x",
-                                            alt: ""
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsx(Services22_List, {
-                                    title: "Collect Ideas",
-                                    color: "fuchsia"
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "tab-pane fade",
-                        id: "tab2-2",
-                        role: "tabpanel",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "col-lg-6 order-lg-2",
-                                    children: /*#__PURE__*/ _jsx("figure", {
-                                        className: "rounded shadow-lg",
-                                        children: /*#__PURE__*/ _jsx("img", {
-                                            src: "/img/photos/se6.jpg",
-                                            srcSet: "/img/photos/se6@2x.jpg 2x",
-                                            alt: ""
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsx(Services22_List, {
-                                    title: "Data Analysis",
-                                    color: "violet"
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "tab-pane fade",
-                        id: "tab2-3",
-                        role: "tabpanel",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "row gx-lg-8 gx-xl-12 gy-10 align-items-center",
-                            children: [
-                                /*#__PURE__*/ _jsx("div", {
-                                    className: "col-lg-6",
-                                    children: /*#__PURE__*/ _jsx("figure", {
-                                        className: "rounded shadow-lg",
-                                        children: /*#__PURE__*/ _jsx("img", {
-                                            src: "/img/photos/se7.jpg",
-                                            srcSet: "/img/photos/se7@2x.jpg 2x",
-                                            alt: ""
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ _jsx(Services22_List, {
-                                    title: "Finalize Product",
-                                    color: "green"
-                                })
-                            ]
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-};
-const Services22_List = ({ color , title  })=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "col-lg-6",
-        children: [
-            /*#__PURE__*/ _jsx("h2", {
-                className: "mb-3",
-                children: title
-            }),
-            /*#__PURE__*/ _jsx("p", {
-                children: "Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna."
-            }),
-            /*#__PURE__*/ _jsxs("ul", {
-                className: `icon-list bullet-bg bullet-soft-${color}`,
-                children: [
-                    /*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            " Aenean eu leo quam. Pellentesque ornare."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            " Nullam quis risus eget urna mollis ornare."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            " Donec id elit non mi porta gravida at eget."
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsx(NextLink, {
-                title: "Learn More",
-                href: "#",
-                className: `btn btn-${color} mt-2`
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services22 = ((/* unused pure expression or super */ null && (Services22)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services23.tsx
-
-
-const Services23 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container py-15 py-md-17",
-            children: [
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row text-center mb-10",
-                    children: /*#__PURE__*/ _jsxs("div", {
-                        className: "col-md-10 col-lg-9 col-xxl-8 mx-auto",
-                        children: [
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "fs-16 text-uppercase text-muted mb-3",
-                                children: "What We Do?"
-                            }),
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-3 px-xl-10 mb-0",
-                                children: "The service we offer is specifically designed to meet your needs."
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-0 gy-10 mb-15 mb-md-17 align-items-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-lg-6",
-                            children: /*#__PURE__*/ _jsx("figure", {
-                                className: "rounded mb-0",
-                                children: /*#__PURE__*/ _jsx("img", {
-                                    alt: "",
-                                    className: "img-fluid",
-                                    src: "/img/illustrations/ui4.png",
-                                    srcSet: "/img/illustrations/ui4@2x.png 2x"
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ _jsx(ColumnTwo, {
-                            title: "Web Design",
-                            className: "ms-auto"
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-0 gy-10 mb-15 mb-md-17 align-items-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-lg-6 order-lg-2 ms-auto",
-                            children: /*#__PURE__*/ _jsx("figure", {
-                                className: "rounded mb-0",
-                                children: /*#__PURE__*/ _jsx("img", {
-                                    alt: "",
-                                    className: "img-fluid",
-                                    src: "/img/illustrations/ui1.png",
-                                    srcSet: "/img/illustrations/ui1@2x.png 2x"
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ _jsx(ColumnTwo, {
-                            title: "Mobile Development"
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-0 gy-10 align-items-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-lg-6",
-                            children: /*#__PURE__*/ _jsx("figure", {
-                                className: "rounded mb-0",
-                                children: /*#__PURE__*/ _jsx("img", {
-                                    alt: "",
-                                    className: "img-fluid",
-                                    src: "/img/illustrations/ui5.png",
-                                    srcSet: "/img/illustrations/ui5@2x.png 2x"
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ _jsx(ColumnTwo, {
-                            title: "SEO Optimization",
-                            className: "ms-auto"
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-const ColumnTwo = ({ title , className =""  })=>{
-    // list data
-    const list = [
-        "Aenean quam ornare curabitur blandit.",
-        "Nullam quis risus eget urna mollis ornare leo.",
-        "Etiam porta euismod mollis natoque ornare."
-    ];
-    return /*#__PURE__*/ _jsxs("div", {
-        className: `col-lg-5 ${className}`,
-        children: [
-            /*#__PURE__*/ _jsx("h3", {
-                className: "fs-28 mb-3",
-                children: title
-            }),
-            /*#__PURE__*/ _jsx("p", {
-                children: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius."
-            }),
-            /*#__PURE__*/ _jsx("ul", {
-                className: "icon-list bullet-bg bullet-soft-primary",
-                children: list.map((item)=>/*#__PURE__*/ _jsxs("li", {
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "uil uil-check"
-                            }),
-                            /*#__PURE__*/ _jsx("span", {
-                                children: item
-                            })
-                        ]
-                    }, item))
-            }),
-            /*#__PURE__*/ _jsx(NextLink, {
-                title: "More Details",
-                href: "#",
-                className: "btn btn-soft-primary rounded-pill mt-2 mb-0"
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services23 = ((/* unused pure expression or super */ null && (Services23)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services24.tsx
-
-
-// -------- data -------- //
-
-const Services24 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-gradient-primary",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container pt-12 pt-lg-8 pb-14 pb-md-17",
-            children: [
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row text-center",
-                    children: /*#__PURE__*/ _jsxs("div", {
-                        className: "col-md-10 offset-md-1 col-lg-8 offset-lg-2",
-                        children: [
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "fs-16 text-uppercase text-primary mb-3",
-                                children: "What We Do?"
-                            }),
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-3 mb-10 px-xxl-10",
-                                children: "The service we offer is specifically designed to meet your needs."
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row gx-lg-8 gx-xl-12 gy-11 px-xxl-5 text-center d-flex align-items-end",
-                    children: serviceList12.map(({ id , image , title , description  })=>/*#__PURE__*/ _jsx("div", {
-                            className: "col-lg-4",
-                            children: /*#__PURE__*/ _jsxs("div", {
-                                className: "px-md-15 px-lg-3",
-                                children: [
-                                    /*#__PURE__*/ _jsx("figure", {
-                                        className: "mb-6",
-                                        children: /*#__PURE__*/ _jsx("img", {
-                                            className: "img-fluid",
-                                            src: image["1x"],
-                                            srcSet: image["2x"],
-                                            alt: ""
-                                        })
-                                    }),
-                                    /*#__PURE__*/ _jsx("h3", {
-                                        children: title
-                                    }),
-                                    /*#__PURE__*/ _jsx("p", {
-                                        className: "mb-2",
-                                        children: description
-                                    }),
-                                    /*#__PURE__*/ _jsx(NextLink, {
-                                        title: "Learn More",
-                                        href: "#",
-                                        className: "more hover"
-                                    })
-                                ]
-                            })
-                        }, id))
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services24 = ((/* unused pure expression or super */ null && (Services24)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services25.tsx
-
-
-
-// -------- data -------- //
-
-const Services25 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row text-center",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-lg-9 col-xl-8 mx-auto",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-16 text-uppercase text-muted mb-3",
-                            children: "What We Do?"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-10 px-xxl-10",
-                            children: "The full service we are offering is specifically designed to meet your needs."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row",
-                children: /*#__PURE__*/ _jsx("div", {
-                    className: "col-xxl-11 mx-auto",
-                    children: /*#__PURE__*/ _jsx("div", {
-                        className: "row gx-lg-8 gx-xl-12 gy-11 text-center d-flex align-items-end",
-                        children: serviceList13.map(({ id , description , icon , linkUrl , title , color  })=>/*#__PURE__*/ _jsx("div", {
-                                className: "col-sm-8 col-md-6 col-lg-4 mx-auto",
-                                children: /*#__PURE__*/ _jsxs("div", {
-                                    className: "px-md-3 px-lg-0 px-xl-3",
-                                    children: [
-                                        /*#__PURE__*/ _jsx("div", {
-                                            className: `icon btn btn-block btn-lg btn-soft-${color} pe-none mb-5`,
-                                            children: /*#__PURE__*/ _jsx("i", {
-                                                className: `uil ${icon}`
-                                            })
-                                        }),
-                                        /*#__PURE__*/ _jsx("h3", {
-                                            className: "fs-22",
-                                            children: title
-                                        }),
-                                        /*#__PURE__*/ _jsx("p", {
-                                            className: "mb-2",
-                                            children: description
-                                        }),
-                                        /*#__PURE__*/ _jsx(NextLink, {
-                                            title: "Learn More",
-                                            href: linkUrl,
-                                            className: `more hover link-${color}`
-                                        })
-                                    ]
-                                })
-                            }, id))
-                    })
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const services_Services25 = ((/* unused pure expression or super */ null && (Services25)));
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1664);
-;// CONCATENATED MODULE: ./components/blocks/services/Services26.tsx
-
-
-// -------- data -------- //
-
-const Services26 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container py-14 py-md-16",
-            children: [
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row",
-                    children: /*#__PURE__*/ _jsxs("div", {
-                        className: "col-lg-12 col-xl-10 col-xxl-7 mx-auto text-center",
-                        children: [
-                            /*#__PURE__*/ _jsx("i", {
-                                className: "icn-flower text-leaf fs-30 opacity-25"
-                            }),
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "display-5 text-center mt-2 mb-10",
-                                children: "I absolutely love shooting weddings and couples because there are so many feelings to capture."
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0 text-center",
-                    children: serviceList14.map(({ id , title , image , url  })=>/*#__PURE__*/ _jsx("div", {
-                            className: "col-sm-8 col-md-6 col-lg-4 mx-auto",
-                            children: /*#__PURE__*/ _jsxs("div", {
-                                className: "card shadow-lg",
-                                children: [
-                                    /*#__PURE__*/ _jsxs("figure", {
-                                        className: "card-img-top overlay overlay-1",
-                                        children: [
-                                            /*#__PURE__*/ _jsx(Link, {
-                                                legacyBehavior: true,
-                                                href: url,
-                                                children: /*#__PURE__*/ _jsxs("a", {
-                                                    children: [
-                                                        /*#__PURE__*/ _jsx("img", {
-                                                            className: "img-fluid",
-                                                            src: image["1x"],
-                                                            srcSet: image["2x"],
-                                                            alt: ""
-                                                        }),
-                                                        /*#__PURE__*/ _jsx("span", {
-                                                            className: "bg"
-                                                        })
-                                                    ]
-                                                })
-                                            }),
-                                            /*#__PURE__*/ _jsx("figcaption", {
-                                                children: /*#__PURE__*/ _jsx("h5", {
-                                                    className: "from-top mb-0",
-                                                    children: "View Gallery"
-                                                })
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ _jsx("div", {
-                                        className: "card-body p-6",
-                                        children: /*#__PURE__*/ _jsx("h3", {
-                                            className: "fs-21 mb-0",
-                                            children: title
-                                        })
-                                    })
-                                ]
-                            })
-                        }, id))
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services26 = ((/* unused pure expression or super */ null && (Services26)));
-
-;// CONCATENATED MODULE: ./components/blocks/services/Services27.tsx
-
-
-
-const Services27 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        id: "services",
-        children: /*#__PURE__*/ _jsx("div", {
-            className: "wrapper bg-gray",
-            children: /*#__PURE__*/ _jsx("div", {
-                className: "container py-15 py-md-17",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "row gx-lg-0 gy-10 align-items-center",
-                    children: [
-                        /*#__PURE__*/ _jsx("div", {
-                            className: "col-lg-6",
-                            children: /*#__PURE__*/ _jsxs("div", {
-                                className: "row g-6 text-center",
-                                children: [
-                                    /*#__PURE__*/ _jsxs("div", {
-                                        className: "col-md-6",
-                                        children: [
-                                            /*#__PURE__*/ _jsx(Card, {
-                                                title: "Products",
-                                                image: "/img/photos/fs4.jpg",
-                                                className: "mb-6"
-                                            }),
-                                            /*#__PURE__*/ _jsx(Card, {
-                                                title: "Recipes",
-                                                image: "/img/photos/fs6.jpg"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ _jsxs("div", {
-                                        className: "col-md-6",
-                                        children: [
-                                            /*#__PURE__*/ _jsx(Card, {
-                                                title: "Restaurants",
-                                                image: "/img/photos/fs5.jpg",
-                                                className: "mt-md-6 mb-6"
-                                            }),
-                                            /*#__PURE__*/ _jsx(Card, {
-                                                title: "Still Life",
-                                                image: "/img/photos/fs7.jpg"
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ _jsxs("div", {
-                            className: "col-lg-5 offset-lg-1",
-                            children: [
-                                /*#__PURE__*/ _jsx("h2", {
-                                    className: "display-5 mb-3",
-                                    children: "My Services"
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "lead fs-lg",
-                                    children: "I would like to give you a unique photography experience, capture your products with excellent composition and lighting skills."
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    children: "Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, est non commodo luctus, nisi erat ligula mollis metus auctor fringilla."
-                                }),
-                                /*#__PURE__*/ _jsx(NextLink, {
-                                    title: "More Details",
-                                    href: "#",
-                                    className: "btn btn-primary rounded-pill mt-2"
-                                })
-                            ]
-                        })
-                    ]
-                })
-            })
-        })
-    });
-};
-const Card = ({ image , title , className =""  })=>/*#__PURE__*/ _jsxs("div", {
-        className: `card shadow-lg ${className}`,
-        children: [
-            /*#__PURE__*/ _jsxs("figure", {
-                className: "card-img-top overlay overlay-1",
-                children: [
-                    /*#__PURE__*/ _jsx(Link, {
-                        legacyBehavior: true,
-                        href: "#",
-                        children: /*#__PURE__*/ _jsxs("a", {
-                            children: [
-                                /*#__PURE__*/ _jsx("img", {
-                                    className: "img-fluid",
-                                    src: image,
-                                    alt: ""
-                                }),
-                                /*#__PURE__*/ _jsx("span", {
-                                    className: "bg"
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ _jsx("figcaption", {
-                        children: /*#__PURE__*/ _jsx("h5", {
-                            className: "from-top mb-0",
-                            children: "View Gallery"
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "card-body p-4",
-                children: /*#__PURE__*/ _jsx("h3", {
-                    className: "h4 mb-0",
-                    children: title
-                })
-            })
-        ]
-    });
-/* harmony default export */ const services_Services27 = ((/* unused pure expression or super */ null && (Services27)));
-
-// EXTERNAL MODULE: ./data/demo-26.ts + 4 modules
-var demo_26 = __webpack_require__(5203);
-;// CONCATENATED MODULE: ./components/blocks/services/Services28.tsx
-
-
-
-// -------- data -------- //
-
-const Services28_Services27 = ()=>{
-    return /*#__PURE__*/ _jsxs(Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("div", {
-                className: "row text-center",
-                children: /*#__PURE__*/ _jsxs("div", {
-                    className: "col-md-10 offset-md-1 col-xxl-8 offset-xxl-2",
-                    children: [
-                        /*#__PURE__*/ _jsx("h2", {
-                            className: "fs-16 text-uppercase text-primary mb-3",
-                            children: "What We Do?"
-                        }),
-                        /*#__PURE__*/ _jsx("h3", {
-                            className: "display-4 mb-9",
-                            children: "The full service we are offering is specifically designed to meet your business needs."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "row gx-md-8 gy-8 mb-15 mb-md-17 text-center",
-                children: data.serviceList.map(({ id , Icon , title , description , url  })=>/*#__PURE__*/ _jsx("div", {
-                        className: "col-md-6 col-lg-3",
-                        children: /*#__PURE__*/ _jsxs("div", {
-                            className: "px-md-3 px-lg-0 px-xl-3",
-                            children: [
-                                /*#__PURE__*/ _jsx(Icon, {}),
-                                /*#__PURE__*/ _jsx("h4", {
-                                    children: title
-                                }),
-                                /*#__PURE__*/ _jsx("p", {
-                                    className: "mb-2",
-                                    children: description
-                                }),
-                                /*#__PURE__*/ _jsx(NextLink, {
-                                    title: "Learn More",
-                                    href: url,
-                                    className: "more hover"
-                                })
-                            ]
-                        })
-                    }, id))
-            })
-        ]
-    });
-};
-/* harmony default export */ const Services28 = ((/* unused pure expression or super */ null && (Services28_Services27)));
-
-// EXTERNAL MODULE: ./data/demo-27.ts + 9 modules
-var demo_27 = __webpack_require__(1781);
-;// CONCATENATED MODULE: ./components/blocks/services/Services29.tsx
-
-// -------- data -------- //
-
-const Services29 = ()=>{
-    return /*#__PURE__*/ _jsx("section", {
-        className: "wrapper bg-light",
-        children: /*#__PURE__*/ _jsxs("div", {
-            className: "container py-15 py-md-17",
-            children: [
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row text-center",
-                    children: /*#__PURE__*/ _jsxs("div", {
-                        className: "col-md-10 col-lg-9 col-xxl-8 mx-auto",
-                        children: [
-                            /*#__PURE__*/ _jsx("h2", {
-                                className: "fs-15 text-uppercase text-muted mb-3",
-                                children: "What We Do?"
-                            }),
-                            /*#__PURE__*/ _jsx("h3", {
-                                className: "display-3 ls-sm mb-9 px-xl-11",
-                                children: "The service we offer is specifically designed to meet your needs."
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ _jsx("div", {
-                    className: "row gx-lg-8 gx-xl-12 gy-8",
-                    children: data.serviceList.map(({ Icon , id , title , color , description  })=>/*#__PURE__*/ _jsx("div", {
-                            className: "col-md-6 col-lg-4",
-                            children: /*#__PURE__*/ _jsxs("div", {
-                                className: "d-flex flex-row",
-                                children: [
-                                    /*#__PURE__*/ _jsx("div", {
-                                        children: /*#__PURE__*/ _jsx(Icon, {
-                                            className: `icon-svg-md text-${color} me-5 mt-1`
-                                        })
-                                    }),
-                                    /*#__PURE__*/ _jsxs("div", {
-                                        children: [
-                                            /*#__PURE__*/ _jsx("h4", {
-                                                className: "fs-20 ls-sm",
-                                                children: title
-                                            }),
-                                            /*#__PURE__*/ _jsx("p", {
-                                                className: "mb-0",
-                                                children: description
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        }, id))
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const services_Services29 = ((/* unused pure expression or super */ null && (Services29)));
-
 ;// CONCATENATED MODULE: ./components/blocks/services/index.ts
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -15459,7 +11716,7 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var components_reuseable_Carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4062);
-/* harmony import */ var data_demo_26__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5203);
+/* harmony import */ var data_demo_26__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5215);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([components_reuseable_Carousel__WEBPACK_IMPORTED_MODULE_1__]);
 components_reuseable_Carousel__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -18800,7 +15057,7 @@ const reviews = [
 
 /***/ }),
 
-/***/ 5203:
+/***/ 5215:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18897,12 +15154,66 @@ const Team = ({ className  })=>{
 };
 /* harmony default export */ const solid_mono_Team = (Team);
 
-// EXTERNAL MODULE: ./icons/solid-mono/Bulb.tsx
-var Bulb = __webpack_require__(4119);
+;// CONCATENATED MODULE: ./icons/solid-mono/Bulb.tsx
+
+const Bulb = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 256 255.98",
+        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-sm text-fuchsia me-4"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("circle", {
+                className: "fill-primary",
+                cx: "58.67",
+                cy: "149.31",
+                r: "32"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-primary",
+                d: "M88 202.65H29.33A29.36 29.36 0 000 232v16a8 8 0 008 8h101.33a8 8 0 008-8v-16A29.36 29.36 0 0088 202.65z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("circle", {
+                className: "fill-primary",
+                cx: "197.33",
+                cy: "149.31",
+                r: "32"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-primary",
+                d: "M226.67 202.65H168A29.36 29.36 0 00138.67 232v16a8 8 0 008 8H248a8 8 0 008-8v-16a29.36 29.36 0 00-29.33-29.35z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-secondary",
+                d: "M149.76 108.48v7.68A11.9 11.9 0 01137.81 128h-19.63c-5.76 0-12-4.27-12-13.76v-5.76zM176 47.68a47.26 47.26 0 01-17.6 36.91 22.89 22.89 0 00-8.32 13.23H106a20 20 0 00-7.79-12.69A47.13 47.13 0 0180 46.73C80.53 21.34 101.76.33 127.25 0a47.34 47.34 0 0134.56 13.88A46.82 46.82 0 01176 47.68z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const solid_mono_Bulb = (Bulb);
+
 // EXTERNAL MODULE: ./icons/solid-mono/Lamp.tsx
 var Lamp = __webpack_require__(4694);
-// EXTERNAL MODULE: ./icons/solid-mono/Puzzle.tsx
-var Puzzle = __webpack_require__(1315);
+;// CONCATENATED MODULE: ./icons/solid-mono/Puzzle.tsx
+
+const Puzzle = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 255.97 256",
+        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-xs text-orange me-4"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-secondary",
+                d: "M221.86 91a33.65 33.65 0 01-22.72-8.75v40.21h-27.2a43.26 43.26 0 003.73-17.71 44.8 44.8 0 10-86 17.71H56.85v-111A11.42 11.42 0 0168.26 0h119.47a11.42 11.42 0 0111.41 11.41v20.05A34.1 34.1 0 11221.86 91z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-primary",
+                d: "M142.79 181.25a34.13 34.13 0 0033.55 40.62 33.66 33.66 0 0022.75-8.77v31.52A11.41 11.41 0 01187.72 256H68.28a11.41 11.41 0 01-11.38-11.38V213.1a34.12 34.12 0 11-22.75-59.5 33.71 33.71 0 0122.75 8.77v-29.2H112a34.12 34.12 0 1137.76 0h49.37v29.2a34.09 34.09 0 00-56.3 18.88z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const solid_mono_Puzzle = (Puzzle);
+
 ;// CONCATENATED MODULE: ./icons/solid-mono/Devices.tsx
 
 const Devices = ({ className  })=>{
@@ -18957,8 +15268,31 @@ const GlobeTwo = ({ className  })=>{
 };
 /* harmony default export */ const solid_mono_GlobeTwo = (GlobeTwo);
 
-// EXTERNAL MODULE: ./icons/solid-mono/Headphone.tsx
-var Headphone = __webpack_require__(4940);
+;// CONCATENATED MODULE: ./icons/solid-mono/Headphone.tsx
+
+const Headphone = ({ className  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 256 244.09",
+        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-xs text-green me-4"}`,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-secondary",
+                d: "M35.72 92.28a92.28 92.28 0 01184.56 0v47.63a8.93 8.93 0 01-17.86 0V92.28a74.42 74.42 0 10-148.84 0v47.63a8.93 8.93 0 11-17.86 0zm175.63 62.51a8.93 8.93 0 018.93 8.93v35.72a32.75 32.75 0 01-32.75 32.75h-35.72a8.94 8.94 0 010-17.87h35.72a14.88 14.88 0 0014.89-14.88v-35.72a8.93 8.93 0 018.93-8.93z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-secondary",
+                d: "M107.16 223.26A20.84 20.84 0 01128 202.42h11.91a20.84 20.84 0 010 41.67H128a20.84 20.84 0 01-20.84-20.83zm20.84-3a3 3 0 100 5.95h11.91a3 3 0 000-5.95z"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                className: "fill-primary",
+                d: "M32.74 107.16A32.74 32.74 0 000 139.91v23.81a32.75 32.75 0 0032.74 32.75h11.91a8.93 8.93 0 008.93-8.94v-71.44a8.93 8.93 0 00-8.93-8.93zm190.52 0A32.74 32.74 0 01256 139.91v23.81a32.75 32.75 0 01-32.74 32.75h-11.91a8.93 8.93 0 01-8.93-8.94v-71.44a8.93 8.93 0 018.93-8.93z"
+            })
+        ]
+    });
+};
+/* harmony default export */ const solid_mono_Headphone = (Headphone);
+
 ;// CONCATENATED MODULE: ./data/demo-26.ts
 
 
@@ -19007,19 +15341,19 @@ const abouts = [
     },
     {
         id: 2,
-        Icon: Bulb/* default */.Z,
+        Icon: solid_mono_Bulb,
         title: "Innovative Thinking",
         description: "Curabitur blandit lacus porttitor ridiculus mus."
     },
     {
         id: 3,
-        Icon: Puzzle/* default */.Z,
+        Icon: solid_mono_Puzzle,
         title: "Rapid Solutions",
         description: "Curabitur blandit lacus porttitor ridiculus mus."
     },
     {
         id: 4,
-        Icon: Headphone/* default */.Z,
+        Icon: solid_mono_Headphone,
         title: "Top-Notch Support",
         description: "Curabitur blandit lacus porttitor ridiculus mus."
     }
@@ -19051,555 +15385,6 @@ const testimonialList = [
     serviceList,
     abouts,
     testimonialList
-});
-
-
-/***/ }),
-
-/***/ 1781:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// UNUSED EXPORTS: default
-
-// EXTERNAL MODULE: ./icons/lineal/Shield.tsx
-var Shield = __webpack_require__(8192);
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: ./icons/lineal/Design.tsx
-
-const Design = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        viewBox: "0 0 409.6 332.7",
-        xmlns: "http://www.w3.org/2000/svg",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-yellow me-4"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M350.9 54.2H58.7c-6.2.2-11.4-4.7-11.5-10.9S51.8 31.9 58 31.7h292.9c6.2-.2 11.4 4.7 11.5 10.9s-4.7 11.4-10.9 11.5c-.2.1-.4.1-.6.1zM239.8 328.9a11.182 11.182 0 01-10.6-14.8c2.8-8.3 16.2-47.4 25.6-63.6-9.5-10.1-37-40.3-49.9-66.1-12.1 23.4-39.5 54.4-50.1 66 10.1 16.5 22.7 54.9 25.4 63.6.4 1.2.6 2.4.6 3.7 0 6.2-5 11.2-11.2 11.2-4.9 0-9.3-3.2-10.7-7.9v-.1c-6.6-20.7-18.4-52.9-24.3-60.3-4.8-6.1-3.4-14.5-.8-19.8.5-.9 1.1-1.8 1.8-2.6 20.6-22.3 50.7-59.4 52.7-72.4.6-3.7 3.3-10.1 14.8-10.7 12.5-.7 16.6 4.8 17.8 9.4 5.7 21.5 40 60.3 52.7 73.4.8.8 1.5 1.8 2 2.8 2.6 5.1 4 13.3-.5 19.5-5.7 7.7-18.2 41.6-24.8 61.1-1.3 4.6-5.6 7.7-10.5 7.6z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M204.8 254.9c-6.2 0-11.2-5-11.2-11.2V167c.3-6.2 5.6-10.9 11.8-10.6 5.7.3 10.3 4.9 10.6 10.6v76.7c0 6.2-5 11.2-11.2 11.2z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M366.6 244.6c-6.2 0-11.2-5-11.2-11.2v-28.6c0-83.1-67.6-150.6-150.6-150.6S54.2 121.7 54.2 204.8v28.6c-.2 6.2-5.4 11.1-11.5 10.9-5.9-.2-10.7-4.9-10.9-10.9v-28.6c-.1-95.5 77.2-172.9 172.7-173 46 0 90.1 18.2 122.6 50.8 32.6 32.3 50.9 76.3 50.9 122.2v28.6c-.1 6.2-5.2 11.2-11.4 11.2z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M220 74.7h-30.4c-9.1 0-16.5-7.4-16.5-16.5V27.7c0-9.1 7.4-16.5 16.5-16.5H220c9.1 0 16.5 7.4 16.5 16.5v30.5c0 9.1-7.4 16.5-16.5 16.5z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M220 85.9h-30.4c-15.3 0-27.7-12.4-27.7-27.7V27.7c0-15.3 12.4-27.7 27.7-27.7H220c15.3 0 27.7 12.4 27.7 27.7v30.5c0 15.3-12.4 27.7-27.7 27.7zm-30.4-63.5c-2.9 0-5.3 2.4-5.3 5.3v30.5c0 2.9 2.4 5.3 5.3 5.3H220c2.9 0 5.3-2.4 5.3-5.3V27.7c0-2.9-2.4-5.3-5.3-5.3h-30.4z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M381.9 275.4h-30.5c-9.1 0-16.5-7.4-16.5-16.5v-30.5c0-9.1 7.4-16.5 16.5-16.5h30.5c9.1 0 16.5 7.4 16.5 16.5v30.5c0 9.1-7.4 16.5-16.5 16.5z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M381.9 286.6h-30.5c-15.3 0-27.7-12.4-27.7-27.7v-30.5c0-15.3 12.4-27.7 27.7-27.7h30.5c15.3 0 27.7 12.4 27.7 27.7v30.5c0 15.3-12.4 27.7-27.7 27.7zm-30.5-63.4c-2.9 0-5.3 2.4-5.3 5.3V259c0 2.9 2.4 5.3 5.3 5.3h30.5c2.9 0 5.3-2.4 5.3-5.3v-30.5c0-2.9-2.4-5.3-5.3-5.3h-30.5z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M58.2 275.4H27.7c-9.1 0-16.5-7.4-16.5-16.5v-30.5c0-9.1 7.4-16.5 16.5-16.5h30.5c9.1 0 16.5 7.4 16.5 16.5V259c0 9.1-7.4 16.5-16.5 16.4z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M58.2 286.6H27.7C12.4 286.6 0 274.2 0 258.9v-30.5c0-15.3 12.4-27.7 27.7-27.7h30.5c15.3 0 27.7 12.4 27.7 27.7v30.5c0 15.3-12.4 27.7-27.7 27.7zm-30.5-63.4c-2.9 0-5.3 2.4-5.3 5.3V259c0 2.9 2.4 5.3 5.3 5.3h30.5c2.9 0 5.3-2.4 5.3-5.3v-30.5c0-2.9-2.4-5.3-5.3-5.3H27.7zm234.1 109.5h-114c-6.2 0-11.2-5-11.2-11.2 0-6.2 5-11.2 11.2-11.2h114c6.2 0 11.2 5 11.2 11.2 0 6.2-5 11.2-11.2 11.2z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Design = (Design);
-
-// EXTERNAL MODULE: ./icons/lineal/Target.tsx
-var Target = __webpack_require__(9228);
-;// CONCATENATED MODULE: ./icons/lineal/Wallet.tsx
-
-const Wallet = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 383.36 409.6",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-yellow me-5 mt-1"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M11.5,220.22A11.5,11.5,0,0,1,0,208.72V155.06A77.14,77.14,0,0,1,77.06,78H316.67a11.5,11.5,0,0,1,0,23H77.06A54.12,54.12,0,0,0,23,155.06v53.66a11.5,11.5,0,0,1-11.5,11.5Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M260.2,138.87a82.37,82.37,0,1,0-138,0Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M260.2,150.37h-138a11.49,11.49,0,0,1-9.63-5.21A94.23,94.23,0,0,1,124.84,27.49a93.88,93.88,0,0,1,132.75,0,94.23,94.23,0,0,1,12.24,117.67,11.49,11.49,0,0,1-9.63,5.21Zm-131.44-23H253.67a71.18,71.18,0,0,0-12.35-83.61,70.85,70.85,0,0,0-100.21,0,71.18,71.18,0,0,0-12.35,83.61Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M189.6,128.68c-11.73-.3-20.55-6.6-20.55-12,0-2.71,2.43-6.78,5.43-6.78,3.69,0,6.59,6.3,15.12,7.27V97.85c-8.82-3.3-18.8-7.08-18.8-19.49s9.11-17.64,18.8-18.9V56.75c0-1.26,1.46-2.43,3.3-2.43,1.65,0,3.3,1.17,3.3,2.43v2.52c6.3.19,16.57,2,16.57,7.66,0,2.22-1.55,6.68-5.14,6.68-2.71,0-4.94-3.1-11.43-3.58V87.09c8.62,3.2,18.32,7.56,18.32,20.74,0,11.93-7.47,18.81-18.32,20.55v3c0,1.26-1.65,2.42-3.3,2.42-1.84,0-3.3-1.16-3.3-2.42ZM190.38,85V70.32c-4.84.77-7.76,3.1-7.76,6.79,0,4.26,3.3,6.1,7.76,7.85Zm5,15.22V117c4.27-.87,7.27-3.39,7.27-8,0-4.75-3.1-7.07-7.27-8.91Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M319.3,409.6H77.06A77.15,77.15,0,0,1,0,332.54V204.79a77.16,77.16,0,0,1,77.06-77.06H319.31a40.36,40.36,0,0,1,40.31,40.33V234.9a11.5,11.5,0,1,1-23,0V168.06a17.34,17.34,0,0,0-17.31-17.32H77.06a54.12,54.12,0,0,0-54.06,54V332.54A54.12,54.12,0,0,0,77.06,386.6H319.31a17.34,17.34,0,0,0,17.31-17.32V358.36a11.5,11.5,0,0,1,23,0v10.92A40.36,40.36,0,0,1,319.3,409.6Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M371.86,309.66H280.24a43.82,43.82,0,0,1,0-87.63h91.62Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M371.86,321.16H280.24a55.32,55.32,0,1,1,0-110.64h91.62A11.52,11.52,0,0,1,383.36,222v87.63a11.51,11.51,0,0,1-11.5,11.5Zm-91.62-87.63a32.32,32.32,0,0,0,0,64.63h80.11V233.53Z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Wallet = (Wallet);
-
-// EXTERNAL MODULE: ./icons/lineal/ChatTwo.tsx
-var ChatTwo = __webpack_require__(9896);
-;// CONCATENATED MODULE: ./icons/lineal/Loyalty.tsx
-
-const Loyalty = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 512 457.97",
-        className: `svg-inject icon-svg ${className || "icon-svg-md text-yellow me-5"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M286.5,180.78c-18.21,0-26.38,10.21-29.59,16.2a1.08,1.08,0,0,1-1.9,0c-3.21-6-11.33-16.2-29.54-16.2-20.74,0-39,14.16-39,40a54.24,54.24,0,0,0,8,29.43c12.06,20.38,51.78,46.81,59.94,52a2.74,2.74,0,0,0,3,0c8.16-5.18,47.9-31.48,60.05-52a54.22,54.22,0,0,0,8-29.43C325.51,194.94,307.24,180.78,286.5,180.78Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M256,316.82h0a16.91,16.91,0,0,1-9.09-2.65c-8.3-5.3-50.43-32.93-64.51-56.74a68.28,68.28,0,0,1-10-36.64c0-31.38,22.34-54.16,53.13-54.16,13.91,0,23.74,4.56,30.5,9.92,6.76-5.36,16.61-9.92,30.53-9.92,30.81,0,53.16,22.78,53.16,54.16a68.25,68.25,0,0,1-10,36.64c-14.19,24-56.34,51.49-64.65,56.76A16.86,16.86,0,0,1,256,316.82ZM225.47,194.94c-11.45,0-24.83,6.77-24.83,25.85A40.3,40.3,0,0,0,206.72,243c7.43,12.57,31.56,31.35,49.25,43.27,17.69-11.87,41.84-30.61,49.33-43.27a40.38,40.38,0,0,0,6.06-22.22c0-19.08-13.39-25.86-24.86-25.86-8.25,0-14,2.94-17.12,8.74a15.24,15.24,0,0,1-26.86,0C239.43,197.87,233.7,194.94,225.47,194.94Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M130.67,458c-8.1,0-19.71-3.73-44.41-31.37C74.07,413,64.07,399.53,63.65,399a14.32,14.32,0,0,1-1-1.56A58.57,58.57,0,0,1,55.29,369V301.34a14.15,14.15,0,0,1,14.15-14.15H155.9a50,50,0,0,1,35.31,14.46l44.27,43.56a36.25,36.25,0,1,1-51.18,51.34L141,353.28l-9.66-.06a14.16,14.16,0,0,1,.08-28.31h.07c5.35,0,9.26.06,11.84.09,5.33.07,9.54.13,13.67,4.25l47.28,47.29a7.94,7.94,0,0,0,11.23-11.24l-44.18-43.48a21.93,21.93,0,0,0-15.46-6.33H83.59V369A30.14,30.14,0,0,0,87,382.9c16.91,22.62,37.33,44.05,44.52,46.77l115,0c7.14,0,15.91-4,24.27-8,6.87-3.33,59.31-38.81,94.36-62.95.24-.16.48-.32.73-.46a9.49,9.49,0,0,0,3.22-13,9.47,9.47,0,0,0-12.79-3.34l-64.07,42.48a14.15,14.15,0,1,1-15.64-23.58L341,318.09l.52-.33a37.77,37.77,0,0,1,39.39,64.46c-15.12,10.41-86.6,59.5-97.77,64.9S259.62,458,246.49,458l-115.82,0Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("rect", {
-                className: "lineal-fill",
-                x: "14.15",
-                y: "288.21",
-                width: "73.13",
-                height: "141.2"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M87.28,443.56H14.15A14.16,14.16,0,0,1,0,429.41V288.21a14.15,14.15,0,0,1,14.15-14.15H87.28a14.14,14.14,0,0,1,14.15,14.15v141.2A14.15,14.15,0,0,1,87.28,443.56Zm-59-28.31H73.13V302.36H28.3Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M442.56,170.79H356.11a50.09,50.09,0,0,1-35.32-14.46l-44.27-43.56a36.25,36.25,0,1,1,51.19-51.35L371,104.69l9.66.07a14.15,14.15,0,0,1-.07,28.3h-.08c-5.34,0-9.25-.06-11.84-.09-5.33-.07-9.54-.12-13.66-4.25L307.69,81.44a7.94,7.94,0,0,0-11.23,11.23l44.18,43.48a21.93,21.93,0,0,0,15.46,6.33h72.3V88.94A30.13,30.13,0,0,0,425,75.07C408.11,52.45,387.69,31,380.5,28.3l-115,0c-7.14,0-15.91,4-24.28,8-6.86,3.33-59.3,38.82-94.35,63-.24.16-.48.32-.73.47a9.47,9.47,0,0,0,9.56,16.34L219.79,73.6a14.15,14.15,0,0,1,15.64,23.59l-64.38,42.7-.52.32a37.77,37.77,0,0,1-39.39-64.46c15.11-10.4,86.6-59.49,97.77-64.9C240.23,5.37,252.38,0,265.51,0L381.32,0h0c8.1,0,19.72,3.73,44.41,31.37C437.94,45,447.93,58.44,448.35,59a14.32,14.32,0,0,1,1,1.56,58.57,58.57,0,0,1,7.35,28.37v67.69A14.16,14.16,0,0,1,442.56,170.79Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("rect", {
-                className: "lineal-fill",
-                x: "424.72",
-                y: "28.56",
-                width: "73.13",
-                height: "141.2"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M497.85,183.92H424.72a14.15,14.15,0,0,1-14.15-14.16V28.56a14.15,14.15,0,0,1,14.15-14.15h73.13A14.16,14.16,0,0,1,512,28.56v141.2A14.16,14.16,0,0,1,497.85,183.92Zm-59-28.31H483.7V42.72H438.87Z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Loyalty = (Loyalty);
-
-;// CONCATENATED MODULE: ./icons/lineal/Padlock.tsx
-
-const Padlock = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 324.02 512",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-pink me-5 mt-1"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M14.31,241.68V439.17a58.52,58.52,0,0,0,58.52,58.52H251.19a58.52,58.52,0,0,0,58.52-58.52V241.68ZM162,407.85a47.7,47.7,0,1,1,47.7-47.7A47.7,47.7,0,0,1,162,407.85Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M251.19,512H72.83A72.91,72.91,0,0,1,0,439.17V241.68a14.31,14.31,0,0,1,14.31-14.3h295.4A14.31,14.31,0,0,1,324,241.68V439.17A72.91,72.91,0,0,1,251.19,512ZM28.62,256V439.17a44.26,44.26,0,0,0,44.21,44.21H251.19a44.26,44.26,0,0,0,44.21-44.21V256ZM162,422.16a62,62,0,1,1,62-62A62.08,62.08,0,0,1,162,422.16Zm0-95.4a33.39,33.39,0,1,0,33.39,33.39A33.44,33.44,0,0,0,162,326.76Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M68.56,234.54H20.38a14.31,14.31,0,0,1,0-28.62H68.56a14.31,14.31,0,0,1,0,28.62Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M303.64,234.54H255.46a14.31,14.31,0,0,1,0-28.62h48.18a14.31,14.31,0,0,1,0,28.62Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M45.14,256a14.3,14.3,0,0,1-14.31-14.31V124a124.16,124.16,0,0,1,124-124h14.32a124.17,124.17,0,0,1,124,124V225.16a14.31,14.31,0,1,1-28.62,0V124a95.51,95.51,0,0,0-95.4-95.4H154.85A95.51,95.51,0,0,0,59.44,124V241.68A14.3,14.3,0,0,1,45.14,256Z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Padlock = (Padlock);
-
-// EXTERNAL MODULE: ./icons/lineal/AwardTwo.tsx
-var AwardTwo = __webpack_require__(3487);
-;// CONCATENATED MODULE: ./icons/lineal/CheckList.tsx
-
-const CheckList = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 418.2 512",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-blue me-5 mt-1"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M14.8 97.6h85.4V14.8z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M100.2 112.4H14.8C6.6 112.4 0 105.8 0 97.7c0-4 1.6-7.9 4.5-10.7L89.9 4.2c5.8-5.7 15.2-5.6 20.9.3 2.7 2.8 4.2 6.5 4.2 10.3v82.8c0 8.2-6.6 14.8-14.8 14.8zm-49-29.6h34.2V49.7L51.2 82.8zM403.4 320c-8.2 0-14.8-6.6-14.8-14.8v-269c0-3.6-3.2-6.6-7.2-6.6H168.7c-8.2 0-14.8-6.6-14.8-14.8 0-8.2 6.6-14.8 14.8-14.8h212.6c20.3 0 36.8 16.2 36.8 36.1v269c.1 8.3-6.5 14.9-14.7 14.9z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M381.4 512H36.8C16.5 512 0 495.8 0 475.9V97.6c0-4 1.6-7.8 4.5-10.6L89.9 4.2c5.9-5.7 15.2-5.5 20.9.3 5.7 5.9 5.5 15.2-.3 20.9l-80.9 78.5v372c0 3.6 3.2 6.6 7.2 6.6h344.6c4 0 7.2-3 7.2-6.6v-92.7c.2-8.2 7-14.6 15.2-14.4 7.9.2 14.2 6.5 14.4 14.4v92.7c0 19.9-16.5 36.1-36.8 36.1z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M403.4 112.4H168.7c-8.2-.2-14.6-7-14.4-15.2.2-7.9 6.5-14.2 14.4-14.4h219.9v-43c0-5.7-4.6-10.3-10.3-10.3H168.7c-8.2 0-14.8-6.6-14.8-14.8C154 6.6 160.6 0 168.7 0h209.6c22 0 39.8 17.9 39.9 39.8v57.8c0 8.2-6.6 14.8-14.8 14.8z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M73 189.6h124.1v65H73z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M197.1 269.4H73c-8.2 0-14.8-6.6-14.8-14.8v-65c0-8.2 6.6-14.8 14.7-14.8H197c8.2 0 14.8 6.6 14.8 14.8v65c.1 8.1-6.5 14.8-14.7 14.8.1 0 0 0 0 0zM87.8 239.8h94.6v-35.5H87.8v35.5zm201 25.3c-3.9 0-7.7-1.6-10.5-4.3l-23.6-23.6c-5.7-5.9-5.6-15.2.3-20.9 5.7-5.6 14.9-5.6 20.6 0l13.2 13.2 46-46c5.9-5.7 15.2-5.6 20.9.3 5.6 5.7 5.6 14.9 0 20.6l-56.4 56.4c-2.8 2.7-6.6 4.3-10.5 4.3z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M73 346.1h124.1v65H73z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M197.1 426H73c-8.2 0-14.8-6.6-14.8-14.8v-65c0-8.2 6.5-14.8 14.7-14.9h124.2c8.2 0 14.8 6.6 14.8 14.8v65c0 8.2-6.5 14.9-14.8 14.9.1 0 .1 0 0 0zM87.8 396.4h94.6v-35.5H87.8v35.5zm201 25.3c-3.9 0-7.7-1.6-10.5-4.3l-23.6-23.6c-5.7-5.9-5.6-15.2.3-20.9 5.7-5.6 14.9-5.6 20.6 0l13.2 13.2 46-46c5.9-5.7 15.2-5.6 20.9.3 5.6 5.7 5.6 14.9 0 20.6l-56.4 56.4c-2.8 2.7-6.6 4.3-10.5 4.3z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_CheckList = (CheckList);
-
-;// CONCATENATED MODULE: ./icons/lineal/Insurance.tsx
-
-const Insurance = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 441.41 512",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-pink me-5 mt-1"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M254.93,457a46.24,46.24,0,0,1-24.13-40.62V285.62A70,70,0,0,0,307.94,270a100.73,100.73,0,0,0-81.62-41.61H115.72A100.88,100.88,0,0,0,14.84,329.31V497.16H327.2v-.81Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M426.57,270.78a14.85,14.85,0,0,0-14.85,14.84V416.34a31.41,31.41,0,0,1-16.38,27.59l-66.66,36.32L262,443.93a31.4,31.4,0,0,1-16.39-27.59V305.05a85.35,85.35,0,0,0,12.31.89c1.26,0,2.51,0,3.76-.1l1,0c1.13-.06,2.25-.14,3.37-.25l1.59-.18,1.65-.2a83.72,83.72,0,0,0,41.13-17.47l1.09-.86,1.28-1.07c.85-.72,1.69-1.47,2.52-2.23l.41-.38c.95-.88,1.88-1.79,2.78-2.71l0,0h0a85,85,0,0,0,10.13-12.56,85.74,85.74,0,0,0,28,26.55,14.84,14.84,0,0,0,15-25.63A55.78,55.78,0,0,1,349,243.37a14.85,14.85,0,0,0-13.58-8.85H321.94a14.85,14.85,0,0,0-13.58,8.85c-.45,1-.94,2-1.44,3a116.46,116.46,0,0,0-45.39-27.21,87.22,87.22,0,0,0,27.23-63.34V87.5a14.85,14.85,0,0,0-29.69,0v68.29A57.86,57.86,0,0,1,202,213.58H140A57.86,57.86,0,0,1,83,155.79V87.5a57.87,57.87,0,0,1,57.81-57.81h60.48a14.85,14.85,0,0,0,0-29.69H140.78a87.6,87.6,0,0,0-87.5,87.5v68.29a87.23,87.23,0,0,0,27.19,63.3A115.93,115.93,0,0,0,0,329.31V497.16A14.85,14.85,0,0,0,14.84,512H327.2c.27,0,.55,0,.82,0s.44,0,.66,0a14.76,14.76,0,0,0,7.1-1.81L409.54,470a61.06,61.06,0,0,0,31.87-53.65V285.63A14.85,14.85,0,0,0,426.57,270.78Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M29.69,482.31v-153a86.13,86.13,0,0,1,86-86H140l.74,0h15.4V387.46a14.84,14.84,0,1,0,29.68,0V243.29h15.4l.74,0h24.32a86.35,86.35,0,0,1,60.4,24.82,55,55,0,0,1-20.58,7.54l-.15,0c-1.15.17-2.31.29-3.47.38l-.56.06c-1.24.09-2.49.13-3.74.14H258a54.76,54.76,0,0,1-21.38-4.3A14.84,14.84,0,0,0,216,285.62V416.34A61.12,61.12,0,0,0,247.82,470l22.6,12.31Z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M327.19,405.92a14.81,14.81,0,0,1-7.22-1.87l-24.85-13.86a14.84,14.84,0,0,1,14.45-25.93L325.24,373l34.06-30.14A14.84,14.84,0,1,1,379,365.09L337,402.2A14.82,14.82,0,0,1,327.19,405.92Z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_Insurance = (Insurance);
-
-// EXTERNAL MODULE: ./icons/lineal/Telephone.tsx
-var Telephone = __webpack_require__(1606);
-// EXTERNAL MODULE: ./icons/lineal/Analytics.tsx
-var Analytics = __webpack_require__(5754);
-// EXTERNAL MODULE: ./icons/lineal/Megaphone.tsx
-var Megaphone = __webpack_require__(7818);
-;// CONCATENATED MODULE: ./icons/lineal/LightBulb.tsx
-
-const LightBulb = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        viewBox: "0 0 321.7 409.6",
-        xmlns: "http://www.w3.org/2000/svg",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-blue me-4"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M160.9 221.3c-19.1 0-37.4-7.3-51.3-20.4l51.3 127.2 51.3-127.2c-13.9 13.1-32.3 20.4-51.3 20.4z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M160.9 339.9c-4.8 0-9.1-2.9-10.9-7.4L98.6 205.3c-2.5-6 .3-12.9 6.3-15.4 4.3-1.8 9.3-.9 12.7 2.4 24.3 22.9 62.2 22.9 86.5 0 4.7-4.5 12.1-4.3 16.6.3 3.2 3.4 4.2 8.3 2.4 12.7l-51.4 127.2c-1.7 4.5-6 7.4-10.8 7.4zm-27.5-111.3l27.5 68.1 27.5-68.1c-17.9 5.9-37.2 5.9-55 0z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M86.7 316.1c-5.9 0-10.9-4.4-11.7-10.2-2.2-16.6-9.8-23.9-22.3-36.1l-2.9-2.8C28.8 246.5 0 218.4 0 151.6c0-42.9 17.1-81.9 48-110C77.7 14.8 117.7 0 160.9 0s83.2 14.8 112.8 41.6c6.7 6.1 12.8 12.7 18.3 19.9 3.1 4.1 6 8.3 8.6 12.6 1.3 2.2 2.6 4.4 3.8 6.6 2.4 4.5 4.6 9.1 6.5 13.8 1.4 3.5 2.7 7.2 3.9 10.8 4.7 14.9 7 30.5 7 46.2 0 27.9-4.9 51.2-15 71.2-.6 1.2-1.2 2.4-1.8 3.5-1.8 3.3-3.8 6.5-5.9 9.6-.7 1-1.4 2-2 3-2.6 3.6-5.3 7.1-8.5 10.7-5.6 6.5-11.5 12.2-16.6 17.2-4.7 4.5-12.1 4.4-16.6-.2-4.5-4.7-4.4-12.1.2-16.6 5-4.9 10.2-9.9 15.2-15.7 2.6-3 4.9-6 7.1-9 .6-.8 1.1-1.6 1.7-2.4 1.7-2.5 3.3-5.2 4.7-7.8.5-.9 1-1.9 1.5-2.8 8.4-16.6 12.5-36.4 12.5-60.6 0-13.2-2-26.4-5.9-39.1-1-3.1-2.1-6.1-3.3-9.1-1.6-3.9-3.4-7.8-5.4-11.6-1-1.9-2.1-3.8-3.2-5.6-6.2-10.2-13.8-19.4-22.6-27.3-25.3-22.9-59.8-35.5-97-35.5S89.1 36.1 63.8 59c-26 23.5-40.3 56.4-40.3 92.5 0 56.9 22.7 79.1 42.8 98.6l2.8 2.7c13.4 13 26.1 25.2 29.3 49.9.9 6.4-3.7 12.4-10.1 13.2-.6.2-1.1.2-1.6.2z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M141.9 397.8h38c3.8 0 7.4-1.5 10.1-4.2l13-13c2-2 3.4-4.6 3.9-7.4l12.4-63.7h-117l12.4 63.7c.6 2.8 2 5.4 4 7.4l13 13c2.7 2.7 6.3 4.2 10.2 4.2z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M179.8 409.6h-37.9c-6.9 0-13.6-2.7-18.5-7.7l-13-13c-3.7-3.7-6.2-8.4-7.2-13.5l-12.4-63.7c-1.2-6.4 2.9-12.5 9.3-13.8.7-.1 1.5-.2 2.2-.2h117c6.5 0 11.8 5.3 11.8 11.8 0 .8-.1 1.5-.2 2.2l-12.4 63.7c-1 5.1-3.5 9.8-7.2 13.5l-13 13c-4.8 4.9-11.5 7.7-18.5 7.7zm-63.2-88.4l9.7 49.7c.1.5.4 1 .7 1.4l13 13c.5.5 1.2.8 1.9.8h38c.7 0 1.4-.3 1.9-.8l13-13c.4-.4.6-.9.7-1.4l9.6-49.7h-88.5z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M241.5 321H80.2c-6.5-.2-11.6-5.6-11.4-12.1.2-6.2 5.2-11.2 11.4-11.4h161.4c6.5-.2 11.9 4.9 12.1 11.4.2 6.5-4.9 11.9-11.4 12.1h-.8zm-14.8 44.3H95c-6.5-.2-11.6-5.6-11.4-12.1.2-6.2 5.2-11.2 11.4-11.4h131.7c6.5.2 11.6 5.6 11.4 12.1-.2 6.2-5.2 11.2-11.4 11.4z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_LightBulb = (LightBulb);
-
-;// CONCATENATED MODULE: ./icons/lineal/PieChartTwo.tsx
-
-const PieChartTwo = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        viewBox: "0 0 408.1 409.6",
-        xmlns: "http://www.w3.org/2000/svg",
-        className: `svg-inject icon-svg ${className || "icon-svg-sm text-green me-4"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M396.3 192.3h-33.4c-6.4 0-11.6-5.2-11.6-11.6 0-6.4 5.2-11.6 11.6-11.6h19.7C363.2 71.1 268.1 7.3 170.1 26.6c-4.2.8-8.4 1.8-12.6 2.9L235.1 169h72c6.4 0 11.6 5.2 11.6 11.6 0 6.4-5.2 11.6-11.6 11.6h-78.9c-4.2 0-8.1-2.3-10.1-6l-87.9-158c-3.1-5.6-1.1-12.6 4.5-15.7.7-.4 1.5-.7 2.3-1l8.1-2.5c107.8-33.1 222 27.4 255.1 135.2 2.7 8.7 4.8 17.6 6.3 26.6l1.3 8c1.1 6.3-3.2 12.3-9.5 13.3-.7.2-1.3.2-2 .2zM204.6 409.6c-20.4-.1-40.6-3.2-60.1-9.2l-8.1-2.5c-6.1-1.9-9.6-8.4-7.7-14.5.2-.8.6-1.5 1-2.2l88.4-158.3c2.1-3.7 5.9-5.9 10.1-5.9h33.2c6.4.2 11.4 5.5 11.2 11.9-.2 6.1-5.1 11.1-11.2 11.2H235l-78 139.8c96.8 26.3 196.6-30.9 222.9-127.8 1.1-4 2-8 2.8-12h-65.4c-6.4.2-11.7-4.8-11.9-11.2-.2-6.4 4.8-11.7 11.2-11.9h79.8c6.4 0 11.6 5.2 11.6 11.6 0 .6-.1 1.3-.2 1.9l-1.3 7.9C390 337 304.7 409.4 204.6 409.6z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M93 361.8C6 300.1-14.5 179.6 47.1 92.6c12.7-17.9 28.4-33.5 46.3-46.2l6.2-4.4 90 161.7-90.4 162.5-6.2-4.4z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M99.2 377.8c-2.4 0-4.7-.7-6.7-2.1l-6.2-4.4C-5.9 305.9-27.7 178.2 37.7 86c13.5-19 30-35.5 49.1-48.9l6.2-4.4c5.2-3.7 12.4-2.4 16.1 2.8.2.3.5.7.7 1.1l90 161.7c1.9 3.5 1.9 7.8 0 11.3L109.4 372c-1.6 2.9-4.3 4.9-7.6 5.7-.8 0-1.7.1-2.6.1zM95.8 59C15.6 119.1-.7 232.9 59.4 313.1c10.2 13.7 22.4 25.8 36 36.1l81-145.4L95.8 59z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_PieChartTwo = (PieChartTwo);
-
-;// CONCATENATED MODULE: ./icons/lineal/CloudComputingTwo.tsx
-
-const CloudComputingTwo = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 409.6 319.1",
-        className: `svg-inject icon-svg ${className || "icon-svg-md text-orange me-5"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M333.9 278.3H276c-6-.2-10.8-5.2-10.6-11.2.2-5.8 4.8-10.4 10.6-10.6h57.9c29.8 0 53.9-24.1 53.9-53.9 0-25.9-18.5-48.1-43.9-52.9-5.9-1.1-9.8-6.8-8.7-12.7 0-.2.1-.5.2-.7 12.6-48.9-16.8-98.7-65.7-111.4-38.3-9.9-78.7 6-100 39.4-2.9 4.6-8.8 6.3-13.7 4.1-30.1-13.6-65.6-.2-79.2 29.9-3.5 7.8-5.3 16.2-5.3 24.7 0 4.6.6 9.3 1.6 13.8 1.4 5.9-2.3 11.7-8.1 13.1-.1 0-.2 0-.2.1-29.3 6-47.9 34.6-41.8 63.7 5.3 24.9 27.2 42.8 52.7 42.8h58.2c6 .2 10.8 5.2 10.6 11.2-.2 5.8-4.8 10.4-10.6 10.6H75.7C33.9 278.3 0 244.4 0 202.6c0-31.9 20-60.4 50-71.2-.3-2.8-.4-5.7-.5-8.5 0-45.1 36.6-81.7 81.8-81.7 8.5 0 16.9 1.3 25 3.9 37.6-50 108.6-60 158.5-22.4C348.4 48 365.2 89.6 358.6 131c39.5 13.6 60.5 56.7 46.9 96.2-10.6 30.6-39.3 51.1-71.6 51.1z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M250.6 224.3l-39.3-53.6c-2.7-3.6-7.8-4.4-11.4-1.8-.7.5-1.3 1.1-1.8 1.8L159 224.3c-2.7 3.6-1.9 8.7 1.7 11.4 1.4 1 3.1 1.6 4.9 1.6h10.7v52.2c0 10.3 8.3 18.6 18.6 18.6h19.8c10.3 0 18.6-8.3 18.6-18.6v-52.3H244c4.5 0 8.2-3.6 8.2-8.1.1-1.7-.5-3.4-1.6-4.8z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M214.7 319.1h-19.8c-16.3 0-29.5-13.2-29.5-29.5v-41.3c-10.5-.1-19-8.8-18.9-19.3 0-4 1.3-7.8 3.7-11l39.3-53.6c6.2-8.5 18-10.4 26.5-4.2 1.6 1.2 3 2.6 4.2 4.2l39.3 53.6c6.2 8.5 4.4 20.4-4.1 26.6-3.2 2.3-7.1 3.6-11 3.7v41.3c-.1 16.2-13.4 29.4-29.7 29.5zM171 226.4h5.3c6 0 10.9 4.9 10.9 10.9v52.2c0 4.3 3.5 7.7 7.7 7.7h19.8c4.3 0 7.7-3.5 7.7-7.7v-52.2c0-6 4.9-10.9 10.9-10.9h5.3l-33.9-46.2-33.7 46.2z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_CloudComputingTwo = (CloudComputingTwo);
-
-// EXTERNAL MODULE: ./utils/color.ts
-var color = __webpack_require__(9957);
-;// CONCATENATED MODULE: ./data/demo-27.ts
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const serviceList = [
-    {
-        id: 1,
-        Icon: Telephone/* default */.Z,
-        color: color/* default.blue */.Z.blue,
-        title: "24/7 Support",
-        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-    },
-    {
-        id: 2,
-        Icon: Shield/* default */.Z,
-        color: color/* default.yellow */.Z.yellow,
-        title: "Secure Payments",
-        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-    },
-    {
-        id: 3,
-        color: color/* default.orange */.Z.orange,
-        Icon: lineal_CloudComputingTwo,
-        title: "Daily Updates",
-        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-    },
-    {
-        id: 4,
-        Icon: Analytics/* default */.Z,
-        color: color/* default.pink */.Z.pink,
-        title: "Market Research",
-        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-    },
-    {
-        id: 5,
-        Icon: ChatTwo/* default */.Z,
-        color: color/* default.green */.Z.green,
-        title: "Social Engagement",
-        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-    },
-    {
-        id: 6,
-        Icon: Megaphone/* default */.Z,
-        color: color/* default.purple */.Z.purple,
-        title: "Content Marketing",
-        description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-    }
-];
-const processList = [
-    {
-        id: 1,
-        Icon: lineal_LightBulb,
-        title: "Collect Ideas",
-        description: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
-    },
-    {
-        id: 2,
-        Icon: lineal_PieChartTwo,
-        title: "Data Analysis",
-        description: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
-    },
-    {
-        id: 3,
-        Icon: lineal_Design,
-        title: "Magic Touch",
-        description: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
-    }
-];
-const abouts = [
-    {
-        id: 1,
-        Icon: Target/* default */.Z,
-        color: color/* default.blue */.Z.blue,
-        title: "Our Vision",
-        description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus
-        tellus.`
-    },
-    {
-        id: 2,
-        Icon: AwardTwo/* default */.Z,
-        color: color/* default.green */.Z.green,
-        title: "Our Mission",
-        description: `Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere  consectetur.`
-    },
-    {
-        id: 3,
-        Icon: lineal_Loyalty,
-        color: color/* default.yellow */.Z.yellow,
-        title: "Our Values",
-        description: `Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.`
-    }
-];
-const pricingList = [
-    {
-        price: 9,
-        plan: "Basic",
-        features: [
-            "2 Projects",
-            "100K API Access",
-            "100MB Storage",
-            "Weekly Reports",
-            "7/24 Support"
-        ]
-    },
-    {
-        price: 19,
-        plan: "Premium",
-        features: [
-            "5 Projects",
-            "200K API Access",
-            "300MB Storage",
-            "Weekly Reports",
-            "7/24 Support"
-        ]
-    },
-    {
-        price: 29,
-        plan: "Corporate",
-        features: [
-            "20 Projects",
-            "300K API Access",
-            "500MB Storage",
-            "Weekly Reports",
-            "7/24 Support"
-        ]
-    },
-    {
-        price: 49,
-        plan: "Community",
-        features: [
-            "90 Projects",
-            "900K API Access",
-            "900MB Storage",
-            "Weekly Reports",
-            "7/24 Support"
-        ]
-    }
-];
-const faqList = [
-    {
-        id: 1,
-        Icon: lineal_CheckList,
-        title: "Can I cancel my subscription?",
-        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
-    },
-    {
-        id: 2,
-        Icon: lineal_Wallet,
-        title: "Which payment methods do you accept?",
-        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
-    },
-    {
-        id: 3,
-        Icon: lineal_Insurance,
-        title: "How can I manage my Account?",
-        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
-    },
-    {
-        id: 4,
-        Icon: lineal_Padlock,
-        title: "Is my credit card information secure?",
-        description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
-    }
-];
-/* harmony default export */ const demo_27 = ({
-    serviceList,
-    processList,
-    abouts,
-    pricingList,
-    faqList
 });
 
 
@@ -19724,236 +15509,6 @@ const testimonialList = [
         image: "/img/avatars/te6.jpg",
         designation: "Jackie Sanders",
         review: `Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus magnis dis montes, nascetur ridiculus mus. Donec sed odio.`
-    }
-];
-
-
-
-/***/ }),
-
-/***/ 2356:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// UNUSED EXPORTS: accordions, clients, pricingList, progressList, services, teams, whatWeAre
-
-// EXTERNAL MODULE: ./icons/lineal/Target.tsx
-var Target = __webpack_require__(9228);
-// EXTERNAL MODULE: ./icons/lineal/AwardTwo.tsx
-var AwardTwo = __webpack_require__(3487);
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: ./icons/lineal/BarChart.tsx
-
-const BarChart = ({ className  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-        viewBox: "0 0 512 431.2",
-        xmlns: "http://www.w3.org/2000/svg",
-        className: `svg-inject icon-svg ${className || "icon-svg-md text-orange mb-3"}`,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-fill",
-                d: "M125.8 121.3h86.6v296.4h-86.6zM299 13.5h86.6v404.2H299z"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                className: "lineal-stroke",
-                d: "M498.5 404.2h-11.8V161.7c0-7.5-6-13.5-13.5-13.5s-13.5 6-13.5 13.5v242.5h-59.6V94.3h73.1c7.4 0 13.5-6 13.5-13.5s-6-13.5-13.5-13.5h-74.1V13.5c0-7.4-6-13.5-13.5-13.5H299c-7.4 0-13.5 6-13.5 13.5v134.8h-59.7v-27c0-7.4-6-13.5-13.5-13.5h-73.6V33.7c0-7.4-6-13.5-13.5-13.5H38.7c-7.4 0-13.5 6-13.5 13.5v294.4c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5V47.2h59.7v357.1H13.5c-7.4.2-13.3 6.4-13.1 13.8.2 7.2 6 12.9 13.1 13.1h485.1c7.4-.2 13.3-6.4 13.1-13.8-.3-7.2-6-13-13.2-13.2zM139.3 134.7H199v269.5h-59.7V134.7zm86.6 40.5h59.7v229h-59.7v-229zm86.6 229V27h59.7v377.2h-59.7z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const lineal_BarChart = (BarChart);
-
-// EXTERNAL MODULE: ./icons/lineal/Megaphone.tsx
-var Megaphone = __webpack_require__(7818);
-// EXTERNAL MODULE: ./icons/lineal/SettingsThree.tsx
-var SettingsThree = __webpack_require__(7573);
-;// CONCATENATED MODULE: ./data/demo-8.ts
-
-
-
-
-
-const clients = [
-    {
-        id: 1,
-        image: "/img/brands/c1.png"
-    },
-    {
-        id: 2,
-        image: "/img/brands/c2.png"
-    },
-    {
-        id: 3,
-        image: "/img/brands/c3.png"
-    },
-    {
-        id: 4,
-        image: "/img/brands/c4.png"
-    },
-    {
-        id: 5,
-        image: "/img/brands/c5.png"
-    },
-    {
-        id: 6,
-        image: "/img/brands/c6.png"
-    },
-    {
-        id: 7,
-        image: "/img/brands/c7.png"
-    },
-    {
-        id: 8,
-        image: "/img/brands/c8.png"
-    }
-];
-const whatWeAre = [
-    {
-        id: 1,
-        Icon: Target/* default */.Z,
-        title: "Our Mission",
-        description: "Dapibus eu leo quam ornare curabitur blandit tempus."
-    },
-    {
-        id: 2,
-        Icon: AwardTwo/* default */.Z,
-        title: "Our Values",
-        description: "Aenean lacinia bibendum nulla sed consectetur."
-    }
-];
-const services = [
-    {
-        id: 1,
-        Icon: Megaphone/* default */.Z,
-        title: "Marketing",
-        description: "Nulla vitae elit libero pharetra augue dapibus."
-    },
-    {
-        id: 2,
-        Icon: Target/* default */.Z,
-        title: "Strategy",
-        description: "Vivamus sagittis lacus augue laoreet vel."
-    },
-    {
-        id: 3,
-        Icon: SettingsThree/* default */.Z,
-        title: "Development",
-        description: "Cras mattis consectetur purus sit amet."
-    },
-    {
-        id: 4,
-        Icon: lineal_BarChart,
-        title: "Data Analysis",
-        description: "Aenean lacinia bibendum nulla sed consectetur."
-    }
-];
-const teams = [
-    {
-        id: 1,
-        name: "Coriss Ambady",
-        designation: "Financial Analyst",
-        image: {
-            "1x": "/img/avatars/t1.jpg",
-            "2x": "/img/avatars/t1@2x.jpg 2x"
-        }
-    },
-    {
-        id: 2,
-        name: "Cory Zamora",
-        designation: "Marketing Specialist",
-        image: {
-            "1x": "/img/avatars/t2.jpg",
-            "2x": "/img/avatars/t2@2x.jpg 2x"
-        }
-    },
-    {
-        id: 3,
-        name: "Nikolas Brooten",
-        designation: "Sales Manager",
-        image: {
-            "1x": "/img/avatars/t3.jpg",
-            "2x": "/img/avatars/t3@2x.jpg 2x"
-        }
-    },
-    {
-        id: 4,
-        name: "Jackie Sanders",
-        designation: "Investment Planner",
-        image: {
-            "1x": "/img/avatars/t4.jpg",
-            "2x": "/img/avatars/t4@2x.jpg 2x"
-        }
-    }
-];
-const progressList = [
-    {
-        id: 1,
-        percent: 100,
-        title: "Marketing"
-    },
-    {
-        id: 2,
-        percent: 80,
-        title: "Strategy"
-    },
-    {
-        id: 3,
-        percent: 85,
-        title: "Development"
-    }
-];
-const pricingList = [
-    {
-        monthlyPrice: 19,
-        yearlyPrice: 199,
-        planName: "Premium",
-        features: [
-            "5 Projects",
-            "100K API Access",
-            "200MB Storage",
-            "Weekly Reports",
-            "7/24 Support"
-        ]
-    },
-    {
-        monthlyPrice: 49,
-        yearlyPrice: 499,
-        planName: "Corporate",
-        features: [
-            "20 Projects",
-            "300K API Access",
-            "500MB Storage",
-            "Weekly Reports",
-            "7/24 Support"
-        ]
-    }
-];
-const accordions = [
-    {
-        no: "One",
-        expand: false,
-        heading: "How do I get my subscription receipt?",
-        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
-    },
-    {
-        no: "Two",
-        expand: false,
-        heading: "Are there any discounts for people in need?",
-        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
-    },
-    {
-        no: "Three",
-        expand: false,
-        heading: "Do you offer a free trial edit?",
-        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
-    },
-    {
-        no: "Four",
-        expand: false,
-        heading: "How do I reset my Account password?",
-        body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
     }
 ];
 
@@ -20345,46 +15900,6 @@ const Analytics = ({ className  })=>{
 
 /***/ }),
 
-/***/ 3487:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-
-const AwardTwo = ({ className  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
-        viewBox: "0 0 409.6 404.7",
-        xmlns: "http://www.w3.org/2000/svg",
-        className: `svg-inject icon-svg ${className || "icon-svg-lg text-primary mb-3"}`,
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "lineal-stroke",
-                d: "M90.8 404.7c-6.5 0-12.4-4-14.7-10.1L57.7 347 10 328.7c-8.1-3.1-12.2-12.2-9-20.4.8-2 2-3.9 3.5-5.5l93.6-93.6 97.3 97.3-93.6 93.6c-2.9 2.9-6.9 4.6-11 4.6zm-60.7-93.8l39.5 15.2c4.1 1.6 7.4 4.9 9 9l15.2 39.5 68.1-68.1-63.7-63.7-68.1 68.1zm288.7 93.8c-4.2 0-8.2-1.7-11.1-4.6l-20.8-20.8 16.8-16.8 12.1 12.1 15.2-39.5c1.6-4.1 4.9-7.4 9-9l39.4-15.2-76.4-76.5 16.8-16.8 85.2 85.2c6.1 6.1 6.1 16.1 0 22.3-1.6 1.6-3.4 2.8-5.5 3.6L351.9 347l-18.3 47.6c-1.9 5-6.2 8.7-11.4 9.8-1.1.2-2.2.3-3.4.3z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "lineal-fill",
-                d: "M347.3 224.1c5.1-15.7 31-28.9 31-46.3s-25.9-30.6-31-46.3c-5.3-16.3 7.8-42.2-2.1-55.7s-38.6-9.2-52.4-19.2-18-38.6-34.4-43.9C242.7 7.6 222.2 28 204.8 28s-37.9-20.4-53.6-15.3c-16.3 5.3-20.8 34-34.4 43.9s-42.4 5.5-52.4 19.2 3.2 39.4-2.1 55.7c-5.1 15.7-31.1 28.8-31.1 46.3s25.9 30.6 31 46.3c5.3 16.3-7.8 42.1 2.1 55.7S103 289 116.7 299s18.1 38.6 34.4 43.9c15.7 5.1 36.2-15.3 53.6-15.3s37.9 20.4 53.6 15.3c16.3-5.3 20.8-34 34.4-43.9s42.4-5.5 52.4-19.2-3.1-39.3 2.2-55.7zm-142.5 48.7c-52.5 0-95-42.5-95-95s42.5-95 95-95 95 42.5 95 95-42.5 95-95 95z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "lineal-stroke",
-                d: "M253 355.7c-10.1 0-19.6-4.6-28.8-9.1-7-3.4-14.3-7-19.4-7s-12.4 3.6-19.4 7c-9.2 4.5-18.7 9.1-28.8 9.1-3.1 0-6.2-.5-9.1-1.4-13.7-4.5-20.7-17.6-26.8-29.2-3.5-6.7-7.2-13.6-10.9-16.3s-11.6-4.2-19.2-5.5c-12.8-2.2-27.4-4.8-35.8-16.3s-6.3-26-4.5-38.8c1.1-7.6 2.2-15.6.7-20.2-1.4-4.2-6.7-9.8-11.9-15.1-9.2-9.5-19.7-20.2-19.7-34.9s10.5-25.4 19.7-34.9c5.2-5.3 10.6-10.8 12-15.1 1.5-4.7.4-12.6-.7-20.2C48.6 95 46.5 80.4 54.8 69s23-14.1 35.8-16.3c7.5-1.3 15.3-2.7 19.2-5.5s7.4-9.6 10.9-16.3c6.1-11.6 13.1-24.8 26.8-29.2 2.9-1 6-1.4 9.1-1.4 10.1 0 19.6 4.6 28.8 9.1 7 3.4 14.3 7 19.4 7s12.4-3.6 19.4-7C233.4 4.6 243 0 253 0c3.1 0 6.2.5 9.1 1.4 13.7 4.5 20.7 17.6 26.8 29.2 3.5 6.7 7.2 13.6 10.9 16.3s11.6 4.2 19.2 5.5c12.9 2.2 27.4 4.8 35.8 16.3s6.3 26 4.5 38.8c-1.1 7.6-2.2 15.6-.7 20.2 1.4 4.2 6.7 9.8 11.9 15.1 9.2 9.5 19.7 20.2 19.7 34.9s-10.5 25.4-19.7 34.9c-5.2 5.3-10.6 10.9-11.9 15.1-1.5 4.7-.4 12.6.7 20.2 1.8 12.9 3.9 27.4-4.5 38.8s-23 14.1-35.8 16.3c-7.5 1.3-15.3 2.7-19.2 5.5s-7.4 9.6-10.9 16.3c-6.1 11.6-13.1 24.8-26.8 29.2-2.9 1.2-6 1.7-9.1 1.7zm-48.2-39.9c10.6 0 20.4 4.8 29.8 9.4 6.8 3.3 13.8 6.7 18.4 6.7.6 0 1.2-.1 1.7-.2 4.5-1.5 9.1-10.1 13.1-17.8 4.8-9.1 9.8-18.5 18-24.5s18.9-7.9 29.1-9.7c8.4-1.5 18-3.1 20.7-6.9s1.3-13.2.1-21.6c-1.4-10.3-2.9-21 .3-30.8 3.1-9.5 10.4-17 17.5-24.3 6.1-6.2 13-13.3 13-18.3s-6.9-12.1-13-18.3c-7.1-7.3-14.4-14.8-17.5-24.3-3.2-9.9-1.7-20.5-.3-30.8 1.2-8.4 2.5-17.9-.1-21.6s-12.3-5.4-20.7-6.9c-10.2-1.8-20.8-3.6-29.1-9.7s-13.2-15.4-18-24.5c-4-7.6-8.6-16.3-13.1-17.8-.6-.2-1.2-.3-1.8-.2-4.6 0-11.6 3.4-18.4 6.7-9.5 4.6-19.3 9.4-29.8 9.4s-20.4-4.8-29.8-9.4c-6.8-3.3-13.8-6.7-18.4-6.7-.6 0-1.2.1-1.8.2-4.5 1.5-9.1 10.1-13.1 17.8-4.8 9.1-9.8 18.5-18 24.5s-18.9 7.9-29.1 9.7c-8.4 1.5-18 3.2-20.7 6.9s-1.3 13.2-.1 21.6c1.4 10.3 2.9 21-.3 30.8-3.1 9.5-10.4 17-17.5 24.3-6 6.2-12.9 13.3-12.9 18.3s6.9 12.1 13 18.3c7.1 7.3 14.4 14.8 17.5 24.3 3.2 9.9 1.7 20.5.3 30.8-1.2 8.4-2.5 17.9.1 21.6s12.3 5.4 20.7 6.9c10.2 1.8 20.8 3.6 29.1 9.7s13.2 15.4 18 24.5c4 7.6 8.6 16.3 13.1 17.7.6.2 1.2.3 1.8.2 4.6 0 11.6-3.4 18.4-6.7 9.5-4.6 19.3-9.3 29.8-9.3z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "lineal-stroke",
-                d: "M204.8 284.7c-59 0-106.9-47.9-106.9-106.9 0-59 47.9-106.9 106.9-106.9 59 0 106.9 47.8 106.9 106.8v.1c-.1 59-47.9 106.9-106.9 106.9zm0-190c-45.9 0-83.2 37.2-83.2 83.1 0 45.9 37.2 83.2 83.1 83.2 45.9 0 83.2-37.2 83.2-83.1 0-25.8-12-50.1-32.4-65.9-14.4-11.2-32.3-17.3-50.7-17.3z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AwardTwo);
-
-
-/***/ }),
-
 /***/ 3652:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -20719,90 +16234,6 @@ const Telephone = ({ className  })=>{
 
 /***/ }),
 
-/***/ 4119:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-
-const Bulb = ({ className  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 256 255.98",
-        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-sm text-fuchsia me-4"}`,
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("circle", {
-                className: "fill-primary",
-                cx: "58.67",
-                cy: "149.31",
-                r: "32"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-primary",
-                d: "M88 202.65H29.33A29.36 29.36 0 000 232v16a8 8 0 008 8h101.33a8 8 0 008-8v-16A29.36 29.36 0 0088 202.65z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("circle", {
-                className: "fill-primary",
-                cx: "197.33",
-                cy: "149.31",
-                r: "32"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-primary",
-                d: "M226.67 202.65H168A29.36 29.36 0 00138.67 232v16a8 8 0 008 8H248a8 8 0 008-8v-16a29.36 29.36 0 00-29.33-29.35z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-secondary",
-                d: "M149.76 108.48v7.68A11.9 11.9 0 01137.81 128h-19.63c-5.76 0-12-4.27-12-13.76v-5.76zM176 47.68a47.26 47.26 0 01-17.6 36.91 22.89 22.89 0 00-8.32 13.23H106a20 20 0 00-7.79-12.69A47.13 47.13 0 0180 46.73C80.53 21.34 101.76.33 127.25 0a47.34 47.34 0 0134.56 13.88A46.82 46.82 0 01176 47.68z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Bulb);
-
-
-/***/ }),
-
-/***/ 4940:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-
-const Headphone = ({ className  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 256 244.09",
-        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-xs text-green me-4"}`,
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-secondary",
-                d: "M35.72 92.28a92.28 92.28 0 01184.56 0v47.63a8.93 8.93 0 01-17.86 0V92.28a74.42 74.42 0 10-148.84 0v47.63a8.93 8.93 0 11-17.86 0zm175.63 62.51a8.93 8.93 0 018.93 8.93v35.72a32.75 32.75 0 01-32.75 32.75h-35.72a8.94 8.94 0 010-17.87h35.72a14.88 14.88 0 0014.89-14.88v-35.72a8.93 8.93 0 018.93-8.93z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-secondary",
-                d: "M107.16 223.26A20.84 20.84 0 01128 202.42h11.91a20.84 20.84 0 010 41.67H128a20.84 20.84 0 01-20.84-20.83zm20.84-3a3 3 0 100 5.95h11.91a3 3 0 000-5.95z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-primary",
-                d: "M32.74 107.16A32.74 32.74 0 000 139.91v23.81a32.75 32.75 0 0032.74 32.75h11.91a8.93 8.93 0 008.93-8.94v-71.44a8.93 8.93 0 00-8.93-8.93zm190.52 0A32.74 32.74 0 01256 139.91v23.81a32.75 32.75 0 01-32.74 32.75h-11.91a8.93 8.93 0 01-8.93-8.94v-71.44a8.93 8.93 0 018.93-8.93z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Headphone);
-
-
-/***/ }),
-
 /***/ 4694:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -20843,38 +16274,6 @@ const Lamp = ({ className  })=>{
 
 /***/ }),
 
-/***/ 1315:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-
-const Puzzle = ({ className  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 255.97 256",
-        className: `svg-inject icon-svg solid-mono ${className || "icon-svg-xs text-orange me-4"}`,
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-secondary",
-                d: "M221.86 91a33.65 33.65 0 01-22.72-8.75v40.21h-27.2a43.26 43.26 0 003.73-17.71 44.8 44.8 0 10-86 17.71H56.85v-111A11.42 11.42 0 0168.26 0h119.47a11.42 11.42 0 0111.41 11.41v20.05A34.1 34.1 0 11221.86 91z"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                className: "fill-primary",
-                d: "M142.79 181.25a34.13 34.13 0 0033.55 40.62 33.66 33.66 0 0022.75-8.77v31.52A11.41 11.41 0 01187.72 256H68.28a11.41 11.41 0 01-11.38-11.38V213.1a34.12 34.12 0 11-22.75-59.5 33.71 33.71 0 0122.75 8.77v-29.2H112a34.12 34.12 0 1137.76 0h49.37v29.2a34.09 34.09 0 00-56.3 18.88z"
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Puzzle);
-
-
-/***/ }),
-
 /***/ 4369:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -20888,17 +16287,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8913);
-/* harmony import */ var components_blocks_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5404);
+/* harmony import */ var components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1214);
+/* harmony import */ var components_blocks_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3803);
 /* harmony import */ var components_blocks_hero__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3025);
-/* harmony import */ var components_blocks_faq__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2805);
+/* harmony import */ var components_blocks_faq__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4559);
 /* harmony import */ var components_blocks_testimonial__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3798);
 /* harmony import */ var components_blocks_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1055);
 /* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(1154);
 /* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var components_blocks_playground_Playground__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(3927);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([components_blocks_hero__WEBPACK_IMPORTED_MODULE_4__, components_blocks_testimonial__WEBPACK_IMPORTED_MODULE_6__]);
-([components_blocks_hero__WEBPACK_IMPORTED_MODULE_4__, components_blocks_testimonial__WEBPACK_IMPORTED_MODULE_6__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var components_blocks_playground_Playground__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9952);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([components_blocks_hero__WEBPACK_IMPORTED_MODULE_4__, components_blocks_testimonial__WEBPACK_IMPORTED_MODULE_6__, components_blocks_playground_Playground__WEBPACK_IMPORTED_MODULE_8__]);
+([components_blocks_hero__WEBPACK_IMPORTED_MODULE_4__, components_blocks_testimonial__WEBPACK_IMPORTED_MODULE_6__, components_blocks_playground_Playground__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -20915,7 +16314,7 @@ function index() {
             position: "relative"
         },
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__/* .Navbar */ .wp, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__/* .Navbar */ .w, {
                 search: true,
                 stickyBox: true,
                 navClassName: "navbar navbar-expand-lg navbar-light navbar-bg-light shadow rounded mb-5 bg-white"
@@ -20927,7 +16326,7 @@ function index() {
                 className: "bg_secondary pt-10 pb-10 pt-md-14 pb-md-14",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "container-md ",
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_services__WEBPACK_IMPORTED_MODULE_3__/* .Services14 */ .Y3, {})
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_services__WEBPACK_IMPORTED_MODULE_3__/* .Services14 */ .Y, {})
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -20966,1192 +16365,6 @@ function index() {
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 9814:
-/***/ ((module) => {
-
-"use strict";
-
-!function(a) {
-    if (true) module.exports = a();
-    else { var b; }
-}(function() {
-    var a;
-    return (function() {
-        function a(b, c, d) {
-            function e(g, h) {
-                if (!c[g]) {
-                    if (!b[g]) {
-                        var i = undefined;
-                        if (!h && i) return require(g, !0);
-                        if (f) return f(g, !0);
-                        var j = new Error("Cannot find module '" + g + "'");
-                        throw j.code = "MODULE_NOT_FOUND", j;
-                    }
-                    var k = c[g] = {
-                        exports: {}
-                    };
-                    b[g][0].call(k.exports, function(a) {
-                        return e(b[g][1][a] || a);
-                    }, k, k.exports, a, b, c, d);
-                }
-                return c[g].exports;
-            }
-            for(var f = undefined, g = 0; g < d.length; g++)e(d[g]);
-            return e;
-        }
-        return a;
-    })()({
-        1: [
-            function(b, c, d) {
-                !function(b, e) {
-                    "object" == typeof d && "object" == typeof c ? c.exports = e() : "function" == typeof a && a.amd ? a("shifty", [], e) : "object" == typeof d ? d.shifty = e() : b.shifty = e();
-                }(window, function() {
-                    return function(a) {
-                        function b(d) {
-                            if (c[d]) return c[d].exports;
-                            var e = c[d] = {
-                                i: d,
-                                l: !1,
-                                exports: {}
-                            };
-                            return a[d].call(e.exports, e, e.exports, b), e.l = !0, e.exports;
-                        }
-                        var c = {};
-                        return b.m = a, b.c = c, b.d = function(a, c, d) {
-                            b.o(a, c) || Object.defineProperty(a, c, {
-                                enumerable: !0,
-                                get: d
-                            });
-                        }, b.r = function(a) {
-                            "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(a, Symbol.toStringTag, {
-                                value: "Module"
-                            }), Object.defineProperty(a, "__esModule", {
-                                value: !0
-                            });
-                        }, b.t = function(a, c) {
-                            if (1 & c && (a = b(a)), 8 & c) return a;
-                            if (4 & c && "object" == typeof a && a && a.__esModule) return a;
-                            var d = Object.create(null);
-                            if (b.r(d), Object.defineProperty(d, "default", {
-                                enumerable: !0,
-                                value: a
-                            }), 2 & c && "string" != typeof a) for(var e in a)b.d(d, e, (function(b) {
-                                return a[b];
-                            }).bind(null, e));
-                            return d;
-                        }, b.n = function(a) {
-                            var c = a && a.__esModule ? function() {
-                                return a.default;
-                            } : function() {
-                                return a;
-                            };
-                            return b.d(c, "a", c), c;
-                        }, b.o = function(a, b) {
-                            return Object.prototype.hasOwnProperty.call(a, b);
-                        }, b.p = "", b(b.s = 3);
-                    }([
-                        function(a, b, c) {
-                            "use strict";
-                            (function(a) {
-                                function d(a, b) {
-                                    for(var c = 0; c < b.length; c++){
-                                        var d = b[c];
-                                        d.enumerable = d.enumerable || !1, d.configurable = !0, "value" in d && (d.writable = !0), Object.defineProperty(a, d.key, d);
-                                    }
-                                }
-                                function e(a) {
-                                    return (e = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(a) {
-                                        return typeof a;
-                                    } : function(a) {
-                                        return a && "function" == typeof Symbol && a.constructor === Symbol && a !== Symbol.prototype ? "symbol" : typeof a;
-                                    })(a);
-                                }
-                                function f(a, b) {
-                                    var c = Object.keys(a);
-                                    if (Object.getOwnPropertySymbols) {
-                                        var d = Object.getOwnPropertySymbols(a);
-                                        b && (d = d.filter(function(b) {
-                                            return Object.getOwnPropertyDescriptor(a, b).enumerable;
-                                        })), c.push.apply(c, d);
-                                    }
-                                    return c;
-                                }
-                                function g(a) {
-                                    for(var b = 1; b < arguments.length; b++){
-                                        var c = null != arguments[b] ? arguments[b] : {};
-                                        b % 2 ? f(Object(c), !0).forEach(function(b) {
-                                            h(a, b, c[b]);
-                                        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(a, Object.getOwnPropertyDescriptors(c)) : f(Object(c)).forEach(function(b) {
-                                            Object.defineProperty(a, b, Object.getOwnPropertyDescriptor(c, b));
-                                        });
-                                    }
-                                    return a;
-                                }
-                                function h(a, b, c) {
-                                    return b in a ? Object.defineProperty(a, b, {
-                                        value: c,
-                                        enumerable: !0,
-                                        configurable: !0,
-                                        writable: !0
-                                    }) : a[b] = c, a;
-                                }
-                                function i() {
-                                    var a = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}, b = new v(), c = b.tween(a);
-                                    return c.tweenable = b, c;
-                                }
-                                c.d(b, "e", function() {
-                                    return q;
-                                }), c.d(b, "c", function() {
-                                    return s;
-                                }), c.d(b, "b", function() {
-                                    return t;
-                                }), c.d(b, "a", function() {
-                                    return v;
-                                }), c.d(b, "d", function() {
-                                    return i;
-                                });
-                                var j = c(1), k =  false ? 0 : a, l = k.requestAnimationFrame || k.webkitRequestAnimationFrame || k.oRequestAnimationFrame || k.msRequestAnimationFrame || k.mozCancelRequestAnimationFrame && k.mozRequestAnimationFrame || setTimeout, m = function() {}, n = null, o = null, p = g({}, j), q = function(a, b, c, d, e, f, g) {
-                                    var h = a < f ? 0 : (a - f) / e;
-                                    for(var i in b){
-                                        var j = g[i], k = j.call ? j : p[j], l = c[i];
-                                        b[i] = l + (d[i] - l) * k(h);
-                                    }
-                                    return b;
-                                }, r = function(a, b) {
-                                    var c = a._attachment, d = a._currentState, e = a._delay, f = a._easing, g = a._originalState, h = a._duration, i = a._step, j = a._targetState, k = a._timestamp, l = k + e + h, m = b > l ? l : b, n = h - (l - m);
-                                    m >= l ? (i(j, c, n), a.stop(!0)) : (a._applyFilter("beforeTween"), m < k + e ? (m = 1, h = 1, k = 1) : k += e, q(m, d, g, j, h, k, f), a._applyFilter("afterTween"), i(d, c, n));
-                                }, s = function() {
-                                    for(var a = v.now(), b = n; b;){
-                                        var c = b._next;
-                                        r(b, a), b = c;
-                                    }
-                                }, t = function(a) {
-                                    var b = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "linear", c = {}, d = e(b);
-                                    if ("string" === d || "function" === d) for(var f in a)c[f] = b;
-                                    else for(var g in a)c[g] = b[g] || "linear";
-                                    return c;
-                                }, u = function(a) {
-                                    if (a === n) (n = a._next) ? n._previous = null : o = null;
-                                    else if (a === o) (o = a._previous) ? o._next = null : n = null;
-                                    else {
-                                        var b = a._previous, c = a._next;
-                                        b._next = c, c._previous = b;
-                                    }
-                                    a._previous = a._next = null;
-                                }, v = function() {
-                                    function a() {
-                                        var b = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}, c = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : void 0;
-                                        !function(a, b) {
-                                            if (!(a instanceof b)) throw new TypeError("Cannot call a class as a function");
-                                        }(this, a), this._currentState = b, this._configured = !1, this._filters = [], this._timestamp = null, this._next = null, this._previous = null, c && this.setConfig(c);
-                                    }
-                                    var b, c, e;
-                                    return b = a, (c = [
-                                        {
-                                            key: "_applyFilter",
-                                            value: function(a) {
-                                                var b = !0, c = !1, d = void 0;
-                                                try {
-                                                    for(var e, f = this._filters[Symbol.iterator](); !(b = (e = f.next()).done); b = !0){
-                                                        var g = e.value[a];
-                                                        g && g(this);
-                                                    }
-                                                } catch (a) {
-                                                    c = !0, d = a;
-                                                } finally{
-                                                    try {
-                                                        b || null == f.return || f.return();
-                                                    } finally{
-                                                        if (c) throw d;
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            key: "tween",
-                                            value: function() {
-                                                var b = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : void 0, c = this._attachment, d = this._configured;
-                                                return !b && d || this.setConfig(b), this._pausedAtTime = null, this._timestamp = a.now(), this._start(this.get(), c), this.resume();
-                                            }
-                                        },
-                                        {
-                                            key: "setConfig",
-                                            value: function() {
-                                                var b = this, c = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}, d = c.attachment, e = c.delay, f = void 0 === e ? 0 : e, h = c.duration, i = void 0 === h ? 500 : h, j = c.easing, k = c.from, l = c.promise, n = void 0 === l ? Promise : l, o = c.start, p = void 0 === o ? m : o, q = c.step, r = void 0 === q ? m : q, s = c.to;
-                                                this._configured = !0, this._attachment = d, this._isPlaying = !1, this._pausedAtTime = null, this._scheduleId = null, this._delay = f, this._start = p, this._step = r, this._duration = i, this._currentState = g({}, k || this.get()), this._originalState = this.get(), this._targetState = g({}, s || this.get());
-                                                var u = this._currentState;
-                                                this._targetState = g({}, u, {}, this._targetState), this._easing = t(u, j);
-                                                var v = a.filters;
-                                                for(var w in this._filters.length = 0, v)v[w].doesApply(this) && this._filters.push(v[w]);
-                                                return this._applyFilter("tweenCreated"), this._promise = new n(function(a, c) {
-                                                    b._resolve = a, b._reject = c;
-                                                }), this._promise.catch(m), this;
-                                            }
-                                        },
-                                        {
-                                            key: "get",
-                                            value: function() {
-                                                return g({}, this._currentState);
-                                            }
-                                        },
-                                        {
-                                            key: "set",
-                                            value: function(a) {
-                                                this._currentState = a;
-                                            }
-                                        },
-                                        {
-                                            key: "pause",
-                                            value: function() {
-                                                if (this._isPlaying) return this._pausedAtTime = a.now(), this._isPlaying = !1, u(this), this;
-                                            }
-                                        },
-                                        {
-                                            key: "resume",
-                                            value: function() {
-                                                if (null === this._timestamp) return this.tween();
-                                                if (this._isPlaying) return this._promise;
-                                                var b = a.now();
-                                                return this._pausedAtTime && (this._timestamp += b - this._pausedAtTime, this._pausedAtTime = null), this._isPlaying = !0, null === n ? (n = this, o = this, function a() {
-                                                    n && (l.call(k, a, 1e3 / 60), s());
-                                                }()) : (this._previous = o, o._next = this, o = this), this._promise;
-                                            }
-                                        },
-                                        {
-                                            key: "seek",
-                                            value: function(b) {
-                                                b = Math.max(b, 0);
-                                                var c = a.now();
-                                                return this._timestamp + b === 0 ? this : (this._timestamp = c - b, this._isPlaying || r(this, c), this);
-                                            }
-                                        },
-                                        {
-                                            key: "stop",
-                                            value: function() {
-                                                var a = arguments.length > 0 && void 0 !== arguments[0] && arguments[0], b = this._attachment, c = this._currentState, d = this._easing, e = this._originalState, f = this._targetState;
-                                                if (this._isPlaying) return this._isPlaying = !1, u(this), a ? (this._applyFilter("beforeTween"), q(1, c, e, f, 1, 0, d), this._applyFilter("afterTween"), this._applyFilter("afterTweenEnd"), this._resolve(c, b)) : this._reject(c, b), this;
-                                            }
-                                        },
-                                        {
-                                            key: "isPlaying",
-                                            value: function() {
-                                                return this._isPlaying;
-                                            }
-                                        },
-                                        {
-                                            key: "setScheduleFunction",
-                                            value: function(b) {
-                                                a.setScheduleFunction(b);
-                                            }
-                                        },
-                                        {
-                                            key: "dispose",
-                                            value: function() {
-                                                for(var a in this)delete this[a];
-                                            }
-                                        }
-                                    ]) && d(b.prototype, c), e && d(b, e), a;
-                                }();
-                                v.setScheduleFunction = function(a) {
-                                    return l = a;
-                                }, v.formulas = p, v.filters = {}, v.now = Date.now || function() {
-                                    return +new Date();
-                                };
-                            }).call(this, c(2));
-                        },
-                        function(a, b, c) {
-                            "use strict";
-                            c.r(b), c.d(b, "linear", function() {
-                                return d;
-                            }), c.d(b, "easeInQuad", function() {
-                                return e;
-                            }), c.d(b, "easeOutQuad", function() {
-                                return f;
-                            }), c.d(b, "easeInOutQuad", function() {
-                                return g;
-                            }), c.d(b, "easeInCubic", function() {
-                                return h;
-                            }), c.d(b, "easeOutCubic", function() {
-                                return i;
-                            }), c.d(b, "easeInOutCubic", function() {
-                                return j;
-                            }), c.d(b, "easeInQuart", function() {
-                                return k;
-                            }), c.d(b, "easeOutQuart", function() {
-                                return l;
-                            }), c.d(b, "easeInOutQuart", function() {
-                                return m;
-                            }), c.d(b, "easeInQuint", function() {
-                                return n;
-                            }), c.d(b, "easeOutQuint", function() {
-                                return o;
-                            }), c.d(b, "easeInOutQuint", function() {
-                                return p;
-                            }), c.d(b, "easeInSine", function() {
-                                return q;
-                            }), c.d(b, "easeOutSine", function() {
-                                return r;
-                            }), c.d(b, "easeInOutSine", function() {
-                                return s;
-                            }), c.d(b, "easeInExpo", function() {
-                                return t;
-                            }), c.d(b, "easeOutExpo", function() {
-                                return u;
-                            }), c.d(b, "easeInOutExpo", function() {
-                                return v;
-                            }), c.d(b, "easeInCirc", function() {
-                                return w;
-                            }), c.d(b, "easeOutCirc", function() {
-                                return x;
-                            }), c.d(b, "easeInOutCirc", function() {
-                                return y;
-                            }), c.d(b, "easeOutBounce", function() {
-                                return z;
-                            }), c.d(b, "easeInBack", function() {
-                                return A;
-                            }), c.d(b, "easeOutBack", function() {
-                                return B;
-                            }), c.d(b, "easeInOutBack", function() {
-                                return C;
-                            }), c.d(b, "elastic", function() {
-                                return D;
-                            }), c.d(b, "swingFromTo", function() {
-                                return E;
-                            }), c.d(b, "swingFrom", function() {
-                                return F;
-                            }), c.d(b, "swingTo", function() {
-                                return G;
-                            }), c.d(b, "bounce", function() {
-                                return H;
-                            }), c.d(b, "bouncePast", function() {
-                                return I;
-                            }), c.d(b, "easeFromTo", function() {
-                                return J;
-                            }), c.d(b, "easeFrom", function() {
-                                return K;
-                            }), c.d(b, "easeTo", function() {
-                                return L;
-                            });
-                            var d = function(a) {
-                                return a;
-                            }, e = function(a) {
-                                return Math.pow(a, 2);
-                            }, f = function(a) {
-                                return -(Math.pow(a - 1, 2) - 1);
-                            }, g = function(a) {
-                                return (a /= 0.5) < 1 ? 0.5 * Math.pow(a, 2) : -0.5 * ((a -= 2) * a - 2);
-                            }, h = function(a) {
-                                return Math.pow(a, 3);
-                            }, i = function(a) {
-                                return Math.pow(a - 1, 3) + 1;
-                            }, j = function(a) {
-                                return (a /= 0.5) < 1 ? 0.5 * Math.pow(a, 3) : 0.5 * (Math.pow(a - 2, 3) + 2);
-                            }, k = function(a) {
-                                return Math.pow(a, 4);
-                            }, l = function(a) {
-                                return -(Math.pow(a - 1, 4) - 1);
-                            }, m = function(a) {
-                                return (a /= 0.5) < 1 ? 0.5 * Math.pow(a, 4) : -0.5 * ((a -= 2) * Math.pow(a, 3) - 2);
-                            }, n = function(a) {
-                                return Math.pow(a, 5);
-                            }, o = function(a) {
-                                return Math.pow(a - 1, 5) + 1;
-                            }, p = function(a) {
-                                return (a /= 0.5) < 1 ? 0.5 * Math.pow(a, 5) : 0.5 * (Math.pow(a - 2, 5) + 2);
-                            }, q = function(a) {
-                                return 1 - Math.cos(a * (Math.PI / 2));
-                            }, r = function(a) {
-                                return Math.sin(a * (Math.PI / 2));
-                            }, s = function(a) {
-                                return -0.5 * (Math.cos(Math.PI * a) - 1);
-                            }, t = function(a) {
-                                return 0 === a ? 0 : Math.pow(2, 10 * (a - 1));
-                            }, u = function(a) {
-                                return 1 === a ? 1 : 1 - Math.pow(2, -10 * a);
-                            }, v = function(a) {
-                                return 0 === a ? 0 : 1 === a ? 1 : (a /= 0.5) < 1 ? 0.5 * Math.pow(2, 10 * (a - 1)) : 0.5 * (2 - Math.pow(2, -10 * --a));
-                            }, w = function(a) {
-                                return -(Math.sqrt(1 - a * a) - 1);
-                            }, x = function(a) {
-                                return Math.sqrt(1 - Math.pow(a - 1, 2));
-                            }, y = function(a) {
-                                return (a /= 0.5) < 1 ? -0.5 * (Math.sqrt(1 - a * a) - 1) : 0.5 * (Math.sqrt(1 - (a -= 2) * a) + 1);
-                            }, z = function(a) {
-                                return a < 1 / 2.75 ? 7.5625 * a * a : a < 2 / 2.75 ? 7.5625 * (a -= 1.5 / 2.75) * a + 0.75 : a < 2.5 / 2.75 ? 7.5625 * (a -= 2.25 / 2.75) * a + 0.9375 : 7.5625 * (a -= 2.625 / 2.75) * a + 0.984375;
-                            }, A = function(a) {
-                                var b = 1.70158;
-                                return a * a * ((b + 1) * a - b);
-                            }, B = function(a) {
-                                var b = 1.70158;
-                                return (a -= 1) * a * ((b + 1) * a + b) + 1;
-                            }, C = function(a) {
-                                var b = 1.70158;
-                                return (a /= 0.5) < 1 ? a * a * ((1 + (b *= 1.525)) * a - b) * 0.5 : 0.5 * ((a -= 2) * a * ((1 + (b *= 1.525)) * a + b) + 2);
-                            }, D = function(a) {
-                                return -1 * Math.pow(4, -8 * a) * Math.sin((6 * a - 1) * (2 * Math.PI) / 2) + 1;
-                            }, E = function(a) {
-                                var b = 1.70158;
-                                return (a /= 0.5) < 1 ? a * a * ((1 + (b *= 1.525)) * a - b) * 0.5 : 0.5 * ((a -= 2) * a * ((1 + (b *= 1.525)) * a + b) + 2);
-                            }, F = function(a) {
-                                var b = 1.70158;
-                                return a * a * ((b + 1) * a - b);
-                            }, G = function(a) {
-                                var b = 1.70158;
-                                return (a -= 1) * a * ((b + 1) * a + b) + 1;
-                            }, H = function(a) {
-                                return a < 1 / 2.75 ? 7.5625 * a * a : a < 2 / 2.75 ? 7.5625 * (a -= 1.5 / 2.75) * a + 0.75 : a < 2.5 / 2.75 ? 7.5625 * (a -= 2.25 / 2.75) * a + 0.9375 : 7.5625 * (a -= 2.625 / 2.75) * a + 0.984375;
-                            }, I = function(a) {
-                                return a < 1 / 2.75 ? 7.5625 * a * a : a < 2 / 2.75 ? 2 - (7.5625 * (a -= 1.5 / 2.75) * a + 0.75) : a < 2.5 / 2.75 ? 2 - (7.5625 * (a -= 2.25 / 2.75) * a + 0.9375) : 2 - (7.5625 * (a -= 2.625 / 2.75) * a + 0.984375);
-                            }, J = function(a) {
-                                return (a /= 0.5) < 1 ? 0.5 * Math.pow(a, 4) : -0.5 * ((a -= 2) * Math.pow(a, 3) - 2);
-                            }, K = function(a) {
-                                return Math.pow(a, 4);
-                            }, L = function(a) {
-                                return Math.pow(a, 0.25);
-                            };
-                        },
-                        function(a, b) {
-                            var c;
-                            c = function() {
-                                return this;
-                            }();
-                            try {
-                                c = c || new Function("return this")();
-                            } catch (a) {
-                                 false && (0);
-                            }
-                            a.exports = c;
-                        },
-                        function(a, b, c) {
-                            "use strict";
-                            function d(a) {
-                                return parseInt(a, 16);
-                            }
-                            function e(a) {
-                                var b = a._currentState;
-                                [
-                                    b,
-                                    a._originalState,
-                                    a._targetState
-                                ].forEach(B), a._tokenData = E(b);
-                            }
-                            function f(a) {
-                                var b = a._currentState, c = a._originalState, d = a._targetState, e = a._easing, f = a._tokenData;
-                                K(e, f), [
-                                    b,
-                                    c,
-                                    d
-                                ].forEach(function(a) {
-                                    return F(a, f);
-                                });
-                            }
-                            function g(a) {
-                                var b = a._currentState, c = a._originalState, d = a._targetState, e = a._easing, f = a._tokenData;
-                                [
-                                    b,
-                                    c,
-                                    d
-                                ].forEach(function(a) {
-                                    return J(a, f);
-                                }), L(e, f);
-                            }
-                            function h(a, b) {
-                                var c = Object.keys(a);
-                                if (Object.getOwnPropertySymbols) {
-                                    var d = Object.getOwnPropertySymbols(a);
-                                    b && (d = d.filter(function(b) {
-                                        return Object.getOwnPropertyDescriptor(a, b).enumerable;
-                                    })), c.push.apply(c, d);
-                                }
-                                return c;
-                            }
-                            function i(a) {
-                                for(var b = 1; b < arguments.length; b++){
-                                    var c = null != arguments[b] ? arguments[b] : {};
-                                    b % 2 ? h(Object(c), !0).forEach(function(b) {
-                                        j(a, b, c[b]);
-                                    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(a, Object.getOwnPropertyDescriptors(c)) : h(Object(c)).forEach(function(b) {
-                                        Object.defineProperty(a, b, Object.getOwnPropertyDescriptor(c, b));
-                                    });
-                                }
-                                return a;
-                            }
-                            function j(a, b, c) {
-                                return b in a ? Object.defineProperty(a, b, {
-                                    value: c,
-                                    enumerable: !0,
-                                    configurable: !0,
-                                    writable: !0
-                                }) : a[b] = c, a;
-                            }
-                            function k(a) {
-                                return function(a) {
-                                    if (Array.isArray(a)) {
-                                        for(var b = 0, c = new Array(a.length); b < a.length; b++)c[b] = a[b];
-                                        return c;
-                                    }
-                                }(a) || function(a) {
-                                    if (Symbol.iterator in Object(a) || "[object Arguments]" === Object.prototype.toString.call(a)) return Array.from(a);
-                                }(a) || function() {
-                                    throw new TypeError("Invalid attempt to spread non-iterable instance");
-                                }();
-                            }
-                            function l(a, b) {
-                                for(var c = 0; c < b.length; c++){
-                                    var d = b[c];
-                                    d.enumerable = d.enumerable || !1, d.configurable = !0, "value" in d && (d.writable = !0), Object.defineProperty(a, d.key, d);
-                                }
-                            }
-                            function m(a, b) {
-                                var c = b.get(a);
-                                if (!c) throw new TypeError("attempted to get private field on non-instance");
-                                return c.get ? c.get.call(a) : c.value;
-                            }
-                            function n(a, b, c, d, e, f) {
-                                var g, h, i = 0, j = 0, k = 0, l = 0, m = 0, n = 0, o = function(a) {
-                                    return ((i * a + j) * a + k) * a;
-                                }, p = function(a) {
-                                    return (3 * i * a + 2 * j) * a + k;
-                                }, q = function(a) {
-                                    return a >= 0 ? a : 0 - a;
-                                };
-                                return i = 1 - (k = 3 * b) - (j = 3 * (d - b) - k), l = 1 - (n = 3 * c) - (m = 3 * (e - c) - n), g = a, h = function(a) {
-                                    return 1 / (200 * a);
-                                }(f), function(a) {
-                                    return ((l * a + m) * a + n) * a;
-                                }(function(a, b) {
-                                    var c, d, e, f, g, h;
-                                    for(e = a, h = 0; h < 8; h++){
-                                        if (f = o(e) - a, q(f) < b) return e;
-                                        if (g = p(e), q(g) < 1e-6) break;
-                                        e -= f / g;
-                                    }
-                                    if ((e = a) < (c = 0)) return c;
-                                    if (e > (d = 1)) return d;
-                                    for(; c < d;){
-                                        if (f = o(e), q(f - a) < b) return e;
-                                        a > f ? c = e : d = e, e = 0.5 * (d - c) + c;
-                                    }
-                                    return e;
-                                }(g, h));
-                            }
-                            c.r(b);
-                            var o = {};
-                            c.r(o), c.d(o, "doesApply", function() {
-                                return M;
-                            }), c.d(o, "tweenCreated", function() {
-                                return e;
-                            }), c.d(o, "beforeTween", function() {
-                                return f;
-                            }), c.d(o, "afterTween", function() {
-                                return g;
-                            });
-                            var p, q, r = c(0), s = /(\d|-|\.)/, t = /([^\-0-9.]+)/g, u = /[0-9.-]+/g, v = (p = u.source, q = /,\s*/.source, new RegExp("rgb\\(".concat(p).concat(q).concat(p).concat(q).concat(p, "\\)"), "g")), w = /^.*\(/, x = /#([0-9]|[a-f]){3,6}/gi, y = function(a, b) {
-                                return a.map(function(a, c) {
-                                    return "_".concat(b, "_").concat(c);
-                                });
-                            }, z = function(a) {
-                                return "rgb(".concat((b = a, 3 === (b = b.replace(/#/, "")).length && (b = (b = b.split(""))[0] + b[0] + b[1] + b[1] + b[2] + b[2]), [
-                                    d(b.substr(0, 2)),
-                                    d(b.substr(2, 2)),
-                                    d(b.substr(4, 2))
-                                ]).join(","), ")");
-                                var b;
-                            }, A = function(a, b, c) {
-                                var d = b.match(a), e = b.replace(a, "VAL");
-                                return d && d.forEach(function(a) {
-                                    return e = e.replace("VAL", c(a));
-                                }), e;
-                            }, B = function(a) {
-                                for(var b in a){
-                                    var c = a[b];
-                                    "string" == typeof c && c.match(x) && (a[b] = A(x, c, z));
-                                }
-                            }, C = function(a) {
-                                var b = a.match(u).map(Math.floor);
-                                return "".concat(a.match(w)[0]).concat(b.join(","), ")");
-                            }, D = function(a) {
-                                return a.match(u);
-                            }, E = function(a) {
-                                var b, c, d = {};
-                                for(var e in a){
-                                    var f = a[e];
-                                    "string" == typeof f && (d[e] = {
-                                        formatString: (b = f, c = void 0, c = b.match(t), c ? (1 === c.length || b.charAt(0).match(s)) && c.unshift("") : c = [
-                                            "",
-                                            ""
-                                        ], c.join("VAL")),
-                                        chunkNames: y(D(f), e)
-                                    });
-                                }
-                                return d;
-                            }, F = function(a, b) {
-                                var c = function(c) {
-                                    D(a[c]).forEach(function(d, e) {
-                                        return a[b[c].chunkNames[e]] = +d;
-                                    }), delete a[c];
-                                };
-                                for(var d in b)c(d);
-                            }, G = function(a, b) {
-                                var c = {};
-                                return b.forEach(function(b) {
-                                    c[b] = a[b], delete a[b];
-                                }), c;
-                            }, H = function(a, b) {
-                                return b.map(function(b) {
-                                    return a[b];
-                                });
-                            }, I = function(a, b) {
-                                return b.forEach(function(b) {
-                                    return a = a.replace("VAL", +b.toFixed(4));
-                                }), a;
-                            }, J = function(a, b) {
-                                for(var c in b){
-                                    var d = b[c], e = d.chunkNames, f = d.formatString, g = I(f, H(G(a, e), e));
-                                    a[c] = A(v, g, C);
-                                }
-                            }, K = function(a, b) {
-                                var c = function(c) {
-                                    var d = b[c].chunkNames, e = a[c];
-                                    if ("string" == typeof e) {
-                                        var f = e.split(" "), g = f[f.length - 1];
-                                        d.forEach(function(b, c) {
-                                            return a[b] = f[c] || g;
-                                        });
-                                    } else d.forEach(function(b) {
-                                        return a[b] = e;
-                                    });
-                                    delete a[c];
-                                };
-                                for(var d in b)c(d);
-                            }, L = function(a, b) {
-                                for(var c in b){
-                                    var d = b[c].chunkNames, e = a[d[0]];
-                                    a[c] = "string" == typeof e ? d.map(function(b) {
-                                        var c = a[b];
-                                        return delete a[b], c;
-                                    }).join(" ") : e;
-                                }
-                            }, M = function(a) {
-                                var b = a._currentState;
-                                return Object.keys(b).some(function(a) {
-                                    return "string" == typeof b[a];
-                                });
-                            }, N = new r.a(), O = r.a.filters, P = function(a, b, c, d) {
-                                var e = arguments.length > 4 && void 0 !== arguments[4] ? arguments[4] : 0, f = i({}, a), g = Object(r.b)(a, d);
-                                for(var h in N._filters.length = 0, N.set({}), N._currentState = f, N._originalState = a, N._targetState = b, N._easing = g, O)O[h].doesApply(N) && N._filters.push(O[h]);
-                                N._applyFilter("tweenCreated"), N._applyFilter("beforeTween");
-                                var j = Object(r.e)(c, f, a, b, 1, e, g);
-                                return N._applyFilter("afterTween"), j;
-                            }, Q = function() {
-                                function a() {
-                                    !function(a, b) {
-                                        if (!(a instanceof b)) throw new TypeError("Cannot call a class as a function");
-                                    }(this, a), R.set(this, {
-                                        writable: !0,
-                                        value: []
-                                    });
-                                    for(var b = arguments.length, c = new Array(b), d = 0; d < b; d++)c[d] = arguments[d];
-                                    c.forEach(this.add.bind(this));
-                                }
-                                var b, c, d;
-                                return b = a, (c = [
-                                    {
-                                        key: "add",
-                                        value: function(a) {
-                                            return m(this, R).push(a), a;
-                                        }
-                                    },
-                                    {
-                                        key: "remove",
-                                        value: function(a) {
-                                            var b = m(this, R).indexOf(a);
-                                            return ~b && m(this, R).splice(b, 1), a;
-                                        }
-                                    },
-                                    {
-                                        key: "empty",
-                                        value: function() {
-                                            return this.tweenables.map(this.remove.bind(this));
-                                        }
-                                    },
-                                    {
-                                        key: "isPlaying",
-                                        value: function() {
-                                            return m(this, R).some(function(a) {
-                                                return a.isPlaying();
-                                            });
-                                        }
-                                    },
-                                    {
-                                        key: "play",
-                                        value: function() {
-                                            return m(this, R).forEach(function(a) {
-                                                return a.tween();
-                                            }), this;
-                                        }
-                                    },
-                                    {
-                                        key: "pause",
-                                        value: function() {
-                                            return m(this, R).forEach(function(a) {
-                                                return a.pause();
-                                            }), this;
-                                        }
-                                    },
-                                    {
-                                        key: "resume",
-                                        value: function() {
-                                            return m(this, R).forEach(function(a) {
-                                                return a.resume();
-                                            }), this;
-                                        }
-                                    },
-                                    {
-                                        key: "stop",
-                                        value: function(a) {
-                                            return m(this, R).forEach(function(b) {
-                                                return b.stop(a);
-                                            }), this;
-                                        }
-                                    },
-                                    {
-                                        key: "tweenables",
-                                        get: function() {
-                                            return k(m(this, R));
-                                        }
-                                    },
-                                    {
-                                        key: "promises",
-                                        get: function() {
-                                            return m(this, R).map(function(a) {
-                                                return a._promise;
-                                            });
-                                        }
-                                    }
-                                ]) && l(b.prototype, c), d && l(b, d), a;
-                            }(), R = new WeakMap(), S = function(a, b, c, d, e) {
-                                var f = function(a, b, c, d) {
-                                    return function(e) {
-                                        return n(e, a, b, c, d, 1);
-                                    };
-                                }(b, c, d, e);
-                                return f.displayName = a, f.x1 = b, f.y1 = c, f.x2 = d, f.y2 = e, r.a.formulas[a] = f;
-                            }, T = function(a) {
-                                return delete r.a.formulas[a];
-                            };
-                            c.d(b, "processTweens", function() {
-                                return r.c;
-                            }), c.d(b, "Tweenable", function() {
-                                return r.a;
-                            }), c.d(b, "tween", function() {
-                                return r.d;
-                            }), c.d(b, "interpolate", function() {
-                                return P;
-                            }), c.d(b, "Scene", function() {
-                                return Q;
-                            }), c.d(b, "setBezierFunction", function() {
-                                return S;
-                            }), c.d(b, "unsetBezierFunction", function() {
-                                return T;
-                            }), r.a.filters.token = o;
-                        }
-                    ]);
-                });
-            },
-            {}
-        ],
-        2: [
-            function(a, b, c) {
-                var d = a("./shape"), e = a("./utils"), f = function(a, b) {
-                    this._pathTemplate = "M 50,50 m 0,-{radius} a {radius},{radius} 0 1 1 0,{2radius} a {radius},{radius} 0 1 1 0,-{2radius}", this.containerAspectRatio = 1, d.apply(this, arguments);
-                };
-                f.prototype = new d(), f.prototype.constructor = f, f.prototype._pathString = function(a) {
-                    var b = a.strokeWidth;
-                    a.trailWidth && a.trailWidth > a.strokeWidth && (b = a.trailWidth);
-                    var c = 50 - b / 2;
-                    return e.render(this._pathTemplate, {
-                        radius: c,
-                        "2radius": 2 * c
-                    });
-                }, f.prototype._trailString = function(a) {
-                    return this._pathString(a);
-                }, b.exports = f;
-            },
-            {
-                "./shape": 7,
-                "./utils": 9
-            }
-        ],
-        3: [
-            function(a, b, c) {
-                var d = a("./shape"), e = a("./utils"), f = function(a, b) {
-                    this._pathTemplate = b.vertical ? "M {center},100 L {center},0" : "M 0,{center} L 100,{center}", d.apply(this, arguments);
-                };
-                f.prototype = new d(), f.prototype.constructor = f, f.prototype._initializeSvg = function(a, b) {
-                    var c = b.vertical ? "0 0 " + b.strokeWidth + " 100" : "0 0 100 " + b.strokeWidth;
-                    a.setAttribute("viewBox", c), a.setAttribute("preserveAspectRatio", "none");
-                }, f.prototype._pathString = function(a) {
-                    return e.render(this._pathTemplate, {
-                        center: a.strokeWidth / 2
-                    });
-                }, f.prototype._trailString = function(a) {
-                    return this._pathString(a);
-                }, b.exports = f;
-            },
-            {
-                "./shape": 7,
-                "./utils": 9
-            }
-        ],
-        4: [
-            function(a, b, c) {
-                b.exports = {
-                    Line: a("./line"),
-                    Circle: a("./circle"),
-                    SemiCircle: a("./semicircle"),
-                    Square: a("./square"),
-                    Path: a("./path"),
-                    Shape: a("./shape"),
-                    utils: a("./utils")
-                };
-            },
-            {
-                "./circle": 2,
-                "./line": 3,
-                "./path": 5,
-                "./semicircle": 6,
-                "./shape": 7,
-                "./square": 8,
-                "./utils": 9
-            }
-        ],
-        5: [
-            function(a, b, c) {
-                var d = a("shifty"), e = a("./utils"), f = d.Tweenable, g = {
-                    easeIn: "easeInCubic",
-                    easeOut: "easeOutCubic",
-                    easeInOut: "easeInOutCubic"
-                }, h = function a(b, c) {
-                    if (!(this instanceof a)) throw new Error("Constructor was called without new keyword");
-                    c = e.extend({
-                        delay: 0,
-                        duration: 800,
-                        easing: "linear",
-                        from: {},
-                        to: {},
-                        step: function() {}
-                    }, c);
-                    var d;
-                    d = e.isString(b) ? document.querySelector(b) : b, this.path = d, this._opts = c, this._tweenable = null;
-                    var f = this.path.getTotalLength();
-                    this.path.style.strokeDasharray = f + " " + f, this.set(0);
-                };
-                h.prototype.value = function() {
-                    var a = this._getComputedDashOffset(), b = this.path.getTotalLength(), c = 1 - a / b;
-                    return parseFloat(c.toFixed(6), 10);
-                }, h.prototype.set = function(a) {
-                    this.stop(), this.path.style.strokeDashoffset = this._progressToOffset(a);
-                    var b = this._opts.step;
-                    if (e.isFunction(b)) {
-                        var c = this._easing(this._opts.easing);
-                        b(this._calculateTo(a, c), this._opts.shape || this, this._opts.attachment);
-                    }
-                }, h.prototype.stop = function() {
-                    this._stopTween(), this.path.style.strokeDashoffset = this._getComputedDashOffset();
-                }, h.prototype.animate = function(a, b, c) {
-                    b = b || {}, e.isFunction(b) && (c = b, b = {});
-                    var d = e.extend({}, b), g = e.extend({}, this._opts);
-                    b = e.extend(g, b);
-                    var h = this._easing(b.easing), i = this._resolveFromAndTo(a, h, d);
-                    this.stop(), this.path.getBoundingClientRect();
-                    var j = this._getComputedDashOffset(), k = this._progressToOffset(a), l = this;
-                    this._tweenable = new f(), this._tweenable.tween({
-                        from: e.extend({
-                            offset: j
-                        }, i.from),
-                        to: e.extend({
-                            offset: k
-                        }, i.to),
-                        duration: b.duration,
-                        delay: b.delay,
-                        easing: h,
-                        step: function(a) {
-                            l.path.style.strokeDashoffset = a.offset;
-                            var c = b.shape || l;
-                            b.step(a, c, b.attachment);
-                        }
-                    }).then(function(a) {
-                        e.isFunction(c) && c();
-                    }).catch(function(a) {
-                        throw console.error("Error in tweening:", a), a;
-                    });
-                }, h.prototype._getComputedDashOffset = function() {
-                    var a = window.getComputedStyle(this.path, null);
-                    return parseFloat(a.getPropertyValue("stroke-dashoffset"), 10);
-                }, h.prototype._progressToOffset = function(a) {
-                    var b = this.path.getTotalLength();
-                    return b - a * b;
-                }, h.prototype._resolveFromAndTo = function(a, b, c) {
-                    return c.from && c.to ? {
-                        from: c.from,
-                        to: c.to
-                    } : {
-                        from: this._calculateFrom(b),
-                        to: this._calculateTo(a, b)
-                    };
-                }, h.prototype._calculateFrom = function(a) {
-                    return d.interpolate(this._opts.from, this._opts.to, this.value(), a);
-                }, h.prototype._calculateTo = function(a, b) {
-                    return d.interpolate(this._opts.from, this._opts.to, a, b);
-                }, h.prototype._stopTween = function() {
-                    null !== this._tweenable && (this._tweenable.stop(!0), this._tweenable = null);
-                }, h.prototype._easing = function(a) {
-                    return g.hasOwnProperty(a) ? g[a] : a;
-                }, b.exports = h;
-            },
-            {
-                "./utils": 9,
-                shifty: 1
-            }
-        ],
-        6: [
-            function(a, b, c) {
-                var d = a("./shape"), e = a("./circle"), f = a("./utils"), g = function(a, b) {
-                    this._pathTemplate = "M 50,50 m -{radius},0 a {radius},{radius} 0 1 1 {2radius},0", this.containerAspectRatio = 2, d.apply(this, arguments);
-                };
-                g.prototype = new d(), g.prototype.constructor = g, g.prototype._initializeSvg = function(a, b) {
-                    a.setAttribute("viewBox", "0 0 100 50");
-                }, g.prototype._initializeTextContainer = function(a, b, c) {
-                    a.text.style && (c.style.top = "auto", c.style.bottom = "0", a.text.alignToBottom ? f.setStyle(c, "transform", "translate(-50%, 0)") : f.setStyle(c, "transform", "translate(-50%, 50%)"));
-                }, g.prototype._pathString = e.prototype._pathString, g.prototype._trailString = e.prototype._trailString, b.exports = g;
-            },
-            {
-                "./circle": 2,
-                "./shape": 7,
-                "./utils": 9
-            }
-        ],
-        7: [
-            function(a, b, c) {
-                var d = a("./path"), e = a("./utils"), f = "Object is destroyed", g = function a(b, c) {
-                    if (!(this instanceof a)) throw new Error("Constructor was called without new keyword");
-                    if (0 !== arguments.length) {
-                        this._opts = e.extend({
-                            color: "#555",
-                            strokeWidth: 1,
-                            trailColor: null,
-                            trailWidth: null,
-                            fill: null,
-                            text: {
-                                style: {
-                                    color: null,
-                                    position: "absolute",
-                                    left: "50%",
-                                    top: "50%",
-                                    padding: 0,
-                                    margin: 0,
-                                    transform: {
-                                        prefix: !0,
-                                        value: "translate(-50%, -50%)"
-                                    }
-                                },
-                                autoStyleContainer: !0,
-                                alignToBottom: !0,
-                                value: null,
-                                className: "progressbar-text"
-                            },
-                            svgStyle: {
-                                display: "block",
-                                width: "100%"
-                            },
-                            warnings: !1
-                        }, c, !0), e.isObject(c) && void 0 !== c.svgStyle && (this._opts.svgStyle = c.svgStyle), e.isObject(c) && e.isObject(c.text) && void 0 !== c.text.style && (this._opts.text.style = c.text.style);
-                        var f, g = this._createSvgView(this._opts);
-                        if (!(f = e.isString(b) ? document.querySelector(b) : b)) throw new Error("Container does not exist: " + b);
-                        this._container = f, this._container.appendChild(g.svg), this._opts.warnings && this._warnContainerAspectRatio(this._container), this._opts.svgStyle && e.setStyles(g.svg, this._opts.svgStyle), this.svg = g.svg, this.path = g.path, this.trail = g.trail, this.text = null;
-                        var h = e.extend({
-                            attachment: void 0,
-                            shape: this
-                        }, this._opts);
-                        this._progressPath = new d(g.path, h), e.isObject(this._opts.text) && null !== this._opts.text.value && this.setText(this._opts.text.value);
-                    }
-                };
-                g.prototype.animate = function(a, b, c) {
-                    if (null === this._progressPath) throw new Error(f);
-                    this._progressPath.animate(a, b, c);
-                }, g.prototype.stop = function() {
-                    if (null === this._progressPath) throw new Error(f);
-                    void 0 !== this._progressPath && this._progressPath.stop();
-                }, g.prototype.pause = function() {
-                    if (null === this._progressPath) throw new Error(f);
-                    void 0 !== this._progressPath && this._progressPath._tweenable && this._progressPath._tweenable.pause();
-                }, g.prototype.resume = function() {
-                    if (null === this._progressPath) throw new Error(f);
-                    void 0 !== this._progressPath && this._progressPath._tweenable && this._progressPath._tweenable.resume();
-                }, g.prototype.destroy = function() {
-                    if (null === this._progressPath) throw new Error(f);
-                    this.stop(), this.svg.parentNode.removeChild(this.svg), this.svg = null, this.path = null, this.trail = null, this._progressPath = null, null !== this.text && (this.text.parentNode.removeChild(this.text), this.text = null);
-                }, g.prototype.set = function(a) {
-                    if (null === this._progressPath) throw new Error(f);
-                    this._progressPath.set(a);
-                }, g.prototype.value = function() {
-                    if (null === this._progressPath) throw new Error(f);
-                    return void 0 === this._progressPath ? 0 : this._progressPath.value();
-                }, g.prototype.setText = function(a) {
-                    if (null === this._progressPath) throw new Error(f);
-                    null === this.text && (this.text = this._createTextContainer(this._opts, this._container), this._container.appendChild(this.text)), e.isObject(a) ? (e.removeChildren(this.text), this.text.appendChild(a)) : this.text.innerHTML = a;
-                }, g.prototype._createSvgView = function(a) {
-                    var b = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-                    this._initializeSvg(b, a);
-                    var c = null;
-                    (a.trailColor || a.trailWidth) && (c = this._createTrail(a), b.appendChild(c));
-                    var d = this._createPath(a);
-                    return b.appendChild(d), {
-                        svg: b,
-                        path: d,
-                        trail: c
-                    };
-                }, g.prototype._initializeSvg = function(a, b) {
-                    a.setAttribute("viewBox", "0 0 100 100");
-                }, g.prototype._createPath = function(a) {
-                    var b = this._pathString(a);
-                    return this._createPathElement(b, a);
-                }, g.prototype._createTrail = function(a) {
-                    var b = this._trailString(a), c = e.extend({}, a);
-                    return c.trailColor || (c.trailColor = "#eee"), c.trailWidth || (c.trailWidth = c.strokeWidth), c.color = c.trailColor, c.strokeWidth = c.trailWidth, c.fill = null, this._createPathElement(b, c);
-                }, g.prototype._createPathElement = function(a, b) {
-                    var c = document.createElementNS("http://www.w3.org/2000/svg", "path");
-                    return c.setAttribute("d", a), c.setAttribute("stroke", b.color), c.setAttribute("stroke-width", b.strokeWidth), b.fill ? c.setAttribute("fill", b.fill) : c.setAttribute("fill-opacity", "0"), c;
-                }, g.prototype._createTextContainer = function(a, b) {
-                    var c = document.createElement("div");
-                    c.className = a.text.className;
-                    var d = a.text.style;
-                    return d && (a.text.autoStyleContainer && (b.style.position = "relative"), e.setStyles(c, d), d.color || (c.style.color = a.color)), this._initializeTextContainer(a, b, c), c;
-                }, g.prototype._initializeTextContainer = function(a, b, c) {}, g.prototype._pathString = function(a) {
-                    throw new Error("Override this function for each progress bar");
-                }, g.prototype._trailString = function(a) {
-                    throw new Error("Override this function for each progress bar");
-                }, g.prototype._warnContainerAspectRatio = function(a) {
-                    if (this.containerAspectRatio) {
-                        var b = window.getComputedStyle(a, null), c = parseFloat(b.getPropertyValue("width"), 10), d = parseFloat(b.getPropertyValue("height"), 10);
-                        e.floatEquals(this.containerAspectRatio, c / d) || (console.warn("Incorrect aspect ratio of container", "#" + a.id, "detected:", b.getPropertyValue("width") + "(width)", "/", b.getPropertyValue("height") + "(height)", "=", c / d), console.warn("Aspect ratio of should be", this.containerAspectRatio));
-                    }
-                }, b.exports = g;
-            },
-            {
-                "./path": 5,
-                "./utils": 9
-            }
-        ],
-        8: [
-            function(a, b, c) {
-                var d = a("./shape"), e = a("./utils"), f = function(a, b) {
-                    this._pathTemplate = "M 0,{halfOfStrokeWidth} L {width},{halfOfStrokeWidth} L {width},{width} L {halfOfStrokeWidth},{width} L {halfOfStrokeWidth},{strokeWidth}", this._trailTemplate = "M {startMargin},{halfOfStrokeWidth} L {width},{halfOfStrokeWidth} L {width},{width} L {halfOfStrokeWidth},{width} L {halfOfStrokeWidth},{halfOfStrokeWidth}", d.apply(this, arguments);
-                };
-                f.prototype = new d(), f.prototype.constructor = f, f.prototype._pathString = function(a) {
-                    var b = 100 - a.strokeWidth / 2;
-                    return e.render(this._pathTemplate, {
-                        width: b,
-                        strokeWidth: a.strokeWidth,
-                        halfOfStrokeWidth: a.strokeWidth / 2
-                    });
-                }, f.prototype._trailString = function(a) {
-                    var b = 100 - a.strokeWidth / 2;
-                    return e.render(this._trailTemplate, {
-                        width: b,
-                        strokeWidth: a.strokeWidth,
-                        halfOfStrokeWidth: a.strokeWidth / 2,
-                        startMargin: a.strokeWidth / 2 - a.trailWidth / 2
-                    });
-                }, b.exports = f;
-            },
-            {
-                "./shape": 7,
-                "./utils": 9
-            }
-        ],
-        9: [
-            function(a, b, c) {
-                function d(a, b, c) {
-                    a = a || {}, b = b || {}, c = c || !1;
-                    for(var e in b)if (b.hasOwnProperty(e)) {
-                        var f = a[e], g = b[e];
-                        c && l(f) && l(g) ? a[e] = d(f, g, c) : a[e] = g;
-                    }
-                    return a;
-                }
-                function e(a, b) {
-                    var c = a;
-                    for(var d in b)if (b.hasOwnProperty(d)) {
-                        var e = b[d], f = "\\{" + d + "\\}", g = new RegExp(f, "g");
-                        c = c.replace(g, e);
-                    }
-                    return c;
-                }
-                function f(a, b, c) {
-                    for(var d = a.style, e = 0; e < p.length; ++e){
-                        d[p[e] + h(b)] = c;
-                    }
-                    d[b] = c;
-                }
-                function g(a, b) {
-                    m(b, function(b, c) {
-                        null !== b && void 0 !== b && (l(b) && !0 === b.prefix ? f(a, c, b.value) : a.style[c] = b);
-                    });
-                }
-                function h(a) {
-                    return a.charAt(0).toUpperCase() + a.slice(1);
-                }
-                function i(a) {
-                    return "string" == typeof a || a instanceof String;
-                }
-                function j(a) {
-                    return "function" == typeof a;
-                }
-                function k(a) {
-                    return "[object Array]" === Object.prototype.toString.call(a);
-                }
-                function l(a) {
-                    return !k(a) && "object" == typeof a && !!a;
-                }
-                function m(a, b) {
-                    for(var c in a)if (a.hasOwnProperty(c)) {
-                        var d = a[c];
-                        b(d, c);
-                    }
-                }
-                function n(a, b) {
-                    return Math.abs(a - b) < q;
-                }
-                function o(a) {
-                    for(; a.firstChild;)a.removeChild(a.firstChild);
-                }
-                var p = "Webkit Moz O ms".split(" "), q = 0.001;
-                b.exports = {
-                    extend: d,
-                    render: e,
-                    setStyle: f,
-                    setStyles: g,
-                    capitalize: h,
-                    isString: i,
-                    isFunction: j,
-                    isObject: l,
-                    forEachObject: m,
-                    floatEquals: n,
-                    removeChildren: o
-                };
-            },
-            {}
-        ]
-    }, {}, [
-        4
-    ])(4);
-}); //# sourceMappingURL=progressbar.min.js.map
-
 
 /***/ }),
 
@@ -22289,330 +16502,6 @@ module.exports = ReplaceMe;
 
 /***/ }),
 
-/***/ 2758:
-/***/ (() => {
-
-/*!
-Waypoints - 4.0.1
-Copyright © 2011-2016 Caleb Troughton
-Licensed under the MIT license.
-https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
-*/ !function() {
-    "use strict";
-    function t(n) {
-        if (!n) throw new Error("No options passed to Waypoint constructor");
-        if (!n.element) throw new Error("No element option passed to Waypoint constructor");
-        if (!n.handler) throw new Error("No handler option passed to Waypoint constructor");
-        this.key = "waypoint-" + e, this.options = t.Adapter.extend({}, t.defaults, n), this.element = this.options.element, this.adapter = new t.Adapter(this.element), this.callback = n.handler, this.axis = this.options.horizontal ? "horizontal" : "vertical", this.enabled = this.options.enabled, this.triggerPoint = null, this.group = t.Group.findOrCreate({
-            name: this.options.group,
-            axis: this.axis
-        }), this.context = t.Context.findOrCreateByElement(this.options.context), t.offsetAliases[this.options.offset] && (this.options.offset = t.offsetAliases[this.options.offset]), this.group.add(this), this.context.add(this), i[this.key] = this, e += 1;
-    }
-    var e = 0, i = {};
-    t.prototype.queueTrigger = function(t) {
-        this.group.queueTrigger(this, t);
-    }, t.prototype.trigger = function(t) {
-        this.enabled && this.callback && this.callback.apply(this, t);
-    }, t.prototype.destroy = function() {
-        this.context.remove(this), this.group.remove(this), delete i[this.key];
-    }, t.prototype.disable = function() {
-        return this.enabled = !1, this;
-    }, t.prototype.enable = function() {
-        return this.context.refresh(), this.enabled = !0, this;
-    }, t.prototype.next = function() {
-        return this.group.next(this);
-    }, t.prototype.previous = function() {
-        return this.group.previous(this);
-    }, t.invokeAll = function(t) {
-        var e = [];
-        for(var n in i)e.push(i[n]);
-        for(var o = 0, r = e.length; r > o; o++)e[o][t]();
-    }, t.destroyAll = function() {
-        t.invokeAll("destroy");
-    }, t.disableAll = function() {
-        t.invokeAll("disable");
-    }, t.enableAll = function() {
-        t.Context.refreshAll();
-        for(var e in i)i[e].enabled = !0;
-        return this;
-    }, t.refreshAll = function() {
-        t.Context.refreshAll();
-    }, t.viewportHeight = function() {
-        return window.innerHeight || document.documentElement.clientHeight;
-    }, t.viewportWidth = function() {
-        return document.documentElement.clientWidth;
-    }, t.adapters = [], t.defaults = {
-        context: window,
-        continuous: !0,
-        enabled: !0,
-        group: "default",
-        horizontal: !1,
-        offset: 0
-    }, t.offsetAliases = {
-        "bottom-in-view": function() {
-            return this.context.innerHeight() - this.adapter.outerHeight();
-        },
-        "right-in-view": function() {
-            return this.context.innerWidth() - this.adapter.outerWidth();
-        }
-    }, window.Waypoint = t;
-}(), function() {
-    "use strict";
-    function t(t) {
-        window.setTimeout(t, 1e3 / 60);
-    }
-    function e(t) {
-        this.element = t, this.Adapter = o.Adapter, this.adapter = new this.Adapter(t), this.key = "waypoint-context-" + i, this.didScroll = !1, this.didResize = !1, this.oldScroll = {
-            x: this.adapter.scrollLeft(),
-            y: this.adapter.scrollTop()
-        }, this.waypoints = {
-            vertical: {},
-            horizontal: {}
-        }, t.waypointContextKey = this.key, n[t.waypointContextKey] = this, i += 1, o.windowContext || (o.windowContext = !0, o.windowContext = new e(window)), this.createThrottledScrollHandler(), this.createThrottledResizeHandler();
-    }
-    var i = 0, n = {}, o = window.Waypoint, r = window.onload;
-    e.prototype.add = function(t) {
-        var e = t.options.horizontal ? "horizontal" : "vertical";
-        this.waypoints[e][t.key] = t, this.refresh();
-    }, e.prototype.checkEmpty = function() {
-        var t = this.Adapter.isEmptyObject(this.waypoints.horizontal), e = this.Adapter.isEmptyObject(this.waypoints.vertical), i = this.element == this.element.window;
-        t && e && !i && (this.adapter.off(".waypoints"), delete n[this.key]);
-    }, e.prototype.createThrottledResizeHandler = function() {
-        function t() {
-            e.handleResize(), e.didResize = !1;
-        }
-        var e = this;
-        this.adapter.on("resize.waypoints", function() {
-            e.didResize || (e.didResize = !0, o.requestAnimationFrame(t));
-        });
-    }, e.prototype.createThrottledScrollHandler = function() {
-        function t() {
-            e.handleScroll(), e.didScroll = !1;
-        }
-        var e = this;
-        this.adapter.on("scroll.waypoints", function() {
-            (!e.didScroll || o.isTouch) && (e.didScroll = !0, o.requestAnimationFrame(t));
-        });
-    }, e.prototype.handleResize = function() {
-        o.Context.refreshAll();
-    }, e.prototype.handleScroll = function() {
-        var t = {}, e = {
-            horizontal: {
-                newScroll: this.adapter.scrollLeft(),
-                oldScroll: this.oldScroll.x,
-                forward: "right",
-                backward: "left"
-            },
-            vertical: {
-                newScroll: this.adapter.scrollTop(),
-                oldScroll: this.oldScroll.y,
-                forward: "down",
-                backward: "up"
-            }
-        };
-        for(var i in e){
-            var n = e[i], o = n.newScroll > n.oldScroll, r = o ? n.forward : n.backward;
-            for(var s in this.waypoints[i]){
-                var l = this.waypoints[i][s];
-                if (null !== l.triggerPoint) {
-                    var a = n.oldScroll < l.triggerPoint, h = n.newScroll >= l.triggerPoint, p = a && h, u = !a && !h;
-                    (p || u) && (l.queueTrigger(r), t[l.group.id] = l.group);
-                }
-            }
-        }
-        for(var d in t)t[d].flushTriggers();
-        this.oldScroll = {
-            x: e.horizontal.newScroll,
-            y: e.vertical.newScroll
-        };
-    }, e.prototype.innerHeight = function() {
-        return this.element == this.element.window ? o.viewportHeight() : this.adapter.innerHeight();
-    }, e.prototype.remove = function(t) {
-        delete this.waypoints[t.axis][t.key], this.checkEmpty();
-    }, e.prototype.innerWidth = function() {
-        return this.element == this.element.window ? o.viewportWidth() : this.adapter.innerWidth();
-    }, e.prototype.destroy = function() {
-        var t = [];
-        for(var e in this.waypoints)for(var i in this.waypoints[e])t.push(this.waypoints[e][i]);
-        for(var n = 0, o = t.length; o > n; n++)t[n].destroy();
-    }, e.prototype.refresh = function() {
-        var t, e = this.element == this.element.window, i = e ? void 0 : this.adapter.offset(), n = {};
-        this.handleScroll(), t = {
-            horizontal: {
-                contextOffset: e ? 0 : i.left,
-                contextScroll: e ? 0 : this.oldScroll.x,
-                contextDimension: this.innerWidth(),
-                oldScroll: this.oldScroll.x,
-                forward: "right",
-                backward: "left",
-                offsetProp: "left"
-            },
-            vertical: {
-                contextOffset: e ? 0 : i.top,
-                contextScroll: e ? 0 : this.oldScroll.y,
-                contextDimension: this.innerHeight(),
-                oldScroll: this.oldScroll.y,
-                forward: "down",
-                backward: "up",
-                offsetProp: "top"
-            }
-        };
-        for(var r in t){
-            var s = t[r];
-            for(var l in this.waypoints[r]){
-                var a, h, p, u, d, f = this.waypoints[r][l], c = f.options.offset, w = f.triggerPoint, y = 0, g = null == w;
-                f.element !== f.element.window && (y = f.adapter.offset()[s.offsetProp]), "function" == typeof c ? c = c.apply(f) : "string" == typeof c && (c = parseFloat(c), f.options.offset.indexOf("%") > -1 && (c = Math.ceil(s.contextDimension * c / 100))), a = s.contextScroll - s.contextOffset, f.triggerPoint = Math.floor(y + a - c), h = w < s.oldScroll, p = f.triggerPoint >= s.oldScroll, u = h && p, d = !h && !p, !g && u ? (f.queueTrigger(s.backward), n[f.group.id] = f.group) : !g && d ? (f.queueTrigger(s.forward), n[f.group.id] = f.group) : g && s.oldScroll >= f.triggerPoint && (f.queueTrigger(s.forward), n[f.group.id] = f.group);
-            }
-        }
-        return o.requestAnimationFrame(function() {
-            for(var t in n)n[t].flushTriggers();
-        }), this;
-    }, e.findOrCreateByElement = function(t) {
-        return e.findByElement(t) || new e(t);
-    }, e.refreshAll = function() {
-        for(var t in n)n[t].refresh();
-    }, e.findByElement = function(t) {
-        return n[t.waypointContextKey];
-    }, window.onload = function() {
-        r && r(), e.refreshAll();
-    }, o.requestAnimationFrame = function(e) {
-        var i = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || t;
-        i.call(window, e);
-    }, o.Context = e;
-}(), function() {
-    "use strict";
-    function t(t, e) {
-        return t.triggerPoint - e.triggerPoint;
-    }
-    function e(t, e) {
-        return e.triggerPoint - t.triggerPoint;
-    }
-    function i(t) {
-        this.name = t.name, this.axis = t.axis, this.id = this.name + "-" + this.axis, this.waypoints = [], this.clearTriggerQueues(), n[this.axis][this.name] = this;
-    }
-    var n = {
-        vertical: {},
-        horizontal: {}
-    }, o = window.Waypoint;
-    i.prototype.add = function(t) {
-        this.waypoints.push(t);
-    }, i.prototype.clearTriggerQueues = function() {
-        this.triggerQueues = {
-            up: [],
-            down: [],
-            left: [],
-            right: []
-        };
-    }, i.prototype.flushTriggers = function() {
-        for(var i in this.triggerQueues){
-            var n = this.triggerQueues[i], o = "up" === i || "left" === i;
-            n.sort(o ? e : t);
-            for(var r = 0, s = n.length; s > r; r += 1){
-                var l = n[r];
-                (l.options.continuous || r === n.length - 1) && l.trigger([
-                    i
-                ]);
-            }
-        }
-        this.clearTriggerQueues();
-    }, i.prototype.next = function(e) {
-        this.waypoints.sort(t);
-        var i = o.Adapter.inArray(e, this.waypoints), n = i === this.waypoints.length - 1;
-        return n ? null : this.waypoints[i + 1];
-    }, i.prototype.previous = function(e) {
-        this.waypoints.sort(t);
-        var i = o.Adapter.inArray(e, this.waypoints);
-        return i ? this.waypoints[i - 1] : null;
-    }, i.prototype.queueTrigger = function(t, e) {
-        this.triggerQueues[e].push(t);
-    }, i.prototype.remove = function(t) {
-        var e = o.Adapter.inArray(t, this.waypoints);
-        e > -1 && this.waypoints.splice(e, 1);
-    }, i.prototype.first = function() {
-        return this.waypoints[0];
-    }, i.prototype.last = function() {
-        return this.waypoints[this.waypoints.length - 1];
-    }, i.findOrCreate = function(t) {
-        return n[t.axis][t.name] || new i(t);
-    }, o.Group = i;
-}(), function() {
-    "use strict";
-    function t(t) {
-        return t === t.window;
-    }
-    function e(e) {
-        return t(e) ? e : e.defaultView;
-    }
-    function i(t) {
-        this.element = t, this.handlers = {};
-    }
-    var n = window.Waypoint;
-    i.prototype.innerHeight = function() {
-        var e = t(this.element);
-        return e ? this.element.innerHeight : this.element.clientHeight;
-    }, i.prototype.innerWidth = function() {
-        var e = t(this.element);
-        return e ? this.element.innerWidth : this.element.clientWidth;
-    }, i.prototype.off = function(t, e) {
-        function i(t, e, i) {
-            for(var n = 0, o = e.length - 1; o > n; n++){
-                var r = e[n];
-                i && i !== r || t.removeEventListener(r);
-            }
-        }
-        var n = t.split("."), o = n[0], r = n[1], s = this.element;
-        if (r && this.handlers[r] && o) i(s, this.handlers[r][o], e), this.handlers[r][o] = [];
-        else if (o) for(var l in this.handlers)i(s, this.handlers[l][o] || [], e), this.handlers[l][o] = [];
-        else if (r && this.handlers[r]) {
-            for(var a in this.handlers[r])i(s, this.handlers[r][a], e);
-            this.handlers[r] = {};
-        }
-    }, i.prototype.offset = function() {
-        if (!this.element.ownerDocument) return null;
-        var t = this.element.ownerDocument.documentElement, i = e(this.element.ownerDocument), n = {
-            top: 0,
-            left: 0
-        };
-        return this.element.getBoundingClientRect && (n = this.element.getBoundingClientRect()), {
-            top: n.top + i.pageYOffset - t.clientTop,
-            left: n.left + i.pageXOffset - t.clientLeft
-        };
-    }, i.prototype.on = function(t, e) {
-        var i = t.split("."), n = i[0], o = i[1] || "__default", r = this.handlers[o] = this.handlers[o] || {}, s = r[n] = r[n] || [];
-        s.push(e), this.element.addEventListener(n, e);
-    }, i.prototype.outerHeight = function(e) {
-        var i, n = this.innerHeight();
-        return e && !t(this.element) && (i = window.getComputedStyle(this.element), n += parseInt(i.marginTop, 10), n += parseInt(i.marginBottom, 10)), n;
-    }, i.prototype.outerWidth = function(e) {
-        var i, n = this.innerWidth();
-        return e && !t(this.element) && (i = window.getComputedStyle(this.element), n += parseInt(i.marginLeft, 10), n += parseInt(i.marginRight, 10)), n;
-    }, i.prototype.scrollLeft = function() {
-        var t = e(this.element);
-        return t ? t.pageXOffset : this.element.scrollLeft;
-    }, i.prototype.scrollTop = function() {
-        var t = e(this.element);
-        return t ? t.pageYOffset : this.element.scrollTop;
-    }, i.extend = function() {
-        function t(t, e) {
-            if ("object" == typeof t && "object" == typeof e) for(var i in e)e.hasOwnProperty(i) && (t[i] = e[i]);
-            return t;
-        }
-        for(var e = Array.prototype.slice.call(arguments), i = 1, n = e.length; n > i; i++)t(e[0], e[i]);
-        return e[0];
-    }, i.inArray = function(t, e, i) {
-        return null == e ? -1 : e.indexOf(t, i);
-    }, i.isEmptyObject = function(t) {
-        for(var e in t)return !1;
-        return !0;
-    }, n.adapters.push({
-        name: "noframework",
-        Adapter: i
-    }), n.Adapter = i;
-}();
-
-
-/***/ }),
-
 /***/ 6158:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -22684,6 +16573,14 @@ const color = {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (color);
 
+
+/***/ }),
+
+/***/ 2587:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@monaco-editor/react");
 
 /***/ }),
 
@@ -22983,6 +16880,14 @@ module.exports = require("react-dom");
 
 /***/ }),
 
+/***/ 4041:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-icons/md");
+
+/***/ }),
+
 /***/ 997:
 /***/ ((module) => {
 
@@ -22991,11 +16896,27 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
+/***/ 8851:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("skulpt");
+
+/***/ }),
+
 /***/ 2589:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("typewriter-effect");
+
+/***/ }),
+
+/***/ 6201:
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("react-hot-toast");;
 
 /***/ }),
 

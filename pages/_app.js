@@ -4,6 +4,7 @@ import "../assets/css/style.css";
 import "../styles/globals.css";
 import { createContext, useEffect } from "react";
 import { fetchAPI } from "../lib/api";
+import { Toaster } from "react-hot-toast";
 import { getStrapiMedia } from "../lib/media";
 // Bootstrap and custom scss
 import "../assets/scss/style.scss";
@@ -92,6 +93,7 @@ const MyApp = ({ Component, pageProps }) => {
       <GlobalContext.Provider value={global.attributes}>
         <ThemeProvider>
           <Component {...pageProps} />
+          <Toaster />
         </ThemeProvider>
       </GlobalContext.Provider>
     </>

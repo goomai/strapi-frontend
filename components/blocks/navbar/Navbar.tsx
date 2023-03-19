@@ -329,24 +329,17 @@ const Navbar: FC<NavbarProps> = (props) => {
 
   return (
     <Fragment>
-      {stickyBox && (
+      <nav
+        ref={navbarRef}
+        className={sticky ? fixedClassName : navClassName}
+        style={{ position: "sticky", top: "0px" }}
+      >
         <div
-          style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
-        />
-      )}
-
-      <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
-        {fancy ? (
-          <div className="container">
-            <div className="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center ">
-              {headerContent}
-            </div>
-          </div>
-        ) : (
-          <div className="container flex-lg-row flex-nowrap align-items-center ">
-            {headerContent}
-          </div>
-        )}
+          className="container flex-lg-row flex-nowrap align-items-center "
+          style={{ height: "80px" }}
+        >
+          {headerContent}
+        </div>
       </nav>
 
       {/* ============= signin modal ============= */}

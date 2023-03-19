@@ -9,15 +9,45 @@ import { useRef } from "react";
 import Sk from "skulpt";
 import { builtinRead } from "skulpt";
 import { useEffect } from "react";
+import { toast } from "react-hot-toast";
+import styles from "../../../styles/Editor.module.css";
 
 // import { jsPython } from "jspython-interpreter";
-function Playground({ styles }) {
+function Playground() {
   const [runLoading, setRunLoading] = useState(false);
   const codeRef = useRef();
   const outputRef = useRef();
   function handleEditorDidMount(editor, monaco) {
     codeRef.current = editor;
   }
+
+  const handleEditorCopy = () => {
+    const prog = codeRef.current.getValue();
+    if (prog.length > 1) {
+      navigator.clipboard.writeText(prog);
+      toast.success("Copied to clipboard", { duration: 1500 });
+    } else {
+      toast.error("No content to copy", { duration: 1300 });
+    }
+  };
+  const handleEditorDelete = () => {
+    codeRef.current.setValue("");
+  };
+
+  const handleOutputCopy = () => {
+    const prog = outputRef.current.innerHTML;
+    if (prog.length > 1) {
+      navigator.clipboard.writeText(prog);
+      toast.success("Copied to clipboard", { duration: 1500 });
+    } else {
+      toast.error("No content to copy", { duration: 1300 });
+    }
+  };
+
+  const handleOutputDelete = () => {
+    outputRef.current.innerHTML = "output cleared";
+  };
+
   const setEditorTheme = async (monaco) => {
     monaco.editor.defineTheme("onedark", {
       base: "vs-dark",
@@ -38,7 +68,7 @@ function Playground({ styles }) {
 
   function outf(text) {
     var mypre = outputRef.current;
-    mypre.innerHTML = mypre.innerHTML + text;
+    mypre.innerHTML += text.replace(/\n/g, "<br/>");
   }
   function builtinRead(x) {
     if (
@@ -70,6 +100,7 @@ function Playground({ styles }) {
     myPromise.then(
       function (mod) {
         console.log("success");
+
         setRunLoading(false);
       },
       function (err) {
@@ -90,114 +121,104 @@ function Playground({ styles }) {
   //     //   outf(res);
   //     // });
   //   };
-  useEffect(() => {
-    setRunLoading(true);
 
-    Sk.canvas = "skulpt-canvas";
-    Sk.pre = "skulpt-output";
-    Sk.configure({
-      output: (text) => (outputRef.current.innerHTML = "> " + text),
-    });
-    const myPromise = Sk.misceval.asyncToPromise(() =>
-      Sk.importMainWithBody(
-        "<stdin>",
-        false,
-        "print('hello there welcome to Goom.AI')"
-      )
-    );
-    myPromise.then(
-      (mod) => {
-        console.log("success", mod);
-        setRunLoading(false);
-      },
-      (err) => {
-        console.log("error", err);
-        outf(<span className="text-danger">err</span>);
-        setRunLoading(false);
-      }
-    );
-  }, []);
   return (
     <>
-      <div className={`bg_primary mb-10 mt-5`}>
-        <div className={styles.container}>
-          <div className={`${styles.editor_container}`}>
-            <div className={`${styles.code_ground}`}>
-              <div
-                className={`${styles.editor_options} px-md-5 px-2 pt-3 mx-0`}
-              >
-                <div className={`text-light pe-none ${styles.code_title}`}>
-                  Input
-                </div>
-                <p className={`d-flex`}>
-                  <MdOutlineContentCopy
-                    role="button"
-                    className="text-light m-1 m-md-0 my-0"
-                  />
-                  <MdOutlineDeleteOutline
-                    role="button"
-                    className="text-light m-1 m-md-0 my-0 fs-20 "
-                  />
-                </p>
-                {/* <p className={`col-md-1`}></p> */}
-                <p className={`text-light`} role="button">
-                  Examples
-                </p>
-                <div className="d-flex">
-                  <button
-                    className={` ${styles.run_btn}`}
-                    role="button"
-                    disabled={runLoading}
-                    onClick={runit}
-                  >
-                    {runLoading ? "..." : "Run"}
-                  </button>
-                  <div className={` ${styles.run_btn_2}`} role="button">
-                    Run Visualizer
+      {Sk ? (
+        <div className={`bg_primary mb-10 mt-5`}>
+          <div className={styles.container}>
+            <div className={`${styles.editor_container}`}>
+              <div className={`${styles.code_ground}`}>
+                <div
+                  className={`${styles.editor_options} px-md-5 px-2 pt-3 mx-0`}
+                >
+                  <div className={`text-light pe-none ${styles.code_title}`}>
+                    Input
+                  </div>
+                  <p className={`d-flex`}>
+                    <MdOutlineContentCopy
+                      role="button"
+                      className="text-light m-1 m-md-0 my-0"
+                      onClick={handleEditorCopy}
+                    />
+                    <MdOutlineDeleteOutline
+                      role="button"
+                      className="text-light m-1 m-md-0 my-0 fs-20 "
+                      onClick={handleEditorDelete}
+                    />
+                  </p>
+                  {/* <p className={`col-md-1`}></p> */}
+                  <p className={`text-light`} role="button">
+                    Examples
+                  </p>
+                  <div className="d-flex">
+                    <button
+                      className={` ${styles.run_btn}`}
+                      role="button"
+                      disabled={runLoading}
+                      onClick={runit}
+                    >
+                      {runLoading ? "..." : "Run"}
+                    </button>
+                    <div className={` ${styles.run_btn_2}`} role="button">
+                      Run Visualizer
+                    </div>
                   </div>
                 </div>
+                <div className="editor-styles">
+                  <Editor
+                    beforeMount={setEditorTheme}
+                    width="100%"
+                    height="calc(100% - 70px)"
+                    theme="onedark"
+                    defaultLanguage="python"
+                    defaultValue="# here there. welcome to Goom.AI"
+                    options={{
+                      fontFamily:
+                        "Hack, 'Fira Code', Consolas, Menlo, Monaco, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Courier New', Courier, monospace",
+                      scrollBeyondLastLine: false,
+                      scrollBeyondLastColumn: false,
+                      scrollbar: {
+                        alwaysConsumeMouseWheel: false,
+                      },
+                    }}
+                    onMount={handleEditorDidMount}
+                  />
+                </div>
               </div>
-              <Editor
-                beforeMount={setEditorTheme}
-                width="100%"
-                height="calc(100% - 70px)"
-                theme="onedark"
-                defaultLanguage="python"
-                defaultValue="# here there. welcome to Goom.AI"
-                options={{
-                  scrollBeyondLastLine: false,
-                  scrollBeyondLastColumn: false,
-                  scrollbar: {
-                    alwaysConsumeMouseWheel: false,
-                  },
-                }}
-                onMount={handleEditorDidMount}
-              />
-            </div>
 
-            <div className={`${styles.output_container}`}>
-              <div className={`${styles.editor_options} px-5 pt-3 mx-0`}>
-                <p className={`text-light pe-none`}>Visualised Output</p>
-                <p className={`d-flex justify-content-end`}>
-                  <MdShare role="button" className="text-light mx-2 my-0" />
-                  <MdOutlineContentCopy
-                    role="button"
-                    className="text-light mx-2 my-0"
-                  />
-                  <MdOutlineDeleteOutline
-                    role="button"
-                    className="text-light mx-2 my-0 fs-20"
-                  />
-                </p>
+              <div className={`${styles.output_container}`}>
+                <div className={`${styles.editor_options} px-5 pt-3 mx-0`}>
+                  <p className={`text-light pe-none`}>Output</p>
+                  <p className={`d-flex justify-content-end`}>
+                    <MdShare role="button" className="text-light mx-2 my-0" />
+                    <MdOutlineContentCopy
+                      role="button"
+                      className="text-light mx-2 my-0"
+                      onClick={handleOutputCopy}
+                    />
+                    <MdOutlineDeleteOutline
+                      role="button"
+                      className="text-light mx-2 my-0 fs-20"
+                      onClick={handleOutputDelete}
+                    />
+                  </p>
+                </div>
+                <div
+                  ref={outputRef}
+                  className={`${styles.output} px-5 fs-14`}
+                  style={{
+                    fontFamily: "Consolas,monaco,monospace",
+                    fontSize: ".875rem",
+                  }}
+                >
+                  here there. welcome to Goom.AI
+                </div>
               </div>
-              <div
-                ref={outputRef}
-                className={`${styles.output} px-5 fs-14`}
-              ></div>
             </div>
           </div>
         </div>
-      </div>
+      ) : null}
     </>
   );
 }
