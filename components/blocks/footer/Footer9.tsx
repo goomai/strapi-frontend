@@ -1,10 +1,10 @@
-import { FC } from 'react';
-import Image from 'next/image';
+import { FC } from "react";
+import Image from "next/image";
 // -------- custom component -------- //
-import NextLink from 'components/reuseable/links/NextLink';
-import SocialLinks from 'components/reuseable/SocialLinks';
+import NextLink from "components/reuseable/links/NextLink";
+import SocialLinks from "components/reuseable/SocialLinks";
 // -------- data -------- //
-import footerNav, { helps } from 'data/footer';
+import footerNav, { helps } from "data/footer";
 
 const Footer9: FC = () => {
   return (
@@ -13,10 +13,15 @@ const Footer9: FC = () => {
         <div className="row gy-6 gy-lg-0">
           <div className="col-lg-4">
             <div className="widget">
-              <img className="mb-4" src="/img/logo-light.png" srcSet="/img/logo-light@2x.png 2x" alt="" />
+              <img
+                className="mb-4"
+                src="/img/logo.png"
+                srcSet="/img/logo@2x.png 2x"
+                alt=""
+              />
 
               <p className="mb-4">
-                © 2022 Sandbox. <br className="d-none d-lg-block" />
+                © 2022 Goom.AI. <br className="d-none d-lg-block" />
                 All rights reserved.
               </p>
 
@@ -53,7 +58,9 @@ const Footer9: FC = () => {
           <div className="col-md-4 col-lg-2">
             <div className="widget">
               <h4 className="widget-title mb-3 text-white">Get in Touch</h4>
-              <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+              <address>
+                Moonshine St. 14/05 Light City, London, United Kingdom
+              </address>
               <NextLink title="info@email.com" href="mailto:#" />
               <br /> 00 (123) 456 78 90
             </div>

@@ -118,16 +118,16 @@ const Navbar: FC<NavbarProps> = (props) => {
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
             {/* ===================== demos nav item ===================== */}
-            <li className="nav-item dropdown dropdown-mega">
+            {/* <li className="nav-item dropdown dropdown-mega">
               <Link
                 href="#"
                 className={`nav-link ${activeNav === "Learn" && "item-active"}`}
                 onClick={() => setActiveNav("Learn")}
               >
                 Learn Python
-              </Link>
+              </Link> */}
 
-              {/* <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+            {/* <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
                 <li className="mega-menu-content mega-menu-scroll">
                   <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
                     {demos.map(({ id, title, url, thumnail }) => (
@@ -153,7 +153,7 @@ const Navbar: FC<NavbarProps> = (props) => {
                   </span>
                 </li>
               </ul>*/}
-            </li>
+            {/* </li> */}
 
             {/*  ===================== pages nav item  ===================== */}
             <li className="nav-item ">
@@ -175,10 +175,10 @@ const Navbar: FC<NavbarProps> = (props) => {
                 }`}
                 onClick={() => setActiveNav("answers")}
               >
-                Python Answers
+                About Us
               </Link>
             </li>
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
               <Link
                 href="#"
                 className={`nav-link ${
@@ -188,7 +188,7 @@ const Navbar: FC<NavbarProps> = (props) => {
               >
                 Articles
               </Link>
-            </li>
+            </li> */}
             {/* ===================== projects nav item  ===================== */}
             {/* <li className="nav-item dropdown">
               <DropdownToggleLink

@@ -149,7 +149,19 @@ a:focus {
 .footer_menu_item:hover {
   color: var(--text-white);
 }
+.para {
+  width: 80% !important;
+}
 
+@media screen and (max-width: 768px) {
+  .para {
+    width: 100% !important;
+  }
+  .table > tbody > tr > td {
+    font-size: 14px;
+    padding: 8px 5px 8px 8px;
+  }
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -1,9 +1,9 @@
-import { FC } from 'react';
-import Link from 'types/link';
-import NextLink from 'components/reuseable/links/NextLink';
-import SocialLinks from 'components/reuseable/SocialLinks';
+import { FC } from "react";
+import Link from "types/link";
+import NextLink from "components/reuseable/links/NextLink";
+import SocialLinks from "components/reuseable/SocialLinks";
 // -------- data -------- //
-import { helps, learnMore } from 'data/footer';
+import { helps, learnMore } from "data/footer";
 
 // =================================================
 type Footer3Props = { hiddenNewsletter?: boolean };
@@ -32,15 +32,18 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
         {!hiddenNewsletter && (
           <div
             className="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400 mb-13"
-            style={{ backgroundImage: 'url(/img/photos/bg2.jpg)' }}
+            style={{ backgroundImage: "url(/img/photos/bg2.jpg)" }}
           >
             <div className="card-body p-9 p-xl-11">
               <div className="row align-items-center gy-6">
                 <div className="col-lg-7">
-                  <h3 className="display-5 text-white">Subscribe to our newsletter</h3>
+                  <h3 className="display-5 text-white">
+                    Subscribe to our newsletter
+                  </h3>
                   <p className="lead pe-lg-12 mb-0 text-white">
-                    Subscribe to our newsletter to get our news &amp; deals delivered to you. Dont worry, we hate spam
-                    and we respect your privacy.
+                    Subscribe to our newsletter to get our news &amp; deals
+                    delivered to you. Dont worry, we hate spam and we respect
+                    your privacy.
                   </p>
                 </div>
 
@@ -64,7 +67,10 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
                               placeholder="Email Address"
                               className="required email form-control"
                             />
-                            <label htmlFor="mce-EMAIL2" className="position-absolute">
+                            <label
+                              htmlFor="mce-EMAIL2"
+                              className="position-absolute"
+                            >
                               Email Address
                             </label>
                             <input
@@ -76,12 +82,27 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
                           </div>
 
                           <div id="mce-responses2" className="clear">
-                            <div className="response" id="mce-error-response2" style={{ display: 'none' }} />
-                            <div className="response" id="mce-success-response2" style={{ display: 'none' }} />
+                            <div
+                              className="response"
+                              id="mce-error-response2"
+                              style={{ display: "none" }}
+                            />
+                            <div
+                              className="response"
+                              id="mce-success-response2"
+                              style={{ display: "none" }}
+                            />
                           </div>
 
-                          <div style={{ position: 'absolute', left: -5000 }} aria-hidden="true">
-                            <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabIndex={-1} />
+                          <div
+                            style={{ position: "absolute", left: -5000 }}
+                            aria-hidden="true"
+                          >
+                            <input
+                              type="text"
+                              name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
+                              tabIndex={-1}
+                            />
                           </div>
 
                           <div className="clear" />
@@ -100,21 +121,31 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
             <div className="widget">
               <h3 className="h2 mb-3 ">Join the Community</h3>
               <p className="lead mb-5">
-                Lets make something great together. We are trusted by over 5000+ clients. Join them by using our
-                services and grow your business.
+                Lets make something great together. We are trusted by over 5000+
+                clients. Join them by using our services and grow your business.
               </p>
-              <NextLink title="Join Us" href="#" className="btn  btn-primary rounded-pill" />
+              <NextLink
+                title="Join Us"
+                href="#"
+                className="btn  btn-primary rounded-pill"
+              />
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-2 offset-lg-2">{widget(helps, 'Need Help?')}</div>
+          <div className="col-md-4 col-lg-2 offset-lg-2">
+            {widget(helps, "Need Help?")}
+          </div>
 
-          <div className="col-md-4 col-lg-2">{widget(learnMore, 'Learn More')}</div>
+          <div className="col-md-4 col-lg-2">
+            {widget(learnMore, "Learn More")}
+          </div>
 
           <div className="col-md-4 col-lg-2">
             <div className="widget">
               <h4 className="widget-title  mb-3">Get in Touch</h4>
-              <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+              <address>
+                Moonshine St. 14/05 Light City, London, United Kingdom
+              </address>
               <a href="mailto:first.last@email.com" className="link-body">
                 info@email.com
               </a>
@@ -126,7 +157,7 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
         <hr className="mt-13 mt-md-15 mb-7" />
 
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2022 Sandbox. All rights reserved.</p>
+          <p className="mb-2 mb-lg-0">© 2022 Goom.AI. All rights reserved.</p>
           <SocialLinks className="nav social  text-md-end" />
         </div>
       </div>

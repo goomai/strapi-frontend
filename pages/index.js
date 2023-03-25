@@ -8,18 +8,23 @@ import { Footer15 } from "components/blocks/footer";
 import styles from "../styles/Editor.module.css";
 
 import Playground from "components/blocks/playground/Playground";
+import Head from "next/head";
 function index() {
   return (
-    <div style={{ position: "relative" }}>
-      <Navbar
-        search
-        stickyBox
-        navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
-      />
+    <>
+      <Head>
+        <title>Python Playground and Online Python Compiler</title>
+      </Head>
+      <div style={{ position: "relative" }}>
+        <Navbar
+          search
+          stickyBox
+          navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
+        />
 
-      <Playground styles={styles} />
+        <Playground styles={styles} />
 
-      <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
+        {/* <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
         <div className="container-md ">
           <Services14 />
         </div>
@@ -43,9 +48,10 @@ function index() {
         <div className="container-md ">
           <FAQ1 />
         </div>
+      </div> */}
+        <Footer15 />
       </div>
-      <Footer15 />
-    </div>
+    </>
   );
 }
 

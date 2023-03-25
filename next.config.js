@@ -4,6 +4,15 @@ const nextConfig = {
   images: {
     domains: ["goom-strapi-images.s3.ap-south-1.amazonaws.com"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/python-compiler-playground",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
