@@ -2,7 +2,7 @@
 (() => {
 var exports = {};
 exports.id = 91;
-exports.ids = [91];
+exports.ids = [91,888];
 exports.modules = {
 
 /***/ 8917:
@@ -204,7 +204,7 @@ const Layout = ({ children , categories , seo  })=>/*#__PURE__*/ (0,jsx_runtime_
 
 /***/ }),
 
-/***/ 4298:
+/***/ 5484:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -321,7 +321,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_articles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8917);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7879);
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4298);
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5484);
 /* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7851);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_seo__WEBPACK_IMPORTED_MODULE_4__]);
 _components_seo__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
@@ -644,6 +644,13 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ 609:
+/***/ ((module) => {
+
+module.exports = require("react-countup");
+
+/***/ }),
+
 /***/ 6405:
 /***/ ((module) => {
 
@@ -672,7 +679,7 @@ module.exports = import("react-hot-toast");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [121,932,676,61,270,484], () => (__webpack_exec__(5205)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,505,664,121,675,270,681,200,38,484], () => (__webpack_exec__(5205)));
 module.exports = __webpack_exports__;
 
 })();

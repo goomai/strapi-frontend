@@ -26,6 +26,8 @@ import {
   documentionNavigation,
 } from "data/navigation";
 import { useState } from "react";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 // ===================================================================
 type NavbarProps = {
@@ -61,6 +63,15 @@ const Navbar: FC<NavbarProps> = (props) => {
   const sticky = useSticky(10);
   const navbarRef = useRef<HTMLElement | null>(null);
 
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router) {
+      const path = router.pathname?.split("/")[1];
+      setActiveNav(path);
+    }
+  }, [router]);
+  console.log(activeNav);
   // dynamically render the logo
   const logo = sticky ? "logo-dark" : logoAlt ?? "logo-dark";
   // dynamically added navbar classname
@@ -84,7 +95,7 @@ const Navbar: FC<NavbarProps> = (props) => {
     <Fragment>
       <div className="navbar-brand w-100">
         <NextLink
-          href="/"
+          href="/python-compiler-playground"
           title={
             <div>
               <img
@@ -158,26 +169,45 @@ const Navbar: FC<NavbarProps> = (props) => {
             {/*  ===================== pages nav item  ===================== */}
             <li className="nav-item ">
               <Link
-                href="#"
+                href="/python-compiler-playground"
                 className={`nav-link ${
-                  activeNav === "compiler" && "item-active"
+                  activeNav === "python-compiler-playground" && "item-active"
                 }`}
-                onClick={() => setActiveNav("compiler")}
+                // onClick={() => setActiveNav("python-compiler-playground")}
               >
                 Python Compiler
               </Link>
             </li>
             <li className="nav-item ">
               <Link
-                href="#"
-                className={`nav-link ${
-                  activeNav === "answers" && "item-active"
-                }`}
-                onClick={() => setActiveNav("answers")}
+                href="/about"
+                className={`nav-link ${activeNav === "about" && "item-active"}`}
+                // onClick={() => setActiveNav("about")}
               >
                 About Us
               </Link>
             </li>
+            <li className="nav-item ">
+              <Link
+                href="/contact"
+                className={`nav-link ${
+                  activeNav === "contact" && "item-active"
+                }`}
+                // onClick={() => setActiveNav("contact")}
+              >
+                Contact Us
+              </Link>
+            </li>
+
+            {/* <li className="nav-item ">
+              <Link
+                href="/terms"
+                className={`nav-link ${activeNav === "terms" && "item-active"}`}
+                onClick={() => setActiveNav("terms")}
+              >
+                Terms
+              </Link>
+            </li> */}
             {/* <li className="nav-item ">
               <Link
                 href="#"
@@ -244,7 +274,7 @@ const Navbar: FC<NavbarProps> = (props) => {
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}
-          <div className="offcanvas-footer d-lg-none">
+          {/* <div className="offcanvas-footer d-lg-none">
             <div>
               <NextLink
                 title="info@email.com"
@@ -256,7 +286,7 @@ const Navbar: FC<NavbarProps> = (props) => {
               <br />
               <SocialLinks />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -329,13 +359,9 @@ const Navbar: FC<NavbarProps> = (props) => {
 
   return (
     <Fragment>
-      <nav
-        ref={navbarRef}
-        className={sticky ? fixedClassName : navClassName}
-        style={{ position: "sticky", top: "0px" }}
-      >
+      <nav ref={navbarRef} className={navClassName}>
         <div
-          className="container flex-lg-row flex-nowrap align-items-center "
+          className="container flex-lg-row flex-nowrap align-items-center justify-content-between"
           style={{ height: "80px" }}
         >
           {headerContent}
@@ -368,7 +394,7 @@ Navbar.defaultProps = {
   search: false,
   language: false,
   stickyBox: true,
-  navOtherClass: "navbar-other w-100 d-flex ms-auto",
+  // navOtherClass: "navbar-other w-100 d-flex ms-auto",
   navClassName:
     "navbar navbar-expand-lg center-nav transparent navbar-light shadow-sm mb-5 bg-white",
 };

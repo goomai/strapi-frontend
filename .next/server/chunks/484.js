@@ -2,6 +2,39 @@ exports.id = 484;
 exports.ids = [484];
 exports.modules = {
 
+/***/ 3260:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var components_blocks_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6469);
+/* harmony import */ var components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1214);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+function Layout({ children  }) {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__/* .Navbar */ .w, {
+                navClassName: "navbar navbar-expand-lg navbar-light navbar-bg-light shadow rounded mb-5 bg-white"
+            }),
+            children,
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_footer__WEBPACK_IMPORTED_MODULE_1__/* .Footer9 */ .UT, {})
+        ]
+    });
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+
+/***/ }),
+
 /***/ 7851:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -117,6 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var theme_ThemeProvider__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(3142);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(1853);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var components_layouts_Layout__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(3260);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_hot_toast__WEBPACK_IMPORTED_MODULE_7__]);
 react_hot_toast__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -143,6 +177,7 @@ react_hot_toast__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_dependencies__.t
 // glightbox css
 
 // custom scrollcue css
+
 
 
 
@@ -175,8 +210,10 @@ const MyApp = ({ Component , pageProps  })=>{
                 value: global.attributes,
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(theme_ThemeProvider__WEBPACK_IMPORTED_MODULE_19__/* ["default"] */ .Z, {
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
-                            ...pageProps
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_layouts_Layout__WEBPACK_IMPORTED_MODULE_21__/* ["default"] */ .Z, {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+                                ...pageProps
+                            })
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_hot_toast__WEBPACK_IMPORTED_MODULE_7__.Toaster, {})
                     ]

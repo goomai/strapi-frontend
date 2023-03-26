@@ -33,11 +33,12 @@ const Footer9: FC = () => {
             <div className="widget">
               <h4 className="widget-title mb-3 text-white">Need Help?</h4>
               <ul className="list-unstyled  mb-0">
-                {helps.map(({ title, url }) => (
-                  <li key={title}>
-                    <NextLink title={title} href={url} />
-                  </li>
-                ))}
+                <li>
+                  <NextLink
+                    title="Python Compiler"
+                    href={"/python-compiler-playground"}
+                  />
+                </li>
               </ul>
             </div>
           </div>
@@ -46,11 +47,18 @@ const Footer9: FC = () => {
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Learn More</h4>
               <ul className="list-unstyled  mb-0">
-                {footerNav.map(({ title, url }) => (
-                  <li key={title}>
-                    <NextLink title={title} href={url} />
-                  </li>
-                ))}
+                <li>
+                  <NextLink title={"About us"} href={"/about"} />
+                </li>
+                <li>
+                  <NextLink title={"Contact Us"} href={"/contact"} />
+                </li>
+                <li>
+                  <NextLink title={"Terms & Conditions"} href={"/terms"} />
+                </li>
+                <li>
+                  <NextLink title={"Privacy Policy"} href={"/privacy"} />
+                </li>
               </ul>
             </div>
           </div>
@@ -58,11 +66,9 @@ const Footer9: FC = () => {
           <div className="col-md-4 col-lg-2">
             <div className="widget">
               <h4 className="widget-title mb-3 text-white">Get in Touch</h4>
-              <address>
-                Moonshine St. 14/05 Light City, London, United Kingdom
-              </address>
-              <NextLink title="info@email.com" href="mailto:#" />
-              <br /> 00 (123) 456 78 90
+              <address>2925, Manor Bridge Dr Alpharetta, GA 30004</address>
+              <NextLink title="hello@keevs.com" href="mailto:hello@keevs.com" />
+              <br />
             </div>
           </div>
         </div>

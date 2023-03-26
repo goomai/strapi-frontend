@@ -135,15 +135,17 @@ function Playground() {
                   <div className={`text-light pe-none ${styles.code_title}`}>
                     Input
                   </div>
-                  <p className={`d-flex`}>
+
+                  <p className={`d-flex justify-content-end`}>
+                    {/* <MdShare role="button" className="text-light mx-2 my-0" /> */}
                     <MdOutlineContentCopy
                       role="button"
-                      className="text-light m-1 m-md-0 my-0"
+                      className="text-light mx-2 my-0"
                       onClick={handleEditorCopy}
                     />
                     <MdOutlineDeleteOutline
                       role="button"
-                      className="text-light m-1 m-md-0 my-0 fs-20 "
+                      className="text-light mx-2 my-0 fs-20"
                       onClick={handleEditorDelete}
                     />
                   </p>
@@ -153,16 +155,16 @@ function Playground() {
                   </p>
                   <div className="d-flex">
                     <button
-                      className={` ${styles.run_btn}`}
+                      className={` ${styles.run_btn_2}`}
                       role="button"
                       disabled={runLoading}
                       onClick={runit}
                     >
                       {runLoading ? "..." : "Run"}
                     </button>
-                    <div className={` ${styles.run_btn_2}`} role="button">
+                    {/* <div className={` ${styles.run_btn_2}`} role="button">
                       Run Visualizer
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="editor-styles">
@@ -172,7 +174,7 @@ function Playground() {
                     height="calc(100% - 70px)"
                     theme="onedark"
                     defaultLanguage="python"
-                    defaultValue="# here there. welcome to Goom.AI"
+                    defaultValue="## Paste the code here"
                     options={{
                       fontFamily:
                         "Hack, 'Fira Code', Consolas, Menlo, Monaco, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Courier New', Courier, monospace",
@@ -191,7 +193,7 @@ function Playground() {
                 <div className={`${styles.editor_options} px-5 pt-3 mx-0`}>
                   <p className={`text-light pe-none`}>Output</p>
                   <p className={`d-flex justify-content-end`}>
-                    <MdShare role="button" className="text-light mx-2 my-0" />
+                    {/* <MdShare role="button" className="text-light mx-2 my-0" /> */}
                     <MdOutlineContentCopy
                       role="button"
                       className="text-light mx-2 my-0"
@@ -212,7 +214,7 @@ function Playground() {
                     fontSize: ".875rem",
                   }}
                 >
-                  here there. welcome to Goom.AI
+                  # Output will be displayed here
                 </div>
               </div>
             </div>

@@ -1,24 +1,34 @@
-import { FC } from 'react';
+import { FC } from "react";
 
 const Contact11: FC = () => {
   return (
     <div className="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
       <div className="col-lg-6">
         <figure>
-          <img className="w-auto" src="/img/illustrations/3d3.png" srcSet="/img/illustrations/3d3@2x.png 2x" alt="" />
+          <img
+            className="w-auto"
+            src="/img/illustrations/3d3.png"
+            srcSet="/img/illustrations/3d3@2x.png 2x"
+            alt=""
+          />
         </figure>
       </div>
 
       <div className="col-lg-5 offset-lg-1">
-        <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">Contact Us</h2>
-        <h3 className="display-4 mb-8">Got any questions? Don't hesitate to get in touch.</h3>
+        <h1 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">
+          Contact Us
+        </h1>
+        <h3 className="display-5 mb-8">
+          We value your opinion and please provide your feedback, suggestions,
+          and opinions
+        </h3>
         <div className="d-flex flex-row">
           <div>
             <svg
               viewBox="0 0 256 255.84"
               xmlns="http://www.w3.org/2000/svg"
               className="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
-              style={{ width: '1.5rem', height: '1.5rem' }}
+              style={{ width: "1.5rem", height: "1.5rem" }}
             >
               <path
                 className="fill-secondary"
@@ -33,17 +43,17 @@ const Contact11: FC = () => {
 
           <div>
             <h5 className="mb-0">Address</h5>
-            <address>Moonshine St. 14/05 Light City, London</address>
+            <p>2925, Manor Bridge Dr Alpharetta, GA 30004</p>
           </div>
         </div>
 
-        <div className="d-flex flex-row">
+        {/* <div className="d-flex flex-row">
           <div>
             <svg
               viewBox="0 0 256.01 256"
               xmlns="http://www.w3.org/2000/svg"
               className="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
-              style={{ width: '1.5rem', height: '1.5rem' }}
+              style={{ width: "1.5rem", height: "1.5rem" }}
             >
               <path
                 className="fill-secondary"
@@ -59,7 +69,7 @@ const Contact11: FC = () => {
             <h5 className="mb-0">Phone</h5>
             <p>00 (123) 456 78 90</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="d-flex flex-row">
           <div>
@@ -67,7 +77,7 @@ const Contact11: FC = () => {
               viewBox="0 0 256 202.66"
               xmlns="http://www.w3.org/2000/svg"
               className="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
-              style={{ width: '1.5rem', height: '1.5rem' }}
+              style={{ width: "1.5rem", height: "1.5rem" }}
             >
               <path
                 className="fill-primary"
@@ -83,8 +93,8 @@ const Contact11: FC = () => {
           <div>
             <h5 className="mb-0">E-mail</h5>
             <p className="mb-0">
-              <a href="mailto:sandbox@email.com" className="link-body">
-                sandbox@email.com
+              <a href="mailto:hello@keevs.com" className="link-body">
+                hello@keevs.com
               </a>
             </p>
           </div>

@@ -14,7 +14,7 @@ const NextLink: FC<NextLinkProps> = (props) => {
 
   return (
     <Link legacyBehavior href={href}>
-      <a className={"fs-20"}>{title}</a>
+      <a className={"fs-16"}>{title}</a>
     </Link>
   );
 };

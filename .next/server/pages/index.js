@@ -18,11 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var components_blocks_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1214);
-/* harmony import */ var components_blocks_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3803);
+/* harmony import */ var components_blocks_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9015);
 /* harmony import */ var components_blocks_hero__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3025);
-/* harmony import */ var components_blocks_faq__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4559);
+/* harmony import */ var components_blocks_faq__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5216);
 /* harmony import */ var components_blocks_testimonial__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3798);
-/* harmony import */ var components_blocks_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1055);
+/* harmony import */ var components_blocks_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(6469);
 /* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(1154);
 /* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var components_blocks_playground_Playground__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9952);
@@ -334,6 +334,13 @@ module.exports = require("next/head");
 
 /***/ }),
 
+/***/ 1853:
+/***/ ((module) => {
+
+module.exports = require("next/router");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
@@ -411,7 +418,7 @@ module.exports = import("swiper/react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [121,932,676,61,171], () => (__webpack_exec__(4369)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,505,664,121,675,681,200,38,367,710], () => (__webpack_exec__(4369)));
 module.exports = __webpack_exports__;
 
 })();

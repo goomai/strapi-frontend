@@ -83,7 +83,7 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -150,9 +150,14 @@ a:focus {
   color: var(--text-white);
 }
 .para {
-  width: 80% !important;
+  width: 85% !important;
 }
-
+.blue_link {
+  color: #0d6efd;
+}
+.blue_link:hover {
+  color: rgb(23, 23, 177);
+}
 @media screen and (max-width: 768px) {
   .para {
     width: 100% !important;

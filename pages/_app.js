@@ -24,6 +24,7 @@ import "glightbox/dist/css/glightbox.css";
 import "plugins/scrollcue/scrollCue.css";
 import ThemeProvider from "theme/ThemeProvider";
 import { useRouter } from "next/router";
+import Layout from "components/layouts/Layout";
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
@@ -92,7 +93,9 @@ const MyApp = ({ Component, pageProps }) => {
       <Head></Head>
       <GlobalContext.Provider value={global.attributes}>
         <ThemeProvider>
-          <Component {...pageProps} />
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
           <Toaster />
         </ThemeProvider>
       </GlobalContext.Provider>

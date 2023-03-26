@@ -1,9 +1,13 @@
 {
-  "/api/hello": "pages/api/hello.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/about": "pages/about.js",
+  "/_error": "pages/_error.js",
   "/python-compiler-playground": "pages/python-compiler-playground.js",
+  "/contact": "pages/contact.js",
   "/": "pages/index.js",
+  "/privacy": "pages/privacy.js",
+  "/articles": "pages/articles.js",
   "/_app": "pages/_app.js",
-  "/articles": "pages/articles.js"
+  "/terms": "pages/terms.js"
 }

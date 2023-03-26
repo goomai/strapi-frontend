@@ -31,6 +31,7 @@
     "pyodide": "^0.22.1",
     "qs": "^6.11.0",
     "react": "18.2.0",
+    "react-code-blocks": "^0.0.9-0",
     "react-countup": "^6.3.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.0",

@@ -21,12 +21,6 @@ function index() {
         <title>Python Playground and Online Python Compiler</title>
       </Head>
       <div style={{ position: "relative" }}>
-        <Navbar
-          search
-          stickyBox
-          navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
-        />
-
         <Playground styles={styles} />
         <EditorSeoContent />
         {/* <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
@@ -54,7 +48,6 @@ function index() {
           <FAQ1 />
         </div>
       </div> */}
-        <Footer9 />
       </div>
     </>
   );

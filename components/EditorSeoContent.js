@@ -52,11 +52,15 @@ function EditorSeoContent() {
               importer, etc. .
             </p>
           </div>
-          <h2 className="text-dark mt-9 pb-3">
+        </div>
+      </div>
+      <div className={`bg_secondary`}>
+        <div className="py-5 container-sm">
+          <h2 className="text-dark  pb-3">
             Why Python Playground and Online Python Compiler
           </h2>
 
-          <table className="table table-bordered para">
+          <table className="table table-bordered para bg-white">
             <tbody>
               <tr>
                 <td>⚡ Instant</td>
@@ -75,7 +79,7 @@ function EditorSeoContent() {
           </table>
         </div>
       </div>
-      <div className={`bg_secondary`}>
+      <div className={`bg_primary`}>
         <div className="py-5 container-sm">
           <h2 className="text-dark mt-4">Python Examples</h2>
           <div className="pt-3 text-dark para">
@@ -97,7 +101,7 @@ function EditorSeoContent() {
           </div>
         </div>
       </div>
-      <div className={`bg_primary`}>
+      <div className={`bg_secondary`}>
         <div className="py-5 container-sm">
           <h2 className="text-dark mt-4">Embed Python Compiler</h2>
           <div className="pt-3 text-dark para">
@@ -116,7 +120,7 @@ function EditorSeoContent() {
           </div>
         </div>
       </div>
-      <div className={`bg_secondary`}>
+      <div className={`bg_primary`}>
         <div className="py-5 container-sm">
           <h2 className="text-dark mt-4">About Python</h2>
           <div className="pt-3 text-dark para">
