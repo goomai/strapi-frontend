@@ -167,14 +167,14 @@ function Playground() {
                     Examples
                   </p>
                   <div className="d-flex">
-                    <Button
+                    <button
                       className={`${styles.run_btn_2}`}
                       role="button"
                       // disabled={runLoading}
                       onClick={runit}
                     >
                       {runLoading ? "..." : "Run"}
-                    </Button>
+                    </button>
                     {/* <div className={` ${styles.run_btn_2}`} role="button">
                       Run Visualizer
                     </div> */}
