@@ -987,9 +987,9 @@ const Contact11 = ()=>{
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "mb-0",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "mailto:hello@keevs.com",
+                                            href: "mailto:hello@goom.ai",
                                             className: "link-body",
-                                            children: "hello@keevs.com"
+                                            children: "hello@goom.ai"
                                         })
                                     })
                                 ]

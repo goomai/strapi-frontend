@@ -11,7 +11,8 @@ import { builtinRead } from "skulpt";
 import { useEffect } from "react";
 import { toast } from "react-hot-toast";
 import styles from "../../../styles/Editor.module.css";
-
+import Ripples from "react-ripples";
+import { Button, Fab } from "@mui/material";
 // import { jsPython } from "jspython-interpreter";
 function Playground() {
   const [runLoading, setRunLoading] = useState(false);
@@ -126,42 +127,54 @@ function Playground() {
     <>
       {Sk ? (
         <div className={`bg_primary mb-10 mt-5`}>
-          <div className={styles.container}>
+          <div className="container-sm">
             <div className={`${styles.editor_container}`}>
               <div className={`${styles.code_ground}`}>
-                <div
-                  className={`${styles.editor_options} px-md-5 px-2 pt-3 mx-0`}
-                >
+                <div className={`${styles.editor_options} px-md-5 px-2  mx-0`}>
                   <div className={`text-light pe-none ${styles.code_title}`}>
                     Input
                   </div>
 
-                  <p className={`d-flex justify-content-end`}>
+                  <p className={`d-flex justify-content-end m-0`}>
                     {/* <MdShare role="button" className="text-light mx-2 my-0" /> */}
-                    <MdOutlineContentCopy
-                      role="button"
-                      className="text-light mx-2 my-0"
-                      onClick={handleEditorCopy}
-                    />
-                    <MdOutlineDeleteOutline
-                      role="button"
-                      className="text-light mx-2 my-0 fs-20"
-                      onClick={handleEditorDelete}
-                    />
+                    <Fab
+                      style={{ backgroundColor: "transparent" }}
+                      className="mx-1"
+                      size="small"
+                      aria-label="copy"
+                    >
+                      <MdOutlineContentCopy
+                        role="button"
+                        className="text-light mx-2 my-0 rounded"
+                        onClick={handleEditorCopy}
+                      />
+                    </Fab>
+                    <Fab
+                      style={{ backgroundColor: "transparent" }}
+                      className="mx-1"
+                      size="small"
+                      aria-label="copy"
+                    >
+                      <MdOutlineDeleteOutline
+                        role="button"
+                        className="text-light mx-2 my-0 fs-20"
+                        onClick={handleEditorDelete}
+                      />
+                    </Fab>
                   </p>
                   {/* <p className={`col-md-1`}></p> */}
-                  <p className={`text-light`} role="button">
+                  <p className={`text-light m-0`} role="button">
                     Examples
                   </p>
                   <div className="d-flex">
-                    <button
-                      className={` ${styles.run_btn_2}`}
+                    <Button
+                      className={`${styles.run_btn_2}`}
                       role="button"
-                      disabled={runLoading}
+                      // disabled={runLoading}
                       onClick={runit}
                     >
                       {runLoading ? "..." : "Run"}
-                    </button>
+                    </Button>
                     {/* <div className={` ${styles.run_btn_2}`} role="button">
                       Run Visualizer
                     </div> */}
@@ -190,20 +203,34 @@ function Playground() {
               </div>
 
               <div className={`${styles.output_container}`}>
-                <div className={`${styles.editor_options} px-5 pt-3 mx-0`}>
-                  <p className={`text-light pe-none`}>Output</p>
-                  <p className={`d-flex justify-content-end`}>
+                <div className={`${styles.editor_options} px-5`}>
+                  <p className={`text-light pe-none m-0`}>Output</p>
+                  <p className={`m-0`}>
                     {/* <MdShare role="button" className="text-light mx-2 my-0" /> */}
-                    <MdOutlineContentCopy
-                      role="button"
-                      className="text-light mx-2 my-0"
-                      onClick={handleOutputCopy}
-                    />
-                    <MdOutlineDeleteOutline
-                      role="button"
-                      className="text-light mx-2 my-0 fs-20"
-                      onClick={handleOutputDelete}
-                    />
+                    <Fab
+                      style={{ backgroundColor: "transparent" }}
+                      className="mx-2"
+                      size="small"
+                      aria-label="copy"
+                    >
+                      <MdOutlineContentCopy
+                        role="button"
+                        className="text-light"
+                        onClick={handleOutputCopy}
+                      />
+                    </Fab>
+                    <Fab
+                      style={{ backgroundColor: "transparent" }}
+                      className="ml-2"
+                      size="small"
+                      aria-label="copy"
+                    >
+                      <MdOutlineDeleteOutline
+                        role="button"
+                        className="text-light mx-2 my-0 fs-20"
+                        onClick={handleOutputDelete}
+                      />
+                    </Fab>
                   </p>
                 </div>
                 <div

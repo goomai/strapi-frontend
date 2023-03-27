@@ -13,13 +13,10 @@ const Footer9: FC = () => {
         <div className="row gy-6 gy-lg-0">
           <div className="col-lg-4">
             <div className="widget">
-              <img
-                className="mb-4"
-                src="/img/logo.png"
-                srcSet="/img/logo@2x.png 2x"
-                alt=""
-              />
-
+              <div className="mb-4">
+                <img src="/img/logo.png" srcSet="/img/logo@2x.png 2x" alt="" />
+                <img alt="logo" src={`/img/logo2-light.svg`} className="px-2" />
+              </div>
               <p className="mb-4">
                 © 2022 Goom.AI. <br className="d-none d-lg-block" />
                 All rights reserved.
@@ -67,7 +64,7 @@ const Footer9: FC = () => {
             <div className="widget">
               <h4 className="widget-title mb-3 text-white">Get in Touch</h4>
               <address>2925, Manor Bridge Dr Alpharetta, GA 30004</address>
-              <NextLink title="hello@keevs.com" href="mailto:hello@keevs.com" />
+              <NextLink title="hello@goom.ai" href="mailto:hello@goom.ai" />
               <br />
             </div>
           </div>

@@ -1537,11 +1537,20 @@ const Footer9 = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "widget",
                             children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                     className: "mb-4",
-                                    src: "/img/logo.png",
-                                    srcSet: "/img/logo@2x.png 2x",
-                                    alt: ""
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                            src: "/img/logo.png",
+                                            srcSet: "/img/logo@2x.png 2x",
+                                            alt: ""
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                            alt: "logo",
+                                            src: `/img/logo2-light.svg`,
+                                            className: "px-2"
+                                        })
+                                    ]
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                     className: "mb-4",
@@ -1634,8 +1643,8 @@ const Footer9 = ()=>{
                                     children: "2925, Manor Bridge Dr Alpharetta, GA 30004"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(links_NextLink/* default */.Z, {
-                                    title: "hello@keevs.com",
-                                    href: "mailto:hello@keevs.com"
+                                    title: "hello@goom.ai",
+                                    href: "mailto:hello@goom.ai"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {})
                             ]

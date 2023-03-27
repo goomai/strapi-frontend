@@ -322,6 +322,13 @@ module.exports = require("@monaco-editor/react");
 
 /***/ }),
 
+/***/ 5692:
+/***/ ((module) => {
+
+module.exports = require("@mui/material");
+
+/***/ }),
+
 /***/ 1635:
 /***/ ((module) => {
 
@@ -606,6 +613,13 @@ module.exports = require("react-dom");
 /***/ ((module) => {
 
 module.exports = require("react-icons/md");
+
+/***/ }),
+
+/***/ 5390:
+/***/ ((module) => {
+
+module.exports = require("react-ripples");
 
 /***/ }),
 

@@ -1,13 +1,13 @@
 {
-  "/_document": "pages/_document.js",
-  "/api/hello": "pages/api/hello.js",
-  "/about": "pages/about.js",
   "/_error": "pages/_error.js",
-  "/python-compiler-playground": "pages/python-compiler-playground.js",
+  "/api/hello": "pages/api/hello.js",
   "/contact": "pages/contact.js",
+  "/about": "pages/about.js",
   "/": "pages/index.js",
+  "/python-compiler-playground": "pages/python-compiler-playground.js",
+  "/terms": "pages/terms.js",
+  "/_document": "pages/_document.js",
   "/privacy": "pages/privacy.js",
   "/articles": "pages/articles.js",
-  "/_app": "pages/_app.js",
-  "/terms": "pages/terms.js"
+  "/_app": "pages/_app.js"
 }

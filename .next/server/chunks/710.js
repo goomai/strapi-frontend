@@ -2841,10 +2841,16 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var skulpt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8851);
 /* harmony import */ var skulpt__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(skulpt__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_hot_toast__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6201);
-/* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1154);
-/* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1154);
+/* harmony import */ var _styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_ripples__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5390);
+/* harmony import */ var react_ripples__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_ripples__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5692);
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_material__WEBPACK_IMPORTED_MODULE_7__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_hot_toast__WEBPACK_IMPORTED_MODULE_5__]);
 react_hot_toast__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
 
 
 
@@ -2966,46 +2972,62 @@ function Playground() {
         children: (skulpt__WEBPACK_IMPORTED_MODULE_4___default()) ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: `bg_primary mb-10 mt-5`,
             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().container),
+                className: "container-sm",
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().editor_container)}`,
+                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().editor_container)}`,
                     children: [
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().code_ground)}`,
+                            className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().code_ground)}`,
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().editor_options)} px-md-5 px-2 pt-3 mx-0`,
+                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().editor_options)} px-md-5 px-2  mx-0`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: `text-light pe-none ${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().code_title)}`,
+                                            className: `text-light pe-none ${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().code_title)}`,
                                             children: "Input"
                                         }),
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                            className: `d-flex justify-content-end`,
+                                            className: `d-flex justify-content-end m-0`,
                                             children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineContentCopy, {
-                                                    role: "button",
-                                                    className: "text-light mx-2 my-0",
-                                                    onClick: handleEditorCopy
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
+                                                    style: {
+                                                        backgroundColor: "transparent"
+                                                    },
+                                                    className: "mx-1",
+                                                    size: "small",
+                                                    "aria-label": "copy",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineContentCopy, {
+                                                        role: "button",
+                                                        className: "text-light mx-2 my-0 rounded",
+                                                        onClick: handleEditorCopy
+                                                    })
                                                 }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineDeleteOutline, {
-                                                    role: "button",
-                                                    className: "text-light mx-2 my-0 fs-20",
-                                                    onClick: handleEditorDelete
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
+                                                    style: {
+                                                        backgroundColor: "transparent"
+                                                    },
+                                                    className: "mx-1",
+                                                    size: "small",
+                                                    "aria-label": "copy",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineDeleteOutline, {
+                                                        role: "button",
+                                                        className: "text-light mx-2 my-0 fs-20",
+                                                        onClick: handleEditorDelete
+                                                    })
                                                 })
                                             ]
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `text-light`,
+                                            className: `text-light m-0`,
                                             role: "button",
                                             children: "Examples"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "d-flex",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                                className: ` ${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().run_btn_2)}`,
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Button, {
+                                                className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().run_btn_2)}`,
                                                 role: "button",
-                                                disabled: runLoading,
+                                                // disabled={runLoading}
                                                 onClick: runit,
                                                 children: runLoading ? "..." : "Run"
                                             })
@@ -3035,27 +3057,43 @@ function Playground() {
                             ]
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().output_container)}`,
+                            className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().output_container)}`,
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().editor_options)} px-5 pt-3 mx-0`,
+                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().editor_options)} px-5`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: `text-light pe-none`,
+                                            className: `text-light pe-none m-0`,
                                             children: "Output"
                                         }),
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                            className: `d-flex justify-content-end`,
+                                            className: `m-0`,
                                             children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineContentCopy, {
-                                                    role: "button",
-                                                    className: "text-light mx-2 my-0",
-                                                    onClick: handleOutputCopy
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
+                                                    style: {
+                                                        backgroundColor: "transparent"
+                                                    },
+                                                    className: "mx-2",
+                                                    size: "small",
+                                                    "aria-label": "copy",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineContentCopy, {
+                                                        role: "button",
+                                                        className: "text-light",
+                                                        onClick: handleOutputCopy
+                                                    })
                                                 }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineDeleteOutline, {
-                                                    role: "button",
-                                                    className: "text-light mx-2 my-0 fs-20",
-                                                    onClick: handleOutputDelete
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
+                                                    style: {
+                                                        backgroundColor: "transparent"
+                                                    },
+                                                    className: "ml-2",
+                                                    size: "small",
+                                                    "aria-label": "copy",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdOutlineDeleteOutline, {
+                                                        role: "button",
+                                                        className: "text-light mx-2 my-0 fs-20",
+                                                        onClick: handleOutputDelete
+                                                    })
                                                 })
                                             ]
                                         })
@@ -3063,7 +3101,7 @@ function Playground() {
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     ref: outputRef,
-                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_6___default().output)} px-5 fs-14`,
+                                    className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().output)} px-5 fs-14`,
                                     style: {
                                         fontFamily: "Consolas,monaco,monospace",
                                         fontSize: ".875rem"

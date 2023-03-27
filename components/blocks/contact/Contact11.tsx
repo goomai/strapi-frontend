@@ -93,8 +93,8 @@ const Contact11: FC = () => {
           <div>
             <h5 className="mb-0">E-mail</h5>
             <p className="mb-0">
-              <a href="mailto:hello@keevs.com" className="link-body">
-                hello@keevs.com
+              <a href="mailto:hello@goom.ai" className="link-body">
+                hello@goom.ai
               </a>
             </p>
           </div>
