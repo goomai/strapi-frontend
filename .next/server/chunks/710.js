@@ -3024,7 +3024,7 @@ function Playground() {
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "d-flex",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Button, {
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                                 className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().run_btn_2)}`,
                                                 role: "button",
                                                 // disabled={runLoading}
