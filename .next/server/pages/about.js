@@ -3534,38 +3534,56 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var components_blocks_about__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5961);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(968);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([components_blocks_about__WEBPACK_IMPORTED_MODULE_1__]);
 components_blocks_about__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
+
 function about() {
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "container-sm my-12",
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_about__WEBPACK_IMPORTED_MODULE_1__/* .About11 */ .K9, {}),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "para ",
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "description",
+                        content: "Best Python playground and online Python compiler to edit, interpret and compile Python code"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+                        children: "About | Goom.AI"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "container-sm my-12 text-dark",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(components_blocks_about__WEBPACK_IMPORTED_MODULE_1__/* .About11 */ .K9, {}),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "para ",
                         children: [
-                            "Python is one of the most used languages for developing ML, AI, and Data Science systems. Python libraries such as TensorFlow, PyTorch, and scikit-learn are commonly used for building and training ML models. We have builts tools such as Python playground/Combiler",
-                            " "
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                children: [
+                                    "Python is one of the most used languages for developing ML, AI, and Data Science systems. Python libraries such as TensorFlow, PyTorch, and scikit-learn are commonly used for building and training ML models. We have builts tools such as Python playground/Combiler",
+                                    " "
+                                ]
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                children: "Jupyter Notebook is another important tool, it is an open-source web application that allows developers to create and share documents that contain live code, equations, visualizations, and narrative text. In terms of deep learning, popular frameworks include TensorFlow and Keras."
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                children: "R is another important language for AI, ML and Data Science, it is a programming language and software environment for statistical computing and graphics. R is widely used for data analysis and visualization and is particularly well-suited for tasks such as data pre-processing, feature selection, and statistical modeling."
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                children: "We will provide the necessary material on other critical technologies related to AI, ML and Data Science including Natural Language Processing (NLP), Computer Vision, Reinforcement Learning, Robotics and big data technologies like Apache Spark and Hadoop."
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                children: "You can find tutorials, articles, and sample code to help you learn these tools and technologies, as well as data science concepts like exploratory data analysis, data cleaning, and feature engineering, and apply them to real-world problems."
+                            })
                         ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "Jupyter Notebook is another important tool, it is an open-source web application that allows developers to create and share documents that contain live code, equations, visualizations, and narrative text. In terms of deep learning, popular frameworks include TensorFlow and Keras."
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "R is another important language for AI, ML and Data Science, it is a programming language and software environment for statistical computing and graphics. R is widely used for data analysis and visualization and is particularly well-suited for tasks such as data pre-processing, feature selection, and statistical modeling."
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "We will provide the necessary material on other critical technologies related to AI, ML and Data Science including Natural Language Processing (NLP), Computer Vision, Reinforcement Learning, Robotics and big data technologies like Apache Spark and Hadoop."
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "You can find tutorials, articles, and sample code to help you learn these tools and technologies, as well as data science concepts like exploratory data analysis, data cleaning, and feature engineering, and apply them to real-world problems."
                     })
                 ]
             })
@@ -5350,6 +5368,14 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/utils/warn-once.js");
+
+/***/ }),
+
+/***/ 968:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
 
 /***/ }),
 

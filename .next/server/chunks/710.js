@@ -2972,7 +2972,7 @@ function Playground() {
         children: (skulpt__WEBPACK_IMPORTED_MODULE_4___default()) ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: `bg_primary mb-10 mt-5`,
             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "container-sm",
+                className: "container-md",
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: `${(_styles_Editor_module_css__WEBPACK_IMPORTED_MODULE_8___default().editor_container)}`,
                     children: [
@@ -2991,7 +2991,8 @@ function Playground() {
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
                                                     style: {
-                                                        backgroundColor: "transparent"
+                                                        backgroundColor: "transparent",
+                                                        zIndex: 0
                                                     },
                                                     className: "mx-1",
                                                     size: "small",
@@ -3004,7 +3005,8 @@ function Playground() {
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
                                                     style: {
-                                                        backgroundColor: "transparent"
+                                                        backgroundColor: "transparent",
+                                                        zIndex: 0
                                                     },
                                                     className: "mx-1",
                                                     size: "small",
@@ -3071,7 +3073,8 @@ function Playground() {
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
                                                     style: {
-                                                        backgroundColor: "transparent"
+                                                        backgroundColor: "transparent",
+                                                        zIndex: 0
                                                     },
                                                     className: "mx-2",
                                                     size: "small",
@@ -3084,7 +3087,8 @@ function Playground() {
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_7__.Fab, {
                                                     style: {
-                                                        backgroundColor: "transparent"
+                                                        backgroundColor: "transparent",
+                                                        zIndex: 0
                                                     },
                                                     className: "ml-2",
                                                     size: "small",

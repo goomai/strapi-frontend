@@ -1,23 +1,17 @@
-import {
-  Contact1,
-  Contact10,
-  Contact11,
-  Contact2,
-  Contact3,
-  Contact4,
-  Contact5,
-  Contact6,
-  Contact7,
-  Contact8,
-  Contact9,
-} from "components/blocks/contact";
+import { Contact11 } from "components/blocks/contact";
 import Head from "next/head";
-import Link from "next/link";
 import React from "react";
 
 function Contact() {
   return (
     <>
+      <Head>
+        <meta
+          name="description"
+          content="Best Python playground and online Python compiler to edit, interpret and compile Python code"
+        />
+        <title>Contact | Goom.AI</title>
+      </Head>
       <Head>
         <title>Contact Us | ContentDetector.AI</title>
         <meta

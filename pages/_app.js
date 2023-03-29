@@ -25,6 +25,7 @@ import "plugins/scrollcue/scrollCue.css";
 import ThemeProvider from "theme/ThemeProvider";
 import { useRouter } from "next/router";
 import Layout from "components/layouts/Layout";
+import Script from "next/script";
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});

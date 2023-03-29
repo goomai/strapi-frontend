@@ -4222,15 +4222,7 @@ const Navbar = (props)=>{
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                         href: "/about",
                                         className: `nav-link ${activeNav === "about" && "item-active"}`,
-                                        children: "About Us"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    className: "nav-item ",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        href: "/contact",
-                                        className: `nav-link ${activeNav === "contact" && "item-active"}`,
-                                        children: "Contact Us"
+                                        children: "About"
                                     })
                                 })
                             ]

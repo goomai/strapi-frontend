@@ -184,10 +184,10 @@ const Navbar: FC<NavbarProps> = (props) => {
                 className={`nav-link ${activeNav === "about" && "item-active"}`}
                 // onClick={() => setActiveNav("about")}
               >
-                About Us
+                About
               </Link>
             </li>
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
               <Link
                 href="/contact"
                 className={`nav-link ${
@@ -197,7 +197,7 @@ const Navbar: FC<NavbarProps> = (props) => {
               >
                 Contact Us
               </Link>
-            </li>
+            </li> */}
 
             {/* <li className="nav-item ">
               <Link

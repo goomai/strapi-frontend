@@ -109,13 +109,13 @@
   .editor_container {
     min-height: calc(100vh - 80px - 50px);
     border-radius: 7px;
-    width: 95vw;
+    width: calc(100vw - 30px);
     display: flex;
     background-color: #fff;
     flex-wrap: wrap;
   }
   .code_ground {
-    width: 100vw;
+    width: calc(100vw - 30px);
     border-radius: 8px;
   }
   .output_container {

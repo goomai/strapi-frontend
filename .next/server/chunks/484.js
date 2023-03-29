@@ -151,6 +151,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(1853);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_20__);
 /* harmony import */ var components_layouts_Layout__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(3260);
+/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(4298);
+/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(next_script__WEBPACK_IMPORTED_MODULE_22__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_hot_toast__WEBPACK_IMPORTED_MODULE_7__]);
 react_hot_toast__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -177,6 +179,7 @@ react_hot_toast__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_dependencies__.t
 // glightbox css
 
 // custom scrollcue css
+
 
 
 

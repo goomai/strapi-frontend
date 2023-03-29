@@ -127,7 +127,7 @@ function Playground() {
     <>
       {Sk ? (
         <div className={`bg_primary mb-10 mt-5`}>
-          <div className="container-sm">
+          <div className="container-md">
             <div className={`${styles.editor_container}`}>
               <div className={`${styles.code_ground}`}>
                 <div className={`${styles.editor_options} px-md-5 px-2  mx-0`}>
@@ -138,7 +138,7 @@ function Playground() {
                   <p className={`d-flex justify-content-end m-0`}>
                     {/* <MdShare role="button" className="text-light mx-2 my-0" /> */}
                     <Fab
-                      style={{ backgroundColor: "transparent" }}
+                      style={{ backgroundColor: "transparent", zIndex: 0 }}
                       className="mx-1"
                       size="small"
                       aria-label="copy"
@@ -150,7 +150,7 @@ function Playground() {
                       />
                     </Fab>
                     <Fab
-                      style={{ backgroundColor: "transparent" }}
+                      style={{ backgroundColor: "transparent", zIndex: 0 }}
                       className="mx-1"
                       size="small"
                       aria-label="copy"
@@ -208,7 +208,7 @@ function Playground() {
                   <p className={`m-0`}>
                     {/* <MdShare role="button" className="text-light mx-2 my-0" /> */}
                     <Fab
-                      style={{ backgroundColor: "transparent" }}
+                      style={{ backgroundColor: "transparent", zIndex: 0 }}
                       className="mx-2"
                       size="small"
                       aria-label="copy"
@@ -220,7 +220,7 @@ function Playground() {
                       />
                     </Fab>
                     <Fab
-                      style={{ backgroundColor: "transparent" }}
+                      style={{ backgroundColor: "transparent", zIndex: 0 }}
                       className="ml-2"
                       size="small"
                       aria-label="copy"
