@@ -114,10 +114,10 @@ MyApp.getInitialProps = async (ctx) => {
 
     const globalRes = {
         data: {
-            favicon: "path/to/favicon",
+            favicon: "/img/logo.svg",
             defaultSeo: {
-                title: "My Site",
-                description: "This is my site",
+                title: "Python Playground and Online Python Compiler",
+                description: "Best Python playground and online Python compiler to edit, interpret and compile Python code",
             },
         },
     };
