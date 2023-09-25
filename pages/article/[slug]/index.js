@@ -9,10 +9,10 @@ function Index() {
     const router = useRouter();
     const { slug } = router.query;
     const [blogData,setBlogData]=useState("")
+    const [recommendedLinks,setRecommendedLinks]=useState([])
     useEffect(()=>{
         const fetchData=async()=>{
             const response=await getData(`http://localhost:1337/api/articles?populate=*&&filters[slug]=${slug}`)
-            console.log(response?.data)
             let data=[];
             data=response?.data?.data.map((item)=>{
                 return{
@@ -25,6 +25,24 @@ function Index() {
                 }
             })
             setBlogData(data)
+        }
+        fetchData()
+    },[])
+    useEffect(()=>{
+        const fetchData=async()=>{
+            const response=await getData("http://localhost:1337/api/articles")
+            let data=[];
+            data=response?.data?.data.map((item,index)=>{
+                if(index<=3){
+                    return{
+                        title:item?.attributes?.title,
+                    }
+                } 
+                else{
+                    return null;
+                }  
+            })
+            setRecommendedLinks(data)
         }
         fetchData()
     },[])
@@ -70,6 +88,7 @@ function Index() {
       };
       
     return (
+        <>
         <div className='custom-container' style={{fontFamily:"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"}}>
             <div className='article-blog-data'>
                 <h1 className='article-blog-title'>{blogData[0]?.title}</h1>
@@ -108,7 +127,26 @@ function Index() {
                 <div style={{width:'100%'}}>{renderContent(blogData[0]?.content)}</div>
             </div>
         </div>
+        <div className='more-articles'>
+            <div className="articles-links">
+                {recommendedLinks.map((item,index)=>(
+                    <>
+                        {index<=3 ? 
+                            <>
+                                <a href={`article/`}>
+                                    <h4 className='article-link'>{item?.title}</h4>
+                                </a>
+                            </>:
+                            <></>
+                        }
+                    </>
+                
+                ))}
+            </div>
+        </div>
+    </>
     )
+    
 }
 
 export default Index

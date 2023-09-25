@@ -9,6 +9,7 @@ import styles from "../styles/Editor.module.css";
 
 import Playground from "components/blocks/playground/Playground";
 import Head from "next/head";
+import HomePage from "components/HomePage";
 function index() {
   return (
     <>
@@ -21,8 +22,8 @@ function index() {
           stickyBox
           navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
         />
-
-        <Playground styles={styles} />
+        <HomePage/>
+        {/* <Playground styles={styles} /> */}
 
         {/* <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
         <div className="container-md ">
