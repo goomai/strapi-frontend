@@ -5,43 +5,6 @@ import ArticlesPage from 'pages/articles';
 
 function HomePage() {
 
-    const [featureCard,setFeatureCard]=useState([])
-    const [toolsCard,setToolsCard]=useState([])
-    const [homePageBlogs,setHomePageBlogs]=useState(true);
-    useEffect(()=>{
-        const fetchData=async()=>{
-            const result= await getData("http://localhost:1337/api/feature-cards?populate=*")
-            let data=[];
-            data=result?.data?.data?.map((item)=>{
-                return{
-                    icon:item?.attributes?.image?.data?.attributes?.url,
-                    title:item?.attributes?.title,
-                    description:item?.attributes?.description
-                }
-            })
-            setFeatureCard(data)
-        }
-        fetchData();
-    },[])
-
-    useEffect(()=>{
-        const fetchData=async()=>{
-            const result=await getData("http://localhost:1337/api/tools-cards?populate=*")
-            let data=[];
-            data=result?.data?.data?.map((item)=>{
-                return{
-                    icon:item?.attributes?.image?.data?.attributes?.url,
-                    title:item?.attributes?.title,
-                    description:item?.attributes?.description,
-                    button_title:item?.attributes?.button_title,
-                    button_slug:item?.attributes?.button_slug
-                }
-            })
-            setToolsCard(data)
-        }
-        fetchData()
-    },[])
-
     return (
         <>
             <div className='banner-section'>
@@ -59,9 +22,9 @@ function HomePage() {
                 <img src="/img/photos/square.png" className='square-img'/>
                     <div class="card-container">
                         {
-                            featureCard?.map((item)=>(
+                            featureCardsData?.map((item)=>(
                                 <div class="card">
-                                    <img src={`http://localhost:1337${item?.icon}`} alt="Image 1" width="58px" height="58px"/>
+                                    <img src={item?.image} alt="Image 1" width="58px" height="58px"/>
                                     <div class="card-content">
                                         <div class="card-title">{item?.title}</div>
                                         <div class="card-description">{item?.description}</div>
@@ -78,14 +41,18 @@ function HomePage() {
                 <p className='tools-title'>Tools that can help you</p>
                 <div className='tools-cards'>
                     {
-                        toolsCard?.map((item) => (
+                        toolsCardData?.map((item) => (
                             (
                                 <div className='tools-card'>
-                                    <img src={`http://localhost:1337${item?.icon}`} alt="Image 1" className='tools-img'/>
+                                    <img src={item?.image} alt="Image 1" className='tools-img'/>
                                     <div className='tools-data'>
                                         <p className='tools-card-title'>{item?.title}</p>
                                         <p className='tools-card-description'>{item?.description}</p>
-                                        <button className='tools-card-button'>{item?.button_title}</button>
+                                        <a href={item?.url}>
+                                        <button className='tools-card-button'>
+                                          {item?.button_text}
+                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             )
@@ -97,9 +64,99 @@ function HomePage() {
             <div className='blogs-section'>
                 <p className='blogs-title'>Blogs</p>
             </div>
-            <ArticlesPage homePageBlogs={homePageBlogs}/>
+            <div className="custom-container">
+                <div className="articles-grid">
+                {
+                    blogsCardsData?.map((item,index)=>(
+                    <> 
+                        <div className="article-card">
+                            <button className="article-card-python">PYTHON</button>
+                            <a href={item.url}>
+                                <h2 className="article-card-title">
+                                {item?.title}
+                                </h2>
+                            </a>
+                            <div className="article-card-profile-date">
+                                <img src="/img/photos/profile.png" alt="Image 1" className='tools-img'/>
+                                <div className="article-card-date">
+                                <h2 className="article-card-goom">{item?.author}</h2>
+                                <h4 className="article-card-dot">.</h4>
+                                <h3 className="article-card-publish-date">{item?.publish_date}</h3>
+                                </div>
+                            </div>
+                        </div>   
+                    </>
+                    
+                    ))
+                }
+                </div>
+            </div>
+            {/* <ArticlesPage homePageBlogs={homePageBlogs}/> */}
         </>
     )
 }
 
 export default HomePage
+
+const blogsCardsData=[
+    {
+        id:1,
+        title:"Python Interview Questions and Answers [2023]",
+        url:"https://goom.ai/articles/python-interview-questions-and-answers-2023/",
+        author:"Goom",
+        publish_date:"JULY 5,2023",
+    },
+    {
+        id:2,
+        title:"Python Create MD5 Hash of String [with Code Examples]",
+        url:"https://goom.ai/articles/python-create-md5-hash-of-string/",
+        author:"Goom",
+        publish_date:"JULY 5,2023",
+    },
+    {
+        id:3,
+        title:"Python List Object is Not Callable [Reasons and Solutions Explained]",
+        url:"https://goom.ai/articles/python-list-object-is-not-callable/",
+        author:"Goom",
+        publish_date:"JULY 5,2023",
+    }
+]
+const featureCardsData=[
+    {
+        id:1,
+        title:"Intelligent Making",
+        description:"Our AI technology keeps evolving to ensure you receive the most suitable opportunities. We analyse your profile and preferences, providing you with tailored job recommendations that align with your career goals.",
+        image:"/img/photos/options.png"
+    },
+    {
+        id:2,
+        title:"One-Click Application",
+        description:"No more filling out tedious application forms. Apply for multiple positions instantly with just a single click. We make it easy for you to showcase your skills and get noticed by potential employers.",
+        image:"/img/photos/options.png"
+    },
+    {
+        id:3,
+        title:"Technology Focus",
+        description:"Most of the current job portals focus on We focus on Software Engineering, Machine Learning/AI and Data Engineering and Science roles only. This helps us stay focused and provide the best matching experience.",
+        image:"/img/photos/options.png"
+    },
+]
+const toolsCardData=[
+    {
+        id:1,
+        title:"AI Content Detector",
+        description:"Check if the text is written by AI,get alternate recomendations.",
+        image:"/img/photos/Frame.png",
+        url:"https://contentdetector.ai/",
+        button_text:"Visit Contentdetctor.ai"
+    },
+    {
+        id:2,
+        title:"ChatwithPDF",
+        description:"Don't spend hours flipping through research papers and academic articles.",
+        image:"/img/photos/frame1.png",
+        url:"https://chatwithpdf.ai/",
+        button_text:"Visit ChatwithPDF.ai"
+    },
+    
+]

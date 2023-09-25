@@ -7,7 +7,6 @@ const Articles = ({ articles,homePageBlogs }) => {
     const formattedDate = moment(date).format('MMMM D, YYYY').toUpperCase();
     return formattedDate
   }
-  
   return (
     <>
       <div className="custom-container">
