@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import { getData } from 'utils/data-manager';
 import ArticlesPage from 'pages/articles';
+import Link from 'next/link';
 
 function HomePage() {
 
@@ -70,7 +71,9 @@ function HomePage() {
                     blogsCardsData?.map((item,index)=>(
                     <> 
                         <div className="article-card">
-                            <button className="article-card-python">PYTHON</button>
+                            <Link href="/python-compiler-playground">
+                                <button className="article-card-python">PYTHON</button>
+                            </Link>
                             <a href={item.url}>
                                 <h2 className="article-card-title">
                                 {item?.title}
@@ -132,13 +135,13 @@ const featureCardsData=[
         id:2,
         title:"One-Click Application",
         description:"No more filling out tedious application forms. Apply for multiple positions instantly with just a single click. We make it easy for you to showcase your skills and get noticed by potential employers.",
-        image:"/img/photos/options.png"
+        image:"/img/photos/oneclick.png"
     },
     {
         id:3,
         title:"Technology Focus",
-        description:"Most of the current job portals focus on We focus on Software Engineering, Machine Learning/AI and Data Engineering and Science roles only. This helps us stay focused and provide the best matching experience.",
-        image:"/img/photos/options.png"
+        description:"Most of the current job portals focus on Software Engineering. We focus on Machine Learning/AI and Data Engineering and Science roles only. This helps us stay focused and provide the best matching experience.",
+        image:"/img/photos/technology.png"
     },
 ]
 const toolsCardData=[

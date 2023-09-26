@@ -581,6 +581,12 @@ linear-gradient(0deg, rgba(253, 124, 71, 0.1), rgba(253, 124, 71, 0.1));
     z-index: -1;
   }
 }
+@media screen and (max-width:1300px) {
+  .custom-container{
+    width: 90%;
+    margin:4% auto;
+  } 
+}
 @media screen and (max-width:1200px) {
   
   .card-container {

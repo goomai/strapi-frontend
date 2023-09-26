@@ -14,15 +14,20 @@ function index() {
   return (
     <>
       <Head>
-        <title>Python Playground and Online Python Compiler</title>
+        <meta
+          name="description"
+          content="Explore goom.ai for innovative AI solutions! Discover advanced content detection at ContentDetector.ai, interactive PDF chats at ChatWithPDF.ai, and intelligent job search. Unleash the power of AI with our diverse and cutting-edge services."
+        />
+        <title> Goom.ai: Diverse AI Solutions - Content Detection, Chat with PDF & AI Powered Job Searching</title>
       </Head>
-      <div style={{ position: "relative" }}>
-        <Navbar
+      <HomePage/>
+      {/* <div style={{ position: "relative" }}> */}
+        {/* <Navbar
           search
           stickyBox
           navClassName="navbar navbar-expand-lg navbar-light navbar-bg-light  shadow rounded  mb-5 bg-white"
-        />
-        <HomePage/>
+        /> */}
+        
         {/* <Playground styles={styles} /> */}
 
         {/* <div className="bg_secondary pt-10 pb-10 pt-md-14 pb-md-14">
@@ -50,8 +55,8 @@ function index() {
           <FAQ1 />
         </div>
       </div> */}
-        <Footer15 />
-      </div>
+        {/* <Footer15 /> */}
+      {/* </div> */}
     </>
   );
 }

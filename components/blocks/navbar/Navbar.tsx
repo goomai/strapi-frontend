@@ -95,7 +95,7 @@ const Navbar: FC<NavbarProps> = (props) => {
     <Fragment>
       <div className="navbar-brand w-100">
         <NextLink
-          href="/homepage"
+          href="/"
           title={
             <div>
               <img

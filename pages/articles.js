@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { fetchAPI } from "../lib/api";
 import { getData } from "utils/data-manager";
+import Head from "next/head";
 
 const ArticlesPage = ({ homePageBlogs }) => {
   const [articlesData,setArticlesData]=useState([]);
@@ -26,6 +27,13 @@ const ArticlesPage = ({ homePageBlogs }) => {
   },[])
   return (
     <>
+      <Head>
+        <meta
+          name="description"
+          content="Best Python playground and online Python compiler to edit, interpret and compile Python code"
+        />
+        <title>Python Articles | Goom.ai</title>
+      </Head>
       <Articles articles={articlesData} homePageBlogs={homePageBlogs}/>
      {/* <Layout categories={categories}>
        <Seo seo={homepage.attributes.seo} />
