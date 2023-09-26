@@ -105,21 +105,21 @@ const blogsCardsData=[
     {
         id:1,
         title:"Python Interview Questions and Answers [2023]",
-        url:"https://goom.ai/articles/python-interview-questions-and-answers-2023/",
+        url:"/articles/python-interview-questions-and-answers-2023/",
         author:"Goom",
         publish_date:"JULY 5,2023",
     },
     {
         id:2,
         title:"Python Create MD5 Hash of String [with Code Examples]",
-        url:"https://goom.ai/articles/python-create-md5-hash-of-string/",
+        url:"/articles/python-create-md5-hash-of-string/",
         author:"Goom",
         publish_date:"JULY 5,2023",
     },
     {
         id:3,
         title:"Python List Object is Not Callable [Reasons and Solutions Explained]",
-        url:"https://goom.ai/articles/python-list-object-is-not-callable/",
+        url:"/articles/python-list-object-is-not-callable/",
         author:"Goom",
         publish_date:"JULY 5,2023",
     }
