@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import { getData } from 'utils/data-manager';
-import ArticlesPage from 'pages/articles';
 import Link from 'next/link';
 
 function HomePage() {
