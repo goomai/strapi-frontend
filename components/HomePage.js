@@ -23,6 +23,7 @@ function HomePage() {
                     <div class="card-container">
                         {
                             featureCardsData?.map((item)=>(
+                                <>
                                 <div class="card">
                                     <img src={item?.image} alt="Image 1" width="58px" height="58px"/>
                                     <div class="card-content">
@@ -30,10 +31,11 @@ function HomePage() {
                                         <div class="card-description">{item?.description}</div>
                                     </div>
                                 </div>
+                                </>
                             ))
                         }
+                        <img src="/img/photos/ellipse.png" className='ellipse-img'/>
                     </div>
-                    <img src="/img/photos/ellipse.png" className='ellipse-img'/>
                 </div>
             {/* </div> */}
             <div style={{width:"100%"}}>
