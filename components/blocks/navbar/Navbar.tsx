@@ -180,7 +180,7 @@ const Navbar: FC<NavbarProps> = (props) => {
             </li>
             <li>
               <Link
-                href="/articles"
+                href="/articles/"
                 className={`nav-link ${
                   activeNav === "python-articles" && "item-active"
                 }`}
