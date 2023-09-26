@@ -179,15 +179,15 @@ const Navbar: FC<NavbarProps> = (props) => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/articles/"
+              <a
+                href="/articles"
                 className={`nav-link ${
                   activeNav === "python-articles" && "item-active"
                 }`}
                 // onClick={() => setActiveNav("python-articles")}
               >
                 Python Articles
-              </Link>
+              </a>
             </li>
             <li className="nav-item ">
               <Link
