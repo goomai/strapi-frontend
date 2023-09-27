@@ -19,6 +19,7 @@ function ContentPlayground({data}) {
   const [flag,setFlag]=useState(false);
   const codeRef = useRef();
   const outputRef = useRef();
+  
   function handleEditorDidMount(editor, monaco) {
     codeRef.current = editor;
   }
@@ -87,6 +88,7 @@ function ContentPlayground({data}) {
     var prog = codeRef.current.getValue();
     console.log(prog);
     var mypre = outputRef.current;
+    console.log(mypre)
     mypre.innerHTML = "";
     Sk.canvas = "skulpt-canvas";
     Sk.pre = "skulpt-output";
@@ -112,9 +114,9 @@ function ContentPlayground({data}) {
     <>
       {Sk ? (
         <div className={`bg_primary mb-10 mt-5`}>
-          <div className="custom-container">
-            <div style={{height:'100%',width:'77%'}}>
-              <div className={`${styles.code_ground}`} style={{width:"100%",height:'33vh'}}>
+          {/* <div className="custom-container"> */}
+            <div style={{height:'100%',width:'100%',marginBottom:'20px'}}>
+              <div className={`${styles.code_ground}`} style={{width:"100%",height:'33vh',borderRadius:'8px'}}>
                 <div className={`${styles.editor_options} px-md-5 px-2  mx-0`}>
                   <div className={`text-light pe-none ${styles.code_title}`}>
                     Input
@@ -180,9 +182,9 @@ function ContentPlayground({data}) {
                 </div>
               </div>
             </div>
-          </div>
-          {flag &&
-            <div className={`${styles.output_container}`} style={{width:'100%',height:"25vh"}}>
+          {/* </div> */}
+          {flag ?
+            <div className={`${styles.output_container}`} style={{width:'100%',height:"25vh",borderRadius:'8px'}}>
                 <div className={`${styles.editor_options} px-5`}>
                     <p className={`text-light pe-none m-0`}>Output</p>
                     <p className={`m-0`}>
@@ -221,10 +223,22 @@ function ContentPlayground({data}) {
                     fontSize: ".875rem",
                     }}
                 >
-                    # Output will be displayed here
+                    
                 </div>
-            </div>  
-            }
+            </div>:
+            <>
+              <div
+                    ref={outputRef}
+                    className={`${styles.output} px-5 fs-14`}
+                    style={{
+                    fontFamily: "Consolas,monaco,monospace",
+                    fontSize: ".875rem",
+                    }}
+                >
+                    
+                </div>
+            </>  
+          }
         </div>
         
       ) : null}

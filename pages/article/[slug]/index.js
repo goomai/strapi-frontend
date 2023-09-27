@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { getData } from 'utils/data-manager';
 import moment from "moment";
 import ContentPlayground from 'components/blocks/contentPlayground/ContentPlayground';
+import AddComment from 'components/blocks/AddComment';
 
 
 function Index() {
@@ -10,9 +11,11 @@ function Index() {
     const { slug } = router.query;
     const [blogData,setBlogData]=useState("")
     const [recommendedLinks,setRecommendedLinks]=useState([])
+    const [nextArticle,setNextArticle]=useState([])
+    const [previousArticle,setPreviousArticle]=useState([])
     useEffect(()=>{
         const fetchData=async()=>{
-            const response=await getData(`http://localhost:1337/api/articles?populate=*&&filters[slug]=${slug}`)
+            const response=await getData(`http://localhost:1338/api/articles?populate=*&&filters[slug]=${slug}`)
             let data=[];
             data=response?.data?.data.map((item)=>{
                 return{
@@ -30,19 +33,45 @@ function Index() {
     },[])
     useEffect(()=>{
         const fetchData=async()=>{
-            const response=await getData("http://localhost:1337/api/articles")
+            const id=localStorage.getItem('id')
+            const response=await getData(`http://localhost:1338/api/articles?filters[id][$lt]=${id}&&sort=id:desc`)
+            const response1=await getData(`http://localhost:1338/api/articles?filters[id][$gt]=${id}`)
             let data=[];
             data=response?.data?.data.map((item,index)=>{
                 if(index<=3){
                     return{
                         title:item?.attributes?.title,
+                        slug:item?.attributes?.slug,
+                        id:item?.id
                     }
                 } 
                 else{
                     return null;
                 }  
             })
+            let data1=[]
+            data1=response?.data?.data?.map((item,index)=>{
+                if(index<1){
+                    return{
+                        title:item?.attributes?.title,
+                        slug:item?.attributes?.slug,
+                        id:item?.id
+                    }
+                }
+            })
+            let data2=[]
+            data2=response1?.data?.data?.map((item,index)=>{
+                if(index<1){
+                    return{
+                        title:item?.attributes?.title,
+                        slug:item?.attributes?.slug,
+                        id:item?.id
+                    }
+                }
+            })
             setRecommendedLinks(data)
+            setNextArticle(data1)
+            setPreviousArticle(data2)
         }
         fetchData()
     },[])
@@ -87,19 +116,20 @@ function Index() {
         return reactElements;
       };
       
+      
     return (
         <>
-        <div className='custom-container' style={{fontFamily:"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"}}>
+        <div className='custom-container' style={{fontFamily:"Poppins, Sans-Serif"}}>
             <div className='article-blog-data'>
                 <h1 className='article-blog-title'>{blogData[0]?.title}</h1>
                 
                 <div className="article-blog-profile-date">
-                  <img src={`http://localhost:1337${blogData[0]?.profile}`} alt="Image 1" height="25" width="25" style={{borderRadius:"50%"}}/>
-                  <div className="article-card-date">
+                <img src={`http://localhost:1338${blogData[0]?.profile}`} alt="Image 1" height="25" width="25" style={{borderRadius:"50%"}}/>
+                <div className="article-card-date">
                     <h2 className="article-blog-author">{blogData[0]?.author}</h2>
                     <h4 className="article-card-slash">.</h4>
                     <h3 className="article-blog-publish-date">{formattedDate(blogData[0]?.publish_date)}</h3>
-                  </div>
+                </div>
                 </div>
                 <div className='article-social-icons'>
                     <button className='facebook-icon'>
@@ -125,25 +155,52 @@ function Index() {
                 </div>
                 <h2 className='article-blog-table'>Table Of Contents</h2>
                 <div style={{width:'100%'}}>{renderContent(blogData[0]?.content)}</div>
+                <div style={{display:'flex',justifyContent:'space-between'}}>
+                    <div>
+                        <h4 className='article-link-previous-next'>Previous Post</h4>
+                        {
+                            previousArticle?.map((item)=>(
+                                <a href={`/article/${item?.slug}`} onClick={()=>{localStorage.setItem("id",item?.id)}}>
+                                    <h4 className='article-link-previous-next'>{item?.title}</h4>
+                                </a>
+                            ))
+                        }
+                    </div>
+                    <div style={{textAlign:'end'}}>
+                        
+                        <h4 className='article-link-previous-next'>Next Post</h4>
+                        {
+                            nextArticle?.map((item)=>(
+                                <a href={`/article/${item?.slug}`} onClick={()=>{localStorage.setItem("id",item?.id)}}>
+                                    <h4 className='article-link-previous-next'>{item?.title}</h4>
+                                </a>
+                            ))
+                        }
+                    </div>
+                </div>
             </div>
         </div>
         <div className='more-articles'>
-            <div className="articles-links">
-                {recommendedLinks.map((item,index)=>(
-                    <>
-                        {index<=3 ? 
-                            <>
-                                <a href={`article/`}>
-                                    <h4 className='article-link'>{item?.title}</h4>
-                                </a>
-                            </>:
-                            <></>
-                        }
-                    </>
-                
-                ))}
+            <div className='grouping-article'>
+                <h4 className="more-articles-title">More Articles:</h4>
+                <div className="articles-links">
+                    {recommendedLinks.map((item,index)=>(
+                        <>
+                            {index<=3 ? 
+                                <>
+                                    <a href={`/article/${item?.slug}`} onClick={()=>{localStorage.setItem("id",item?.id)}}>
+                                        <h4 className='article-link'>{item?.title}</h4>
+                                    </a>
+                                </>:
+                                <></>
+                            }
+                        </>
+                    
+                    ))}
+                </div>
             </div>
         </div>
+        <AddComment/>
     </>
     )
     

@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./card";
 import moment from 'moment';
+import ArticlePagination from "./blocks/ArticlePagination";
 
 const Articles = ({ articles,homePageBlogs }) => {
   const formattedDate=(date)=>{
@@ -27,7 +28,7 @@ const Articles = ({ articles,homePageBlogs }) => {
                             </h2>
                           </a>
                           <div className="article-card-profile-date">
-                            <img src={`http://localhost:1337${item?.profile}`} alt="Image 1" className='tools-img'/>
+                            <img src={`http://localhost:1338${item?.profile}`} alt="Image 1" className='tools-img'/>
                             <div className="article-card-date">
                               <h2 className="article-card-goom">{item?.author}</h2>
                               <h4 className="article-card-dot">.</h4>
@@ -40,13 +41,13 @@ const Articles = ({ articles,homePageBlogs }) => {
                   <>
                     <div className="article-card">
                       <button className="article-card-python">PYTHON</button>
-                      <a href={`/article/${item?.slug}`}>
+                      <a href={`/article/${item?.slug}`} onClick={()=>{localStorage.setItem('id',item?.id)}}>
                         <h2 className="article-card-title">
                           {item?.title}
                         </h2>
                       </a>
                       <div className="article-card-profile-date">
-                        <img src={`http://localhost:1337${item?.profile}`} alt="Image 1" className='tools-img'/>
+                        <img src={`http://localhost:1338${item?.profile}`} alt="Image 1" className='tools-img'/>
                         <div className="article-card-date">
                           <h2 className="article-card-goom">{item?.author}</h2>
                           <h4 className="article-card-dot">.</h4>
@@ -62,6 +63,7 @@ const Articles = ({ articles,homePageBlogs }) => {
             ))
           }
         </div>
+        <ArticlePagination/>
       </div>
       {/* <div className="uk-child-width-1-2@s" data-uk-grid="true"> */}
         {/* <div>
