@@ -1,42 +1,59 @@
 import axios from 'axios';
 import React, { useState } from 'react'
+import { postData } from 'utils/data-manager';
 
 function AddComment() {
     const [isNameFocused, setNameFocused] = useState(false);
     const [isEmailFocused, setEmailFocused] = useState(false);
     const [isWebsiteFocused, setWebsiteFocused] = useState(false);
     const [isCommentFocused, setCommentFocused] = useState(false);
+    const [message,setMessage]=useState({
+        message:'',
+        added:''
+    });
+
     const [formData,setFormData]=useState({
         name:"",
         email:"",
         website:"",
         comment:"",
     })
+
     const handleChange=(e)=>{
         setNameFocused(false)
+        setMessage('');
         setFormData({
             ...formData,
             [e.target.name]:e.target.value
         })
     }
-    const handleCommentPost=(e)=>{
+
+    //Posting Data
+    const handleCommentPost=async (e)=>{
         e.preventDefault();
         const postCommentData={
             data:{
                 name:formData?.name,
                 email:formData?.email,
+                comment:formData?.comment,
                 website:formData?.website,
-                comment:formData?.comment
             }
         }
-        const postCommentDataJson=JSON.stringify(postCommentData)
-        const response=axios.post("",postCommentDataJson,{
-                "Authorization": 'Bearer 0b5410f80b9fff07383d6f83e5fe43f4b4d502afe45982efc62749c154297165b03bf8b0a87a2a28c8b4e8f360ac843921446d6b8e6c4cfb4382a117b9d82763363e73e01c0fc19d597ebf5e1fde57b760ec1dec4c3aedfa66167e7a86405231e764b8232a7913043eb1673753e697c1a920dde51e7831ce75c4f4ece3d03fb6', // Replace 'YOUR_TOKEN_HERE' with your token
-                'Content-Type': 'application/json'
-            }
-        )
-        console.log(response)
+        const response=await postData("comments",postCommentData);
+        if(response?.status==200){
+            setMessage({
+                message:"Comment added successfully, Our team will review and publish.",
+                added:true,
+            })
+        }
+        if(response?.data?.error){
+            setMessage({
+                message:response?.data?.error?.message,
+                added:false,
+            })
+        }
     }
+
     return (
         <div class='comments-section'>
             <h2 className='reply-text'>Leave a Reply</h2>
@@ -121,6 +138,11 @@ function AddComment() {
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
                     <label for="vehicle1" className='check_box_text'>Save my name, email, and website in this browser for the next time I comment.</label>
                 </div>
+                {message?.message &&
+                    <div class='check-box-container'>
+                        <p style={{color:message.added ? "green":"red"}}>{message?.message}</p>
+                    </div>
+                }
                 <div class='button-container'>
                     <button className='comment-button' type="submit">Post Comment</button>
                 </div>

@@ -15,7 +15,7 @@ function Index() {
     const [previousArticle,setPreviousArticle]=useState([])
     useEffect(()=>{
         const fetchData=async()=>{
-            const response=await getData(`http://localhost:1338/api/articles?populate=*&&filters[slug]=${slug}`)
+            const response=await getData(`articles?populate=*&&filters[slug]=${slug}`)
             let data=[];
             data=response?.data?.data.map((item)=>{
                 return{
@@ -34,8 +34,8 @@ function Index() {
     useEffect(()=>{
         const fetchData=async()=>{
             const id=localStorage.getItem('id')
-            const response=await getData(`http://localhost:1338/api/articles?filters[id][$lt]=${id}&&sort=id:desc`)
-            const response1=await getData(`http://localhost:1338/api/articles?filters[id][$gt]=${id}`)
+            const response=await getData(`articles?filters[id][$lt]=${id}&&sort=id:desc`)
+            const response1=await getData(`articles?filters[id][$gt]=${id}`)
             let data=[];
             data=response?.data?.data.map((item,index)=>{
                 if(index<=3){
@@ -124,7 +124,7 @@ function Index() {
                 <h1 className='article-blog-title'>{blogData[0]?.title}</h1>
                 
                 <div className="article-blog-profile-date">
-                <img src={`http://localhost:1338${blogData[0]?.profile}`} alt="Image 1" height="25" width="25" style={{borderRadius:"50%"}}/>
+                <img src={`http://localhost:1337${blogData[0]?.profile}`} alt="Image 1" height="25" width="25" style={{borderRadius:"50%"}}/>
                 <div className="article-card-date">
                     <h2 className="article-blog-author">{blogData[0]?.author}</h2>
                     <h4 className="article-card-slash">.</h4>
@@ -155,7 +155,7 @@ function Index() {
                 </div>
                 <h2 className='article-blog-table'>Table Of Contents</h2>
                 <div style={{width:'100%'}}>{renderContent(blogData[0]?.content)}</div>
-                <div style={{display:'flex',justifyContent:'space-between'}}>
+                <div style={{display:'flex',justifyContent:'space-between',marginTop:'70px'}}>
                     <div>
                         <h4 className='article-link-previous-next'>Previous Post</h4>
                         {

@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import { getData } from 'utils/data-manager';
 import Link from 'next/link';
+import ArticlesPage from 'pages/articles';
 
 function HomePage() {
-
     return (
         <>
             <div className='banner-section'>
@@ -95,7 +95,7 @@ function HomePage() {
                 }
                 </div>
             </div>
-            {/* <ArticlesPage homePageBlogs={homePageBlogs}/> */}
+            {/* <ArticlesPage homePageBlogs={true}/> */}
         </>
     )
 }

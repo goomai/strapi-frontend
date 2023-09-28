@@ -1,9 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card from "./card";
 import moment from 'moment';
 import ArticlePagination from "./blocks/ArticlePagination";
+import { getData } from "utils/data-manager";
+import Link from "next/link";
 
-const Articles = ({ articles,homePageBlogs }) => {
+const Articles = ({ homePageBlogs }) => {
+
+  const [totalPages,setTotalPages]=useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [articlesData,setArticlesData]=useState([]);
+
+  useEffect(()=>{
+    const fetchData=async()=>{
+      const response=await getData(`articles?populate=*&&sort[0]=id:desc&&pagination[page]=${currentPage}&pagination[pageSize]=15`);
+      let data=[];
+      data=response?.data?.data?.map((item)=>{
+        return{
+          author:item?.attributes?.author,
+          title:item?.attributes?.title,
+          profile:item?.attributes?.image?.data?.attributes?.url,
+          publish_date:item?.attributes?.publish_date,
+          slug:item?.attributes?.slug,
+          id:item?.id
+        }
+      })
+      setArticlesData(data);
+      setTotalPages(response?.data?.meta.pagination.pageCount);
+    }
+    fetchData();
+  },[currentPage])
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+  
   const formattedDate=(date)=>{
     const formattedDate = moment(date).format('MMMM D, YYYY').toUpperCase();
     return formattedDate
@@ -13,7 +44,7 @@ const Articles = ({ articles,homePageBlogs }) => {
       <div className="custom-container">
         <div className="articles-grid">
           {
-            articles?.map((item,index)=>(
+            articlesData?.map((item,index)=>(
               <>
                 {
                   homePageBlogs==true ?
@@ -28,7 +59,7 @@ const Articles = ({ articles,homePageBlogs }) => {
                             </h2>
                           </a>
                           <div className="article-card-profile-date">
-                            <img src={`http://localhost:1338${item?.profile}`} alt="Image 1" className='tools-img'/>
+                            <img src={`http://localhost:1337${item?.profile}`} alt="Image 1" className='tools-img'/>
                             <div className="article-card-date">
                               <h2 className="article-card-goom">{item?.author}</h2>
                               <h4 className="article-card-dot">.</h4>
@@ -47,9 +78,9 @@ const Articles = ({ articles,homePageBlogs }) => {
                         </h2>
                       </a>
                       <div className="article-card-profile-date">
-                        <img src={`http://localhost:1338${item?.profile}`} alt="Image 1" className='tools-img'/>
+                        <img src={`http://localhost:1337${item?.profile}`} alt="Image 1" className='tools-img'/>
                         <div className="article-card-date">
-                          <h2 className="article-card-goom">{item?.author}</h2>
+                          <Link href="/" style={{display:'flex'}}><h2 className="article-card-goom">{item?.author}</h2></Link>
                           <h4 className="article-card-dot">.</h4>
                           <h3 className="article-card-publish-date">{formattedDate(item?.publish_date)}</h3>
                         </div>
@@ -63,7 +94,7 @@ const Articles = ({ articles,homePageBlogs }) => {
             ))
           }
         </div>
-        <ArticlePagination/>
+        <ArticlePagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
       </div>
       {/* <div className="uk-child-width-1-2@s" data-uk-grid="true"> */}
         {/* <div>

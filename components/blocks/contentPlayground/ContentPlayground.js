@@ -114,7 +114,6 @@ function ContentPlayground({data}) {
     <>
       {Sk ? (
         <div className={`bg_primary mb-10 mt-5`}>
-          {/* <div className="custom-container"> */}
             <div style={{height:'100%',width:'100%',marginBottom:'20px'}}>
               <div className={`${styles.code_ground}`} style={{width:"100%",height:'33vh',borderRadius:'8px'}}>
                 <div className={`${styles.editor_options} px-md-5 px-2  mx-0`}>
@@ -168,6 +167,7 @@ function ContentPlayground({data}) {
                     theme="onedark"
                     defaultLanguage="python"
                     defaultValue={data}
+                    loading={<LoadingComponent/>}
                     options={{
                       fontFamily:
                         "Hack, 'Fira Code', Consolas, Menlo, Monaco, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Courier New', Courier, monospace",
@@ -247,3 +247,7 @@ function ContentPlayground({data}) {
 }
 
 export default ContentPlayground;
+
+const LoadingComponent = () => (
+  <div style={{ color: '#fff' }}>Loading...</div> 
+);
