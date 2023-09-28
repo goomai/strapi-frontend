@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.NODE_ENV === 'production' 
-        ? 'deployed_URL'
-        : process.env.NEXT_PUBLIC_STRAPI_LOCAL;
+const baseURL = process.env.NODE_ENV === 'production' ? 'deployed_URL' : process.env.NEXT_PUBLIC_STRAPI_LOCAL;
 
 export const getData = async (url) => {
     const response = await axios({
