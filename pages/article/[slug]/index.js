@@ -124,7 +124,7 @@ function Index() {
                 <h1 className='article-blog-title'>{blogData[0]?.title}</h1>
                 
                 <div className="article-blog-profile-date">
-                <img src={`http://localhost:1337${blogData[0]?.profile}`} alt="Image 1" height="25" width="25" style={{borderRadius:"50%"}}/>
+                <img src={`http://localhost:1338${blogData[0]?.profile}`} alt="Image 1" height="25" width="25" style={{borderRadius:"50%"}}/>
                 <div className="article-card-date">
                     <h2 className="article-blog-author">{blogData[0]?.author}</h2>
                     <h4 className="article-card-slash">.</h4>

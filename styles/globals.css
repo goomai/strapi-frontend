@@ -752,6 +752,10 @@ linear-gradient(0deg, rgba(253, 124, 71, 0.1), rgba(253, 124, 71, 0.1));
 
 /*Responsive*/
 @media screen and (min-width:1700px) {
+  .custom-container{
+    width: 1500px;
+    margin:0 auto;
+  }
   .tools-section {
     padding: 60px 150px;
   }

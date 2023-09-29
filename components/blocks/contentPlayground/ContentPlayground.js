@@ -110,12 +110,25 @@ function ContentPlayground({data}) {
       }
     );
   }
+  useEffect(() => {
+    // Calculate the height based on the number of lines in the editor
+    const editor = codeRef.current;
+    const codeGround = document.getElementById("totalheight");
+    
+    if (editor && codeGround) {
+      const lineCount = editor.getModel().getLineCount();
+      const lineHeight = 19; // Replace with the actual line height from your CSS
+      const editorHeight = `${lineCount * lineHeight}px`;
+      codeGround.style.height = editorHeight;
+    }
+  }, [data]);
+
   return (
     <>
       {Sk ? (
         <div className={`bg_primary mb-10 mt-5`}>
             <div style={{height:'100%',width:'100%',marginBottom:'20px'}}>
-              <div className={`${styles.code_ground}`} style={{width:"100%",height:'33vh',borderRadius:'8px'}}>
+              <div className={`${styles.content_code_ground}`} style={{width:"100%",borderRadius:'8px'}}>
                 <div className={`${styles.editor_options} px-md-5 px-2  mx-0`}>
                   <div className={`text-light pe-none ${styles.code_title}`}>
                     Input

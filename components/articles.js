@@ -59,7 +59,7 @@ const Articles = ({ homePageBlogs }) => {
                             </h2>
                           </a>
                           <div className="article-card-profile-date">
-                            <img src={`http://localhost:1337${item?.profile}`} alt="Image 1" className='tools-img'/>
+                            <img src={`http://localhost:1338${item?.profile}`} alt="Image 1" className='tools-img'/>
                             <div className="article-card-date">
                               <h2 className="article-card-goom">{item?.author}</h2>
                               <h4 className="article-card-dot">.</h4>
@@ -94,7 +94,9 @@ const Articles = ({ homePageBlogs }) => {
             ))
           }
         </div>
-        <ArticlePagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
+        {!homePageBlogs &&
+          <ArticlePagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
+        }
       </div>
       {/* <div className="uk-child-width-1-2@s" data-uk-grid="true"> */}
         {/* <div>

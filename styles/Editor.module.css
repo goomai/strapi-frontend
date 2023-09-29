@@ -17,6 +17,13 @@
   background-color: #1a1e24;
   border-radius: 8px 0 0 8px;
 }
+.content_code_ground {
+  position: relative;
+  width: 40vw;
+  height: 33vh;
+  background-color: #1a1e24;
+  border-radius: 8px 0 0 8px;
+}
 .code_editor {
   height: calc(100vh - 80px - 50px - 65px);
 }
@@ -87,6 +94,11 @@
   .code_ground {
     width: 70vw;
     height: 60vh;
+    border-radius: 8px;
+  }
+  .content_code_ground {
+    width: 70vw;
+    height: 20vh;
     border-radius: 8px;
   }
   .output_container {
