@@ -66,7 +66,7 @@ function HomePage() {
             <div className='blogs-section'>
                 <p className='blogs-title'>Blogs</p>
             </div>
-            {/* <div className="custom-container">
+            <div className="custom-container">
                 <div className="articles-grid">
                 {
                     blogsCardsData?.map((item,index)=>(
@@ -94,8 +94,8 @@ function HomePage() {
                     ))
                 }
                 </div>
-            </div> */}
-            <ArticlesPage homePageBlogs={true}/>
+            </div>
+            {/* <ArticlesPage homePageBlogs={true}/> */}
         </>
     )
 }

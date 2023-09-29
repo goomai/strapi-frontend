@@ -59,7 +59,7 @@ const Articles = ({ homePageBlogs }) => {
                             </h2>
                           </a>
                           <div className="article-card-profile-date">
-                            <img src={`http://localhost:1338${item?.profile}`} alt="Image 1" className='tools-img'/>
+                            <img src={`http://localhost:1337/${item?.profile}`} alt="Image 1" className='tools-img'/>
                             <div className="article-card-date">
                               <h2 className="article-card-goom">{item?.author}</h2>
                               <h4 className="article-card-dot">.</h4>
