@@ -63,7 +63,7 @@ const Footer9: FC = () => {
           <div className="col-md-4 col-lg-2">
             <div className="widget">
               <h4 className="widget-title mb-3 text-white">Get in Touch</h4>
-              <address>2nd Floor, 91 Springboard, Laxmi Cyber City,, Hyderabad, Telangana 500081, India.</address>
+              <address>2nd Floor, 91 Springboard, Laxmi Cyber City, Hyderabad, Telangana 500081, India.</address>
               <NextLink title="hello@goom.ai" href="mailto:hello@goom.ai" />
               <br />
             </div>
