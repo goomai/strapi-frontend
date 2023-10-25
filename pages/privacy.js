@@ -22,7 +22,7 @@ function privacyPolicy() {
       <div className="container-sm my-8">
         <h1>Privacy Policy</h1>
         <p>
-          This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from Keevs Health India Pvt Ltd(the “Site”).
+          This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from Keevs Health India Pvt Ltd.
         </p>
 
         <div>
