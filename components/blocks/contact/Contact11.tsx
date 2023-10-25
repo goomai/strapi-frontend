@@ -43,7 +43,7 @@ const Contact11: FC = () => {
 
           <div>
             <h5 className="mb-0">Address</h5>
-            <p>2925, Manor Bridge Dr Alpharetta, GA 30004</p>
+            <p>Keevs Health India Pvt Ltd, Plot No 129, Flat No 202, 2nd Floor, SVE Sreyas, Kavuri Hills, Madapur, Hyderabad TG 500033 IN.</p>
           </div>
         </div>
 
