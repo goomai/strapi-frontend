@@ -63,7 +63,7 @@ const Footer9: FC = () => {
           <div className="col-md-4 col-lg-2">
             <div className="widget">
               <h4 className="widget-title mb-3 text-white">Get in Touch</h4>
-              <address>2nd Floor, 91 Springboard, Laxmi Cyber City, Hyderabad, Telangana 500081, India.</address>
+              <address>Keevs Health India Pvt Ltd, Plot No 129, Flat No 202, 2nd Floor, SVE Sreyas, Kavuri Hills, Madapur, Hyderabad TG 500033 IN.</address>
               <NextLink title="hello@goom.ai" href="mailto:hello@goom.ai" />
               <br />
             </div>
