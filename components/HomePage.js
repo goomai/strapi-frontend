@@ -148,17 +148,17 @@ const featureCardsData=[
 const toolsCardData=[
     {
         id:1,
-        title:"AI Content Detector",
-        description:"Check if the text is written by AI,get alternate recomendations.",
-        image:"/img/photos/Frame.png",
-        url:"https://contentdetector.ai/",
-        button_text:"Visit Contentdetctor.ai"
+        title:"Grade Calculator",
+        description:"Assess the accuracy of the AI-based grade predictions.",
+        image:"/img/photos/frame1.png",
+        url:"https://gradecalculator.ai/",
+        button_text:"Visit GradeCalculator.ai"
     },
     {
         id:2,
         title:"ChatwithPDF",
         description:"Don't spend hours flipping through research papers and academic articles.",
-        image:"/img/photos/frame1.png",
+        image:"/img/photos/Frame.png",
         url:"https://chatwithpdf.ai/",
         button_text:"Visit ChatwithPDF.ai"
     },
