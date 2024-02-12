@@ -40,7 +40,7 @@ function HomePage() {
             {/* </div> */}
             <div style={{width:"100%"}}>
             <div className='tools-section'>
-                <p className='tools-title'>Tools that can help you</p>
+                <p className='tools-title'>Tool that can help you</p>
                 <div className='tools-cards'>
                     {
                         toolsCardData?.map((item) => (
@@ -146,14 +146,14 @@ const featureCardsData=[
     },
 ]
 const toolsCardData=[
-    {
-        id:1,
-        title:"Grade Calculator",
-        description:"Assess the accuracy of the AI-based grade predictions.",
-        image:"/img/photos/frame1.png",
-        url:"https://gradecalculator.ai/",
-        button_text:"Visit GradeCalculator.ai"
-    },
+    // {
+    //     id:1,
+    //     title:"Grade Calculator",
+    //     description:"Assess the accuracy of the AI-based grade predictions.",
+    //     image:"/img/photos/frame1.png",
+    //     url:"https://gradecalculator.ai/",
+    //     button_text:"Visit GradeCalculator.ai"
+    // },
     {
         id:2,
         title:"ChatwithPDF",
